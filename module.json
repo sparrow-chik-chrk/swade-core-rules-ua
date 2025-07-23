@@ -32,6 +32,7 @@
       "system": "swade",
       "package": "swade-core-rules-ua",
       "visible": true,
+      "editable": true,
       "banner": "modules/swade-core-rules/assets/art/banners/banner_01.webp"
     },
     {
@@ -42,6 +43,7 @@
       "system": "swade",
       "package": "swade-core-rules-ua",
       "visible": true,
+      "editable": true,
       "banner": "modules/swade-core-rules/assets/art/banners/banner_02.webp"
     },
     {
@@ -52,6 +54,7 @@
       "system": "swade",
       "package": "swade-core-rules-ua",
       "visible": true,
+      "editable": true,
       "banner": "modules/swade-core-rules/assets/art/banners/banner_03.webp"
     },
     {
@@ -62,6 +65,7 @@
       "system": "swade",
       "package": "swade-core-rules-ua",
       "visible": true,
+      "editable": true,
       "banner": "modules/swade-core-rules/assets/art/banners/banner_04.webp"
     },
     {
@@ -72,6 +76,7 @@
       "system": "swade",
       "package": "swade-core-rules-ua",
       "visible": true,
+      "editable": true,
       "banner": "modules/swade-core-rules/assets/art/banners/banner_05.webp"
     },
     {
@@ -82,6 +87,7 @@
       "system": "swade",
       "package": "swade-core-rules-ua",
       "visible": true,
+      "editable": true,
       "banner": "modules/swade-core-rules/assets/art/banners/banner_06.webp"
     },
     {
@@ -92,6 +98,7 @@
       "system": "swade",
       "package": "swade-core-rules-ua",
       "visible": true,
+      "editable": true,
       "banner": "modules/swade-core-rules/assets/art/banners/banner_07.webp"
     },
     {
@@ -102,6 +109,7 @@
       "system": "swade",
       "package": "swade-core-rules-ua",
       "visible": true,
+      "editable": true,
       "banner": "modules/swade-core-rules/assets/art/banners/banner_08.webp"
     },
     {
@@ -112,6 +120,7 @@
       "system": "swade",
       "package": "swade-core-rules-ua",
       "visible": true,
+      "editable": true,
       "banner": "modules/swade-core-rules/assets/art/banners/banner_09.webp"
     },
     {
@@ -122,6 +131,7 @@
       "system": "swade",
       "package": "swade-core-rules-ua",
       "visible": true,
+      "editable": true,
       "banner": "modules/swade-core-rules/assets/art/banners/banner_10.webp"
     },
     {
@@ -132,6 +142,7 @@
       "system": "swade",
       "package": "swade-core-rules-ua",
       "visible": true,
+      "editable": true,
       "banner": "modules/swade-core-rules/assets/art/banners/banner_11.webp"
     },
     {
@@ -142,6 +153,7 @@
       "system": "swade",
       "package": "swade-core-rules-ua",
       "visible": true,
+      "editable": true,
       "banner": "modules/swade-core-rules/assets/art/banners/banner_12.webp"
     },
     {
@@ -152,6 +164,7 @@
       "system": "swade",
       "package": "swade-core-rules-ua",
       "visible": true,
+      "editable": true,
       "banner": "modules/swade-core-rules/assets/art/banners/banner_13.webp"
     },
     {
@@ -162,6 +175,7 @@
       "system": "swade",
       "package": "swade-core-rules-ua",
       "visible": true,
+      "editable": true,
       "banner": "modules/swade-core-rules/assets/art/banners/banner_14.webp"
     },
     {
@@ -172,6 +186,7 @@
       "system": "swade",
       "package": "swade-core-rules-ua",
       "visible": true,
+      "editable": true,
       "banner": "modules/swade-core-rules/assets/art/banners/banner_15.webp"
     },
     {
@@ -182,6 +197,7 @@
       "system": "swade",
       "package": "swade-core-rules-ua",
       "visible": true,
+      "editable": true,
       "banner": "modules/swade-core-rules/assets/art/banners/banner_16.webp"
     },
     {
@@ -192,6 +208,7 @@
       "system": "swade",
       "package": "swade-core-rules-ua",
       "visible": true,
+      "editable": true,
       "banner": "modules/swade-core-rules/assets/art/banners/banner_17.webp"
     },
     {
@@ -202,6 +219,7 @@
       "system": "swade",
       "package": "swade-core-rules-ua",
       "visible": true,
+      "editable": true,
       "banner": "modules/swade-core-rules/assets/art/banners/banner_18.webp"
     },
     {
@@ -212,6 +230,7 @@
       "system": "swade",
       "package": "swade-core-rules-ua",
       "visible": true,
+      "editable": true,
       "banner": "modules/swade-core-rules/assets/art/banners/banner_19.webp"
     }
   ],
