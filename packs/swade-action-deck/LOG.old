@@ -1,0 +1,8 @@
+2025/07/23-21:36:14.104 18c8 Recovering log #33
+2025/07/23-21:36:14.109 18c8 Delete type=0 #33
+2025/07/23-21:36:14.109 18c8 Delete type=3 #31
+2025/07/23-21:40:48.715 48f4 Level-0 table #38: started
+2025/07/23-21:40:48.715 48f4 Level-0 table #38: 0 bytes OK
+2025/07/23-21:40:48.717 48f4 Delete type=0 #36
+2025/07/23-21:40:48.719 48f4 Manual compaction at level-0 from '!cards!swadeactiondeck0' @ 72057594037927935 : 1 .. '!cards.cards!swadeactiondeck0.ybYmg1QPZqmTH5i3' @ 0 : 0; will stop at (end)
+2025/07/23-21:40:48.719 48f4 Manual compaction at level-1 from '!cards!swadeactiondeck0' @ 72057594037927935 : 1 .. '!cards.cards!swadeactiondeck0.ybYmg1QPZqmTH5i3' @ 0 : 0; will stop at (end)
