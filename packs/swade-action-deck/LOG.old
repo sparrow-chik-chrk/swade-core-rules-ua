@@ -1,3 +1,15 @@
-2025/07/23-21:41:14.963 3acc Recovering log #37
-2025/07/23-21:41:14.968 3acc Delete type=0 #37
-2025/07/23-21:41:14.968 3acc Delete type=3 #35
+2025/07/23-23:18:11.846 30d4 Recovering log #40
+2025/07/23-23:18:11.852 30d4 Delete type=0 #40
+2025/07/23-23:18:11.852 30d4 Delete type=3 #39
+2025/07/24-05:26:20.069 5c3c Level-0 table #44: started
+2025/07/24-05:26:20.071 5c3c Level-0 table #44: 12434 bytes OK
+2025/07/24-05:26:20.073 5c3c Delete type=0 #42
+2025/07/24-05:26:20.078 5c3c Manual compaction at level-0 from '!cards!H5fsLiA8GwVc9AeB' @ 72057594037927935 : 1 .. '!cards.cards!H5fsLiA8GwVc9AeB.yIHaeRJmU536BE5X' @ 0 : 0; will stop at (end)
+2025/07/24-05:26:20.078 5c3c Manual compaction at level-1 from '!cards!H5fsLiA8GwVc9AeB' @ 72057594037927935 : 1 .. '!cards.cards!H5fsLiA8GwVc9AeB.yIHaeRJmU536BE5X' @ 0 : 0; will stop at '!cards.cards!swadeactiondeck0.ybYmg1QPZqmTH5i3' @ 216 : 0
+2025/07/24-05:26:20.078 5c3c Compacting 1@1 + 1@2 files
+2025/07/24-05:26:20.080 5c3c Generated table #45@1: 55 keys, 11110 bytes
+2025/07/24-05:26:20.081 5c3c Compacted 1@1 + 1@2 files => 11110 bytes
+2025/07/24-05:26:20.083 5c3c compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/07/24-05:26:20.083 5c3c Delete type=2 #16
+2025/07/24-05:26:20.083 5c3c Delete type=2 #44
+2025/07/24-05:26:20.086 5c3c Manual compaction at level-1 from '!cards.cards!swadeactiondeck0.ybYmg1QPZqmTH5i3' @ 216 : 0 .. '!cards.cards!H5fsLiA8GwVc9AeB.yIHaeRJmU536BE5X' @ 0 : 0; will stop at (end)
