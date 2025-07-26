@@ -91,7 +91,7 @@
       "banner": "modules/swade-core-rules/assets/art/banners/banner_06.webp"
     },
     {
-      "label": "Вади",
+      "label": "Недоліки",
       "name": "swade-hindrances",
       "type": "Item",
       "path": "packs/swade-hindrances.db",
