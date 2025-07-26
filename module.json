@@ -251,7 +251,9 @@
             }
           }
         }
-      },
+      }
+    ],
+    "requires": [
       {
         "id": "swade-core-rules",
         "type": "module",
