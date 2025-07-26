@@ -1,3 +1,23 @@
-2025/07/24-05:32:56.228 39b0 Recovering log #43
-2025/07/24-05:32:56.235 39b0 Delete type=0 #43
-2025/07/24-05:32:56.235 39b0 Delete type=3 #41
+2025/07/26-05:05:27.511 73b8 Recovering log #46
+2025/07/26-05:05:27.513 73b8 Level-0 table #48: started
+2025/07/26-05:05:27.517 73b8 Level-0 table #48: 77451 bytes OK
+2025/07/26-05:05:27.522 73b8 Delete type=0 #46
+2025/07/26-05:05:27.522 73b8 Delete type=3 #45
+2025/07/26-07:50:12.218 878 Level-0 table #51: started
+2025/07/26-07:50:12.218 878 Level-0 table #51: 0 bytes OK
+2025/07/26-07:50:12.221 878 Delete type=0 #49
+2025/07/26-07:50:12.230 878 Manual compaction at level-0 from '!items!01hdQ1Ye4tigQI0k' @ 72057594037927935 : 1 .. '!items.effects!zRpf7fTG1tykwKAs.Autx8trPTM7LfBwU' @ 0 : 0; will stop at '!items.effects!OJ4t6S1cGamjJiLD.PXxjFEmzs6bD1Chi' @ 481 : 1
+2025/07/26-07:50:12.230 878 Compacting 1@0 + 0@1 files
+2025/07/26-07:50:12.233 878 Generated table #52@0: 30 keys, 24533 bytes
+2025/07/26-07:50:12.233 878 Compacted 1@0 + 0@1 files => 24533 bytes
+2025/07/26-07:50:12.235 878 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/07/26-07:50:12.235 878 Delete type=2 #48
+2025/07/26-07:50:12.241 878 Manual compaction at level-0 from '!items.effects!OJ4t6S1cGamjJiLD.PXxjFEmzs6bD1Chi' @ 481 : 1 .. '!items.effects!zRpf7fTG1tykwKAs.Autx8trPTM7LfBwU' @ 0 : 0; will stop at (end)
+2025/07/26-07:50:12.241 878 Manual compaction at level-1 from '!items!01hdQ1Ye4tigQI0k' @ 72057594037927935 : 1 .. '!items.effects!zRpf7fTG1tykwKAs.Autx8trPTM7LfBwU' @ 0 : 0; will stop at '!items.effects!OJ4t6S1cGamjJiLD.PXxjFEmzs6bD1Chi' @ 485 : 1
+2025/07/26-07:50:12.241 878 Compacting 1@1 + 1@2 files
+2025/07/26-07:50:12.246 878 Generated table #53@1: 192 keys, 129420 bytes
+2025/07/26-07:50:12.246 878 Compacted 1@1 + 1@2 files => 129420 bytes
+2025/07/26-07:50:12.247 878 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/07/26-07:50:12.247 878 Delete type=2 #16
+2025/07/26-07:50:12.247 878 Delete type=2 #52
+2025/07/26-07:50:12.257 878 Manual compaction at level-1 from '!items.effects!OJ4t6S1cGamjJiLD.PXxjFEmzs6bD1Chi' @ 485 : 1 .. '!items.effects!zRpf7fTG1tykwKAs.Autx8trPTM7LfBwU' @ 0 : 0; will stop at (end)
