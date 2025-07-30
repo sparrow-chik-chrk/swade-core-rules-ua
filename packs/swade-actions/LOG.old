@@ -1,23 +1,8 @@
-2025/07/26-05:05:27.450 7108 Recovering log #47
-2025/07/26-05:05:27.453 7108 Level-0 table #49: started
-2025/07/26-05:05:27.457 7108 Level-0 table #49: 104573 bytes OK
-2025/07/26-05:05:27.463 7108 Delete type=0 #47
-2025/07/26-05:05:27.463 7108 Delete type=3 #46
-2025/07/26-07:50:12.167 878 Level-0 table #52: started
-2025/07/26-07:50:12.167 878 Level-0 table #52: 0 bytes OK
-2025/07/26-07:50:12.169 878 Delete type=0 #50
-2025/07/26-07:50:12.173 878 Manual compaction at level-0 from '!items!169yyrjFMEmIynUz' @ 72057594037927935 : 1 .. '!items!oCur3DfT2ETIQ2WV' @ 0 : 0; will stop at '!items!oCur3DfT2ETIQ2WV' @ 249 : 1
-2025/07/26-07:50:12.173 878 Compacting 1@0 + 0@1 files
-2025/07/26-07:50:12.176 878 Generated table #53@0: 16 keys, 28080 bytes
-2025/07/26-07:50:12.176 878 Compacted 1@0 + 0@1 files => 28080 bytes
-2025/07/26-07:50:12.178 878 compacted to: files[ 0 1 1 0 0 0 0 ]
-2025/07/26-07:50:12.178 878 Delete type=2 #49
-2025/07/26-07:50:12.189 878 Manual compaction at level-0 from '!items!oCur3DfT2ETIQ2WV' @ 249 : 1 .. '!items!oCur3DfT2ETIQ2WV' @ 0 : 0; will stop at (end)
-2025/07/26-07:50:12.189 878 Manual compaction at level-1 from '!items!169yyrjFMEmIynUz' @ 72057594037927935 : 1 .. '!items!oCur3DfT2ETIQ2WV' @ 0 : 0; will stop at '!items!oCur3DfT2ETIQ2WV' @ 249 : 1
-2025/07/26-07:50:12.189 878 Compacting 1@1 + 1@2 files
-2025/07/26-07:50:12.192 878 Generated table #54@1: 16 keys, 28080 bytes
-2025/07/26-07:50:12.192 878 Compacted 1@1 + 1@2 files => 28080 bytes
-2025/07/26-07:50:12.194 878 compacted to: files[ 0 0 1 0 0 0 0 ]
-2025/07/26-07:50:12.195 878 Delete type=2 #45
-2025/07/26-07:50:12.195 878 Delete type=2 #53
-2025/07/26-07:50:12.217 878 Manual compaction at level-1 from '!items!oCur3DfT2ETIQ2WV' @ 249 : 1 .. '!items!oCur3DfT2ETIQ2WV' @ 0 : 0; will stop at (end)
+2025/07/30-07:51:38.567 a058 Recovering log #67
+2025/07/30-07:51:38.572 a058 Delete type=0 #67
+2025/07/30-07:51:38.572 a058 Delete type=3 #65
+2025/07/30-07:57:47.387 21070 Level-0 table #72: started
+2025/07/30-07:57:47.387 21070 Level-0 table #72: 0 bytes OK
+2025/07/30-07:57:47.389 21070 Delete type=0 #70
+2025/07/30-07:57:47.391 21070 Manual compaction at level-0 from '!items!169yyrjFMEmIynUz' @ 72057594037927935 : 1 .. '!items!oCur3DfT2ETIQ2WV' @ 0 : 0; will stop at (end)
+2025/07/30-07:57:47.392 21070 Manual compaction at level-1 from '!items!169yyrjFMEmIynUz' @ 72057594037927935 : 1 .. '!items!oCur3DfT2ETIQ2WV' @ 0 : 0; will stop at (end)

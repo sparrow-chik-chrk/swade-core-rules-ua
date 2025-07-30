@@ -23,6 +23,10 @@
       "path": "lang/uk.json"
     }
   ],
+  "scripts": [],
+  "esmodules": [
+    "./index.js"
+  ],
   "packs": [
     {
       "label": "Колода Дій",
