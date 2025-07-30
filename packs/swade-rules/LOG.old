@@ -1,7 +1,7 @@
-2025/07/30-07:51:38.671 2488 Recovering log #66
-2025/07/30-07:51:38.676 2488 Delete type=0 #66
-2025/07/30-07:51:38.676 2488 Delete type=3 #64
-2025/07/30-07:57:47.419 21070 Level-0 table #71: started
-2025/07/30-07:57:47.419 21070 Level-0 table #71: 0 bytes OK
-2025/07/30-07:57:47.422 21070 Delete type=0 #69
-2025/07/30-07:57:47.426 21070 Manual compaction at level-0 from '!journal!swadecor00extraa' @ 72057594037927935 : 1 .. '!journal.pages!swadecor07gamema.07gamemasterin00' @ 0 : 0; will stop at (end)
+2025/07/30-11:47:02.700 a058 Recovering log #86
+2025/07/30-11:47:02.708 a058 Delete type=0 #86
+2025/07/30-11:47:02.708 a058 Delete type=3 #84
+2025/07/30-11:50:32.165 21070 Level-0 table #91: started
+2025/07/30-11:50:32.165 21070 Level-0 table #91: 0 bytes OK
+2025/07/30-11:50:32.169 21070 Delete type=0 #89
+2025/07/30-11:50:32.177 21070 Manual compaction at level-0 from '!journal!swadecor00extraa' @ 72057594037927935 : 1 .. '!journal.pages!swadecor07gamema.07gamemasterin00' @ 0 : 0; will stop at (end)

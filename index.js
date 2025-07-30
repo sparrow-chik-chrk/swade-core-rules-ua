@@ -79,6 +79,7 @@ async function Os() {
             const S = r.successes > 1 ? 6 : r.successes === 1 ? 4 : null;
             let x;
             console.log("actor", i?.name, "skill", b?.name ?? t, "die", S);
+            console.log(game.i18n.localize("SWADE_CORE_RULES.Macros.JackOfAllTrades.GainedSkill"));
             switch (S) {
                 case 6:
                 case 4:
