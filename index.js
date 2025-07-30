@@ -52,7 +52,7 @@ async function Os() {
             }
             const o = game.settings.get("swade", "coreSkillsCompendium"),
                 u = game.packs.find(p =>
-                    p.metadata.packageName === packageId &&
+                    p.metadata.packageName === o &&
                     p.metadata.type === "Item" &&
                     p.metadata.name.includes("skills")
                 );
