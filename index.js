@@ -56,7 +56,6 @@ async function Os() {
                     p.metadata.type === "Item" &&
                     p.metadata.name.includes("skills")
                 );
-            ui.notifications.info(`Отримано ID компендіуму: ${o}`);
             if (!u) {
                 ui.notifications.error(game.i18n.localize("SWADE_CORE_RULES.Macros.JackOfAllTrades.CompendiumNotFound"));
                 return;
@@ -79,6 +78,7 @@ async function Os() {
             }), await b.delete());
             const S = r.successes > 1 ? 6 : r.successes === 1 ? 4 : null;
             let x;
+            console.log("actor", i?.name, "skill", b?.name ?? t, "die", S);
             switch (S) {
                 case 6:
                 case 4:
@@ -87,6 +87,7 @@ async function Os() {
                         skill: t,
                         die: `d${S}`
                     });
+                    break;
                 default:
                     x = game.i18n.format("SWADE_CORE_RULES.Macros.JackOfAllTrades.MustTryAgain", {
                         actor: i.name
