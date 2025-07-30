@@ -103,6 +103,43 @@ async function Os() {
 }
 
 l(Os, "jackOfAllTrades");
-Hooks.once("init", function () {
-    game.swadeCoreUa ??= {}, game.swadeCoreUa.macros ??= {}, game.swadeCoreUa.macros.jackOfAllTrades = Os;
+
+const TURN_PARTIAL = "systems/swade/templates/sidebar/turn.hbs";
+const MY_TURN_TPL = "modules/swade-core-rules-ua/templates/sidebar/turn.hbs";
+const MY_TRACKER_TPL = "modules/swade-core-rules-ua/templates/sidebar/tracker.hbs";
+
+async function registerTurnPartial() {
+    const resp = await fetch(MY_TURN_TPL);
+    const src = await resp.text(); // у файлі вже {{{cardString}}}
+    Handlebars.unregisterPartial(TURN_PARTIAL);
+    Handlebars.registerPartial(TURN_PARTIAL, Handlebars.compile(src));
+}
+
+Hooks.once("init", async () => {
+    // ваш код:
+    game.swadeCoreUa ??= {};
+    game.swadeCoreUa.macros ??= {};
+    game.swadeCoreUa.macros.jackOfAllTrades = Os;
+
+    // підміна partial'а
+    await registerTurnPartial();
+});
+
+Hooks.once("ready", async () => {
+    await registerTurnPartial();
+
+    if (ui.combat) {
+        ui.combat.options.template = MY_TRACKER_TPL; // у файлі вже {{{cardString}}}
+        ui.combat.render(true);
+    }
+});
+
+Hooks.on("renderCombatTracker", async () => {
+    if (ui.combat?.options?.template !== MY_TRACKER_TPL) {
+        ui.combat.options.template = MY_TRACKER_TPL;
+    }
+
+    if (!Handlebars.partials[TURN_PARTIAL]) {
+        await registerTurnPartial();
+    }
 });
