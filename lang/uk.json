@@ -60,6 +60,21 @@
         "LostSkill": "{actor} втрачає тимчасове володіння навичкою {skill}.",
         "GainedSkill": "{actor} тимчасово опановує навичку {skill} ({die}).",
         "MustTryAgain": "{actor} має спробувати ще раз після додаткового навчання чи зусиль."
+      },
+      "PickWeapon": {
+        "Title": "Вибір зброї",
+        "RollDamage": "Кинути шкоду",
+        "WeaponLabel": "Зброя"
+      },
+      "MightyBlow": {
+        "Title": "Могутній удар",
+        "RollX2": "Кинути шкоду ×2"
+      },
+      "MacrosUsed": {
+      },
+      "Errors": {
+        "NoWeaponsWithDamage": "У персонажа немає зброї зі шкодою.",
+        "NoDamageFormula": "У вибраної зброї немає формули шкоди."
       }
     }
   }

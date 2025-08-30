@@ -1,6 +1,6 @@
 {
-  "id": "swade-core-rules-ua",
-  "title": "Savage Worlds Adventure Edition Core Rules - UA Translations ",
+  "id": "swade-core-rules-lang-ua",
+  "title": "Translate UA - Savage Worlds Adventure Edition Core Rules",
   "description": "<p>Цей модуль додає український переклад до <i>Savage Worlds Adventure Edition Core Rules</i></p>",
   "authors": [
     {
@@ -239,24 +239,6 @@
     }
   ],
   "relationships": {
-    "systems": [
-      {
-        "id": "swade",
-        "type": "system",
-        "manifest": "https://gitlab.com/api/v4/projects/16269883/packages/generic/swade/latest/system.json",
-        "compatibility": {
-          "minimum": "5",
-          "verified": "5.0.0"
-        },
-        "flags": {
-          "sigil": {
-            "localDevVersion": {
-              "distPath": "dist"
-            }
-          }
-        }
-      }
-    ],
     "requires": [
       {
         "id": "swade-core-rules",

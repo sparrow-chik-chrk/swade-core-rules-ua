@@ -104,6 +104,90 @@ async function Os() {
 
 l(Os, "jackOfAllTrades");
 
+async function gAW(actor) {
+    return actor.items
+        .filter(i => i.type === "weapon" && i.system?.damage)
+        .sort((a, b) => a.name.localeCompare(b.name));
+}
+
+l(gAW, "getActorWeapons");
+
+async function pW(actor, opts = {}) {
+    const title = opts.title ?? game.i18n.localize("SWADE_CORE_RULES.Macros.PickWeapon.Title");
+    const okLabel = opts.label ?? game.i18n.localize("SWADE_CORE_RULES.Macros.PickWeapon.RollDamage");
+    const fieldLabel = game.i18n.localize("SWADE_CORE_RULES.Macros.PickWeapon.WeaponLabel");
+
+    const weapons = await gAW(actor);
+    if (!weapons.length) {
+        ui.notifications.warn(game.i18n.localize("SWADE_CORE_RULES.Macros.Errors.NoWeaponsWithDamage"));
+        return null;
+    }
+
+    const optsHtml = weapons.map(w => `<option value="${w.id}">${w.name}</option>`).join("");
+    const pickedId = await foundry.applications.api.DialogV2.prompt({
+        window: {title, icon: "fa-solid fa-bolt"},
+        content: `<div class="form-group"><label>${fieldLabel}</label><select name="w" style="width:100%">${optsHtml}</select></div>`,
+        ok: {label: okLabel, callback: (_ev, dlg) => dlg.form.elements.w.value}
+    });
+    return pickedId ? actor.items.get(pickedId) : null;
+}
+
+l(pW, "pickWeapon");
+
+async function rIFC() {
+    console.log("[rIFC] start");
+
+    const uuid = document.activeElement?.closest(".item-card")?.dataset?.itemUuid;
+    console.log("[rIFC] dataset itemUuid:", uuid);
+    if (uuid) {
+        const doc = await fromUuid(uuid);
+        console.log("[rIFC] got:", doc?.name, doc?.type, doc?.system?.damage);
+        if (doc?.type === "weapon" && doc.system?.damage) return doc;
+    }
+
+    console.log("[rIFC] not found → null");
+    return null;
+}
+
+l(rIFC, "resolveItemFromContext");
+
+
+async function rDX(itm, mul = 2) {
+    if (!itm?.system?.damage) {
+        ui.notifications.warn(game.i18n.localize("SWADE_CORE_RULES.Macros.Errors.NoDamageFormula"));
+        return;
+    }
+    const base = itm.system.damage;
+    return mul === 1 ? itm.rollDamage() : itm.rollDamage({dmgOverride: `(${base}) * ${mul}`});
+}
+
+l(rDX, "rollDamageX");
+
+function fSA() {
+    const set = Ve();
+    return set ? [...set][0] : null;
+}
+
+l(fSA, "firstSelectedActor");
+
+async function Mb() {
+    let itm = await rIFC();
+    // Ve() вже показала попередження
+
+    if (!itm) {
+        let actor = itm?.actor ?? fSA();
+        if (!actor) return;
+        itm = await pW(actor, {
+            title: game.i18n.localize("SWADE_CORE_RULES.Macros.MightyBlow.Title"),
+            label: game.i18n.localize("SWADE_CORE_RULES.Macros.MightyBlow.RollX2")
+        });
+        if (!itm) return;
+    }
+    return rDX(itm, 2);
+}
+
+l(Mb, "mightyBlow");
+
 const TURN_PARTIAL = "systems/swade/templates/sidebar/turn.hbs";
 const MY_TURN_TPL = "modules/swade-core-rules-ua/templates/sidebar/turn.hbs";
 const MY_TRACKER_TPL = "modules/swade-core-rules-ua/templates/sidebar/tracker.hbs";
@@ -120,26 +204,21 @@ Hooks.once("init", async () => {
     game.swadeCoreUa ??= {};
     game.swadeCoreUa.macros ??= {};
     game.swadeCoreUa.macros.jackOfAllTrades = Os;
+    game.swadeCoreUa.macros.mightyBlow = Mb;
 
     // підміна partial'а
     await registerTurnPartial();
+
+    Object.defineProperty(CombatTracker.prototype, "template", {
+        configurable: true,
+        get() {
+            return MY_TRACKER_TPL;
+        }
+    });
 });
-
-Hooks.once("ready", async () => {
-    await registerTurnPartial();
-
-    if (ui.combat) {
-        ui.combat.options.template = MY_TRACKER_TPL; // у файлі вже {{{cardString}}}
-        ui.combat.render(true);
-    }
-});
-
 Hooks.on("renderCombatTracker", async () => {
-    if (ui.combat?.options?.template !== MY_TRACKER_TPL) {
-        ui.combat.options.template = MY_TRACKER_TPL;
-    }
-
-    if (!Handlebars.partials[TURN_PARTIAL]) {
-        await registerTurnPartial();
-    }
+    if (!Handlebars.partials[TURN_PARTIAL]) await registerTurnPartial();
+});
+Hooks.once("ready", () => {
+    ui.combat?.render(true);
 });
