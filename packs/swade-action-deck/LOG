@@ -1,8 +1,7 @@
-2025/08/30-14:33:18.764 5b6c Recovering log #129
-2025/08/30-14:33:18.772 5b6c Delete type=0 #129
-2025/08/30-14:33:18.772 5b6c Delete type=3 #128
-2025/08/30-15:55:10.308 315c Level-0 table #133: started
-2025/08/30-15:55:10.308 315c Level-0 table #133: 0 bytes OK
-2025/08/30-15:55:10.310 315c Delete type=0 #131
-2025/08/30-15:55:10.315 315c Manual compaction at level-0 from '!cards!H5fsLiA8GwVc9AeB' @ 72057594037927935 : 1 .. '!cards.cards!H5fsLiA8GwVc9AeB.yIHaeRJmU536BE5X' @ 0 : 0; will stop at (end)
-2025/08/30-15:55:10.315 315c Manual compaction at level-1 from '!cards!H5fsLiA8GwVc9AeB' @ 72057594037927935 : 1 .. '!cards.cards!H5fsLiA8GwVc9AeB.yIHaeRJmU536BE5X' @ 0 : 0; will stop at (end)
+2025/09/02-05:36:50.362 1814 Recovering log #251
+2025/09/02-05:36:50.367 1814 Delete type=0 #251
+2025/09/02-05:36:50.367 1814 Delete type=3 #249
+2025/09/02-05:37:18.644 6124 Level-0 table #256: started
+2025/09/02-05:37:18.645 6124 Level-0 table #256: 0 bytes OK
+2025/09/02-05:37:18.646 6124 Delete type=0 #254
+2025/09/02-05:37:18.653 6124 Manual compaction at level-0 from '!cards!H5fsLiA8GwVc9AeB' @ 72057594037927935 : 1 .. '!cards.cards!H5fsLiA8GwVc9AeB.yIHaeRJmU536BE5X' @ 0 : 0; will stop at (end)
