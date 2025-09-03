@@ -4138,10 +4138,18 @@ const MY_TURN_TPL = "modules/swade-core-rules/templates/sidebar/turn.hbs";
 const MY_TRACKER_TPL = "modules/swade-core-rules/templates/sidebar/tracker.hbs";
 
 async function registerTurnPartial() {
-  const resp = await fetch(MY_TURN_TPL);
-  const src = await resp.text(); // у файлі вже {{{cardString}}}
-  Handlebars.unregisterPartial(TURN_PARTIAL);
-  Handlebars.registerPartial(TURN_PARTIAL, Handlebars.compile(src));
+  // const resp = await fetch(MY_TURN_TPL);
+  // const src = await resp.text(); // у файлі вже {{{cardString}}}
+  // Handlebars.unregisterPartial(TURN_PARTIAL);
+  // Handlebars.registerPartial(TURN_PARTIAL, Handlebars.compile(src));
+  await loadTemplates([MY_TURN_TPL, MY_TRACKER_TPL]);
+  const turnFn = await getTemplate(MY_TURN_TPL);
+  // скинь можливий старий partial і зареєструй свій
+  delete Handlebars.partials[TURN_PARTIAL];
+  Handlebars.registerPartial(TURN_PARTIAL, turnFn);
+  // скинь кеш компільованих темплейтів Foundry
+  getTemplate.cache?.delete(TURN_PARTIAL);
+  getTemplate.cache?.delete(MY_TRACKER_TPL);
 }
 
 Hooks.once("init", async () => {
@@ -4160,7 +4168,14 @@ Hooks.once("init", async () => {
 Hooks.on("renderCombatTracker", async () => {
   if (!Handlebars.partials[TURN_PARTIAL]) await registerTurnPartial();
 });
-Hooks.once("ready", () => {
-  ui.combat?.render(true);
+Hooks.once("ready", async () => {
+  Object.defineProperty(ui.combat, "template", {
+    configurable: true,
+    get() {
+      return MY_TRACKER_TPL;
+    }
+  });
+  await registerTurnPartial(); // на випадок, якщо система перезібрала partial-и пізніше
+  ui.combat.render(true, { force: true });
 });
 console.log(`[${y}@${Mt}...] successfully loaded!`);

@@ -16,7 +16,7 @@
     "verified": "13.341"
   },
   "languages": [
-  {
+    {
       "flags": {},
       "lang": "en",
       "name": "English",
@@ -32,6 +32,10 @@
   "scripts": [],
   "esmodules": [
     "./index.js"
+  ],
+  "tempaltes": [
+    "./templates/sidebar/tracker.hbs",
+    "./templates/sidebar/turn.hbs"
   ],
   "styles": [
     "./style.css"
