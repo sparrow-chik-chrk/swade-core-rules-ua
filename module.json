@@ -1,6 +1,6 @@
 {
-  "id": "swade-core-rules-ua",
-  "title": "Translate UA - Savage Worlds Adventure Edition Core Rules",
+  "id": "swade-core-rules",
+  "title": "Savage Worlds Adventure Edition Core Rules UA",
   "description": "<p>Цей модуль додає український переклад до <i>Savage Worlds Adventure Edition Core Rules</i></p>",
   "authors": [
     {
@@ -16,6 +16,12 @@
     "verified": "13.341"
   },
   "languages": [
+  {
+      "flags": {},
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
     {
       "flags": {},
       "lang": "uk",
@@ -27,6 +33,10 @@
   "esmodules": [
     "./index.js"
   ],
+  "styles": [
+    "./style.css"
+  ],
+  "socket": false,
   "packs": [
     {
       "label": "Колода Дій",
@@ -34,7 +44,7 @@
       "name": "swade-action-deck",
       "path": "packs/swade-action-deck.db",
       "system": "swade",
-      "package": "swade-core-rules-ua",
+      "package": "swade-core-rules",
       "visible": true,
       "editable": true,
       "banner": "modules/swade-core-rules/assets/art/banners/banner_01.webp"
@@ -45,7 +55,7 @@
       "name": "swade-actions",
       "path": "packs/swade-actions.db",
       "system": "swade",
-      "package": "swade-core-rules-ua",
+      "package": "swade-core-rules",
       "visible": true,
       "editable": true,
       "banner": "modules/swade-core-rules/assets/art/banners/banner_02.webp"
@@ -56,7 +66,7 @@
       "type": "Item",
       "path": "packs/swade-armor.db",
       "system": "swade",
-      "package": "swade-core-rules-ua",
+      "package": "swade-core-rules",
       "visible": true,
       "editable": true,
       "banner": "modules/swade-core-rules/assets/art/banners/banner_03.webp"
@@ -67,7 +77,7 @@
       "type": "Actor",
       "path": "packs/swade-bestiary.db",
       "system": "swade",
-      "package": "swade-core-rules-ua",
+      "package": "swade-core-rules",
       "visible": true,
       "editable": true,
       "banner": "modules/swade-core-rules/assets/art/banners/banner_04.webp"
@@ -78,7 +88,7 @@
       "type": "Item",
       "path": "packs/swade-edges.db",
       "system": "swade",
-      "package": "swade-core-rules-ua",
+      "package": "swade-core-rules",
       "visible": true,
       "editable": true,
       "banner": "modules/swade-core-rules/assets/art/banners/banner_05.webp"
@@ -89,7 +99,7 @@
       "type": "Item",
       "path": "packs/swade-equipment.db",
       "system": "swade",
-      "package": "swade-core-rules-ua",
+      "package": "swade-core-rules",
       "visible": true,
       "editable": true,
       "banner": "modules/swade-core-rules/assets/art/banners/banner_06.webp"
@@ -100,7 +110,7 @@
       "type": "Item",
       "path": "packs/swade-hindrances.db",
       "system": "swade",
-      "package": "swade-core-rules-ua",
+      "package": "swade-core-rules",
       "visible": true,
       "editable": true,
       "banner": "modules/swade-core-rules/assets/art/banners/banner_07.webp"
@@ -111,7 +121,7 @@
       "type": "Macro",
       "path": "packs/swade-macros.db",
       "system": "swade",
-      "package": "swade-core-rules-ua",
+      "package": "swade-core-rules",
       "visible": true,
       "editable": true,
       "banner": "modules/swade-core-rules/assets/art/banners/banner_08.webp"
@@ -122,7 +132,7 @@
       "type": "Item",
       "path": "packs/swade-modern-firearms.db",
       "system": "swade",
-      "package": "swade-core-rules-ua",
+      "package": "swade-core-rules",
       "visible": true,
       "editable": true,
       "banner": "modules/swade-core-rules/assets/art/banners/banner_09.webp"
@@ -133,7 +143,7 @@
       "type": "Item",
       "path": "packs/swade-personal-weapons.db",
       "system": "swade",
-      "package": "swade-core-rules-ua",
+      "package": "swade-core-rules",
       "visible": true,
       "editable": true,
       "banner": "modules/swade-core-rules/assets/art/banners/banner_10.webp"
@@ -144,7 +154,7 @@
       "type": "Item",
       "path": "packs/swade-powers.db",
       "system": "swade",
-      "package": "swade-core-rules-ua",
+      "package": "swade-core-rules",
       "visible": true,
       "editable": true,
       "banner": "modules/swade-core-rules/assets/art/banners/banner_11.webp"
@@ -155,7 +165,7 @@
       "type": "Item",
       "path": "packs/swade-races.db",
       "system": "swade",
-      "package": "swade-core-rules-ua",
+      "package": "swade-core-rules",
       "visible": true,
       "editable": true,
       "banner": "modules/swade-core-rules/assets/art/banners/banner_12.webp"
@@ -166,7 +176,7 @@
       "type": "Item",
       "path": "packs/swade-racial-abilities.db",
       "system": "swade",
-      "package": "swade-core-rules-ua",
+      "package": "swade-core-rules",
       "visible": true,
       "editable": true,
       "banner": "modules/swade-core-rules/assets/art/banners/banner_13.webp"
@@ -177,7 +187,7 @@
       "type": "JournalEntry",
       "path": "packs/swade-rules.db",
       "system": "swade",
-      "package": "swade-core-rules-ua",
+      "package": "swade-core-rules",
       "visible": true,
       "editable": true,
       "banner": "modules/swade-core-rules/assets/art/banners/banner_14.webp"
@@ -188,7 +198,7 @@
       "type": "Item",
       "path": "packs/swade-skills.db",
       "system": "swade",
-      "package": "swade-core-rules-ua",
+      "package": "swade-core-rules",
       "visible": true,
       "editable": true,
       "banner": "modules/swade-core-rules/assets/art/banners/banner_15.webp"
@@ -199,7 +209,7 @@
       "type": "Item",
       "path": "packs/swade-special-weapons.db",
       "system": "swade",
-      "package": "swade-core-rules-ua",
+      "package": "swade-core-rules",
       "visible": true,
       "editable": true,
       "banner": "modules/swade-core-rules/assets/art/banners/banner_16.webp"
@@ -210,7 +220,7 @@
       "type": "Item",
       "path": "packs/swade-specialabilities.db",
       "system": "swade",
-      "package": "swade-core-rules-ua",
+      "package": "swade-core-rules",
       "visible": true,
       "editable": true,
       "banner": "modules/swade-core-rules/assets/art/banners/banner_17.webp"
@@ -221,7 +231,7 @@
       "type": "RollTable",
       "path": "packs/swade-tables.db",
       "system": "swade",
-      "package": "swade-core-rules-ua",
+      "package": "swade-core-rules",
       "visible": true,
       "editable": true,
       "banner": "modules/swade-core-rules/assets/art/banners/banner_18.webp"
@@ -232,21 +242,28 @@
       "type": "Actor",
       "path": "packs/swade-vehicles.db",
       "system": "swade",
-      "package": "swade-core-rules-ua",
+      "package": "swade-core-rules",
       "visible": true,
       "editable": true,
       "banner": "modules/swade-core-rules/assets/art/banners/banner_19.webp"
     }
   ],
   "relationships": {
-    "requires": [
+    "systems": [
       {
-        "id": "swade-core-rules",
-        "type": "module",
-        "manifest": "https://sigil-fvtt.s3.amazonaws.com/swade-core-rules/module.json",
+        "id": "swade",
+        "type": "system",
+        "manifest": "https://gitlab.com/api/v4/projects/16269883/packages/generic/swade/latest/system.json",
         "compatibility": {
-          "minimum": "13.0.1",
-          "verified": "13.0.1"
+          "minimum": "5",
+          "verified": "5.0.5"
+        },
+        "flags": {
+          "sigil": {
+            "localDevVersion": {
+              "distPath": "dist"
+            }
+          }
         }
       }
     ]

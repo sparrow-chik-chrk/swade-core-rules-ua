@@ -1,0 +1,21 @@
+<div class="components scrollable">
+  <input class="search" type="search" placeholder="{{components.placeholder}}">
+  <div class="collapser {{#if collapsedFilters}} collapsed {{/if}}">
+    <span class="label" data-action="collapseFilters">
+      {{localize "SWADE_CORE_RULES.Filters"}}
+      <i class="fa-solid"></i>
+    </span>
+    <div class="wrapper standard-form">
+      <fieldset class="filters">
+        {{#with components.filters}}
+        {{formInput pack.field value=pack.value options=pack.choices dataset=pack.dataset}}
+        {{/with}}
+      </fieldset>
+    </div>
+  </div>
+  <div class="entry-list scrollable">
+    {{#each components.items}}
+    {{> "modules/swade-core-rules/templates/swade-builder/component-list-entry.hbs"}}
+    {{/each}}
+  </div>
+</div>

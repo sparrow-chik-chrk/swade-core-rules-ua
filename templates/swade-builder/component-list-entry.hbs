@@ -1,0 +1,9 @@
+<div class="entry" data-uuid="{{uuid}}" {{#each dataset}} data-{{key}}="{{value}}" {{/each}}>
+  <img data-src="{{img}}">
+  <a class="label" data-action="showItem">{{name}}</a>
+  <span class="subtitle">{{subtitle}}</span>
+  {{#if (not (eq baseCost null))}}
+  <span class="cost">{{localize "SWADE_CORE_RULES.Cost" cost=cost}}</span>
+  {{/if}}
+  <span class="package">{{package}}</span>
+</div>

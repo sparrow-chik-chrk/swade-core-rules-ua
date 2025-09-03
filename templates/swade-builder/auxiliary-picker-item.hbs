@@ -1,0 +1,11 @@
+<fieldset>
+  <legend>{{localize item.legend}}</legend>
+  <div class="form-group">
+    <div class="form-fields">
+      {{formInput item.field value=item.value name="uuid" sort=true}}
+    </div>
+  </div>
+  {{#if item.enriched}}
+  <div class="description-wrapper scrollable">{{{item.enriched}}}</div>
+  {{/if}}
+</fieldset>

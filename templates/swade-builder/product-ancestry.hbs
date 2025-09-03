@@ -1,0 +1,57 @@
+<div class="standard-form scrollable">
+  <fieldset>
+    {{formGroup product.field name="name" value=product.value localize=true}}
+    {{formGroup product.imgField name="img" value=product.imgValue label="Image" localize=true}}
+    <div class="form-group cost">
+      <label>{{localize "SWADE_CORE_RULES.TargetValue"}}</label>
+      <div class="form-fields">
+        <span>{{cost}}</span>
+        <span class="sep">/</span>
+        <input type="number" class="max" value="{{product.goal}}" placeholder="2">
+      </div>
+      <p class="hint">{{localize "SWADE_CORE_RULES.ValuesHintAncestry"}}</p>
+    </div>
+  </fieldset>
+  <fieldset class="mods">
+    <legend>{{localize "SWADE_CORE_RULES.AddedItems"}}</legend>
+    <ul class="added-mods">
+      <li class="entry">
+        <span class="label"></span>
+        <span class="cost">{{localize "SWADE_CORE_RULES.Value"}}</span>
+        <div class="controls"></div>
+      </li>
+      {{#each addedItems}}
+      <li class="entry">
+        <div class="details" data-uuid="{{uuid}}">
+          <img src="{{img}}">
+          <a class="label" data-action="showItem">{{name}}</a>
+          <span class="cost">{{cost}}</span>
+          <div class="controls">
+            <button type="button" data-action="removeItem" data-tooltip="SWADE_CORE_RULES.Tooltip.RemoveItem">
+              <i class="fa-solid fa-trash"></i>
+            </button>
+          </div>
+        </div>
+      </li>
+      {{#if children.length}}
+      {{#each children}}
+      <li class="entry child">
+        <div class="details" data-uuid="{{uuid}}">
+          <img src="{{img}}">
+          <a class="label" data-action="showItem">{{name}}</a>
+          <span class="cost">{{cost}}</span>
+          <div class="controls">
+            <button type="button" data-action="removeItem" data-tooltip="SWADE_CORE_RULES.Tooltip.RemoveItem">
+              <i class="fa-solid fa-trash"></i>
+            </button>
+          </div>
+        </div>
+      </li>
+      {{/each}}
+      {{/if}}
+      {{/each}}
+    </ul>
+  </fieldset>
+
+  {{> "modules/swade-core-rules/templates/swade-builder/footer.hbs"}}
+</div>
