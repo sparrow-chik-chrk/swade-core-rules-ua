@@ -88,9 +88,9 @@
             "addToName": false
           },
           {
-            "name": "Parry +3",
+            "name": "Відбивання +3",
             "mutation": {
-              "name": "Parry (+3)",
+              "name": "Відбивання (+3)",
               "effects": [
                 {
                   "_id": "ParryIncrease000",

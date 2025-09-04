@@ -1,6 +1,6 @@
 {
   "effects": [],
-  "img": "systems/swade/assets/icons/skills/ability.svg",
+  "img": "systems/swade/assets/icons/ability.svg",
   "name": "Бонус навички +1",
   "type": "ability",
   "system": {

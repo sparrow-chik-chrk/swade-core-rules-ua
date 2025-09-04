@@ -19,10 +19,10 @@
     "swid": "attribute-increase",
     "choiceSets": [
       {
-        "title": "Attribute Increase",
+        "title": "Поліпшена характеристика",
         "choices": [
           {
-            "name": "Agility",
+            "name": "Спритність",
             "mutation": {
               "effects": [
                 {
@@ -40,17 +40,17 @@
                   },
                   "flags": {},
                   "icon": "systems/swade/assets/icons/ability.svg",
-                  "name": "Agility Increase (Походження)",
+                  "name": "Поліпшення спритності (Походження)",
                   "tint": null,
                   "transfer": true,
-                  "description": "<span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.Attribute Increase]{Attribute Increase} (U): </span> During character creation, the species increases a particular @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{attribute} (Agility, Smarts, Spirit, Strength, or Vigor) one die type. This increases the Trait's maximum by one as well."
+                  "description": "<span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.Attribute Penalty]{Покращення характеристики} (U): </span> Під час створення персонажа вид підвищує одну конкретну @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{характеристику} (Спритність, Кмітливість, Воля, Міць або Витримка) на один ступінь кістки. Це також підвищує максимальне значення цієї риси на одиницю."
                 }
               ]
             },
             "addToName": true
           },
           {
-            "name": "Smarts",
+            "name": "Кмітливість",
             "mutation": {
               "effects": [
                 {
@@ -68,17 +68,17 @@
                   },
                   "flags": {},
                   "icon": "systems/swade/assets/icons/ability.svg",
-                  "name": "Smarts Increase (Походження)",
+                  "name": "Поліпшення кмітливості (Походження)",
                   "tint": null,
                   "transfer": true,
-                  "description": "<span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.Attribute Increase]{Attribute Increase} (U): </span> During character creation, the species increases a particular @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{attribute} (Agility, Smarts, Spirit, Strength, or Vigor) one die type. This increases the Trait's maximum by one as well."
+                  "description": "<span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.Attribute Penalty]{Покращення характеристики} (U): </span> Під час створення персонажа вид підвищує одну конкретну @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{характеристику} (Спритність, Кмітливість, Воля, Міць або Витримка) на один ступінь кістки. Це також підвищує максимальне значення цієї риси на одиницю."
                 }
               ]
             },
             "addToName": true
           },
           {
-            "name": "Spirit",
+            "name": "Воля",
             "mutation": {
               "effects": [
                 {
@@ -96,17 +96,17 @@
                   },
                   "flags": {},
                   "icon": "systems/swade/assets/icons/ability.svg",
-                  "name": "Spirit Increase (Походження)",
+                  "name": "Поліпшення волі (Походження)",
                   "tint": null,
                   "transfer": true,
-                  "description": "<span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.Attribute Increase]{Attribute Increase} (U): </span> During character creation, the species increases a particular @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{attribute} (Agility, Smarts, Spirit, Strength, or Vigor) one die type. This increases the Trait's maximum by one as well."
+                  "description": "<span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.Attribute Penalty]{Покращення характеристики} (U): </span> Під час створення персонажа вид підвищує одну конкретну @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{характеристику} (Спритність, Кмітливість, Воля, Міць або Витримка) на один ступінь кістки. Це також підвищує максимальне значення цієї риси на одиницю."
                 }
               ]
             },
             "addToName": true
           },
           {
-            "name": "Strength",
+            "name": "Міць",
             "mutation": {
               "effects": [
                 {
@@ -124,17 +124,17 @@
                   },
                   "flags": {},
                   "icon": "systems/swade/assets/icons/ability.svg",
-                  "name": "Strength Increase (Походження)",
+                  "name": "Поліпшення моці (Походження)",
                   "tint": null,
                   "transfer": true,
-                  "description": "<span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.Attribute Increase]{Attribute Increase} (U): </span> During character creation, the species increases a particular @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{attribute} (Agility, Smarts, Spirit, Strength, or Vigor) one die type. This increases the Trait's maximum by one as well."
+                  "description": "<span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.Attribute Penalty]{Покращення характеристики} (U): </span> Під час створення персонажа вид підвищує одну конкретну @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{характеристику} (Спритність, Кмітливість, Воля, Міць або Витримка) на один ступінь кістки. Це також підвищує максимальне значення цієї риси на одиницю."
                 }
               ]
             },
             "addToName": true
           },
           {
-            "name": "Vigor",
+            "name": "Витримка",
             "mutation": {
               "effects": [
                 {
@@ -152,10 +152,10 @@
                   },
                   "flags": {},
                   "icon": "systems/swade/assets/icons/ability.svg",
-                  "name": "Vigor Increase (Походження)",
+                  "name": "Поліпшення витримки (Походження)",
                   "tint": null,
                   "transfer": true,
-                  "description": "<span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.Attribute Increase]{Attribute Increase} (U): </span> During character creation, the species increases a particular @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{attribute} (Agility, Smarts, Spirit, Strength, or Vigor) one die type. This increases the Trait's maximum by one as well."
+                  "description": "<span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.Attribute Penalty]{Покращення характеристики} (U): </span> Під час створення персонажа вид підвищує одну конкретну @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{характеристику} (Спритність, Кмітливість, Воля, Міць або Витримка) на один ступінь кістки. Це також підвищує максимальне значення цієї риси на одиницю."
                 }
               ]
             },
