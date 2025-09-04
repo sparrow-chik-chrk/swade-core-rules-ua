@@ -7,12 +7,17 @@ var T = (a, s, e) => (Ft(a, typeof s != "symbol" ? s + "" : s, e), e), Le = (a, 
   if (!s.has(a))
     throw TypeError("Cannot " + e);
 };
-var d = (a, s, e) => (Le(a, s, "read from private field"), e ? e.call(a) : s.get(a)), w = (a, s, e) => {
-  if (s.has(a))
-    throw TypeError("Cannot add the same private member more than once");
-  s instanceof WeakSet ? s.add(a) : s.set(a, e);
-}, k = (a, s, e, t) => (Le(a, s, "write to private field"), t ? t.call(a, e) : s.set(a, e), e);
-var v = (a, s, e) => (Le(a, s, "access private method"), e), Fe = (a, s, e) => Lt(Ot(a), e, s);
+var d = (a, s, e) => (Le(a, s, "читання з приватного поля"), e ? e.call(a) : s.get(a)),
+  w = (a, s, e) => {
+    if (s.has(a))
+      throw TypeError("Неможливо додати той самий приватний елемент більше одного разу");
+    s instanceof WeakSet ? s.add(a) : s.set(a, e);
+  },
+  k = (a, s, e, t) => (Le(a, s, "запис у приватне поле"), t ? t.call(a, e) : s.set(a, e), e);
+
+var v = (a, s, e) => (Le(a, s, "доступ до приватного методу"), e),
+  Fe = (a, s, e) => Lt(Ot(a), e, s);
+
 const H = {
     id: "swade-core-rules",
     title: "Savage Worlds Adventure Edition Core Rules",
@@ -35,7 +40,7 @@ const H = {
     styles: ["./style.css"],
     languages: [{ flags: {}, lang: "en", name: "English", path: "lang/en.json" }],
     packs: [{
-      label: "Action Deck",
+      label: "Колода Дій",
       type: "Cards",
       name: "swade-action-deck",
       path: "packs/swade-action-deck.db",
@@ -44,7 +49,7 @@ const H = {
       visible: !0,
       banner: "modules/swade-core-rules/assets/art/banners/banner_01.webp"
     }, {
-      label: "Actions",
+      label: "Дії",
       type: "Item",
       name: "swade-actions",
       path: "packs/swade-actions.db",
@@ -53,7 +58,7 @@ const H = {
       visible: !0,
       banner: "modules/swade-core-rules/assets/art/banners/banner_02.webp"
     }, {
-      label: "Armor",
+      label: "Броня",
       name: "swade-armor",
       type: "Item",
       path: "packs/swade-armor.db",
@@ -62,7 +67,7 @@ const H = {
       visible: !0,
       banner: "modules/swade-core-rules/assets/art/banners/banner_03.webp"
     }, {
-      label: "Bestiary",
+      label: "Бестіарій",
       name: "swade-bestiary",
       type: "Actor",
       path: "packs/swade-bestiary.db",
@@ -71,7 +76,7 @@ const H = {
       visible: !0,
       banner: "modules/swade-core-rules/assets/art/banners/banner_04.webp"
     }, {
-      label: "Edges",
+      label: "Переваги",
       name: "swade-edges",
       type: "Item",
       path: "packs/swade-edges.db",
@@ -80,7 +85,7 @@ const H = {
       visible: !0,
       banner: "modules/swade-core-rules/assets/art/banners/banner_05.webp"
     }, {
-      label: "Equipment",
+      label: "Спорядження",
       name: "swade-equipment",
       type: "Item",
       path: "packs/swade-equipment.db",
@@ -89,7 +94,7 @@ const H = {
       visible: !0,
       banner: "modules/swade-core-rules/assets/art/banners/banner_06.webp"
     }, {
-      label: "Hindrances",
+      label: "Недоліки",
       name: "swade-hindrances",
       type: "Item",
       path: "packs/swade-hindrances.db",
@@ -98,7 +103,7 @@ const H = {
       visible: !0,
       banner: "modules/swade-core-rules/assets/art/banners/banner_07.webp"
     }, {
-      label: "Macros",
+      label: "Макроси",
       name: "swade-macros",
       type: "Macro",
       path: "packs/swade-macros.db",
@@ -107,7 +112,7 @@ const H = {
       visible: !0,
       banner: "modules/swade-core-rules/assets/art/banners/banner_08.webp"
     }, {
-      label: "Modern Firearms",
+      label: "Сучасна Вогнепальна Зброя",
       name: "swade-modern-firearms",
       type: "Item",
       path: "packs/swade-modern-firearms.db",
@@ -116,7 +121,7 @@ const H = {
       visible: !0,
       banner: "modules/swade-core-rules/assets/art/banners/banner_09.webp"
     }, {
-      label: "Personal Weapons",
+      label: "Особиста зброя",
       name: "swade-personal-weapons",
       type: "Item",
       path: "packs/swade-personal-weapons.db",
@@ -125,7 +130,7 @@ const H = {
       visible: !0,
       banner: "modules/swade-core-rules/assets/art/banners/banner_10.webp"
     }, {
-      label: "Powers",
+      label: "Сили",
       name: "swade-powers",
       type: "Item",
       path: "packs/swade-powers.db",
@@ -134,7 +139,7 @@ const H = {
       visible: !0,
       banner: "modules/swade-core-rules/assets/art/banners/banner_11.webp"
     }, {
-      label: "Ancestries",
+      label: "Раси",
       name: "swade-races",
       type: "Item",
       path: "packs/swade-races.db",
@@ -143,7 +148,7 @@ const H = {
       visible: !0,
       banner: "modules/swade-core-rules/assets/art/banners/banner_12.webp"
     }, {
-      label: "Ancestral Abilities",
+      label: "Расові вміння",
       name: "swade-racial-abilities",
       type: "Item",
       path: "packs/swade-racial-abilities.db",
@@ -152,7 +157,7 @@ const H = {
       visible: !0,
       banner: "modules/swade-core-rules/assets/art/banners/banner_13.webp"
     }, {
-      label: "Rules",
+      label: "Правила",
       name: "swade-rules",
       type: "JournalEntry",
       path: "packs/swade-rules.db",
@@ -161,7 +166,7 @@ const H = {
       visible: !0,
       banner: "modules/swade-core-rules/assets/art/banners/banner_14.webp"
     }, {
-      label: "Skills",
+      label: "Навички",
       name: "swade-skills",
       type: "Item",
       path: "packs/swade-skills.db",
@@ -170,7 +175,7 @@ const H = {
       visible: !0,
       banner: "modules/swade-core-rules/assets/art/banners/banner_15.webp"
     }, {
-      label: "Special Weapons",
+      label: "Особлива Зброя",
       name: "swade-special-weapons",
       type: "Item",
       path: "packs/swade-special-weapons.db",
@@ -179,7 +184,7 @@ const H = {
       visible: !0,
       banner: "modules/swade-core-rules/assets/art/banners/banner_16.webp"
     }, {
-      label: "Special Abilities",
+      label: "Особливі вміння",
       name: "swade-specialabilities",
       type: "Item",
       path: "packs/swade-specialabilities.db",
@@ -188,7 +193,7 @@ const H = {
       visible: !0,
       banner: "modules/swade-core-rules/assets/art/banners/banner_17.webp"
     }, {
-      label: "Tables",
+      label: "Таблиці",
       name: "swade-tables",
       type: "RollTable",
       path: "packs/swade-tables.db",
@@ -197,7 +202,7 @@ const H = {
       visible: !0,
       banner: "modules/swade-core-rules/assets/art/banners/banner_18.webp"
     }, {
-      label: "Vehicles",
+      label: "Техніка",
       name: "swade-vehicles",
       type: "Actor",
       path: "packs/swade-vehicles.db",
@@ -796,7 +801,7 @@ se = new WeakSet(), Ne = /* @__PURE__ */ l(function (s) {
     for (const n of Object.values(t))
       if (n === s)
         return e;
-  throw new Error("This is not the uuid of a valid parent item.");
+  throw new Error("Це не UUID дійсного батьківського предмета.");
 }, "#PARENT_TYPE"), P = new WeakMap(), C = new WeakMap(), O = new WeakMap(), J = new WeakMap(), q = new WeakMap(), j = new WeakMap(), me = new WeakSet(), ut = /* @__PURE__ */ l(async function () {
   const s = await fromUuid(d(this, C).uuid);
   return k(this, O, s), s;
@@ -1204,7 +1209,7 @@ const E = class E extends Ut(xt) {
    * @returns {Promise<object>}     Context for the product part.
    */
   async _preparePartContextProduct(e) {
-    throw new Error("The `_preparePartContextProduct` method must be subclassed.");
+    throw new Error("Метод `_preparePartContextProduct` має бути перевизначений у підкласі.");
   }
 
   /* -------------------------------------------------- */
@@ -1251,7 +1256,7 @@ const E = class E extends Ut(xt) {
    * @abstract
    */
   async _finalize(e, t) {
-    throw new Error("The `_finalize` method must be subclassed.");
+    throw new Error("Метод `_finalize` має бути перевизначений у підкласі.");
   }
 };
 F = new WeakMap(), U = new WeakMap(), ae = new WeakMap(), A = new WeakMap(), we = new WeakSet(), gt = /* @__PURE__ */ l(async function () {
@@ -1591,7 +1596,7 @@ const Ke = class Ke extends oe {
         e = 2;
         const t = this.getEdgeRank();
         if (t > 3)
-          throw new Error(`Edge item (${s.uuid}) was set to invalid rank requirement.`);
+          throw new Error(`Предмет-перевага (${s.uuid}) має некоректну вимогу до рангу.`);
         e = e + t;
         break;
       }
@@ -1616,7 +1621,7 @@ const Ke = class Ke extends oe {
           });
         }
         if (!n)
-          throw new Error(`Hindrance severity was not set in item '${s.name}' (${s.uuid}).`);
+          throw new Error(`Ступінь серйозності вади не було встановлено в предметі '${s.name}' (${s.uuid}).`);
         e = n === "major" ? -2 : -1;
         break;
       }
@@ -1630,7 +1635,7 @@ const Ke = class Ke extends oe {
       }
       case "ability": {
         if (s.system.subtype !== "special")
-          throw new Error("This is not a special ability.");
+          throw new Error("Це не особлива здатність.");
         e = s.system.build.cost;
         break;
       }
@@ -1643,7 +1648,7 @@ const Ke = class Ke extends oe {
         break;
       }
       default:
-        throw new Error("Attempting to parse the cost of an invalid item type.");
+        throw new Error("Спроба розібрати вартість недійсного типу предмета.");
     }
     return e;
   }
@@ -1713,7 +1718,7 @@ function Nt() {
     );
     for (const s of a)
       game.settings.register(s.id, "firstStartup", {
-        name: "One-Time Startup Prompt",
+        name: "Одноразове повідомлення при першому запуску",
         scope: "world",
         config: !1,
         type: Boolean,
@@ -1748,8 +1753,8 @@ l(Nt, "adventures");
 function $t() {
   Hooks.once("init", () => {
     game.settings.register(y, "distraction-free", {
-      name: "Distraction Free Mode",
-      hint: "Replaces Journal borders with a less visually distracting style.",
+      name: "Режим без відволікань",
+      hint: "Замінює рамки журналів на менш нав’язливий стиль.",
       scope: "client",
       config: !0,
       type: Boolean,
@@ -1766,13 +1771,14 @@ l($t, "distractionFreeMode");
 async function Ht(a, s, e = null) {
   const t = game.scenes.get(a);
   if (!t)
-    throw new Error(`The scene by id '${a}' does not exist!`);
+    throw new Error(`Сцени з id '${a}' не існує!`);
   const n = s.map((r) => t.walls.get(r)).filter((r) => r);
   if (!n.length)
-    throw new Error("No valid ids for wall documents were provided!");
+    throw new Error("Не надано жодного дійсного id для документів стін!");
   const i = n.map((r) => Wt(r, e));
   t.updateEmbeddedDocuments("Wall", i);
 }
+
 
 l(Ht, "toggleTemporaryWalls");
 
@@ -1814,6 +1820,7 @@ function zt() {
     async toggleRegions(a, s) {
       return K("Region", a, s);
     },
+
     async playSound(a) {
       let s, e = !1;
       if (typeof a == "object" && ({ soundUuid: a = "", playing: s, stopAll: e } = a), e)
@@ -1928,7 +1935,7 @@ async function qt({ title: a, prompt: s, macroOptions: e }) {
   foundry.applications.api.Dialog.wait({
     content: o,
     render: u,
-    buttons: [{ action: "ok", label: "Close", icon: "fa-solid fa-times" }],
+    buttons: [{ action: "ok", label: "Закрити", icon: "fa-solid fa-times" }],
     window: { title: a },
     position: { width: r ? 400 : 350, height: "auto" }
   });
@@ -1938,7 +1945,7 @@ l(qt, "pickMacro");
 
 async function Gt({ sceneId: a, documentName: s, data: e, animate: t = !1 }) {
   if (!(s in Scene.metadata.embedded))
-    return console.error(`${s} is not an embedded document type of a Scene!`), [];
+    return console.error(`${s} не є вбудованим типом документа Сцени!`), [];
   const n = game.scenes.get(a), i = n.getEmbeddedCollection(s);
   e = Vt(s, e);
   const r = e.filter((o) => i.has(o._id));
@@ -2019,7 +2026,8 @@ async function Bt({ sceneId: a, ids: s, type: e, force: t, state: n, regionVisib
       break;
     }
     default:
-      throw new Error("Attempting to change unknown Document Type.");
+      throw new Error("Спроба змінити невідомий тип документа.");
+
   }
   const f = u.map(([c, m, p]) => c.updateEmbeddedDocuments(m, p));
   return await Promise.all(f), o.length ? r.updateEmbeddedDocuments(e, o) : [];
@@ -2085,8 +2093,8 @@ async function Xt(a, s, e, t, n) {
   return foundry.applications.api.Dialog.wait({
     content: r,
     render: o,
-    buttons: [{ action: "ok", label: "Close", icon: "fa-solid fa-times" }],
-    window: { title: e || "Change Tile Image" },
+    buttons: [{ action: "ok", label: "Закрити", icon: "fa-solid fa-times" }],
+    window: { title: e || "Змінити зображення тайла" },
     position: { width: 400, height: "auto" }
   });
 }
@@ -2096,15 +2104,16 @@ l(Xt, "pickTileImage");
 async function Kt(a) {
   if (![0, 0.4, 1].includes(a)) {
     const s = {
-        default: { alpha: 1, label: "Default Roofs" },
-        transparent: { alpha: 0.4, label: "Transparent" },
-        disabled: { alpha: 0, label: "Disabled" }
+        default: { alpha: 1, label: "Стандартні дахи" },
+        transparent: { alpha: 0.4, label: "Прозорі" },
+        disabled: { alpha: 0, label: "Вимкнені" }
       }, e = Object.entries(s).map(([n, { label: i }]) => ({ action: n, label: i })),
       t = await foundry.applications.api.Dialog.wait({
         buttons: e,
-        window: { title: "Change Roof Behavior" },
-        content: "<p>Change the default opacity of roofs across all relevant scenes.</p>"
+        window: { title: "Змінити поведінку дахів" },
+        content: "<p>Змінити стандартну прозорість дахів у всіх відповідних сценах.</p>"
       });
+
     if (!t)
       return;
     a = s[t].alpha;
@@ -2113,7 +2122,8 @@ async function Kt(a) {
     const e = s.tiles.filter((t) => t.getFlag("world", "isRoof")).map((t) => ({ _id: t.id, alpha: a }));
     await s.updateEmbeddedDocuments("Tile", e);
   }
-  ui.notifications.info("Updated transparency of all scenes' roof tiles!");
+  ui.notifications.info("Оновлено прозорість дахів у всіх сценах!");
+
 }
 
 l(Kt, "changeRoofOpacity");
@@ -2121,17 +2131,20 @@ l(Kt, "changeRoofOpacity");
 function Qt() {
   Hooks.once("init", () => {
     game.settings.register(y, "safe-journal", {
-      name: "Journal Freeze Workaround",
-      hint: "Workaround for a Chrome issue that can cause all journals to freeze under certain circumstances.",
+      name: "Обхід зависання журналів",
+      hint: "Обхідна функція для проблеми Chrome, через яку за певних умов можуть зависати всі журнали.",
       scope: "client",
       config: !0,
       type: Boolean,
       default: !1,
       onChange: (a) => {
-        a ? document.querySelectorAll(`.journal-sheet.${$}-wrapper`).forEach((s) => s.classList.add("safe-journal")) : document.querySelectorAll(`.journal-sheet.${$}-wrapper`).forEach((s) => s.classList.remove("safe-journal"));
+        a
+          ? document.querySelectorAll(`.journal-sheet.${$}-wrapper`).forEach((s) => s.classList.add("safe-journal"))
+          : document.querySelectorAll(`.journal-sheet.${$}-wrapper`).forEach((s) => s.classList.remove("safe-journal"));
       }
     });
   });
+
 }
 
 l(Qt, "safeJournalMode");
@@ -2141,13 +2154,14 @@ function Zt() {
     type: new foundry.data.fields.StringField({
       initial: "",
       blank: !0,
-      label: "Migration Version",
-      hint: "Current migration version of this module."
+      label: "Версія міграції",
+      hint: "Поточна версія міграції цього модуля."
     }),
     scope: "world",
     config: !1
   });
 }
+
 
 l(Zt, "initializeSetting");
 Hooks.once("init", Zt);
@@ -2236,11 +2250,14 @@ const Qe = class Qe {
       }
       if (d(this, B) instanceof Function) {
         const s = game.modules.get(y).title, e = { permanent: !0 };
-        ui.notifications.info(`Performing migration for ${s}. Please wait...`, e), await d(this, B).call(this), ui.notifications.info(`Migration for ${s} completed!`, e);
+        ui.notifications.info(`Виконується міграція для ${s}. Будь ласка, зачекайте...`, e),
+          await d(this, B).call(this),
+          ui.notifications.info(`Міграцію для ${s} завершено!`, e);
       }
       v(this, ne, Je).call(this);
     }
   }
+
 };
 ne = new WeakSet(), Je = /* @__PURE__ */ l(function () {
   const s = game.modules.get(y).version;
@@ -2409,19 +2426,20 @@ const Ze = class Ze extends foundry.appv1.sheets.AdventureImporter {
   _getImportOptions() {
     const e = this.metamorphicMetadata, t = {};
     return e.initialSceneId && (t.initialSceneId = {
-      label: "Activate Initial Scene",
+      label: "Активувати початкову сцену",
       default: !0
     }), e.initialJournalEntryId && e.initialJournalPageId && (t.displayJournal = {
-      label: "Display Introduction Journal Entry",
+      label: "Показати вступний запис журналу",
       default: !0
     }), e.initialLoginScreenBackground && (t.customizeJoin = {
-      label: "Style Login Screen",
+      label: "Оформити екран входу",
       default: !1
     }), e.chatMessage?.label && e.chatMessage.content && (t.chatMessage = {
       label: e.chatMessage.label,
       default: !0
     }), t;
   }
+
 
   /* -------------------------------------------------- */
   /** @inheritDoc */
@@ -2585,12 +2603,12 @@ Te = new WeakSet(), At = /* @__PURE__ */ l(async function (e) {
   const { BooleanField: t, SetField: n, StringField: i } = foundry.data.fields, r = new t().toFormGroup(
     {
       label: game.i18n.localize("OWNERSHIP.AllPlayers"),
-      hint: "Whisper to all players rather than a select few.",
+      hint: "Надіслати шепіт усім гравцям, а не лише вибраним.",
       rootId: foundry.utils.randomID()
     },
     { name: "all", value: !0 }
   ).outerHTML, o = new n(new i()).toFormGroup(
-    { label: "Players", classes: ["stacked"] },
+    { label: "Гравці", classes: ["stacked"] },
     {
       name: "players",
       type: "checkboxes",
@@ -2620,11 +2638,12 @@ Te = new WeakSet(), At = /* @__PURE__ */ l(async function (e) {
   }, "callback");
   foundry.applications.api.Dialog.prompt({
     render: f,
-    ok: { label: "Whisper", callback: c, icon: "fa-solid fa-check" },
+    ok: { label: "Шепіт", callback: c, icon: "fa-solid fa-check" },
     content: u,
     position: { width: 400, height: "auto" },
-    window: { title: "Speak Aloud Message", icon: "fa-solid fa-comment" }
+    window: { title: "Озвучити повідомлення", icon: "fa-solid fa-comment" }
   });
+
 }, "#showWhisperDialog"), Pe = new WeakSet(), Dt = /* @__PURE__ */ l(async function (e) {
   if (e.preventDefault(), ["IMG", "A"].includes(e.target.tagName))
     return;
@@ -2840,29 +2859,36 @@ function is() {
     if (!n)
       return;
     const i = a.parent.items.filter((r) => r.getFlag(rt, `${ot}.${n}`)).map((r) => r.id);
-    i.length && (a.parent.deleteEmbeddedDocuments("Item", i), ui.notifications.info(`${a.parent.name}'s temporary Edges removed.`));
+    i.length && (
+      a.parent.deleteEmbeddedDocuments("Item", i),
+        ui.notifications.info(`Тимчасові переваги персонажа ${a.parent.name} видалені.`)
+    );
+
   });
 }
 
 l(is, "registerDeleteEffectHook");
 const Y = "swade-core-rules";
 Hooks.once("init", () => {
-  game.swade.effectCallbacks.set("perish", rs), game.settings.register(Y, "addBasicActions", {
-    name: "Add Basic Actions to New Characters",
-    hint: "Create basic actions such as Jump or Disarm on new characters",
-    scope: "world",
-    config: !0,
-    requiresReload: !1,
-    type: Boolean,
-    default: !0
-  }), game.settings.register(Y, "enableChi", {
-    name: "Enable Chi",
-    hint: "Adds Chi as an additional stat (enable in Tweaks)",
-    scope: "world",
-    config: !0,
-    type: Boolean,
-    default: !0
-  });
+  game.swade.effectCallbacks.set("perish", rs),
+    game.settings.register(Y, "addBasicActions", {
+      name: "Додавати базові дії новим персонажам",
+      hint: "Створює базові дії, такі як Стрибок чи Знешкодження, для нових персонажів",
+      scope: "world",
+      config: !0,
+      requiresReload: !1,
+      type: Boolean,
+      default: !0
+    }),
+    game.settings.register(Y, "enableChi", {
+      name: "Увімкнути Чі",
+      hint: "Додає Чі як додаткову характеристику (увімкнути можна в Налаштуваннях)",
+      scope: "world",
+      config: !0,
+      type: Boolean,
+      default: !0
+    });
+
   const a = game.modules.get(Y).api ??= {};
   a.applications ??= {}, a.applications.SwadeBuilder = X, a.applications.SwadeBuilderComponent = oe;
 });
@@ -2872,11 +2898,13 @@ async function rs(a) {
   if (!s || s instanceof CONFIG.Item.documentClass)
     return;
   ChatMessage.create({
-    content: `${s.name} has perished from ${a.name}`,
+    content: `${s.name} загинув від ${a.name}`,
     speaker: { actor: s.id }
   });
   const e = game.swade.util.getStatusEffectDataById("incapacitated");
-  e.label = "Perished", s.toggleActiveEffect(e, { overlay: !0, active: !0 });
+  e.label = "Загиблий";
+  s.toggleActiveEffect(e, { overlay: !0, active: !0 });
+
 }
 
 l(rs, "perish");
@@ -2889,7 +2917,7 @@ Hooks.on("ready", async () => {
       const s = {
         actor: {
           chi: {
-            label: "Chi",
+            label: "Чі",
             dtype: "Number",
             hasMaxValue: !1
           }
@@ -2902,77 +2930,83 @@ Hooks.on("ready", async () => {
 
 async function os() {
   game.swade.util.getStatusEffectDataById("shaken").description = `<article class="swade-core">
-    <p>Shaken characters are nicked, bruised, or otherwise rattled. They may only take @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03actions0000000]{free actions}, such as @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03movement000000]{moving} (including running). At the start of their turn, Shaken characters must attempt to recover from being Shaken by making a @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{Spirit} roll. This is a free action.</p>
-    <ul class="red-bullet-list">
-    <li><strong>FAILURE: </strong>The character remains Shaken. She can only perform free actions.</li>
-    <li><strong>SUCCESS: </strong>The character is no longer Shaken and may act normally.</li>
-    </ul>
-    <p><strong>Spending Bennies: </strong>A player may spend a @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03bennies0000000]{Benny} at any time to remove her Shaken status (even when it’s not her turn).</p>
-  </article>`, game.swade.util.getStatusEffectDataById("incapacitated").description = `<article class="swade-core">
-    <p>Incapacitated characters may not perform actions but are still dealt Action Cards for the remainder of the encounter in case they recover or must roll for other effects such as <strong>Bleeding Out</strong> (below). @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01edges000000000]{Edges} or @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01hindrances0000]{Hindrances} that affect card draws, such as @Compendium[swade-core-rules.swade-edges.Quick]{Quick}, @Compendium[swade-core-rules.swade-edges.Level Headed]{Level Headed}, or @Compendium[swade-core-rules.swade-hindrances.Hesitant]{Hesitant} are ignored when the hero is Incapacitated.</p>
-    <p>If Incapacitated by damage or injury, he must make an immediate @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{Vigor} roll:</p>
-    <ul class="red-bullet-list">
-    <li><strong>CRITICAL FAILURE: </strong>The character dies.</li>
-    <li><strong>FAILURE: </strong>Roll on the <strong>@Compendium[swade-core-rules.swade-tables.Injury Table]{Injury Table}</strong>. The Injury is permanent and the character is <strong>Bleeding Out</strong>, see below.</li>
-    <li><strong>SUCCESS: </strong>Roll on the <strong>Injury Table</strong>. The Injury goes away when all Wounds are healed.</li>
-    <li><strong>RAISE: </strong>Roll on the <strong>Injury Table</strong>. The Injury goes away in 24 hours, or when all Wounds are healed (whichever is sooner).</li>
-    </ul>
-    <p>Characters cannot take actions and might be unconscious (GM’s call). The victim makes a @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{Vigor} roll each day thereafter and is no longer Incapacitated (or unconscious) if successful. They may also heal Wounds during this time (see <strong>@UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03healing0000000]{Healing}</strong>).</p>
-    <p><strong>Bleeding Out:</strong> The injured character is dying and must make a @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{Vigor} roll at the start of his turn. Failure means he perishes. With success he survives but must roll again next turn (or every minute if not in combat). With a raise, he stabilizes and no further rolls are required</p>
-    <p>Other characters may stop a victim’s bleeding by making a @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03healing0000000]{Healing} roll. This is an action, and if successful the patient is stabilized.</p>
-    <p>The healing power can also stabilize Wounds, as can a successful “natural” healing roll by a being with regeneration of some sort.</p>
-    <p><strong>Incapacitation from Fatigue: </strong> See @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03fatigue0000000]{Fatigue}.</p>
-  </article>`, game.swade.util.getStatusEffectDataById("bleeding-out").description = `<article class="swade-core">
-    <p><strong>Bleeding Out:</strong> The injured character is dying and must make a @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{Vigor} roll at the start of his turn. Failure means he perishes. With success he survives but must roll again next turn (or every minute if not in combat). With a raise, he stabilizes and no further rolls are required</p>
-    <p>Other characters may stop a victim’s bleeding by making a @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03healing0000000]{Healing} roll. This is an action, and if successful the patient is stabilized.</p>
-    <p>The healing power can also stabilize Wounds, as can a successful “natural” healing roll by a being with regeneration of some sort.</p>
-  </article>`, game.swade.util.getStatusEffectDataById("berserk").description = (await fromUuid("Compendium.swade-core-rules.swade-edges.Item.Xv6TAc0VcnkEqt20.ActiveEffect.1UkpIwduU7EtkEGz"))?.description, game.swade.util.getStatusEffectDataById("encumbered").description = `<article class="swade-core">
-    <p>Most of the time you don’t need to worry about how much weight a character is carrying. If it becomes important to track, use the <strong>Encumbrance Levels</strong> table below. If a character carries more than the listed weight, he’s Encumbered.</p>
-    <p>Encumbered characters subtract 2 from @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03movement000000]{Pace} (minimum 1″), running rolls, Agility and all linked skills, and Vigor rolls made to resist <strong>@UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03fatigue0000000]{Fatigue}</strong>.</p>
-    <p>At three times the lifted weight or more, he can move at a @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03movement000000]{Pace} of 1 for a number of rounds equal to his Vigor. Every round thereafter he must succeed at a Vigor roll or take a level of Fatigue.</p>
-    <p>The maximum weight a character can lift or carry is four times the listed weight.</p>
-    <table class="table list-table" style="width: 33%;"><caption class="table-caption">
-    <h2 class="table-title">Encumbrance</h2>
+  <p>Шоковані персонажі мають подряпини, забої або перебувають у стані розгубленості. Вони можуть виконувати лише @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03actions0000000]{вільні дії}, такі як @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03movement000000]{пересування} (включно з бігом). На початку свого ходу шоковані персонажі повинні спробувати позбутися стану Шокований, здійснивши кидок на @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{Волю}. Це вільна дія.</p>
+  <ul class="red-bullet-list">
+    <li><strong>НЕВДАЧА: </strong>Персонаж залишається Шокованим. Він може виконувати лише вільні дії.</li>
+    <li><strong>УСПІХ: </strong>Персонаж більше не Шокований і може діяти нормально.</li>
+  </ul>
+  <p><strong>Витрата Таланів: </strong>Гравець може витратити @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03bennies0000000]{Талан} у будь-який момент, щоб зняти стан Шокований (навіть якщо це не його хід).</p>
+    </article>`,
+    game.swade.util.getStatusEffectDataById("incapacitated").description = `<article class="swade-core">
+  <p><strong>НЕДІЄЗДАТНІСТЬ</strong></p>
+  <p>Недієздатні персонажі не можуть виконувати жодних дій, але все ще отримують карти дії до кінця зіткнення на випадок оговтання чи для виконання обов’язкових перевірок на кшталт <strong>Кровотечі</strong> (див. далі). Переваги та вади, які впливають на добирання карт («@Compendium[swade-core-rules.swade-edges.Quick]{Прудкий}», «@Compendium[swade-core-rules.swade-edges.Level Headed]{Розважливий}», «@Compendium[swade-core-rules.swade-hindrances.Hesitant]{Нерішучий}»), не працюють під час недієздатності.</p>
+
+  <p>Якщо недієздатність зумовлена ушкодженнями чи каліцтвом, персонаж повинен негайно виконати кидок на @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{Витримку}:</p>
+  <ul class="red-bullet-list">
+    <li><strong>КРИТИЧНИЙ ПРОВАЛ:</strong> персонаж помирає.</li>
+    <li><strong>ПРОВАЛ:</strong> кидок згідно з <strong>@Compendium[swade-core-rules.swade-tables.Injury Table]{Таблицею каліцтв}</strong>. Це каліцтво постійне, а в персонажа починається <strong>Кровотеча</strong> (див. далі).</li>
+    <li><strong>УСПІХ:</strong> кидок згідно з <strong>Таблицею каліцтв</strong>. Каліцтво мине, як тільки всі рани будуть зцілені.</li>
+    <li><strong>НАДМІР:</strong> кидок згідно з <strong>Таблицею каліцтв</strong>. Каліцтво мине через 24 години або коли всі рани будуть зцілені (що настане раніше).</li>
+  </ul>
+
+  <p>Персонажі не можуть виконувати жодних дій та можуть бути без свідомості (на розсуд ІМ). Після цього жертва щодня виконує кидок на Витримку й у разі успіху перестає бути недієздатною або повертається до тями. Також рани зцілюються з плином часу (див. <strong>@UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03healing0000000]{Природне зцілення}</strong>).</p>
+
+  <p><strong>Кровотеча:</strong> скалічений персонаж на порозі смерті та у свій хід мусить виконати кидок на Витримку. У разі провалу він гине. У разі успіху він виживає, але мусить повторити кидок свого наступного ходу (або щохвилини, якщо поза межами бою). За Надміру його стан стабілізовано і кидки на Витримку більше не потрібні.</p>
+
+  <p>Інші персонажі можуть зупинити кровотечу кидком на @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03healing0000000]{Лікування}. Це витрачає дію, що в разі успіху стабілізує стан пораненого. Сила «Зцілення» також може зупинити кровотечу, як і успішне природне зцілення істоти, наділеної здатністю до регенерації.</p>
+
+  <p><strong>Недієздатність від Втоми:</strong> див. @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03fatigue0000000]{Втому}.</p>
+</article>`,
+    game.swade.util.getStatusEffectDataById("bleeding-out").description = `<article class="swade-core">
+  <p><strong>Кровотеча:</strong> скалічений персонаж на порозі смерті та у свій хід мусить виконати кидок на @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{Витримку}. У разі провалу він гине. У разі успіху він виживає, але мусить повторити кидок свого наступного ходу (або щохвилини, якщо поза межами бою). За Надміру його стан стабілізовано і кидки на Витримку більше не потрібні.</p>
+
+  <p>Інші персонажі можуть зупинити кровотечу кидком на @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03healing0000000]{Лікування}. Це витрачає дію, що в разі успіху стабілізує стан пораненого.</p>
+
+  <p>Сила «Зцілення» також може зупинити кровотечу, як і успішне природне зцілення істоти, наділеної здатністю до регенерації.</p>
+</article>`,
+    game.swade.util.getStatusEffectDataById("berserk").description = (await fromUuid("Compendium.swade-core-rules.swade-edges.Item.Xv6TAc0VcnkEqt20.ActiveEffect.1UkpIwduU7EtkEGz"))?.description,
+    game.swade.util.getStatusEffectDataById("encumbered").description = `<article class="swade-core">
+  <p>Більшість часу вам не треба хвилюватися про вагу, яку носить персонаж. Якщо це стає важливим, використовуйте таблицю <strong>Навантаженість</strong> далі. Якщо персонаж несе на собі вагу, більшу за допустиму, його вважають перевантаженим.</p>
+
+  <p>Перевантажені персонажі мають штраф −2 до @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03movement000000]{Темпу} (але не менш ніж 1), перевірок бігу, Спритності та всіх навичок на основі Спритності, а також до кидків на @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{Витримку} для опору <strong>@UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03fatigue0000000]{Втомі}</strong>.</p>
+
+  <p>Коли вага втричі чи більше перевищує допустиму, персонаж може рухатися лише з Темпом 1 кількість раундів, рівну його Витримці. Щораунду після цього він має проходити перевірку Витримки або отримувати рівень Втоми.</p>
+
+  <p>Максимальна вага, яку може підіймати чи носити персонаж, у чотири рази перевищує допустиму.</p>
+
+  <table class="table list-table" style="width: 33%;">
+    <caption class="table-caption">
+      <h2 class="table-title">Навантаженість</h2>
     </caption>
     <tbody>
-    <tr class="table-header-row">
-    <th class="table-column-header" scope="col">Strength</th>
-    <th class="table-column-header" scope="col">Can carry weight up to...</th>
-    </tr>
+      <tr class="table-header-row">
+        <th class="table-column-header" scope="col">Міць</th>
+        <th class="table-column-header" scope="col">Максимальна вага...</th>
+      </tr>
+      <tr><td>d4</td><td>20 фунтів</td></tr>
+      <tr><td>d6</td><td>40 фунтів</td></tr>
+      <tr><td>d8</td><td>60 фунтів</td></tr>
+      <tr><td>d10</td><td>80 фунтів</td></tr>
+      <tr><td>d12</td><td>100 фунтів</td></tr>
+      <tr><td>Кожен +1</td><td>+20 фунтів</td></tr>
     </tbody>
-    <tbody>
-    <tr>
-    <td>d4</td>
-    <td>20 lbs</td>
-    </tr>
-    <tr>
-    <td>d6</td>
-    <td>40 lbs</td>
-    </tr>
-    <tr>
-    <td>d8</td>
-    <td>60 lbs</td>
-    </tr>
-    <tr>
-    <td>d10</td>
-    <td>80 lbs</td>
-    </tr>
-    <tr>
-    <td>d12</td>
-    <td>100 lbs</td>
-    </tr>
-    <tr>
-    <td>Each +1</td>
-    <td>+20 lbs</td>
-    </tr>
-    </tbody>
-    </table>
-    <p><strong>Bulky Items: </strong>Carrying a bulky, awkward, or unbalanced item, such as a large box, treasure chest, a person, and so on, may make a character Encumbered despite its actual weight (GM’s call).</p>
-  </article>`, game.swade.util.getStatusEffectDataById("frightened").description = `<article class="swade-core">
-    <p>The character gains the @Compendium[swade-core-rules.swade-hindrances.Hesitant]{Hesitant} @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01hindrances0000]{Hindrance} for the remainder of the encounter. If he already has it, he’s Panicked instead.</p>
+  </table>
+
+  <p><strong>Громіздкі речі:</strong> носіння габаритних, незручних і незбалансованих речей (наприклад, великих коробок, скринь зі скарбами, інших персонажів тощо) може зробити персонажа перевантаженим незалежно від ваги предмета (на розсуд ІМ).</p>
+</article>`,
+    game.swade.util.getStatusEffectDataById("frightened").description = `<article class="swade-core">
+    <p>Персонаж отримує ваду @Compendium[swade-core-rules.swade-hindrances.Hesitant]{Нерішучий} @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01hindrances0000]{(Недолік)} до кінця цього зіткнення. Якщо він вже є, персонаж натомість впадає у паніку.</p>
+
   </article>`, game.swade.util.getStatusEffectDataById("heart-attack").description = `<article class="swade-core">
-    <p>The hero is so over­whelmed with fear that his heart stutters. He must make an immediate @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{Vigor} roll at –2. If successful, he’s @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03stunned0000000]{Stunned}. If he fails, he’s @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03damageeffect00]{Incapacitated} and dies in 2d6 rounds. In the latter case, a @Compendium[swade-core-rules.swade-skills.Healing]{Healing} roll at –4 saves his life, but he remains Incapacitated. He may be treated normally thereafter.</p>
-  </article>`;
+  <p><strong>Серцевий напад:</strong> страх повністю здолав героя, через що його серце дає збій. Він повинен негайно виконати кидок на @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{Витримку} з –2.</p>
+
+  <ul class="red-bullet-list">
+    <li><strong>УСПІХ:</strong> персонаж @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03stunned0000000]{приголомшений}.</li>
+    <li><strong>ПРОВАЛ:</strong> персонаж стає @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03damageeffect00]{недієздатним} і помирає через 2к6 раундів.</li>
+  </ul>
+
+  <p>У цьому випадку його можна врятувати кидком на @Compendium[swade-core-rules.swade-skills.Healing]{Лікування} з –4, але він залишиться недієздатним. Пізніше йому можна буде надати нормальне лікування.</p>
+</article>`;
   const a = {
     aiming: "Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03aim00000000000",
     "wild-attack": "Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03wildattack0000",
@@ -3093,7 +3127,7 @@ function cs(a, s, e) {
           case "Brain":
             n.createEmbeddedDocuments("ActiveEffect", [
               {
-                name: "Brain Damage",
+                name: "Черепно мозкова травма",
                 changes: [
                   {
                     key: "system.attributes.smarts.die.sides",
@@ -3101,7 +3135,7 @@ function cs(a, s, e) {
                     value: "-2"
                   }
                 ],
-                description: "<article class=\"swade-core\"><p>Massive trauma to the head. Smarts reduced one die type (min d4).</p></article>",
+                description: "<article class=\"swade-core\"><p>Серйозна травма голови. Кмітливість зменшується на одну кістку (мінімум d4).</p></article>",
                 flags: {
                   swade: {
                     favorite: !0
@@ -3125,46 +3159,54 @@ is();
 
 async function ds() {
   if (canvas.tokens.controlled.length !== 1) {
-    ui.notifications.error("Please select a single token first.");
+    ui.notifications.error("Будь ласка, спочатку виберіть один фішку.");
+
     return;
   }
   const a = canvas.tokens.controlled[0].actor;
   if (!a) {
-    ui.notifications.error("The selected token has no associated actor.");
+    ui.notifications.error("У вибраної фішки немає пов’язаного персонажа.");
+
     return;
   }
   const s = a.items.reduce((m, p) => (p.type === "weapon" && (m[p.id] = p.name), m), {});
   if (foundry.utils.isEmpty(s)) {
-    ui.notifications.warn("The selected actor has no weapons.");
+    ui.notifications.warn("У вибраного персонажа немає зброї.");
+
     return;
   }
-  const { BooleanField: e, NumberField: t, StringField: n } = foundry.data.fields, i = new n({
-    label: "Weapon",
-    required: !0,
-    choices: s
-  }).toFormGroup({}, { name: "weaponId" }).outerHTML, r = new t({
-    label: "Damage Modifier",
-    min: 2,
-    max: 6,
-    step: 2,
-    nullable: !1
-  }).toFormGroup({}, { name: "damageModifier", value: 0 }).outerHTML, o = new t({
-    label: "Armor Piercing Modifier",
-    min: 0,
-    max: 6,
-    step: 2,
-    nullable: !1
-  }).toFormGroup({}, { name: "armorPierce", value: 0 }).outerHTML, u = new e({
-    label: "Heavy Weapon"
-  }).toFormGroup({}, { name: "isHeavy" }).outerHTML, f = [
-    "<p>Select the weapon and modifiers for Smite.</p>",
-    "<fieldset>",
-    i,
-    r,
-    o,
-    u,
-    "</fieldset>"
-  ].join("");
+  const { BooleanField: e, NumberField: t, StringField: n } = foundry.data.fields,
+    i = new n({
+      label: "Зброя",
+      required: !0,
+      choices: s
+    }).toFormGroup({}, { name: "weaponId" }).outerHTML,
+    r = new t({
+      label: "Модифікатор шкоди",
+      min: 2,
+      max: 6,
+      step: 2,
+      nullable: !1
+    }).toFormGroup({}, { name: "damageModifier", value: 0 }).outerHTML,
+    o = new t({
+      label: "Модифікатор бронебійності",
+      min: 0,
+      max: 6,
+      step: 2,
+      nullable: !1
+    }).toFormGroup({}, { name: "armorPierce", value: 0 }).outerHTML,
+    u = new e({
+      label: "Важка зброя"
+    }).toFormGroup({}, { name: "isHeavy" }).outerHTML,
+    f = [
+      "<p>Виберіть зброю та модифікатори для «Ураження».</p>",
+      "<fieldset>",
+      i,
+      r,
+      o,
+      u,
+      "</fieldset>"
+    ].join("");
 
   async function c(m, p) {
     const { FormDataExtended: g } = foundry.applications.ux, h = new g(p.form).object,
@@ -3174,7 +3216,7 @@ async function ds() {
       ];
     h.armorPierce && D.push({ key: `@Weapon{${b.name}}[system.ap]`, mode: S, value: h.armorPierce });
     const Pt = {
-      name: "Smite Modifiers",
+      name: "Модифікатори \"Розправа\"",
       img: "icons/svg/sword.svg",
       changes: D,
       origin: a.uuid,
@@ -3185,10 +3227,10 @@ async function ds() {
   }
 
   l(c, "callback"), foundry.applications.api.DialogV2.wait({
-    window: { title: "Apply Smite" },
+    window: { title: "Застосувати \"Розправу\"" },
     position: { width: 400, height: "auto" },
     content: f,
-    buttons: [{ action: "apply", label: "Apply Effects", default: !0, callback: c }]
+    buttons: [{ action: "apply", label: "Застосувати ефекти", default: !0, callback: c }]
   });
 }
 
@@ -3196,7 +3238,7 @@ l(ds, "applySmiteEffect");
 
 async function us() {
   if (!canvas.tokens.controlled.length) {
-    ui.notifications.warn("You must select at least one token.");
+    ui.notifications.warn("Потрібно вибрати щонайменше одну фішку.");
     return;
   }
   const a = /* @__PURE__ */ new Set(["bound", "distracted", "entangled", "shaken", "stunned", "vulnerable", "wild-attack"]),
@@ -3206,9 +3248,9 @@ async function us() {
     }, []);
   e.sort((o, u) => o.label.localeCompare(u.label));
   const n = [
-    "<p>Select the status effects you want to manage.</p>",
+    "<p>Виберіть стани, якими хочете керувати.</p>",
     "<fieldset>",
-    "<legend>Status Effects</legend>",
+    "<legend>Стани</legend>",
     foundry.applications.fields.createMultiSelectInput({
       type: "checkboxes",
       name: "statuses",
@@ -3217,16 +3259,17 @@ async function us() {
     }).outerHTML,
     "</fieldset>"
   ].join("");
+
   foundry.applications.api.DialogV2.wait({
     classes: ["swade-core-rules", "manage-status-effects"],
-    window: { title: "Manage Status Effects", icon: "fa-solid fa-magic" },
+    window: { title: "Керування станами", icon: "fa-solid fa-magic" },
     position: { width: "auto", height: "auto" },
     content: n,
     render: i,
     buttons: [
       {
         action: "add",
-        label: "Add",
+        label: "Додати",
         default: !0,
         callback: (o, u) => {
           r(u, !0);
@@ -3234,13 +3277,14 @@ async function us() {
       },
       {
         action: "remove",
-        label: "Remove",
+        label: "Прибрати",
         callback: (o, u) => {
           r(u, !1);
         }
       }
     ]
   });
+
 
   function i(o, u) {
     const f = u.element;
@@ -3255,7 +3299,7 @@ async function us() {
   async function r(o, u) {
     const f = Array.from(o.form.elements.statuses.value);
     if (!f.length) {
-      ui.notifications.warn("No effects selected for processing.");
+      ui.notifications.warn("Не вибрано жодного ефекту для обробки.");
       return;
     }
     for (const c of canvas.tokens.controlled) {
@@ -3268,7 +3312,7 @@ async function us() {
           u && g.length === 0 && await m.toggleStatusEffect(p, { active: u });
         }
     }
-    ui.notifications.info(`${u ? "Added" : "Removed"} selected effects.`);
+    ui.notifications.info(`${u ? "Додано" : "Прибрано"} вибрані ефекти.`);
   }
 
   l(r, "processStatusEffects");
@@ -3285,18 +3329,18 @@ async function ms(a, s = "") {
     ...Object.entries(CONFIG.SWADE.attributes || {}).map(([o, u]) => ({
       value: `attr-${o}`,
       label: u.long,
-      group: "Attributes"
+      group: "Характеристики"
     })),
     ...a.itemTypes.skill.map((o) => ({
       value: `skill-${o.id}`,
       label: o.name,
-      group: "Skills"
+      group: "Навички"
     }))
   ], t = new foundry.data.fields.StringField({
-    label: "Trait",
+    label: "Риси",
     required: !0
   }).toFormGroup({}, { options: e, name: "traitId" }).outerHTML, n = new foundry.data.fields.BooleanField({
-    label: "Raise?"
+    label: "Надмір?"
   }).toFormGroup({}, { name: "raise" }).outerHTML, i = [
     "<p>Select the trait and choose the modification.</p>",
     "<fieldset>",
@@ -3305,14 +3349,14 @@ async function ms(a, s = "") {
     "</fieldset>"
   ].join(""), { FormDataExtended: r } = foundry.applications.ux;
   foundry.applications.api.DialogV2.wait({
-    window: { title: `Boost/Lower ${a.name} Trait` },
+    window: { title: `Посилити/Послабити рису ${a.name}` },
     position: { width: 400, height: "auto" },
     content: i,
     buttons: [
       {
         action: "boost",
         icon: "fa-solid fa-arrow-up",
-        label: "Boost Trait",
+        label: "Посилити рису",
         default: !0,
         callback: (o, u) => {
           const f = new r(u.form).object;
@@ -3322,7 +3366,7 @@ async function ms(a, s = "") {
       {
         action: "lower",
         icon: "fa-solid fa-arrow-down",
-        label: "Lower Trait",
+        label: "Послабити рису",
         callback: (o, u) => {
           const f = new r(u.form).object;
           lt(a, f, "lower", s);
@@ -3344,7 +3388,7 @@ async function lt(a, s, e, t) {
       o = `system.attributes.${i}.die.sides`, r = `${e.capitalize()} ${CONFIG.SWADE.attributes[i].long}`;
       break;
     case "skill":
-      o = `@Skill{${a.items.get(i)?.name || "Unknown Skill"}}[system.die.sides]`, r = `${e.capitalize()} ${a.items.get(i)?.name || "Unknown Skill"}`;
+      o = `@Skill{${a.items.get(i)?.name || "Невідома навичка"}}[system.die.sides]`, r = `${e.capitalize()} ${a.items.get(i)?.name || "Невідома навичка"}`;
       break;
   }
   const u = {
@@ -3367,46 +3411,46 @@ l(lt, "handleFormSubmission");
 async function ps() {
   const a = foundry.applications.fields.createTextInput({
     name: "damageRoll",
-    placeholder: "e.g., 3d6 or 3d6x",
+    placeholder: "напр., 3d6 або 3d6x",
     required: !0
   }), s = foundry.applications.fields.createTextInput({
     name: "flavor",
-    placeholder: "e.g., Fire, Falling, Breaking Things, etc."
+    placeholder: "напр., Вогонь, Падіння, Ламання речей тощо"
   }), e = [
     "<fieldset>",
     "<div class=\"form-group\">",
-    "<label for=\"damageRoll\">Roll Formula:</label>",
+    "<label for=\"damageRoll\">Формула кидка:</label>",
     a.outerHTML,
     // Insert the rendered input
     "</div>",
     "<div class=\"form-group\">",
-    "<label for=\"flavor\">Flavor Text:</label>",
+    "<label for=\"flavor\">Опис ефекту:</label>",
     s.outerHTML,
     // Insert the rendered input
     "</div>",
     "</fieldset>"
   ].join("");
   await foundry.applications.api.DialogV2.wait({
-    window: { title: "Damage Roll", icon: "fa-solid fa-sword" },
+    window: { title: "Кидок шкоди", icon: "fa-solid fa-sword" },
     position: { width: 400, height: "auto" },
     content: e,
     buttons: [
       {
         action: "apply",
         icon: "fa-solid fa-dice",
-        label: "Roll Damage",
+        label: "Кинути шкоду",
         default: !0,
         callback: (t, n) => {
           const { FormDataExtended: i } = foundry.applications.ux, r = new i(n.form).object, o = r.damageRoll?.trim(),
             u = r.flavor?.trim();
           if (!o || !Roll.validate(o)) {
-            ui.notifications.error("Please enter a valid damage roll formula.");
+            ui.notifications.error("Будь ласка, введіть коректну формулу кидка шкоди.");
             return;
           }
           try {
-            new CONFIG.Dice.DamageRoll(o).toMessage({ flavor: u || "No flavor specified" });
+            new CONFIG.Dice.DamageRoll(o).toMessage({ flavor: u || "Тип не вказано" });
           } catch (f) {
-            console.error("Error performing damage roll:", f), ui.notifications.error("Failed to execute damage roll. Check your input.");
+            console.error("Помилка під час кидка шкоди:", f), ui.notifications.error("Не вдалося виконати кидок шкоди. Перевірте вхідні дані.");
           }
         }
       }
@@ -3441,18 +3485,18 @@ async function fs() {
     name: "wounds",
     required: !0
   }), e = foundry.applications.fields.createFormGroup({
-    label: "Number of Wounds to Heal",
+    label: "Кількість ран для зцілення",
     input: s,
     // Pass the woundsInput DOM element
-    hint: "Put -1 if a Critical Failure increases Wound level by one"
+    hint: "Вкажіть -1, якщо критичний провал збільшує рівень ран на 1"
   });
   foundry.applications.api.DialogV2.prompt({
-    window: { title: "Heal Wounds", icon: "fa-solid fa-kit-medical" },
+    window: { title: "Лікування ран", icon: "fa-solid fa-kit-medical" },
     position: { width: 600, height: "auto" },
     content: `<fieldset>${e.outerHTML}</fieldset>`,
     ok: {
       icon: "fa-solid fa-kit-medical",
-      label: "Heal",
+      label: "Зцілити",
       callback: async (t, n) => {
         const i = n.form.elements.wounds.valueAsNumber;
         gs(a, i);
@@ -3466,23 +3510,24 @@ l(fs, "healWounds");
 async function gs(a, s) {
   for (const e of a) {
     if (!["character", "npc"].includes(e.type)) {
-      ui.notifications.warn(`${e.name} is not a Character or NPC type.`);
+      ui.notifications.warn(`${e.name} не є персонажем або НІП.`);
       continue;
     }
     const t = e.system.wounds.value, n = e.system.wounds.max, i = Math.max(0, t - s);
     if (await e.update({ "system.wounds.value": i }), i === 0 && t > 0)
-      ui.notifications.info(`${e.name} was healed of all wounds.`);
+      ui.notifications.info(`${e.name} повністю зцілений від усіх ран.`);
     else if (s !== -1) {
       const u = Math.min(s, t);
-      ui.notifications.info(`${e.name} healed of ${u} wound${u !== 1 ? "s" : ""}.`);
+      ui.notifications.info(`${e.name} зцілений від ${u} ${u !== 1 ? "ран" : "рани"}.`);
     }
     const r = game.swade.util.getStatusEffectDataById("incapacitated");
     if (!r) {
-      ui.notifications.warn("Incapacitated effect data could not be found.");
+      ui.notifications.warn("Не вдалося знайти дані ефекту Недієздатність.");
       continue;
     }
     const o = i > n;
-    await e.toggleStatusEffect(r.id, { active: o }), o && ui.notifications.info(`${e.name} is incapacitated due to exceeding maximum wounds.`);
+    await e.toggleStatusEffect(r.id, { active: o });
+    if (o) ui.notifications.info(`${e.name} недієздатний через перевищення максимальної кількості ран.`);
   }
 }
 
@@ -3521,33 +3566,37 @@ async function ys() {
       });
   }, "render"), n = [
     "<p>",
-    "Select actors whose items to patch by selecting the actors themselves or the folder that contains them.",
-    " Then select the compendiums to use for patching their owned items.",
+    "Виберіть персонажів, чиї предмети треба виправити, обравши самих персонажів або теку, яка їх містить.",
+    " Потім виберіть компендіуми, які будуть використані для виправлення їхніх предметів.",
     "</p>",
+
     ...e
   ].join(""), i = await foundry.applications.api.DialogV2.prompt({
     classes: ["swade-core-rules", "actor-item-patcher", "scrollable"],
-    window: { title: "Actor Item Patcher", icon: "fa-solid fa-wrench" },
+    window: { title: "Патчер предметів персонажа", icon: "fa-solid fa-wrench" },
     position: { width: 600, height: "auto" },
     content: n,
     render: t,
     ok: {
-      label: "Patch Items",
+      label: "Виправити предмети",
       icon: "fa-solid fa-check",
       callback: (c, m) => new FormDataExtended(m.form).object
     }
   });
+
   if (!i)
     return;
-  const r = vs(i.folders), o = i.actors.map((c) => game.actors.get(c)).filter((c) => c),
-    u = i.packs.map((c) => game.packs.get(c)).filter((c) => c), f = /* @__PURE__ */ new Set([...r, ...o]);
+  const r = vs(i.folders),
+    o = i.actors.map((c) => game.actors.get(c)).filter((c) => c),
+    u = i.packs.map((c) => game.packs.get(c)).filter((c) => c),
+    f = /* @__PURE__ */ new Set([...r, ...o]);
   if (!f.size || !u.length) {
-    ui.notifications.warn("No actors or compendium packs selected. Aborting.");
+    ui.notifications.warn("Не вибрано жодних персонажів або компендіумів. Дію скасовано.");
     return;
   }
   for (const c of f)
     await bs(c, u);
-  ui.notifications.info("Finished patching selected actors!");
+  ui.notifications.info("Виправлення вибраних персонажів завершено!");
 }
 
 l(ys, "patchActorsDialog");
@@ -3576,7 +3625,11 @@ async function bs(a, s) {
       e.push(i);
     }
   }
-  e.length && (await a.updateEmbeddedDocuments("Item", e), console.log(`Patched ${e.length} items for ${a.name}.`));
+  e.length && (
+    await a.updateEmbeddedDocuments("Item", e),
+      console.log(`Виправлено ${e.length} предмет(ів) для ${a.name}.`)
+  );
+
 }
 
 l(bs, "patchActorItems");
@@ -3621,64 +3674,66 @@ const M = getDocumentClass("ChatMessage"), Be = getDocumentClass("ActiveEffect")
 async function Ss() {
   const a = M.getSpeaker(), e = (canvas.ready ? canvas.tokens.get(a.token) : null)?.actor ?? game.actors.get(a.actor);
   if (!e) {
-    ui.notifications.error("No valid actor found.");
+    ui.notifications.error("Не знайдено жодного персонажа.");
     return;
   }
   const t = new Cs({
-    label: "Poison Type",
-    hint: "Choose the type of poison to apply.",
-    required: !0
-  }).toFormGroup(
-    {},
-    {
-      name: "poison",
-      options: [
-        { value: "lethal", label: "Lethal Poison" },
-        { value: "mild", label: "Mild Poison" },
-        { value: "paralyzing", label: "Paralyzing Poison" },
-        { value: "knockout", label: "Knockout Poison" }
-      ]
-    }
-  ).outerHTML, n = new Es({
-    label: "Paralysis Duration (Rounds)",
-    hint: "Optional. Specify a duration for paralysis (rounds). Defaults to 1 if left blank.",
-    min: 1,
-    // Minimum 1 round
-    max: 100,
-    // Maximum 100 rounds
-    integer: !0
-  }).toFormGroup(
-    {},
-    {
-      name: "duration",
-      value: 1,
-      placeholder: "1"
-    }
-  ).outerHTML, i = `
-  <fieldset>
-    <legend>Pick Your Poison</legend>
-    ${t}
-    ${n}
-  </fieldset>`, { FormDataExtended: r } = foundry.applications.ux, o = await foundry.applications.api.DialogV2.wait({
-    window: { title: "Apply Poison", icon: "fa-solid fa-flask-round-poison" },
-    position: { width: 600, height: "auto" },
-    content: i,
-    buttons: [
+      label: "Тип отрути",
+      hint: "Виберіть тип отрути для застосування.",
+      required: !0
+    }).toFormGroup(
+      {},
       {
-        action: "fail",
-        label: "Failure",
-        icon: "fa-solid fa-skull",
-        callback: (u, f) => ({ ...new r(f.form).object, result: "fail" })
-      },
-      {
-        action: "critFail",
-        label: "Critical Failure",
-        icon: "fa-solid fa-skull-crossbones",
-        callback: (u, f) => ({ ...new r(f.form).object, result: "critFail" })
+        name: "poison",
+        options: [
+          { value: "lethal", label: "Смертеносна отрута" },
+          { value: "mild", label: "Послаблююча отрута" },
+          { value: "paralyzing", label: "Паралітична отрута" },
+          { value: "knockout", label: "Непримтомлююча отрита" }
+        ]
       }
-    ]
-  });
+    ).outerHTML, n = new Es({
+      label: "Тривалість паралічу (раунди)",
+      hint: "Необов’язково. Вкажіть тривалість паралічу (в раундах). За замовчуванням — 1, якщо залишити порожнім.",
+      min: 1,
+      // Minimum 1 round
+      max: 100,
+      // Maximum 100 rounds
+      integer: !0
+    }).toFormGroup(
+      {},
+      {
+        name: "duration",
+        value: 1,
+        placeholder: "1"
+      }
+    ).outerHTML, i = `
+  <fieldset>
+  <legend>Виберіть отруту</legend>
+  ${t}
+  ${n}
+</fieldset>`, { FormDataExtended: r } = foundry.applications.ux,
+    o = await foundry.applications.api.DialogV2.wait({
+      window: { title: "Застосувати отруту", icon: "fa-solid fa-flask-round-poison" },
+      position: { width: 600, height: "auto" },
+      content: i,
+      buttons: [
+        {
+          action: "fail",
+          label: "Провал",
+          icon: "fa-solid fa-skull",
+          callback: (u, f) => ({ ...new r(f.form).object, result: "fail" })
+        },
+        {
+          action: "critFail",
+          label: "Критичний провал",
+          icon: "fa-solid fa-skull-crossbones",
+          callback: (u, f) => ({ ...new r(f.form).object, result: "critFail" })
+        }
+      ]
+    });
   o && Is(e, o);
+
 }
 
 l(Ss, "applyPoison");
@@ -3714,30 +3769,37 @@ async function As(a, s, e) {
   }
   const r = (await new Roll("2d6").evaluate({ allowInteractive: !1 })).total;
   M.create({
-    content: `${a.name} is Distracted, Stunned, takes ${n} Wound(s), and will perish from the lethal poison in ${r} rounds.`,
+    content: `${a.name} перебуває у стані Розгубленість, Приголомшений, отримує ${n} ${n === 1 ? "рану" : "рани"}, та загине від смертельної отрути через ${r} раундів.`,
     speaker: M.getSpeaker({ actor: a })
-  }), Be.create(
-    {
-      name: "Lethal Poison",
-      img: "icons/magic/acid/dissolve-bone-skull.webp",
-      duration: { rounds: r },
-      flags: { swade: { expiration: 0 } }
-    },
-    { parent: a }
-  );
+  }),
+    Be.create(
+      {
+        name: "Смертельна отрута",
+        img: "icons/magic/acid/dissolve-bone-skull.webp",
+        duration: { rounds: r },
+        flags: { swade: { expiration: 0 } }
+      },
+      { parent: a }
+    );
 }
 
 l(As, "handleLethalPoison");
 
 async function Ds(a, s, e) {
-  const t = s === "fail" ? 1 : 2, n = a.system.fatigue, i = Math.min(n.max, n.value + t);
+  const t = s === "fail" ? 1 : 2,
+    n = a.system.fatigue,
+    i = Math.min(n.max, n.value + t);
+
   await a.update({ "system.fatigue.value": i });
-  const r = t === 1 ? "Fatigue" : "Exhaustion";
+
+  const r = t === 1 ? "Втома" : "Виснаження";
+
   M.create({
-    content: `${a.name} is Distracted and suffers ${r} from the mild poison.`,
+    content: `${a.name} перебуває у стані Розгубленість і отримує ${r} від легкої отрути.`,
     speaker: M.getSpeaker({ actor: a })
   });
 }
+
 
 l(Ds, "handleMildPoison");
 
@@ -3745,36 +3807,48 @@ async function Ts(a, s, e) {
   const t = game.swade.util.getStatusEffectDataById("stunned");
   a.status.isStunned || await a.toggleActiveEffect(t, { active: !0 });
   const n = M.getSpeaker({ actor: a });
-  e > 1 ? (M.create({
-    content: `${a.name} is Distracted, Stunned, and cannot attempt to recover from being Stunned for ${e} rounds.`,
-    speaker: n
-  }), Be.create(
-    {
-      name: "Paralyzing Poison",
-      img: "icons/svg/paralysis.svg",
-      duration: { rounds: e },
-      flags: { swade: { expiration: 0 } }
-    },
-    { parent: a }
-  )) : M.create({
-    content: `${a.name} is Distracted, Stunned, and may attempt to recover from paralysis on their next turn.`,
-    speaker: n
-  });
+
+  e > 1
+    ? (
+      M.create({
+        content: `${a.name} перебуває у стані Розгубленість, Приголомшений і не може намагатися оговтатися від паралічу протягом ${e} раундів.`,
+        speaker: n
+      }),
+        Be.create(
+          {
+            name: "Паралізуюча отрута",
+            img: "icons/svg/paralysis.svg",
+            duration: { rounds: e },
+            flags: { swade: { expiration: 0 } }
+          },
+          { parent: a }
+        )
+    )
+    : M.create({
+      content: `${a.name} перебуває у стані Розгубленість, Приголомшений і може спробувати оговтатися від паралічу на своєму наступному ході.`,
+      speaker: n
+    });
 }
+
 
 l(Ts, "handleParalyzingPoison");
 
 async function Ps(a, s, e) {
-  if (e = (await new Roll(s === "critFail" ? "4d6" : "2d6").evaluate({ allowInteractive: !1 })).total, !a.status.isIncapacitated) {
+  e = (await new Roll(s === "critFail" ? "4d6" : "2d6").evaluate({ allowInteractive: !1 })).total;
+
+  if (!a.status.isIncapacitated) {
     const t = game.swade.util.getStatusEffectDataById("incapacitated");
     await a.toggleActiveEffect(t, { active: !0 });
   }
+
   M.create({
-    content: `${a.name} is Distracted, Incapacitated, and Unconscious for ${e} hours.`,
+    content: `${a.name} перебуває у стані Розгубленість, Недієздатність та Без свідомості протягом ${e} годин.`,
     speaker: M.getSpeaker({ actor: a })
-  }), Be.create(
+  });
+
+  Be.create(
     {
-      name: "Knockout Poison",
+      name: "Знепритомлююча отрута",
       img: "icons/svg/sleep.svg",
       duration: { seconds: e * 3600 },
       flags: { swade: { expiration: 0 } }
@@ -3782,6 +3856,7 @@ async function Ps(a, s, e) {
     { parent: a }
   );
 }
+
 
 l(Ps, "handleKnockoutPoison");
 
@@ -3875,7 +3950,7 @@ l(Os, "jackOfAllTrades");
 
 const ct = "swade-core-rules";
 
-async function Ls({ itemName: a = "Warrior's Gift", itemFlag: s = "warriors-gift" } = {}) {
+async function Ls({ itemName: a = "Дар Воїна", itemFlag: s = "warriors-gift" } = {}) {
   const e = "icons/svg/sword.svg", t = Ve();
   if (!t)
     return;
@@ -3891,7 +3966,7 @@ async function Ls({ itemName: a = "Warrior's Gift", itemFlag: s = "warriors-gift
       });
   }
   if (n.sort((g, h) => g.label.localeCompare(h.label)), !n.length) {
-    ui.notifications.warn("No Combat Edges found in available compendiums.");
+    ui.notifications.warn("У доступних компендіумах не знайдено бойових переваг.");
     return;
   }
   const i = foundry.applications.fields.createMultiSelectInput({
@@ -3899,9 +3974,9 @@ async function Ls({ itemName: a = "Warrior's Gift", itemFlag: s = "warriors-gift
     name: "edges",
     options: n
   }), r = [
-    `<p>Select the Combat Edges you want to grant with <strong>${a}</strong>.</p>`,
+    `<p>Виберіть бойові переваги, які хочете надати з <strong>${a}</strong>.</p>`,
     "<fieldset>",
-    "<legend>Combat Edges</legend>",
+    "<legend>Бойові переваги</legend>",
     "<div class=\"swade-core-rules scrollable-container\">",
     i.outerHTML,
     "</div>",
@@ -3912,7 +3987,7 @@ async function Ls({ itemName: a = "Warrior's Gift", itemFlag: s = "warriors-gift
     position: { width: "auto", height: "auto" },
     content: r,
     ok: {
-      label: "Grant Edges",
+      label: "Надати переваги",
       callback: (g, h) => h.form.elements.edges.value
     }
   });
@@ -3936,10 +4011,10 @@ async function Ls({ itemName: a = "Warrior's Gift", itemFlag: s = "warriors-gift
     p = getDocumentClass("ActiveEffect");
   for (const g of t) {
     const h = await g.createEmbeddedDocuments("Item", f);
-    if (!h.length)
-      continue;
+    if (!h.length) continue;
     const b = m.format(h.map((S) => S.name));
-    ui.notifications.info(`${g.name} has been granted the ${b} Edges.`), p.create(c, { parent: g });
+    ui.notifications.info(`${g.name} отримує переваги: ${b}.`);
+    p.create(c, { parent: g });
   }
 }
 
@@ -3951,7 +4026,7 @@ async function Fs() {
     const e = game.user.character;
     if (!e) {
       ui.notifications.warn(
-        "No tokens selected and no character assigned. Please select a token or assign a character."
+        "Не вибрано жодної фішки та не призначено персонажа. Будь ласка, виберіть фішку або призначте персонажа."
       );
       return;
     }
@@ -3962,24 +4037,26 @@ async function Fs() {
     await e.toggleStatusEffect(s);
 }
 
+
 l(Fs, "wildAttack");
 
 async function Ms(a, s = {}) {
   const e = foundry.applications.fields.createFormGroup({
-    label: "Fear Penalty",
-    hint: "Input creature Fear Penalty (Positive Number, leave blank for 0)",
+    label: "Штраф від страху",
+    hint: "Вкажіть штраф від страху істоти (додатне число, залиште порожнім для 0)",
     input: foundry.applications.fields.createNumberInput({
       name: "fear",
       placeholder: "0"
     })
   });
+
   foundry.applications.api.DialogV2.prompt({
-    window: { title: "Fear Table Modifier", icon: "fa-solid fa-face-scream" },
+    window: { title: "Модифікатор таблиці страху", icon: "fa-solid fa-face-scream" },
     position: { width: 400, height: "auto" },
     content: `<fieldset>${e.outerHTML}</fieldset>`,
     ok: {
       icon: "fa-solid fa-face-scream",
-      label: "Roll",
+      label: "Кинути",
       callback: async (t, n) => {
         Rs(a, n.form.elements.fear.valueAsNumber || 0);
       }
@@ -3987,12 +4064,14 @@ async function Ms(a, s = {}) {
   });
 }
 
+
 l(Ms, "coreFearDialog");
 
 async function Rs(a, s) {
   const e = await fromUuid("Compendium.swade-core-rules.swade-tables.RollTable.jhkI6HatGAeyflta");
   if (!e) {
-    ui.notifications.error("Fear Table not found.");
+    ui.notifications.error("Таблицю страху не знайдено.");
+
     return;
   }
   const n = (await e.draw({ roll: Roll.create(`1d20 + ${s}`) })).roll.total, i = game.combat?.getCombatantByActor(a);
@@ -4039,14 +4118,19 @@ l(_, "applyStatus");
 
 async function Us(a) {
   if ((await a.rollAttribute("vigor", {
-    additionalMods: [{ label: "Heart Attack", value: -2 }]
+    additionalMods: [{ label: "Серцевий напад", value: -2 }]
   })).total < 4) {
     a.status.isIncapacitated || _("incapacitated", a);
-    const e = CONFIG.SWADE.statusEffects.find((n) => n.id === "heart-attack"), t = new Roll("2d6").roll();
-    await t.toMessage(), e.duration = { rounds: t.total }, await a.toggleActiveEffect(e, { active: !0 });
-  } else
+    const e = CONFIG.SWADE.statusEffects.find((n) => n.id === "heart-attack"),
+      t = new Roll("2d6").roll();
+    await t.toMessage();
+    e.duration = { rounds: t.total };
+    await a.toggleActiveEffect(e, { active: !0 });
+  } else {
     a.status.isStunned || _("stunned", a);
+  }
 }
+
 
 l(Us, "heartAttack");
 
