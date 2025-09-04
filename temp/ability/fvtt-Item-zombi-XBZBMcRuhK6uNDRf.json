@@ -7,7 +7,7 @@
   "system": {
     "source": "SWADE Core Rules UA",
     "additionalStats": {},
-    "description": "<ul><li><strong>Zombie:</strong> Liches are necromancers first and foremost. The undead they raise through the <em>@Compendium[swade-core-rules.swade-powers.Zombie]{zombie}</em> spell are permanent, and they may raise @Compendium[swade-core-rules.swade-bestiary.Skeleton]{skeletons} just like @Compendium[swade-core-rules.swade-bestiary.Zombie]{zombies} as they choose. Some liches have built up entire armies of the undead at their disposal.</li></ul>",
+    "description": "<ul><li><strong>Зомбі:</strong> перш за все, лічі — це некроманти. Невмерлі, яких вони підіймають за допомогою заклять «Зомбі», постійні. За бажання замість зомбі вони можуть викликати скелетів. Деякі лічі з часом можуть створити цілі армії з невмерлих.</li></ul>",
     "grantsPowers": false,
     "notes": "",
     "subtype": "special",

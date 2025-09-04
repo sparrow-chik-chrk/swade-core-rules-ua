@@ -45,7 +45,7 @@
   "system": {
     "source": "SWADE Core Rules UA",
     "additionalStats": {},
-    "description": "<ul><li><strong>Speed:</strong> d10 @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03movement000000]{running die}.</li></ul>",
+    "description": "<ul><li><strong>Швидкість:</strong> @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03movement000000]{кістка бігу} к10.</li></ul>",
     "grantsPowers": false,
     "notes": "",
     "subtype": "special",

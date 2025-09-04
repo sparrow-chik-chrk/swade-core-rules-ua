@@ -7,7 +7,7 @@
   "system": {
     "source": "SWADE Core Rules UA",
     "additionalStats": {},
-    "description": "<ul><li><strong>Sire: </strong>Anyone slain by a vampire has a 50% chance of rising as a vampire in [[/r 1d4]] days.</li></ul>",
+    "description": "<ul><li><strong>Породження: </strong>будь-хто, кого вбив вампір, з шансом 50% сам повстане вампіром через 1к4 днів.</li></ul>",
     "grantsPowers": false,
     "notes": "",
     "subtype": "special",

@@ -7,7 +7,7 @@
   "system": {
     "source": "SWADE Core Rules UA",
     "additionalStats": {},
-    "description": "<ul><li><strong>Night Vision:</strong> Sensor packages ignore penalties for @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03illumination00]{Illumination}.</li></ul>",
+    "description": "<ul><li><strong>Нічне бачення:</strong> завдяки набору датчиків ігнорують штрафи за освітленість.</li></ul>",
     "grantsPowers": false,
     "notes": "",
     "subtype": "special",

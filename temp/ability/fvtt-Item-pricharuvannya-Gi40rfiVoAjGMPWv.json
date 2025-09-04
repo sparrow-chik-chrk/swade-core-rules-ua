@@ -7,7 +7,7 @@
   "system": {
     "source": "SWADE Core Rules UA",
     "additionalStats": {},
-    "description": "<ul><li><strong>Charm:</strong> Vampires can use the <em>@Compendium[swade-core-rules.swade-powers.Puppet]{puppet}</em> power on those attracted to them (GM’s call) using their @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{Smarts} as their @UUID[Compendium.swade-core-rules.swade-rules.swadecor05powers.JournalEntryPage.05arcanebackgr00]{arcane skill}. They can cast and maintain the power indefinitely, but may only affect one target at a time.</li></ul>",
+    "description": "<ul><li><strong>Причарування:</strong> древні вампіри можуть застосовувати силу «Лялька» на тих, хто до них емоційно прив’язаний (на розсуд ігромайстра), використавши свою кмітливість як містичну навичку. Силу можна застосовувати та підтримувати без обмежень у часі, але тільки для однієї цілі одночасно.</li></ul>",
     "grantsPowers": false,
     "notes": "",
     "subtype": "special",

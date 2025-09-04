@@ -7,7 +7,7 @@
   "system": {
     "source": "SWADE Core Rules UA",
     "additionalStats": {},
-    "description": "<ul><li><strong>Ornery:</strong> Mules are contrary creatures. Characters must subtract 1 from their @Compendium[swade-core-rules.swade-skills.Riding]{Riding} rolls when riding them.</li></ul>",
+    "description": "<ul><li><strong>Норов:</strong> мули — уперті тварини. Їдучі на мулі, персонаж має віднімати 1 від кидків на їздецтво.</li></ul>",
     "grantsPowers": false,
     "notes": "",
     "subtype": "special",

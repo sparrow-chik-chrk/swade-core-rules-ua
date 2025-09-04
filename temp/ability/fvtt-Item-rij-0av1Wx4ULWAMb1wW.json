@@ -45,7 +45,7 @@
   "system": {
     "source": "SWADE Core Rules UA",
     "additionalStats": {},
-    "description": "<ul><li><strong>Swarm: </strong>+2 to recover from being @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03damageeffect00]{Shaken}, @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01characters0000]{Parry} +2. Swarms are composed of many small creatures, so cutting and piercing weapons do no real damage. @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03areaeffectat00]{Area eﬀect attacks} work normally, and a character can stomp to inﬂict his damage in @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{Strength} each round. Some swarms (bees, hornets, birds) may be foiled by total immersion in water.</li></ul>",
+    "description": "<ul><li><strong>Рій: </strong>+2 до кидків на оговтання від шоку, +2 до відбивання. Рої складаються з великої кількості маленьких істот, тож різальна та колюча зброя не завдає їм відчутної шкоди. Атаки з площею ураження працюють на них як зазвичай. Також персонаж може топтати рій, щораунду завдаючи ушкоджень, рівних своїй моці. Від деяких роїв (бджолиних, осиних, пташиних) можна сховатися, повністю занурившись під воду.</li></ul>",
     "grantsPowers": false,
     "notes": "",
     "subtype": "special",

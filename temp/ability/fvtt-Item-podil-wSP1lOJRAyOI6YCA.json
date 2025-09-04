@@ -7,7 +7,7 @@
   "system": {
     "source": "SWADE Core Rules UA",
     "additionalStats": {},
-    "description": "<ul><li><strong>Split: </strong>Some swarms split into two smaller swarms when @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{Wounded} (GM’s call). Reduce the @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03areaeffectat00]{Blast Template} one size after a @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{Wound}; Small swarms are destroyed.</li></ul>",
+    "description": "<ul><li><strong>Поділ: </strong>деякі рої, коли зазнають рани, розділяються на два менші рої (на розсуд ігромайстра). Після зазнавання рани слід зменшити їхній радіус дії на один ступінь, а малий рій буде повністю знищено.</li></ul>",
     "grantsPowers": false,
     "notes": "",
     "subtype": "special",

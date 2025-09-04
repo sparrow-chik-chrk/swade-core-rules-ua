@@ -7,7 +7,7 @@
   "system": {
     "source": "SWADE Core Rules UA",
     "additionalStats": {},
-    "description": "<ul><li><strong>Constrict: </strong>+2 to @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{Athletics} and @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{Strength} rolls made to @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03grappling00000]{grapple}.</li></ul>",
+    "description": "<ul><li><strong>Constrict: </strong>+2 до кидків на атлетизм та міць для хапання.</li></ul>",
     "grantsPowers": false,
     "notes": "",
     "subtype": "special",

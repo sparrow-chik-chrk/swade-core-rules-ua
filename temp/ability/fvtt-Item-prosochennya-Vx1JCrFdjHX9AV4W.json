@@ -7,7 +7,7 @@
   "system": {
     "source": "SWADE Core Rules UA",
     "additionalStats": {},
-    "description": "<ul><li><strong>Seep:</strong> Can squeeze through any porous gap as if it were @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03movement000000]{Difficult Ground}.</li></ul>",
+    "description": "<ul><li><strong>Просочення:</strong> можуть просочитися крізь будь-яку шпарину (так ніби це складно-прохідна місцевість).</li></ul>",
     "grantsPowers": false,
     "notes": "",
     "subtype": "special",
