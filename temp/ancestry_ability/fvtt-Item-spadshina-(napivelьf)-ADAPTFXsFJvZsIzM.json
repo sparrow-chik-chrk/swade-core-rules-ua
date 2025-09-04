@@ -19,10 +19,10 @@
     "swid": "heritage",
     "choiceSets": [
       {
-        "title": "Choose Heritage.",
+        "title": "Виберіть спадщину.",
         "choices": [
           {
-            "name": "Adaptable",
+            "name": "Адаптивність",
             "mutation": {
               "system": {
                 "grants": [
@@ -36,7 +36,7 @@
             "addToName": true
           },
           {
-            "name": "Agile",
+            "name": "Спритні",
             "mutation": {
               "effects": [
                 {
@@ -64,10 +64,10 @@
                       "completed": true
                     }
                   },
-                  "name": "Heritage",
+                  "name": "Спадщина",
                   "tint": "#ffffff",
                   "transfer": true,
-                  "description": "<p>Half-elves may retain the grace of their elven parent or the adaptability of their human ancestry. A half-elf may either start with a free Novice @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01edges000000000]{Edge} of his choice or a d6 in @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{Agility} instead of a d4 (which also increases his Agility maximum to d12+1)</p>",
+                  "description": "<p>Напівельфи можуть успадкувати грацію ельфів або адаптивність людей. Напівельф може почати з додатковою @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01edges000000000]{перевагою} новачка на вибір або з к6 для @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{спритності} замість к4 (що також підвищує максимальну спритність до 1к12 + 1).</p>",
                   "_stats": {
                     "coreVersion": "12.331",
                     "systemId": null,

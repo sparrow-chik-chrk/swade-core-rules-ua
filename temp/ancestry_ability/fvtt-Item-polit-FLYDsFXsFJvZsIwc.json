@@ -19,10 +19,10 @@
     "swid": "flight",
     "choiceSets": [
       {
-        "title": "Choose Flight Pace.",
+        "title": "Оберіть темп польоту.",
         "choices": [
           {
-            "name": "Pace 6",
+            "name": "Темп 6",
             "mutation": {
               "system": {
                 "build": {
@@ -33,7 +33,7 @@
                 {
                   "_id": "2t7C73HNJqP4WwCq",
                   "img": "systems/swade/assets/icons/ability.svg",
-                  "name": "Flight Pace 6",
+                  "name": "Темп польоту 6",
                   "changes": [
                     {
                       "key": "system.pace.fly",
@@ -60,7 +60,7 @@
             "addToName": true
           },
           {
-            "name": "Pace 12",
+            "name": "Темп 12",
             "mutation": {
               "system": {
                 "build": {
@@ -71,7 +71,7 @@
                 {
                   "_id": "QZhCgT9JmOK1V1fL",
                   "img": "systems/swade/assets/icons/ability.svg",
-                  "name": "Flight Pace 12",
+                  "name": "Темп польоту 12",
                   "changes": [
                     {
                       "key": "system.pace.fly",
@@ -98,7 +98,7 @@
             "addToName": true
           },
           {
-            "name": "Pace 24 Run 2d6",
+            "name": "Темп 24 Біг 2d6",
             "mutation": {
               "system": {
                 "build": {
@@ -109,7 +109,7 @@
                 {
                   "_id": "4HwVMamkGVbfl50t",
                   "img": "systems/swade/assets/icons/ability.svg",
-                  "name": "Flight Pace 24 Run 2d6",
+                  "name": "Темп польоту 24 Біг 2d6",
                   "changes": [
                     {
                       "key": "system.pace.fly",

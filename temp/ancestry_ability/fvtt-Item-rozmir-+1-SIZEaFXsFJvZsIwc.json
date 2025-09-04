@@ -19,17 +19,17 @@
     "swid": "size-plus-1",
     "choiceSets": [
       {
-        "title": "Choose Size.",
+        "title": "Виберіть розмір.",
         "choices": [
           {
-            "name": "Size 1",
+            "name": "Розмір 1",
             "mutation": {
               "system": {
                 "build": {
                   "cost": 1
                 }
               },
-              "name": "Size 1",
+              "name": "Розмір 1",
               "effects": [
                 {
                   "_id": "15CweVC9gBilrill",
@@ -46,7 +46,7 @@
                   },
                   "flags": {},
                   "icon": "systems/swade/assets/icons/ability.svg",
-                  "name": "Size 1",
+                  "name": "Розмір 1",
                   "tint": null,
                   "transfer": true
                 }
@@ -55,14 +55,14 @@
             "addToName": false
           },
           {
-            "name": "Size 2",
+            "name": "Розмір 2",
             "mutation": {
               "system": {
                 "build": {
                   "cost": 2
                 }
               },
-              "name": "Size 2",
+              "name": "Розмір 2",
               "effects": [
                 {
                   "_id": "lK9EnRW4c6V4ZNzU",
@@ -79,7 +79,7 @@
                   },
                   "flags": {},
                   "icon": "systems/swade/assets/icons/ability.svg",
-                  "name": "Size 2",
+                  "name": "Розмір 2",
                   "tint": null,
                   "transfer": true
                 }
@@ -88,14 +88,14 @@
             "addToName": false
           },
           {
-            "name": "Size 3",
+            "name": "Розмір 3",
             "mutation": {
               "system": {
                 "build": {
                   "cost": 3
                 }
               },
-              "name": "Size 3",
+              "name": "Розмір 3",
               "effects": [
                 {
                   "_id": "o5hgcDh1pZECBwic",
@@ -112,7 +112,7 @@
                   },
                   "flags": {},
                   "icon": "systems/swade/assets/icons/ability.svg",
-                  "name": "Size 3",
+                  "name": "Розмір 3",
                   "tint": null,
                   "transfer": true
                 }

@@ -40,7 +40,7 @@
                   },
                   "flags": {},
                   "icon": "systems/swade/assets/icons/ability.svg",
-                  "name": "Agility Increase (Ancestry)",
+                  "name": "Agility Increase (Походження)",
                   "tint": null,
                   "transfer": true,
                   "description": "<span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.Attribute Increase]{Attribute Increase} (U): </span> During character creation, the species increases a particular @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{attribute} (Agility, Smarts, Spirit, Strength, or Vigor) one die type. This increases the Trait's maximum by one as well."
@@ -68,7 +68,7 @@
                   },
                   "flags": {},
                   "icon": "systems/swade/assets/icons/ability.svg",
-                  "name": "Smarts Increase (Ancestry)",
+                  "name": "Smarts Increase (Походження)",
                   "tint": null,
                   "transfer": true,
                   "description": "<span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.Attribute Increase]{Attribute Increase} (U): </span> During character creation, the species increases a particular @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{attribute} (Agility, Smarts, Spirit, Strength, or Vigor) one die type. This increases the Trait's maximum by one as well."
@@ -96,7 +96,7 @@
                   },
                   "flags": {},
                   "icon": "systems/swade/assets/icons/ability.svg",
-                  "name": "Spirit Increase (Ancestry)",
+                  "name": "Spirit Increase (Походження)",
                   "tint": null,
                   "transfer": true,
                   "description": "<span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.Attribute Increase]{Attribute Increase} (U): </span> During character creation, the species increases a particular @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{attribute} (Agility, Smarts, Spirit, Strength, or Vigor) one die type. This increases the Trait's maximum by one as well."
@@ -124,7 +124,7 @@
                   },
                   "flags": {},
                   "icon": "systems/swade/assets/icons/ability.svg",
-                  "name": "Strength Increase (Ancestry)",
+                  "name": "Strength Increase (Походження)",
                   "tint": null,
                   "transfer": true,
                   "description": "<span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.Attribute Increase]{Attribute Increase} (U): </span> During character creation, the species increases a particular @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{attribute} (Agility, Smarts, Spirit, Strength, or Vigor) one die type. This increases the Trait's maximum by one as well."
@@ -152,7 +152,7 @@
                   },
                   "flags": {},
                   "icon": "systems/swade/assets/icons/ability.svg",
-                  "name": "Vigor Increase (Ancestry)",
+                  "name": "Vigor Increase (Походження)",
                   "tint": null,
                   "transfer": true,
                   "description": "<span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.Attribute Increase]{Attribute Increase} (U): </span> During character creation, the species increases a particular @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{attribute} (Agility, Smarts, Spirit, Strength, or Vigor) one die type. This increases the Trait's maximum by one as well."

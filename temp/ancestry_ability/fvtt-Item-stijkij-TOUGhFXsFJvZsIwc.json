@@ -19,10 +19,10 @@
     "swid": "toughness",
     "choiceSets": [
       {
-        "title": "Pick Toughness Value.",
+        "title": "Оберіть значення Стійкості.",
         "choices": [
           {
-            "name": "Toughness +1",
+            "name": "Стійкість +1",
             "mutation": {
               "effects": [
                 {
@@ -40,12 +40,12 @@
                   },
                   "flags": {},
                   "icon": "systems/swade/assets/icons/ability.svg",
-                  "name": "Ancestry Toughness",
+                  "name": "Стійкість (Походження)",
                   "tint": null,
                   "transfer": true
                 }
               ],
-              "name": "Toughness +1",
+              "name": "Стійкість +1",
               "system": {
                 "build": {
                   "cost": 1
@@ -55,7 +55,7 @@
             "addToName": false
           },
           {
-            "name": "Toughness +2",
+            "name": "Стійкість +2",
             "mutation": {
               "effects": [
                 {
@@ -73,12 +73,12 @@
                   },
                   "flags": {},
                   "icon": "systems/swade/assets/icons/ability.svg",
-                  "name": "Ancestry Toughness",
+                  "name": "Стійкість (Походження)",
                   "tint": null,
                   "transfer": true
                 }
               ],
-              "name": "Toughness +2",
+              "name": "Стійкість +2",
               "system": {
                 "build": {
                   "cost": 2
@@ -88,7 +88,7 @@
             "addToName": false
           },
           {
-            "name": "Toughness +3",
+            "name": "Стійкість +3",
             "mutation": {
               "effects": [
                 {
@@ -106,12 +106,12 @@
                   },
                   "flags": {},
                   "icon": "systems/swade/assets/icons/ability.svg",
-                  "name": "Ancestry Toughness",
+                  "name": "Стійкість (Походження)",
                   "tint": null,
                   "transfer": true
                 }
               ],
-              "name": "Toughness +3",
+              "name": "Стійкість +3",
               "system": {
                 "build": {
                   "cost": 3

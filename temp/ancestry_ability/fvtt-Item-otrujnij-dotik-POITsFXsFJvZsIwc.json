@@ -19,12 +19,12 @@
     "swid": "poisonous-touch",
     "choiceSets": [
       {
-        "title": "Poisonous Touch - Choose one.",
+        "title": "Отруйний дотик - Виберіть одне.",
         "choices": [
           {
-            "name": "Mild",
+            "name": "Слабкість",
             "mutation": {
-              "name": "Poisonous Touch (Mild)",
+              "name": "Отруйний дотик (Слабкість)",
               "system": {
                 "build": {
                   "cost": 1
@@ -34,9 +34,9 @@
             "addToName": false
           },
           {
-            "name": "Knockout",
+            "name": "Непритомність",
             "mutation": {
-              "name": "Poisonous Touch (Knockout)",
+              "name": "Отруйний дотик (Непритомність)",
               "system": {
                 "build": {
                   "cost": 3
@@ -46,9 +46,9 @@
             "addToName": false
           },
           {
-            "name": "Lethal",
+            "name": "Смертельність",
             "mutation": {
-              "name": "Poisonous Touch (Lethal)",
+              "name": "Отруйний дотик (Смертельність)",
               "system": {
                 "build": {
                   "cost": 3
@@ -58,9 +58,9 @@
             "addToName": false
           },
           {
-            "name": "Paralyzing",
+            "name": "Параліч",
             "mutation": {
-              "name": "Poisonous Touch (Paralyzing)",
+              "name": "Отруйний дотик (Параліч)",
               "system": {
                 "build": {
                   "cost": 3

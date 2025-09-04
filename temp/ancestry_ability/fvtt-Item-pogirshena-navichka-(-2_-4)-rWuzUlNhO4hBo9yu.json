@@ -19,19 +19,19 @@
     "swid": "skill-penalty",
     "choiceSets": [
       {
-        "title": "Pick if Skill is Common or Uncommon In Campaign.",
+        "title": "Виберіть, чи є навичка поширеною чи рідкісною у кампанії.",
         "choices": [
           {
-            "name": "Common Skill",
+            "name": "Поширена навичка",
             "mutation": {
-              "name": "Skill Penalty (-2)"
+              "name": "Штраф навички (-2)"
             },
             "addToName": false
           },
           {
-            "name": "Uncommon Skill",
+            "name": "Рідкісна навичка",
             "mutation": {
-              "name": "Skill Penalty (-4)"
+              "name": "Штраф навички (-4)"
             },
             "addToName": false
           }

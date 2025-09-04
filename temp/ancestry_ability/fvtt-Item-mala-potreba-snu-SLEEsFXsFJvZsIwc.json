@@ -19,10 +19,10 @@
     "swid": "sleep-reduction",
     "choiceSets": [
       {
-        "title": "Choose Sleep Reduction Type.",
+        "title": "Оберіть тип зменшення сну.",
         "choices": [
           {
-            "name": "Half Normal Amount",
+            "name": "Вдвічі менше часу для сну",
             "mutation": {
               "system": {
                 "build": {
@@ -33,7 +33,7 @@
             "addToName": true
           },
           {
-            "name": "Never Sleeps",
+            "name": "Ніколи не спить",
             "mutation": {
               "system": {
                 "build": {

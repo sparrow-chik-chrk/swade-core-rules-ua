@@ -19,12 +19,12 @@
     "swid": "reduced-pace",
     "choiceSets": [
       {
-        "title": "Reduced Pace",
+        "title": "Сповільнений темп",
         "choices": [
           {
-            "name": "Reduced Pace -1",
+            "name": "Сповільнений темп -1",
             "mutation": {
-              "name": "Reduced Pace (-1)",
+              "name": "Сповільнений темп (-1)",
               "effects": [
                 {
                   "_id": "ReducedPace00000",
@@ -46,7 +46,7 @@
                   },
                   "flags": {},
                   "icon": "systems/swade/assets/icons/ability.svg",
-                  "name": "Reduced Pace",
+                  "name": "Сповільнений темп",
                   "tint": null,
                   "transfer": true
                 }
@@ -60,9 +60,9 @@
             "addToName": false
           },
           {
-            "name": "Reduced Pace -2",
+            "name": "Сповільнений темп -2",
             "mutation": {
-              "name": "Reduced Pace (-2)",
+              "name": "Сповільнений темп (-2)",
               "effects": [
                 {
                   "_id": "ReducedPace00000",
@@ -78,7 +78,7 @@
                       "value": -2
                     },
                     {
-                      "key": "@Skill{Athletics}[system.die.modifier]",
+                      "key": "@Skill{Атлетизм}[system.die.modifier]",
                       "mode": 2,
                       "value": -2
                     }
@@ -89,7 +89,7 @@
                   },
                   "flags": {},
                   "icon": "systems/swade/assets/icons/ability.svg",
-                  "name": "Reduced Pace",
+                  "name": "Сповільнений темп",
                   "tint": null,
                   "transfer": true
                 }

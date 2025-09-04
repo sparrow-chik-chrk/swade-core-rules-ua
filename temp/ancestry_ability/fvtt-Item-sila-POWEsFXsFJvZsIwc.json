@@ -19,12 +19,12 @@
     "swid": "power",
     "choiceSets": [
       {
-        "title": "Power Choice.",
+        "title": "Оберіть силу",
         "choices": [
           {
-            "name": "One Power",
+            "name": "Одна Сила",
             "mutation": {
-              "name": "Power (One Choice)",
+              "name": "Сила (Один вибір)",
               "system": {
                 "build": {
                   "cost": 2
@@ -34,9 +34,9 @@
             "addToName": false
           },
           {
-            "name": "Two Powers",
+            "name": "Дві Сили",
             "mutation": {
-              "name": "Power (Two Choices)",
+              "name": "Сила (Два вибори)",
               "system": {
                 "build": {
                   "cost": 3
@@ -46,9 +46,9 @@
             "addToName": false
           },
           {
-            "name": "Three Powers",
+            "name": "Три Сили",
             "mutation": {
-              "name": "Power (Three Choices)",
+              "name": "Сила (Три вибори)",
               "system": {
                 "build": {
                   "cost": 4
@@ -58,9 +58,9 @@
             "addToName": false
           },
           {
-            "name": "Four Powers",
+            "name": "Чотири Сили",
             "mutation": {
-              "name": "Power (Four Choices)",
+              "name": "Сила (Чотири вибори)",
               "system": {
                 "build": {
                   "cost": 5
@@ -70,9 +70,9 @@
             "addToName": false
           },
           {
-            "name": "Five Powers",
+            "name": "П’ять Сил",
             "mutation": {
-              "name": "Power (Five Choices)",
+              "name": "Сила (П’ять виборів)",
               "system": {
                 "build": {
                   "cost": 6

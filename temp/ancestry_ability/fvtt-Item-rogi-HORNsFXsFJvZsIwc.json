@@ -19,10 +19,10 @@
     "swid": "horns",
     "choiceSets": [
       {
-        "title": "Horn Type - Choose one.",
+        "title": "Тип рогів - Виберіть одне.",
         "choices": [
           {
-            "name": "Str+d4",
+            "name": "Міць+к4",
             "mutation": {
               "system": {
                 "build": {
@@ -30,7 +30,7 @@
                 },
                 "grants": [
                   {
-                    "name": "Natural Horns",
+                    "name": "Роги",
                     "uuid": "Compendium.swade-core-rules.swade-personal-weapons.Item.BpwEqVGa0KUKtBiR"
                   }
                 ]
@@ -39,7 +39,7 @@
             "addToName": true
           },
           {
-            "name": "Str+d6",
+            "name": "Міць+к6",
             "mutation": {
               "system": {
                 "build": {
@@ -47,7 +47,7 @@
                 },
                 "grants": [
                   {
-                    "name": "Natural Horns",
+                    "name": "Роги",
                     "uuid": "Compendium.swade-core-rules.swade-personal-weapons.Item.BpwEqVGa0KUKtBiR",
                     "mutation": {
                       "system": {

@@ -19,10 +19,10 @@
     "swid": "hindrance",
     "choiceSets": [
       {
-        "title": "Hindrance Type - Choose one.",
+        "title": "Тип недоліку - виберіть один.",
         "choices": [
           {
-            "name": "Minor",
+            "name": "Дрібний",
             "mutation": {
               "system": {
                 "build": {
@@ -33,7 +33,7 @@
             "addToName": true
           },
           {
-            "name": "Major",
+            "name": "Великий",
             "mutation": {
               "system": {
                 "build": {

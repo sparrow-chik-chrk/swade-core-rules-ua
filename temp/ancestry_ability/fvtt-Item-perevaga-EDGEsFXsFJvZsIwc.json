@@ -19,10 +19,10 @@
     "swid": "edge",
     "choiceSets": [
       {
-        "title": "Choose Rank of Edge Taken.",
+        "title": "Оберіть ранг отриманої переваги.",
         "choices": [
           {
-            "name": "Novice",
+            "name": "Новачок",
             "mutation": {
               "system": {
                 "build": {
@@ -33,7 +33,7 @@
             "addToName": true
           },
           {
-            "name": "Seasoned",
+            "name": "Бувалець",
             "mutation": {
               "system": {
                 "build": {
@@ -44,7 +44,7 @@
             "addToName": true
           },
           {
-            "name": "Veteran",
+            "name": "Ветеран",
             "mutation": {
               "system": {
                 "build": {
@@ -55,7 +55,7 @@
             "addToName": true
           },
           {
-            "name": "Heroic",
+            "name": "Герой",
             "mutation": {
               "system": {
                 "build": {

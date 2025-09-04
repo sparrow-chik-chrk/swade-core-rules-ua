@@ -19,12 +19,12 @@
     "swid": "parry",
     "choiceSets": [
       {
-        "title": "Parry Increase - Choose one.",
+        "title": "Покращення відбивання - Виберіть одне.",
         "choices": [
           {
-            "name": "Parry +1",
+            "name": "Відбивання +1",
             "mutation": {
-              "name": "Parry (+1)",
+              "name": "Відбивання (+1)",
               "effects": [
                 {
                   "_id": "ParryIncrease000",
@@ -41,7 +41,7 @@
                   },
                   "flags": {},
                   "icon": "systems/swade/assets/icons/ability.svg",
-                  "name": "Parry Increase (Ancestry)",
+                  "name": "Покращене відбивання (Походження)",
                   "tint": null,
                   "transfer": true
                 }
@@ -55,9 +55,9 @@
             "addToName": false
           },
           {
-            "name": "Parry +2",
+            "name": "Відбивання +2",
             "mutation": {
-              "name": "Parry (+2)",
+              "name": "Відбивання (+2)",
               "effects": [
                 {
                   "_id": "ParryIncrease000",
@@ -74,7 +74,7 @@
                   },
                   "flags": {},
                   "icon": "systems/swade/assets/icons/ability.svg",
-                  "name": "Parry Increase (Ancestry)",
+                  "name": "Покращене відбивання (Походження)",
                   "tint": null,
                   "transfer": true
                 }
@@ -107,7 +107,7 @@
                   },
                   "flags": {},
                   "icon": "systems/swade/assets/icons/ability.svg",
-                  "name": "Parry Increase (Ancestry)",
+                  "name": "Покращене відбивання (Походження)",
                   "tint": null,
                   "transfer": true
                 }

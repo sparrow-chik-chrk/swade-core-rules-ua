@@ -19,10 +19,10 @@
     "swid": "attribute-penalty",
     "choiceSets": [
       {
-        "title": "Attribute Penalty",
+        "title": "Погіршена характеристика",
         "choices": [
           {
-            "name": "Agility Penalty",
+            "name": "Погіршення спритності",
             "mutation": {
               "effects": [
                 {
@@ -40,17 +40,17 @@
                   },
                   "flags": {},
                   "icon": "systems/swade/assets/icons/ability.svg",
-                  "name": "Agility Penalty (Ancestry)",
+                  "name": "Погіршення спритності (Походження)",
                   "tint": null,
                   "transfer": true,
-                  "description": "<span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.Attribute Penalty]{Attribute}Penalty (Once per Attribute): </span> One @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{attribute} (but not its linked skills) suffers a –1 penalty. For 3 points, it suffers a –2 penalty. If @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{Strength}, this applies to damage as well."
+                  "description": "<p><strong>Ліміт: раз на харатеристику.<br />Вартість: -2.</strong></p><p>Одна @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{характеристика} (але не пов’язані з нею навички) має штраф –1. Якщо ця характеристика — @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{міць}, штраф застосовують і до ушкоджень.</p>"
                 }
               ]
             },
             "addToName": true
           },
           {
-            "name": "Smarts Penalty",
+            "name": "Погіршення кмітливості",
             "mutation": {
               "effects": [
                 {
@@ -68,17 +68,17 @@
                   },
                   "flags": {},
                   "icon": "systems/swade/assets/icons/ability.svg",
-                  "name": "Smarts Penalty (Ancestry)",
+                  "name": "Погіршення кмітливості (Походження)",
                   "tint": null,
                   "transfer": true,
-                  "description": "<span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.Attribute Penalty]{Attribute}Penalty (Once per Attribute): </span> One @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{attribute} (but not its linked skills) suffers a –1 penalty. For 3 points, it suffers a –2 penalty. If @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{Strength}, this applies to damage as well."
+                  "description": "<p><strong>Ліміт: раз на харатеристику.<br />Вартість: -2.</strong></p><p>Одна @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{характеристика} (але не пов’язані з нею навички) має штраф –1. Якщо ця характеристика — @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{міць}, штраф застосовують і до ушкоджень.</p>"
                 }
               ]
             },
             "addToName": true
           },
           {
-            "name": "Spirit Penalty",
+            "name": "Погіршення волі",
             "mutation": {
               "effects": [
                 {
@@ -96,17 +96,17 @@
                   },
                   "flags": {},
                   "icon": "systems/swade/assets/icons/ability.svg",
-                  "name": "Spirit Penalty (Ancestry)",
+                  "name": "Погіршення волі (Походження)",
                   "tint": null,
                   "transfer": true,
-                  "description": "<span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.Attribute Penalty]{Attribute}Penalty (Once per Attribute): </span> One @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{attribute} (but not its linked skills) suffers a –1 penalty. For 3 points, it suffers a –2 penalty. If @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{Strength}, this applies to damage as well."
+                  "description": "<p><strong>Ліміт: раз на харатеристику.<br />Вартість: -2.</strong></p><p>Одна @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{характеристика} (але не пов’язані з нею навички) має штраф –1. Якщо ця характеристика — @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{міць}, штраф застосовують і до ушкоджень.</p>"
                 }
               ]
             },
             "addToName": true
           },
           {
-            "name": "Strength Penalty",
+            "name": "Погіршення моці",
             "mutation": {
               "effects": [
                 {
@@ -124,17 +124,17 @@
                   },
                   "flags": {},
                   "icon": "systems/swade/assets/icons/ability.svg",
-                  "name": "Strength Penalty (Ancestry)",
+                  "name": "Погіршення моці (Походження)",
                   "tint": null,
                   "transfer": true,
-                  "description": "<span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.Attribute Penalty]{Attribute}Penalty (Once per Attribute): </span> One @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{attribute} (but not its linked skills) suffers a –1 penalty. For 3 points, it suffers a –2 penalty. If @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{Strength}, this applies to damage as well."
+                  "description": "<p><strong>Ліміт: раз на харатеристику.<br />Вартість: -2.</strong></p><p>Одна @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{характеристика} (але не пов’язані з нею навички) має штраф –1. Якщо ця характеристика — @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{міць}, штраф застосовують і до ушкоджень.</p>"
                 }
               ]
             },
             "addToName": true
           },
           {
-            "name": "Vigor Penalty",
+            "name": "Погіршення витримки",
             "mutation": {
               "effects": [
                 {
@@ -152,10 +152,10 @@
                   },
                   "flags": {},
                   "icon": "systems/swade/assets/icons/ability.svg",
-                  "name": "Vigor Penalty (Ancestry)",
+                  "name": "Погіршення витримки (Походження)",
                   "tint": null,
                   "transfer": true,
-                  "description": "<span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.Attribute Penalty]{Attribute}Penalty (Once per Attribute): </span> One @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{attribute} (but not its linked skills) suffers a –1 penalty. For 3 points, it suffers a –2 penalty. If @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{Strength}, this applies to damage as well."
+                  "description": "<p><strong>Ліміт: раз на харатеристику.<br />Вартість: -2.</strong></p><p>Одна @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{характеристика} (але не пов’язані з нею навички) має штраф –1. Якщо ця характеристика — @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{міць}, штраф застосовують і до ушкоджень.</p>"
                 }
               ]
             },

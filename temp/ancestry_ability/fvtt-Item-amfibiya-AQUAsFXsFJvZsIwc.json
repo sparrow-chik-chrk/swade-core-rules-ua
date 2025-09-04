@@ -19,10 +19,10 @@
     "swid": "aquatic",
     "choiceSets": [
       {
-        "title": "Aquatic or Semi-Aquatic - Choose one.",
+        "title": "Амфібія або Напівамфібія - Вибрати одне.",
         "choices": [
           {
-            "name": "Aquatic",
+            "name": "Амфібія",
             "mutation": {
               "system": {
                 "build": {
@@ -33,7 +33,7 @@
             "addToName": true
           },
           {
-            "name": "Semi-Aquatic",
+            "name": "Напівамфібія",
             "mutation": {
               "system": {
                 "build": {

@@ -19,10 +19,10 @@
     "swid": "claws",
     "choiceSets": [
       {
-        "title": "Claws - Choose one.",
+        "title": "Пазурі - Виберіть одне.",
         "choices": [
           {
-            "name": "Claws Str+d4",
+            "name": "Пазурі Міць+d4",
             "mutation": {
               "system": {
                 "build": {
@@ -30,7 +30,7 @@
                 },
                 "grants": [
                   {
-                    "name": "Natural Claws",
+                    "name": "Пазурі",
                     "uuid": "Compendium.swade-core-rules.swade-personal-weapons.Item.1TUtzm0rkTg1gyXo"
                   }
                 ]
@@ -39,7 +39,7 @@
             "addToName": true
           },
           {
-            "name": "Claws Str+d6",
+            "name": "Пазурі Міць+d6",
             "mutation": {
               "system": {
                 "build": {
@@ -47,7 +47,7 @@
                 },
                 "grants": [
                   {
-                    "name": "Natural Claws",
+                    "name": "Пазурі",
                     "uuid": "Compendium.swade-core-rules.swade-personal-weapons.Item.1TUtzm0rkTg1gyXo",
                     "mutation": {
                       "system": {
@@ -61,7 +61,7 @@
             "addToName": true
           },
           {
-            "name": "Claws Str+d6 AP 2",
+            "name": "Пазурі Міць+d6 ББ 2",
             "mutation": {
               "system": {
                 "build": {
@@ -69,7 +69,7 @@
                 },
                 "grants": [
                   {
-                    "name": "Natural Claws",
+                    "name": "Пазурі",
                     "uuid": "Compendium.swade-core-rules.swade-personal-weapons.Item.1TUtzm0rkTg1gyXo",
                     "mutation": {
                       "system": {

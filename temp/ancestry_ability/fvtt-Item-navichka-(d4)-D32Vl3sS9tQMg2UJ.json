@@ -19,113 +19,15 @@
     "swid": "skill",
     "choiceSets": [
       {
-        "title": "Pick a Skill.",
+        "title": "Оберіть навичку.",
         "choices": [
           {
-            "name": "Academics",
+            "name": "Азартні ігри",
             "mutation": {
               "system": {
                 "grants": [
                   {
-                    "name": "Academics",
-                    "uuid": "Compendium.swade-core-rules.swade-skills.Item.m5TZJMJA0lePG3AB"
-                  }
-                ]
-              }
-            },
-            "addToName": true
-          },
-          {
-            "name": "Battle",
-            "mutation": {
-              "system": {
-                "grants": [
-                  {
-                    "name": "Battle",
-                    "uuid": "Compendium.swade-core-rules.swade-skills.Item.B0IirU8L6QzIN2fI"
-                  }
-                ]
-              }
-            },
-            "addToName": true
-          },
-          {
-            "name": "Boating",
-            "mutation": {
-              "system": {
-                "grants": [
-                  {
-                    "name": "Boating",
-                    "uuid": "Compendium.swade-core-rules.swade-skills.Item.EUG8yRxxMLXxYpnv"
-                  }
-                ]
-              }
-            },
-            "addToName": true
-          },
-          {
-            "name": "Driving",
-            "mutation": {
-              "system": {
-                "grants": [
-                  {
-                    "name": "Driving",
-                    "uuid": "Compendium.swade-core-rules.swade-skills.Item.DW20NotDIt72nKwK"
-                  }
-                ]
-              }
-            },
-            "addToName": true
-          },
-          {
-            "name": "Electronics",
-            "mutation": {
-              "system": {
-                "grants": [
-                  {
-                    "name": "Electronics",
-                    "uuid": "Compendium.swade-core-rules.swade-skills.Item.91f2yizlcZskP6ie"
-                  }
-                ]
-              }
-            },
-            "addToName": true
-          },
-          {
-            "name": "Fighting",
-            "mutation": {
-              "system": {
-                "grants": [
-                  {
-                    "name": "Fighting",
-                    "uuid": "Compendium.swade-core-rules.swade-skills.Item.jixNprOk5ao0aDyI"
-                  }
-                ]
-              }
-            },
-            "addToName": true
-          },
-          {
-            "name": "Faith",
-            "mutation": {
-              "system": {
-                "grants": [
-                  {
-                    "name": "Faith",
-                    "uuid": "Compendium.swade-core-rules.swade-skills.Item.5qXzjDHdjaeYnBod"
-                  }
-                ]
-              }
-            },
-            "addToName": true
-          },
-          {
-            "name": "Gambling",
-            "mutation": {
-              "system": {
-                "grants": [
-                  {
-                    "name": "Gambling",
+                    "name": "Азартні ігри",
                     "uuid": "Compendium.swade-core-rules.swade-skills.Item.JhgyoJ0gUmCzrf7z"
                   }
                 ]
@@ -134,82 +36,12 @@
             "addToName": true
           },
           {
-            "name": "Healing",
+            "name": "Артистичність",
             "mutation": {
               "system": {
                 "grants": [
                   {
-                    "name": "Healing",
-                    "uuid": "Compendium.swade-core-rules.swade-skills.Item.Syo1BvITMeRV2Aat"
-                  }
-                ]
-              }
-            },
-            "addToName": true
-          },
-          {
-            "name": "Hacking",
-            "mutation": {
-              "system": {
-                "grants": [
-                  {
-                    "name": "Hacking",
-                    "uuid": "Compendium.swade-core-rules.swade-skills.Item.J88C2kh6GJScto0L"
-                  }
-                ]
-              }
-            },
-            "addToName": true
-          },
-          {
-            "name": "Intimidation",
-            "mutation": {
-              "system": {
-                "grants": [
-                  {
-                    "name": "Intimidation",
-                    "uuid": "Compendium.swade-core-rules.swade-skills.Item.TlMOxNi4U4YOnHId"
-                  }
-                ]
-              }
-            },
-            "addToName": true
-          },
-          {
-            "name": "Language",
-            "mutation": {
-              "system": {
-                "grants": [
-                  {
-                    "name": "Language",
-                    "uuid": "Compendium.swade-core-rules.swade-skills.Item.YdnNJzqn96If0E1W"
-                  }
-                ]
-              }
-            },
-            "addToName": true
-          },
-          {
-            "name": "Occult",
-            "mutation": {
-              "system": {
-                "grants": [
-                  {
-                    "name": "Occult",
-                    "uuid": "Compendium.swade-core-rules.swade-skills.Item.XMNmVhwrZmL47Vhg"
-                  }
-                ]
-              }
-            },
-            "addToName": true
-          },
-          {
-            "name": "Performance",
-            "mutation": {
-              "system": {
-                "grants": [
-                  {
-                    "name": "Performance",
+                    "name": "Артистичність",
                     "uuid": "Compendium.swade-core-rules.swade-skills.Item.UVdSzNvdAPmGk0iO"
                   }
                 ]
@@ -218,13 +50,13 @@
             "addToName": true
           },
           {
-            "name": "Piloting",
+            "name": "Бійка",
             "mutation": {
               "system": {
                 "grants": [
                   {
-                    "name": "Piloting",
-                    "uuid": "Compendium.swade-core-rules.swade-skills.Item.5RB13H0P7WvxVDBr"
+                    "name": "Бійка",
+                    "uuid": "Compendium.swade-core-rules.swade-skills.Item.jixNprOk5ao0aDyI"
                   }
                 ]
               }
@@ -232,124 +64,12 @@
             "addToName": true
           },
           {
-            "name": "Focus",
+            "name": "Виживання",
             "mutation": {
               "system": {
                 "grants": [
                   {
-                    "name": "Focus",
-                    "uuid": "Compendium.swade-core-rules.swade-skills.Item.3urCcNYxoelufQwp"
-                  }
-                ]
-              }
-            },
-            "addToName": true
-          },
-          {
-            "name": "Psionics",
-            "mutation": {
-              "system": {
-                "grants": [
-                  {
-                    "name": "Psionics",
-                    "uuid": "Compendium.swade-core-rules.swade-skills.Item.bkrB9AajSCSA6eIY"
-                  }
-                ]
-              }
-            },
-            "addToName": true
-          },
-          {
-            "name": "Research",
-            "mutation": {
-              "system": {
-                "grants": [
-                  {
-                    "name": "Research",
-                    "uuid": "Compendium.swade-core-rules.swade-skills.Item.Y1HxgTeyvoqM3SGZ"
-                  }
-                ]
-              }
-            },
-            "addToName": true
-          },
-          {
-            "name": "Repair",
-            "mutation": {
-              "system": {
-                "grants": [
-                  {
-                    "name": "Repair",
-                    "uuid": "Compendium.swade-core-rules.swade-skills.Item.lTxygYQbGn9OoxFz"
-                  }
-                ]
-              }
-            },
-            "addToName": true
-          },
-          {
-            "name": "Riding",
-            "mutation": {
-              "system": {
-                "grants": [
-                  {
-                    "name": "Riding",
-                    "uuid": "Compendium.swade-core-rules.swade-skills.Item.CGECIfK29PAeTupp"
-                  }
-                ]
-              }
-            },
-            "addToName": true
-          },
-          {
-            "name": "Shooting",
-            "mutation": {
-              "system": {
-                "grants": [
-                  {
-                    "name": "Shooting",
-                    "uuid": "Compendium.swade-core-rules.swade-skills.Item.UOYD9aoLPoTZamDS"
-                  }
-                ]
-              }
-            },
-            "addToName": true
-          },
-          {
-            "name": "Science",
-            "mutation": {
-              "system": {
-                "grants": [
-                  {
-                    "name": "Science",
-                    "uuid": "Compendium.swade-core-rules.swade-skills.Item.LMe7vPP4Y1n3c0Fb"
-                  }
-                ]
-              }
-            },
-            "addToName": true
-          },
-          {
-            "name": "Spellcasting",
-            "mutation": {
-              "system": {
-                "grants": [
-                  {
-                    "name": "Spellcasting",
-                    "uuid": "Compendium.swade-core-rules.swade-skills.Item.Ii5r0pBeYHQvdYIp"
-                  }
-                ]
-              }
-            },
-            "addToName": true
-          },
-          {
-            "name": "Survival",
-            "mutation": {
-              "system": {
-                "grants": [
-                  {
-                    "name": "Survival",
+                    "name": "Виживання",
                     "uuid": "Compendium.swade-core-rules.swade-skills.Item.zf0tDkEA1afk1rcs"
                   }
                 ]
@@ -358,13 +78,13 @@
             "addToName": true
           },
           {
-            "name": "Taunt",
+            "name": "Віра",
             "mutation": {
               "system": {
                 "grants": [
                   {
-                    "name": "Taunt",
-                    "uuid": "Compendium.swade-core-rules.swade-skills.Item.yFPvkPIm0IR6eqch"
+                    "name": "Віра",
+                    "uuid": "Compendium.swade-core-rules.swade-skills.Item.5qXzjDHdjaeYnBod"
                   }
                 ]
               }
@@ -372,12 +92,138 @@
             "addToName": true
           },
           {
-            "name": "Thievery",
+            "name": "Водіння",
             "mutation": {
               "system": {
                 "grants": [
                   {
-                    "name": "Thievery",
+                    "name": "Водіння",
+                    "uuid": "Compendium.swade-core-rules.swade-skills.Item.DW20NotDIt72nKwK"
+                  }
+                ]
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Гуманітарні науки",
+            "mutation": {
+              "system": {
+                "grants": [
+                  {
+                    "name": "Гуманітарні науки",
+                    "uuid": "Compendium.swade-core-rules.swade-skills.Item.m5TZJMJA0lePG3AB"
+                  }
+                ]
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Дивні науки",
+            "mutation": {
+              "system": {
+                "grants": [
+                  {
+                    "name": "Дивні науки",
+                    "uuid": "Compendium.swade-core-rules.swade-skills.Item.VMM9LwHq3XEQFL9w"
+                  }
+                ]
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Дослідження",
+            "mutation": {
+              "system": {
+                "grants": [
+                  {
+                    "name": "Дослідження",
+                    "uuid": "Compendium.swade-core-rules.swade-skills.Item.Y1HxgTeyvoqM3SGZ"
+                  }
+                ]
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Електроніка",
+            "mutation": {
+              "system": {
+                "grants": [
+                  {
+                    "name": "Електроніка",
+                    "uuid": "Compendium.swade-core-rules.swade-skills.Item.91f2yizlcZskP6ie"
+                  }
+                ]
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Залякування",
+            "mutation": {
+              "system": {
+                "grants": [
+                  {
+                    "name": "Залякування",
+                    "uuid": "Compendium.swade-core-rules.swade-skills.Item.TlMOxNi4U4YOnHId"
+                  }
+                ]
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Зламування",
+            "mutation": {
+              "system": {
+                "grants": [
+                  {
+                    "name": "Зламування",
+                    "uuid": "Compendium.swade-core-rules.swade-skills.Item.J88C2kh6GJScto0L"
+                  }
+                ]
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Зосередження",
+            "mutation": {
+              "system": {
+                "grants": [
+                  {
+                    "name": "Зосередження",
+                    "uuid": "Compendium.swade-core-rules.swade-skills.Item.3urCcNYxoelufQwp"
+                  }
+                ]
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Їздецтво",
+            "mutation": {
+              "system": {
+                "grants": [
+                  {
+                    "name": "Їздецтво",
+                    "uuid": "Compendium.swade-core-rules.swade-skills.Item.CGECIfK29PAeTupp"
+                  }
+                ]
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Крадіжка",
+            "mutation": {
+              "system": {
+                "grants": [
+                  {
+                    "name": "Крадіжка",
                     "uuid": "Compendium.swade-core-rules.swade-skills.Item.RiG6qQrQoXtw3tvF"
                   }
                 ]
@@ -386,13 +232,181 @@
             "addToName": true
           },
           {
-            "name": "Weird Science",
+            "name": "Лікування",
             "mutation": {
               "system": {
                 "grants": [
                   {
-                    "name": "Weird Science",
-                    "uuid": "Compendium.swade-core-rules.swade-skills.Item.VMM9LwHq3XEQFL9w"
+                    "name": "Лікування",
+                    "uuid": "Compendium.swade-core-rules.swade-skills.Item.Syo1BvITMeRV2Aat"
+                  }
+                ]
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Мови",
+            "mutation": {
+              "system": {
+                "grants": [
+                  {
+                    "name": "Мови",
+                    "uuid": "Compendium.swade-core-rules.swade-skills.Item.YdnNJzqn96If0E1W"
+                  }
+                ]
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Окультизм",
+            "mutation": {
+              "system": {
+                "grants": [
+                  {
+                    "name": "Окультизм",
+                    "uuid": "Compendium.swade-core-rules.swade-skills.Item.XMNmVhwrZmL47Vhg"
+                  }
+                ]
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Пілотування",
+            "mutation": {
+              "system": {
+                "grants": [
+                  {
+                    "name": "Пілотування",
+                    "uuid": "Compendium.swade-core-rules.swade-skills.Item.5RB13H0P7WvxVDBr"
+                  }
+                ]
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Провокація",
+            "mutation": {
+              "system": {
+                "grants": [
+                  {
+                    "name": "Провокація",
+                    "uuid": "Compendium.swade-core-rules.swade-skills.Item.yFPvkPIm0IR6eqch"
+                  }
+                ]
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Псіоніка",
+            "mutation": {
+              "system": {
+                "grants": [
+                  {
+                    "name": "Псіоніка",
+                    "uuid": "Compendium.swade-core-rules.swade-skills.Item.bkrB9AajSCSA6eIY"
+                  }
+                ]
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Ремесло",
+            "mutation": {
+              "system": {
+                "grants": [
+                  {
+                    "name": "Ремесло",
+                    "uuid": "Compendium.swade-core-rules.swade-skills.Item.QlR2kCil5fTceGiq"
+                  }
+                ]
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Ремонт",
+            "mutation": {
+              "system": {
+                "grants": [
+                  {
+                    "name": "Ремонт",
+                    "uuid": "Compendium.swade-core-rules.swade-skills.Item.lTxygYQbGn9OoxFz"
+                  }
+                ]
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Стратегія",
+            "mutation": {
+              "system": {
+                "grants": [
+                  {
+                    "name": "Стратегія",
+                    "uuid": "Compendium.swade-core-rules.swade-skills.Item.B0IirU8L6QzIN2fI"
+                  }
+                ]
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Стрільба",
+            "mutation": {
+              "system": {
+                "grants": [
+                  {
+                    "name": "Стрільба",
+                    "uuid": "Compendium.swade-core-rules.swade-skills.Item.UOYD9aoLPoTZamDS"
+                  }
+                ]
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Судноплавство",
+            "mutation": {
+              "system": {
+                "grants": [
+                  {
+                    "name": "Судноплавство",
+                    "uuid": "Compendium.swade-core-rules.swade-skills.Item.EUG8yRxxMLXxYpnv"
+                  }
+                ]
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Точні науки",
+            "mutation": {
+              "system": {
+                "grants": [
+                  {
+                    "name": "Точні науки",
+                    "uuid": "Compendium.swade-core-rules.swade-skills.Item.LMe7vPP4Y1n3c0Fb"
+                  }
+                ]
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Чарування",
+            "mutation": {
+              "system": {
+                "grants": [
+                  {
+                    "name": "Чарування",
+                    "uuid": "Compendium.swade-core-rules.swade-skills.Item.Ii5r0pBeYHQvdYIp"
                   }
                 ]
               }

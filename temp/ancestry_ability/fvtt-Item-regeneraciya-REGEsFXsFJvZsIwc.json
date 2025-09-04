@@ -19,12 +19,12 @@
     "swid": "regeneration",
     "choiceSets": [
       {
-        "title": "Choose Regeneration Type.",
+        "title": "Оберіть тип регенерації.",
         "choices": [
           {
-            "name": "Regeneration (Slow)",
+            "name": "Регенерація (Повільна)",
             "mutation": {
-              "name": "Regeneration (Slow)",
+              "name": "Регенерація (Повільна)",
               "system": {
                 "build": {
                   "cost": 2
@@ -34,9 +34,9 @@
             "addToName": false
           },
           {
-            "name": "Regeneration (Slow + Injuries)",
+            "name": "Регенерація (Повільна + Каліцтва)",
             "mutation": {
-              "name": "Regeneration (Slow + Injuries)",
+              "name": "Регенерація (Повільна + Каліцтва)",
               "system": {
                 "build": {
                   "cost": 3

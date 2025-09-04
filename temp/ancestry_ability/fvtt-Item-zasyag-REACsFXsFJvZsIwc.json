@@ -19,12 +19,12 @@
     "swid": "reach",
     "choiceSets": [
       {
-        "title": "Choose Ancestries' Reach.",
+        "title": "Виберіть засяг від походження.",
         "choices": [
           {
-            "name": "Reach 1",
+            "name": "Засяг 1",
             "mutation": {
-              "name": "Reach (1)",
+              "name": "Засяг (1)",
               "system": {
                 "build": {
                   "cost": 1
@@ -34,9 +34,9 @@
             "addToName": false
           },
           {
-            "name": "Reach 2",
+            "name": "Засяг 2",
             "mutation": {
-              "name": "Reach (2)",
+              "name": "Засяг (2)",
               "system": {
                 "build": {
                   "cost": 2
@@ -46,9 +46,9 @@
             "addToName": false
           },
           {
-            "name": "Reach 3",
+            "name": "Засяг 3",
             "mutation": {
-              "name": "Reach (3)",
+              "name": "Засяг (3)",
               "system": {
                 "build": {
                   "cost": 3

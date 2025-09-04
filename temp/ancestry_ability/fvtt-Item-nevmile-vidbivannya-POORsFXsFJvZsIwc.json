@@ -19,12 +19,12 @@
     "swid": "poor-parry",
     "choiceSets": [
       {
-        "title": "Poor Parry - Choose one.",
+        "title": "Невміле відбивання - Виберіть одне.",
         "choices": [
           {
-            "name": "Poor Parry -1",
+            "name": "Невміле відбивання -1",
             "mutation": {
-              "name": "Poor Parry (-1)",
+              "name": "Невміле відбивання (-1)",
               "effects": [
                 {
                   "_id": "PoorParry0000000",
@@ -41,7 +41,7 @@
                   },
                   "flags": {},
                   "icon": "systems/swade/assets/icons/ability.svg",
-                  "name": "Poor Parry (Ancestry)",
+                  "name": "Невміле відбивання (Походження)",
                   "tint": null,
                   "transfer": true
                 }
@@ -55,9 +55,9 @@
             "addToName": false
           },
           {
-            "name": "Poor Parry -2",
+            "name": "Невміле відбивання -2",
             "mutation": {
-              "name": "Poor Parry (-2)",
+              "name": "Невміле відбивання (-2)",
               "effects": [
                 {
                   "_id": "PoorParry0000000",
@@ -74,7 +74,7 @@
                   },
                   "flags": {},
                   "icon": "systems/swade/assets/icons/ability.svg",
-                  "name": "Poor Parry (Ancestry)",
+                  "name": "Невміле відбивання (Походження)",
                   "tint": null,
                   "transfer": true
                 }
@@ -88,9 +88,9 @@
             "addToName": false
           },
           {
-            "name": "Poor Parry -3",
+            "name": "Невміле відбивання -3",
             "mutation": {
-              "name": "Poor Parry (-3)",
+              "name": "Невміле відбивання (-3)",
               "effects": [
                 {
                   "_id": "PoorParry0000000",
@@ -107,7 +107,7 @@
                   },
                   "flags": {},
                   "icon": "systems/swade/assets/icons/ability.svg",
-                  "name": "Poor Parry (Ancestry)",
+                  "name": "Невміле відбивання (Походження)",
                   "tint": null,
                   "transfer": true
                 }
