@@ -1,0 +1,40 @@
+{
+  "effects": [],
+  "folder": "X5GhqM8eqmGchLoL",
+  "img": "systems/swade/assets/icons/ability.svg",
+  "name": "Регенерація",
+  "type": "ability",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Легенди розповідають, що @Compendium[swade-core-rules.swade-bestiary.Троль]{тролі}, @Compendium[swade-core-rules.swade-bestiary.Вампір]{вампіри} та деякі інші легендарні створіння можуть відновлюватися від завданих їм ушкоджень.</p><p>Істота виконує кидок на @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03healing0000000#natural-healing]{природне зцілення} раз на день.</p>",
+    "grantsPowers": false,
+    "notes": "",
+    "subtype": "special",
+    "category": "Особливі вміння",
+    "swid": "regeneration",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": [],
+    "build": {
+      "limit": 1,
+      "level": 1
+    }
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756994219269,
+    "modifiedTime": 1756994219269,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.8KRADAvd2ae8L39I",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {}
+}

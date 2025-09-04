@@ -1,0 +1,65 @@
+{
+  "effects": [],
+  "folder": "vk6Y4oqoIBQtcMK2",
+  "img": "modules/swade-core-rules/assets/actions/intimidation.webp",
+  "name": "Залякування (Не Дуже Хороший Підхід)",
+  "type": "action",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "category": "Корисні знайомства",
+    "swid": "network-intimidation",
+    "description": "<p>Можна також використовувати @Compendium[swade-core-rules.swade-skills.Intimidation]{залякування} для збору інформації, отримання послуг чи втілення якихось ваших вимог, але цей спосіб має дещо неприємний присмак.</p><p>Кожна спроба показати, хто тут головний, займає кілька годин погроз, створення неприємностей і обшуку місцевих у пошуках корисного.</p><p>У разі @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{успіху} персонаж отримує майже все, чого хоче, але пізніше залякані жертви можуть захотіти відплатити тією ж монетою. @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{Надмір} пришвидшить процес, дасть більше інформації або ж цілі будуть настільки залякані, що не наважаться на помсту.</p><p>У разі @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{провалу} задирака не дізнається нічого корисного. @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{Критичний провал} означає, що день для персонажа завершиться підбитою губою, синцем під оком або зламаним носом (див. <strong>@UUID[Compendium.swade-core-rules.swade-rules.swadecor04theadv.JournalEntryPage.04bumpsandbrui00]{«Синці та ґулі»}</strong>). Можна повторити спробу наступного дня, але вчорашні жертви цього разу можуть підготувати «теплі обійми»!</p><p><strong>Шибайголова:</strong> забіяка може покращити своє становище перегинаючи палицю та вдаючись до вкрай жорстких заходів. Це відчужує заляканих знайомих на тиждень, але додає +2 до кидка.</p><p>Ставки також підвищуються. Простий провал нестиме <strong>@UUID[Compendium.swade-core-rules.swade-rules.swadecor04theadv.JournalEntryPage.04bumpsandbrui00]{синці та ґулі}</strong>, а з @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{критичним провалом} у комплекті йдуть серйозніші наслідки. ІМ може вирішити влаштувати справжнє зіткнення (це може бути засідка!), з’являється ризик порушити закон, отримати подвійний рівень @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03fatigue0000000]{втоми} від синців та ґуль, або ж зайві запитання можуть накликати на персонажа гнів більш могутнього ворога!</p>",
+    "notes": "",
+    "actions": {
+      "additional": {
+        "bustingHeads": {
+          "type": "trait",
+          "name": "Шибайголова",
+          "modifier": "+2",
+          "uuid": null,
+          "macroActor": "default",
+          "isHeavyWeapon": false,
+          "override": "",
+          "dice": null,
+          "resourcesUsed": null
+        }
+      },
+      "dmgMod": "",
+      "trait": "Залякування",
+      "traitMod": ""
+    },
+    "templates": {
+      "cone": false,
+      "stream": false,
+      "small": false,
+      "medium": false,
+      "large": false
+    },
+    "additionalStats": {},
+    "choiceSets": [],
+    "favorite": false,
+    "bonusDamageDie": 6,
+    "bonusDamageDice": 1,
+    "hidden": false
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756991442735,
+    "modifiedTime": 1756991442735,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.DYz0dETXIBE02wz4",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

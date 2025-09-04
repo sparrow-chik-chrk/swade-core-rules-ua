@@ -1,0 +1,112 @@
+{
+  "effects": [],
+  "img": "systems/swade/assets/icons/ability.svg",
+  "name": "Сила",
+  "type": "ability",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "build": {
+      "cost": 2,
+      "limit": 1,
+      "level": 1
+    },
+    "description": "<p><strong>Ліміт: необмежено.<br />Вартість: 2 / 1.</strong></p><p>Персонаж цієї раси має вроджене вміння, яке вважають @UUID[Compendium.swade-core-rules.swade-rules.swadecor05powers.JournalEntryPage.05powers00000000]{силою}. За 2 очки він має @UUID[Compendium.swade-core-rules.swade-rules.swadecor05powers.JournalEntryPage.05arcanebackgr01]{містичний дар (вроджений)} та силу, що демонструє його незвичне вміння. З кожним наступним рівнем у цій навичці можна за 1 очко змінювати силу на іншу. Вміння не додає очок сили — для цього потрібна перевага @Compendium[swade-core-rules.swade-edges.Power Points]{«Очки сили»}.</p>",
+    "grantsPowers": true,
+    "notes": "",
+    "subtype": "special",
+    "category": "Позитивні",
+    "swid": "power",
+    "choiceSets": [
+      {
+        "title": "Power Choice.",
+        "choices": [
+          {
+            "name": "One Power",
+            "mutation": {
+              "name": "Power (One Choice)",
+              "system": {
+                "build": {
+                  "cost": 2
+                }
+              }
+            },
+            "addToName": false
+          },
+          {
+            "name": "Two Powers",
+            "mutation": {
+              "name": "Power (Two Choices)",
+              "system": {
+                "build": {
+                  "cost": 3
+                }
+              }
+            },
+            "addToName": false
+          },
+          {
+            "name": "Three Powers",
+            "mutation": {
+              "name": "Power (Three Choices)",
+              "system": {
+                "build": {
+                  "cost": 4
+                }
+              }
+            },
+            "addToName": false
+          },
+          {
+            "name": "Four Powers",
+            "mutation": {
+              "name": "Power (Four Choices)",
+              "system": {
+                "build": {
+                  "cost": 5
+                }
+              }
+            },
+            "addToName": false
+          },
+          {
+            "name": "Five Powers",
+            "mutation": {
+              "name": "Power (Five Choices)",
+              "system": {
+                "build": {
+                  "cost": 6
+                }
+              }
+            },
+            "addToName": false
+          }
+        ],
+        "choice": null
+      }
+    ],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756994285030,
+    "modifiedTime": 1756994296584,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.POWEsFXsFJvZsIwc",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "folder": "MSZGJJcE8MglvoaH",
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

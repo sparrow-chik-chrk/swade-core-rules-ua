@@ -1,0 +1,40 @@
+{
+  "effects": [],
+  "folder": "X5GhqM8eqmGchLoL",
+  "img": "systems/swade/assets/icons/ability.svg",
+  "name": "Безстрашний",
+  "type": "ability",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Бездумні істоти, деякі невмерлі, роботи й подібні створіння не мають слабкостей живого розуму. Безстрашні істоти несприйнятливі до ефектів @Compendium[swade-core-rules.swade-powers.Страх]{страху} та @Compendium[swade-core-rules.swade-skills.Залякування]{залякування}. Їх усе ще можна @Compendium[swade-core-rules.swade-skills.Провокація]{спровокувати} (зазвичай тому, що це не так вплив на емоції, як спосіб привернення уваги).</p>",
+    "grantsPowers": false,
+    "notes": "",
+    "subtype": "special",
+    "category": "Особливі вміння",
+    "swid": "fearless",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": [],
+    "build": {
+      "limit": 1,
+      "level": 1
+    }
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756994219269,
+    "modifiedTime": 1756994219269,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.Vw83SZWDVLs8aVrx",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {}
+}

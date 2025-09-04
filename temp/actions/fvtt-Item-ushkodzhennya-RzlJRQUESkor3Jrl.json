@@ -1,0 +1,65 @@
+{
+  "name": "Ушкодження",
+  "type": "action",
+  "img": "systems/swade/assets/icons/action.svg",
+  "system": {
+    "description": "<p>Після успішної атаки ближнього чи дальнього бою нападник виконує кидок на ушкодження. Зброя дальнього бою завдає фіксованих ушкоджень, вказаних в розділі @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02gearnotes00000]{«Спорядження»}. Більшість пістолетів, наприклад, завдають 2к6 ушкоджень.</p><p>Ушкодження зброї ближнього бою — це кістка @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{моці} персонажа плюс додаткова кістка, що залежить від зброї. Варвар з міццю к12 та з довгим мечем (к8 ушкоджень) завдає к12 + к8 ушкоджень.</p><p>Хоча міць використовують для визначення ушкоджень в ближньому бою, це не вважають кидком на @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{рису}, тому заборонено додавати @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03wildcardsand00]{козирну кістку} до таких кидків.</p><p>Кидки на ушкодження можуть давати Окрилення.</p><p><strong>Ушкодження голіруч: </strong>неозброєні бійці кидають лише кістку моці, якщо в них немає @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01edges000000000]{переваг} <strong>@Compendium[swade-core-rules.swade-edges.Brawler]{«Забіяка»} </strong>чи <strong>@Compendium[swade-core-rules.swade-edges.Martial Artist]{«Вправний боєць»}</strong>,<strong> </strong>які дають кістку ушкоджень.</p><h3><strong>БОНУСНІ УШКОДЖЕННЯ</strong></h3><p>Вивірені атаки ймовірніше влучать у життєво важливі органи, а тому завдадуть більше ушкоджень. Надмір у кидку на атаку (неважливо наскільки великий) додає +1к6 до остаточної кількості ушкоджень. Ця бонусна кістка може давати Окрилення!</p><p>Бонусні ушкодження застосовують до всіх атак, зокрема, до @UUID[Compendium.swade-core-rules.swade-rules.swadecor05powers.JournalEntryPage.05powers00000000]{заклять} та зброї, що мають @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03areaeffectat00]{площу ураження}.</p><h3><strong>ЗАВДАВАННЯ УШКОДЖЕНЬ</strong></h3><p>Якщо результат кидка на ушкодження менший за @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01characters0000]{стійкість} цілі, то вона зазнала удару, але він не спричинив ігрового ефекту. Якщо кількість ушкоджень дорівнює стійкості цілі або перевищує її, ціль стає @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03damageeffect00]{шокована}. Також кожен надмір кидка на ушкодження завдає @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03damageeffect00]{рани}:</p><ul class=\"red-bullet-list\"><li><strong>УСПІХ: </strong>персонаж стає шокованим. Якщо він був шокованим до цього і другий успіх був ушкодженням фізичної природи (а не, наприклад, завада спровокувала шок), то залишається шокованим і зазнає рани.</li><li><strong>НАДМІР: </strong>персонаж зазнає рани за кожен надмір кидка на ушкодження і стає шокованим.</li></ul>",
+    "notes": "",
+    "source": "SWADE Core Rules UA",
+    "category": "Правила",
+    "swid": "damage",
+    "additionalStats": {},
+    "favorite": false,
+    "templates": {
+      "cone": false,
+      "stream": false,
+      "small": false,
+      "medium": false,
+      "large": false
+    },
+    "actions": {
+      "trait": "",
+      "traitMod": "",
+      "dmgMod": "",
+      "additional": {
+        "kEQsoJF9": {
+          "name": "Ушкодження",
+          "type": "macro",
+          "dice": null,
+          "resourcesUsed": null,
+          "modifier": "",
+          "override": "",
+          "uuid": "Compendium.swade-core-rules.swade-macros.Macro.oM8eetppvx5qkjmO",
+          "macroActor": "default",
+          "isHeavyWeapon": false
+        }
+      }
+    },
+    "choiceSets": [],
+    "bonusDamageDie": 6,
+    "bonusDamageDice": 1,
+    "hidden": false
+  },
+  "effects": [],
+  "folder": "vk6Y4oqoIBQtcMK2",
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756991442735,
+    "modifiedTime": 1756991442735,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.RzlJRQUESkor3Jrl",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  }
+}

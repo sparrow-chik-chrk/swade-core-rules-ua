@@ -1,0 +1,40 @@
+{
+  "effects": [],
+  "folder": "X5GhqM8eqmGchLoL",
+  "img": "systems/swade/assets/icons/ability.svg",
+  "name": "Поділ",
+  "type": "ability",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<ul><li><strong>Split: </strong>Some swarms split into two smaller swarms when @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{Wounded} (GM’s call). Reduce the @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03areaeffectat00]{Blast Template} one size after a @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{Wound}; Small swarms are destroyed.</li></ul>",
+    "grantsPowers": false,
+    "notes": "",
+    "subtype": "special",
+    "category": "Особливі вміння",
+    "swid": "split",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": [],
+    "build": {
+      "limit": 1,
+      "level": 1
+    }
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756994219269,
+    "modifiedTime": 1756994219269,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.wSP1lOJRAyOI6YCA",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {}
+}

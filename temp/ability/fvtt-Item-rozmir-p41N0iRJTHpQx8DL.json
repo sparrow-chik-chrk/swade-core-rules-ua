@@ -1,0 +1,40 @@
+{
+  "name": "Розмір",
+  "type": "ability",
+  "img": "systems/swade/assets/icons/ability.svg",
+  "system": {
+    "description": "<p>Розмір дає бонуси до стійкості (штрафи для маленьких створінь) та є <em>орієнтиром</em> для визначення типової моці істоти. </p><p>Розмір зазвичай заснований на масі, але для дуже великих, але слабких (чи навпаки) істот існують винятки. </p><p><strong>Додаткові рани:</strong> великі істоти можуть зазнати 1 рани, величезні — 2, гігантські – 3. Максимальний штраф за рани все ще −3. Це накопичується з вміннями @Compendium[swade-core-rules.swade-specialabilities.Витривалий]{«Витривалий / дуже витривалий»}. </p><p>Якщо не вказано іншого, такі істоти мають засяг, рівний максимальній кількості ран завдяки розміру.</p>",
+    "notes": "",
+    "source": "SWADE Core Rules UA",
+    "swid": "none",
+    "additionalStats": {},
+    "choiceSets": [],
+    "favorite": false,
+    "category": "Особливі вміння",
+    "grants": [],
+    "build": {
+      "limit": 1,
+      "level": 1
+    },
+    "subtype": "special",
+    "grantsPowers": false
+  },
+  "effects": [],
+  "folder": "X5GhqM8eqmGchLoL",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756994219269,
+    "modifiedTime": 1756994219269,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.p41N0iRJTHpQx8DL",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  }
+}

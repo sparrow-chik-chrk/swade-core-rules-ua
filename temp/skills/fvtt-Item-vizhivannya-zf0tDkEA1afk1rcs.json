@@ -1,0 +1,40 @@
+{
+  "effects": [],
+  "folder": "2LW7kchDvR6MW86x",
+  "img": "systems/swade/assets/icons/skills/camping-tent.svg",
+  "name": "Виживання",
+  "type": "skill",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "attribute": "smarts",
+    "description": "<p>Навичка виживання дає можливість персонажеві знайти їжу, воду або сховок у ворожому середовищі. Завдяки їй можна також зорієнтуватися в дикій місцевості, з’ясувати, які рослини можна їсти, а які ні тощо.</p><p>@UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{Успішний} кидок на виживання забезпечує достатню кількість їжі та води для однієї особини на день, а @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{надмір} — для п’ятьох.</p><p>Докладнішу інформацію про <strong>@UUID[Compendium.swade-core-rules.swade-rules.swadecor04theadv.JournalEntryPage.04hunger00000000]{голод}</strong> і <strong>@UUID[Compendium.swade-core-rules.swade-rules.swadecor04theadv.JournalEntryPage.04thirst00000000]{спрагу}</strong> можна знайти в підрозділі <strong>@UUID[Compendium.swade-core-rules.swade-rules.swadecor04theadv.JournalEntryPage.04hazards0000000]{«Небезпеки»}</strong>.</p><p><strong>Вистежування: </strong>за допомогою навички виживання можна також виявляти й відстежувати слід. Кожен кидок, як правило, передбачає відстежування сліду протягом 1,5 км, проте ІМ коригує це відповідно до обставин.</p><p>Ігромайстер призначає @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03traitrolls0000#trait-rolls]{бонус або штраф} з огляду на ціль, місцевість і час. Вистежування великого гурту, який нещодавно проминув засніжену місцевість, може мати бонус +4, тоді як слідування за персонажем крізь кам’яні брили та струмки понад добу накладатиме штраф −4.</p>",
+    "die": {
+      "modifier": 0,
+      "sides": 4
+    },
+    "isCoreSkill": false,
+    "notes": "",
+    "wild-die": {
+      "sides": 6
+    },
+    "swid": "survival",
+    "choiceSets": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756992351708,
+    "modifiedTime": 1756992351708,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.zf0tDkEA1afk1rcs",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {}
+}

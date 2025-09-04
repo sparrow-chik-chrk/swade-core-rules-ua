@@ -1,0 +1,61 @@
+{
+  "name": "Топтання",
+  "type": "action",
+  "img": "systems/swade/assets/icons/action.svg",
+  "system": {
+    "description": "<p>Гігантські істоти можуть затоптувати ворогів, використовуючи шаблон радіуса дії (його розмір визначає ІМ на основі розмірів «сліду» чудовиська). Атака ігнорує модифікатори величини, і це кидок протистояння атлетизму істоти проти спритності оборонців (оборонці виконують кидки кожен окремо). Ті, хто не змогли уникнути атаки, зазнають ушкоджень, рівних моці істоти.</p>",
+    "notes": "",
+    "source": "SWADE Core Rules UA",
+    "swid": "none",
+    "additionalStats": {},
+    "choiceSets": [],
+    "favorite": false,
+    "category": "Істоти - Особливі Вміння",
+    "templates": {
+      "cone": false,
+      "stream": false,
+      "small": false,
+      "medium": false,
+      "large": false
+    },
+    "actions": {
+      "trait": "Атлетизм",
+      "traitMod": "",
+      "dmgMod": "",
+      "additional": {
+        "9SxuOE3l": {
+          "name": "Ухилення",
+          "type": "resist",
+          "override": "Спритність",
+          "modifier": "",
+          "dice": null,
+          "resourcesUsed": null,
+          "uuid": null,
+          "macroActor": "default",
+          "isHeavyWeapon": false
+        }
+      }
+    },
+    "bonusDamageDie": 6,
+    "bonusDamageDice": 1,
+    "hidden": false
+  },
+  "effects": [],
+  "folder": "vk6Y4oqoIBQtcMK2",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756991442735,
+    "modifiedTime": 1756991442735,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.2IPPMts3VKLB4fFx",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  }
+}

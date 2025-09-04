@@ -1,0 +1,74 @@
+{
+  "effects": [],
+  "img": "systems/swade/assets/icons/ability.svg",
+  "name": "Амфібія",
+  "type": "ability",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "build": {
+      "cost": 1,
+      "limit": 1,
+      "level": 1
+    },
+    "description": "<p><span class=\"lead-bold\">Ліміт: 1.<br />Вартість: 1 або 2.</span></p><p>За 1 очко персонаж є напівамфібією і може затримувати подих на 15 хвилин, і тільки після того перевіряти, чи тоне. За 2 очки персонаж здатен дихати під водою, тобто не тоне в насиченій киснем рідині та плаває без сповільнення темпу (див. <strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03movement000000#movement]{«Переміщення»}</strong>).</p>",
+    "grantsPowers": false,
+    "notes": "",
+    "subtype": "special",
+    "category": "Позитивні",
+    "swid": "aquatic",
+    "choiceSets": [
+      {
+        "title": "Aquatic or Semi-Aquatic - Choose one.",
+        "choices": [
+          {
+            "name": "Aquatic",
+            "mutation": {
+              "system": {
+                "build": {
+                  "cost": 2
+                }
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Semi-Aquatic",
+            "mutation": {
+              "system": {
+                "build": {
+                  "cost": 1
+                }
+              }
+            },
+            "addToName": true
+          }
+        ],
+        "choice": null
+      }
+    ],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756994285030,
+    "modifiedTime": 1756994296584,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.AQUAsFXsFJvZsIwc",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "folder": "MSZGJJcE8MglvoaH",
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

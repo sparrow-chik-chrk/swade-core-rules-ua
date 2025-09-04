@@ -1,0 +1,40 @@
+{
+  "effects": [],
+  "folder": "2LW7kchDvR6MW86x",
+  "img": "systems/swade/assets/icons/skills/prayer.svg",
+  "name": "Віра",
+  "type": "skill",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "attribute": "spirit",
+    "description": "<p>Віра — це містична навичка, необхідна для <strong>@Compendium[swade-core-rules.swade-edges.Містичний дар (Дива)]{містичного дару (дива)}</strong>.</p>",
+    "die": {
+      "modifier": 0,
+      "sides": 4
+    },
+    "isCoreSkill": false,
+    "notes": "",
+    "wild-die": {
+      "sides": 6
+    },
+    "swid": "faith",
+    "choiceSets": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756992351708,
+    "modifiedTime": 1756992351708,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.5qXzjDHdjaeYnBod",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {}
+}

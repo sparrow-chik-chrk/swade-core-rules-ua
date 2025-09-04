@@ -1,0 +1,45 @@
+{
+  "effects": [],
+  "img": "systems/swade/assets/icons/ability.svg",
+  "name": "Залежність",
+  "type": "ability",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "build": {
+      "cost": -2,
+      "limit": 1,
+      "level": 1
+    },
+    "description": "<p><strong>Ліміт: 1.<br />Вартість: -2.</strong></p><p>Кожні 24 години раса повинна споживати якусь порівняно поширену речовину або контактувати з нею впродовж однієї години. Істоти водяних світів, наприклад, можуть потребувати занурення у воду; рослинним народам може знадобитися сонячне світло. Без необхідного контакту щодня персонаж буде @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03fatigue0000000]{втомленим}, згодом стане @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03damageeffect00]{недієздатним}, а через добу після цього загине. Кожна година відновлення за допомогою відповідної речовини знімає один рівень втоми.</p>",
+    "grantsPowers": false,
+    "notes": "",
+    "subtype": "special",
+    "category": "Негативні",
+    "swid": "dependency",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756994285030,
+    "modifiedTime": 1756994296584,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.DEPEsFXsFJvZsIwc",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "folder": "MSZGJJcE8MglvoaH",
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

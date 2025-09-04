@@ -1,0 +1,88 @@
+{
+  "effects": [],
+  "img": "systems/swade/assets/icons/ability.svg",
+  "name": "Невразливий до отрут чи хвороб",
+  "type": "ability",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "build": {
+      "cost": 1,
+      "limit": 1,
+      "level": 1
+    },
+    "description": "<p><strong>Ліміт: 2.<br />Вартість: 1.</strong></p><p>Така раса невразлива до @UUID[Compendium.swade-core-rules.swade-rules.swadecor04theadv.JournalEntryPage.04poison00000000]{отрут} або @UUID[Compendium.swade-core-rules.swade-rules.swadecor04theadv.JournalEntryPage.04disease0000000]{хвороб} (на ваш вибір). Можна взяти двічі, щоб отримати обидва ефекти.</p>",
+    "grantsPowers": false,
+    "notes": "",
+    "subtype": "special",
+    "category": "Позитивні",
+    "swid": "immune-to-poison-or-disease",
+    "choiceSets": [
+      {
+        "title": "Poison, Disease, or Both - Choose one.",
+        "choices": [
+          {
+            "name": "Poison",
+            "mutation": {
+              "name": "Immune (Poison)",
+              "system": {
+                "build": {
+                  "cost": 1
+                }
+              }
+            },
+            "addToName": false
+          },
+          {
+            "name": "Disease",
+            "mutation": {
+              "name": "Immune (Disease)",
+              "system": {
+                "build": {
+                  "cost": 1
+                }
+              }
+            },
+            "addToName": false
+          },
+          {
+            "name": "Both",
+            "mutation": {
+              "name": "Immune (Posion & Disease)",
+              "system": {
+                "build": {
+                  "cost": 2
+                }
+              }
+            },
+            "addToName": false
+          }
+        ],
+        "choice": null
+      }
+    ],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756994285030,
+    "modifiedTime": 1756994296584,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.IMMUsFXsFJvZsIwc",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "folder": "MSZGJJcE8MglvoaH",
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

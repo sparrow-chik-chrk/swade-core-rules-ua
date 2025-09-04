@@ -1,0 +1,45 @@
+{
+  "effects": [],
+  "img": "systems/swade/assets/icons/ability.svg",
+  "name": "Загартований",
+  "type": "ability",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "build": {
+      "cost": 2,
+      "limit": 1,
+      "level": 1
+    },
+    "description": "<p><strong>Ліміт: 1.<br />Вартість: 2.</strong></p><p>Повторний @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03damageeffect00]{шок} у бою не завдає @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03damageeffect00]{рани}.</p>",
+    "grantsPowers": false,
+    "notes": "",
+    "subtype": "special",
+    "category": "Позитивні",
+    "swid": "hardy",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756994285030,
+    "modifiedTime": 1756994296584,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.HARDsFXsFJvZsIwc",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "folder": "MSZGJJcE8MglvoaH",
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

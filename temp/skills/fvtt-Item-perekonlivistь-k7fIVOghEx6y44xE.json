@@ -1,0 +1,40 @@
+{
+  "effects": [],
+  "folder": "2LW7kchDvR6MW86x",
+  "img": "systems/swade/assets/icons/skills/convince.svg",
+  "name": "Переконливість",
+  "type": "skill",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "attribute": "spirit",
+    "description": "<p>Переконливість — це здатність переконувати інших вчинити так, як хочете ви, використовуючи логіку, вмовляння, обман чи інші неагресивні способи. Переконливість — це не контроль розуму. Ви можете вплинути на ставлення персонажа, але не на його мету. Ви можете переконати бандита залишити перстень матері, але він все одно забере решту ваших речей.</p><p>Якщо навичку використовують для <strong>@UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03support0000000]{підтримки}</strong> союзників, то кидок протистояння не потрібен. А якщо ціль опирається, то кидок протистояння виконують проти @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{волі} цілі. ІМ може модифікувати кидок так, як вважатиме за потрібне, з урахуванням ситуації, персонажів і всіх пов’язаних @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01edges000000000]{переваг} і @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01hindrances0000]{недоліків}, які впливають на спілкування й обставини.</p><p><strong>Рівень ставлення:</strong> відкритість персонажа до співпраці насамперед залежить від його ставлення до співрозмовника. Ігромайстер може визначити ставлення неігрових персонажів, опираючись на сценарій або, якщо немає попередніх заготовок, кинувши кістку й звіривши результат із <strong>@Compendium[swade-core-rules.swade-tables.Таблиця ставлення]{«Таблицею ставлення»}</strong>.</p><p>@UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{Успіх} поліпшує ставлення до персонажа на один рівень, а надмір — на два. Подальше поліпшення зазвичай можливе під час наступного зіткнення — зміна звичок потребує певного часу.</p><p>@UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{Провал} означає, що ставлення цілі не зміниться в цій сцені або доки ситуація суттєво не зміниться. @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{Критичний провал} <em>погіршує</em> ставлення цілі на два рівні.</p><p>Загалом за одну взаємодію дозволений один кидок, якщо не з’явилася нова інформація, не запропоновано значну нагороду тощо.</p><p><strong>Корисні знайомства: </strong>переконливість можна використати й для того, щоб визначити результати кількагодинного випитування в народу на вулицях. Персонажі можуть скористатися соціальними зв’язками, щоб отримати певну вигоду чи здобути інформацію. Див. <strong>@UUID[Compendium.swade-core-rules.swade-rules.swadecor04theadv.JournalEntryPage.04networking0000]{«Корисні знайомства»}</strong>.</p>",
+    "die": {
+      "modifier": 0,
+      "sides": 4
+    },
+    "isCoreSkill": true,
+    "notes": "",
+    "wild-die": {
+      "sides": 6
+    },
+    "swid": "persuasion",
+    "choiceSets": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756992351708,
+    "modifiedTime": 1756992351708,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.k7fIVOghEx6y44xE",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {}
+}

@@ -1,0 +1,85 @@
+{
+  "effects": [
+    {
+      "_id": "A9beVwR3yV8v8o83",
+      "name": "Загартованість",
+      "changes": [
+        {
+          "key": "flags.swade.hardy",
+          "mode": 2,
+          "value": "true",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "flags": {},
+      "tint": "#ffffff",
+      "transfer": true,
+      "description": "<p>Дуже міцні чи цілеспрямовані істоти нечутливі до незначних ран, байдуже скільки їх зазнали. Для подолання таких істот потрібен потужний вирішальний удар.</p><p>Якщо така істота шокована, наступний ре- зультат, що призвів до шоку, не завдає рани.</p>",
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": "swade",
+        "systemVersion": "5.0.5",
+        "lastModifiedBy": null
+      },
+      "img": "systems/swade/assets/icons/ability.svg",
+      "type": "base",
+      "system": {
+        "expiration": null,
+        "removeEffect": false,
+        "loseTurnOnHold": false,
+        "favorite": false,
+        "conditionalEffect": false
+      },
+      "origin": null,
+      "statuses": [],
+      "sort": 0
+    }
+  ],
+  "img": "systems/swade/assets/icons/ability.svg",
+  "name": "Загартованість",
+  "type": "ability",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Дуже міцні чи цілеспрямовані істоти нечутливі до незначних ран, байдуже скільки їх зазнали. Для подолання таких істот потрібен потужний вирішальний удар. </p><p>Якщо така істота шокована, наступний ре- зультат, що призвів до шоку, не завдає рани.</p>",
+    "grantsPowers": false,
+    "notes": "",
+    "subtype": "special",
+    "category": "Особливі вміння",
+    "swid": "hardy",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": [],
+    "build": {
+      "limit": 1,
+      "level": 1
+    }
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756994219269,
+    "modifiedTime": 1756994219269,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.0sxEdBfTBDKwpN5S",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "folder": "X5GhqM8eqmGchLoL",
+  "flags": {}
+}

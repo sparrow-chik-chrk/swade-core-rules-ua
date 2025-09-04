@@ -1,0 +1,40 @@
+{
+  "effects": [],
+  "folder": "X5GhqM8eqmGchLoL",
+  "img": "systems/swade/assets/icons/ability.svg",
+  "name": "Зміна форми",
+  "type": "ability",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<ul><li><strong>Change Form:</strong> As an action, a vampire can change into a wolf or bat with a @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{Smarts} roll at −2. Changing back into humanoid form requires a @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{Smarts} roll.</li></ul>",
+    "grantsPowers": false,
+    "notes": "",
+    "subtype": "special",
+    "category": "Особливі вміння",
+    "swid": "change-form",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": [],
+    "build": {
+      "limit": 1,
+      "level": 1
+    }
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756994219269,
+    "modifiedTime": 1756994219269,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.9CFCHhjKfclxHolb",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {}
+}

@@ -1,0 +1,76 @@
+{
+  "effects": [],
+  "folder": "vk6Y4oqoIBQtcMK2",
+  "img": "systems/swade/assets/icons/action.svg",
+  "name": "Душа компанії",
+  "type": "action",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "category": "Переваги",
+    "swid": "work-the-room",
+    "description": "<p>Слова вашого персонажа часто надихають не лише ціль, але й інших слухачів. Застосування переваги «Душа компанії» — це обмежена дія, що дає вам змогу кинути додаткову кістку нави- чки для @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03support0000000]{підтримки} союзників за допомогою @Compendium[swade-core-rules.swade-skills.Переконливість]{переконливості} або @Compendium[swade-core-rules.swade-skills.Артистичність]{артистичності}. Додаткова кістка підтримує іншого союзника за тими ж правилами, та її можна застосовувати до будь- якої риси. Це не обов’язково має бути одна й та ж риса для обох союзників.</p>",
+    "notes": "",
+    "actions": {
+      "additional": {
+        "supPers": {
+          "type": "trait",
+          "name": "Підтримка (Переконливість)",
+          "override": "Переконливість",
+          "dice": 2,
+          "uuid": null,
+          "macroActor": "default",
+          "isHeavyWeapon": false,
+          "modifier": "",
+          "resourcesUsed": null
+        },
+        "supPerf": {
+          "type": "trait",
+          "name": "Підтримка (Артистичність)",
+          "override": "Артистичність",
+          "dice": 2,
+          "uuid": null,
+          "macroActor": "default",
+          "isHeavyWeapon": false,
+          "modifier": "",
+          "resourcesUsed": null
+        }
+      },
+      "dmgMod": "",
+      "trait": "",
+      "traitMod": ""
+    },
+    "templates": {
+      "cone": false,
+      "stream": false,
+      "small": false,
+      "medium": false,
+      "large": false
+    },
+    "additionalStats": {},
+    "choiceSets": [],
+    "favorite": false,
+    "bonusDamageDie": 6,
+    "bonusDamageDice": 1,
+    "hidden": false
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756991442735,
+    "modifiedTime": 1756991442735,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.CUPDShaoReWFMXV6",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

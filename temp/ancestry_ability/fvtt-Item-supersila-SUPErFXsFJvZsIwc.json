@@ -1,0 +1,45 @@
+{
+  "effects": [],
+  "img": "systems/swade/assets/icons/ability.svg",
+  "name": "Суперсила",
+  "type": "ability",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "build": {
+      "cost": 2,
+      "limit": 1,
+      "level": 1
+    },
+    "description": "<p><strong>Ліміт: 1.<br />Вартість: 2 + X.</strong></p><p>Ця раса має справді надзвичайні вміння, узяті з допоміжної книги «Шалені світи: Суперсили». Вона коштує 2 очки — за містичний дар (суперсилу) — плюс фактична вартість вибраної сили (Х). Перед тим, як брати надзвичайне вміння, переконайтеся, що маєте на це дозвіл від ІМ.</p>",
+    "grantsPowers": false,
+    "notes": "",
+    "subtype": "special",
+    "category": "Позитивні",
+    "swid": "super-powers",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756994285030,
+    "modifiedTime": 1756994296584,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.SUPErFXsFJvZsIwc",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "folder": "MSZGJJcE8MglvoaH",
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

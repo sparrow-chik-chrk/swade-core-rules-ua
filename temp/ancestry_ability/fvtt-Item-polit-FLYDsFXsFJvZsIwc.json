@@ -1,0 +1,166 @@
+{
+  "effects": [],
+  "img": "systems/swade/assets/icons/ability.svg",
+  "name": "Політ",
+  "type": "ability",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "build": {
+      "cost": 2,
+      "limit": 1,
+      "level": 1
+    },
+    "description": "<p><strong>Ліміт: 1.<br />Вартість: 2 / 4 / 6.</strong></p><p>Така раса може літати зі @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03movement000000]{швидкістю} 6 (або 12 за 4 очки) та «бігти» у разі додаткового переміщення, як зазвичай. За 6 очок істота може літати зі швидкістю 24 і «бігти» на 2к6 додаткового переміщення. Маневрування потребує навички @Compendium[swade-core-rules.swade-skills.Athletics]{атлетизму}. Здатність раси літати передбачає наявність якихось крил, в які можна поцілити або сплутати (<strong>@UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03boundandenta00]{зв’язаний або знерухомлений}</strong> персонаж не може літати).</p>",
+    "grantsPowers": false,
+    "notes": "",
+    "subtype": "special",
+    "category": "Позитивні",
+    "swid": "flight",
+    "choiceSets": [
+      {
+        "title": "Choose Flight Pace.",
+        "choices": [
+          {
+            "name": "Pace 6",
+            "mutation": {
+              "system": {
+                "build": {
+                  "cost": 2
+                }
+              },
+              "effects": [
+                {
+                  "_id": "2t7C73HNJqP4WwCq",
+                  "img": "systems/swade/assets/icons/ability.svg",
+                  "name": "Flight Pace 6",
+                  "changes": [
+                    {
+                      "key": "system.pace.fly",
+                      "mode": 2,
+                      "value": 6,
+                      "priority": null
+                    },
+                    {
+                      "key": "system.pace.base",
+                      "mode": 5,
+                      "value": "fly",
+                      "priority": null
+                    }
+                  ],
+                  "disabled": true,
+                  "flags": {
+                    "swade": {
+                      "favorite": true
+                    }
+                  }
+                }
+              ]
+            },
+            "addToName": true
+          },
+          {
+            "name": "Pace 12",
+            "mutation": {
+              "system": {
+                "build": {
+                  "cost": 4
+                }
+              },
+              "effects": [
+                {
+                  "_id": "QZhCgT9JmOK1V1fL",
+                  "img": "systems/swade/assets/icons/ability.svg",
+                  "name": "Flight Pace 12",
+                  "changes": [
+                    {
+                      "key": "system.pace.fly",
+                      "mode": 2,
+                      "value": 12,
+                      "priority": null
+                    },
+                    {
+                      "key": "system.pace.base",
+                      "mode": 5,
+                      "value": "fly",
+                      "priority": null
+                    }
+                  ],
+                  "disabled": true,
+                  "flags": {
+                    "swade": {
+                      "favorite": true
+                    }
+                  }
+                }
+              ]
+            },
+            "addToName": true
+          },
+          {
+            "name": "Pace 24 Run 2d6",
+            "mutation": {
+              "system": {
+                "build": {
+                  "cost": 2
+                }
+              },
+              "effects": [
+                {
+                  "_id": "4HwVMamkGVbfl50t",
+                  "img": "systems/swade/assets/icons/ability.svg",
+                  "name": "Flight Pace 24 Run 2d6",
+                  "changes": [
+                    {
+                      "key": "system.pace.fly",
+                      "mode": 2,
+                      "value": 24,
+                      "priority": null
+                    },
+                    {
+                      "key": "system.pace.base",
+                      "mode": 5,
+                      "value": "fly",
+                      "priority": null
+                    }
+                  ],
+                  "disabled": true,
+                  "flags": {
+                    "swade": {
+                      "favorite": true
+                    }
+                  }
+                }
+              ]
+            },
+            "addToName": true
+          }
+        ],
+        "choice": null
+      }
+    ],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756994285030,
+    "modifiedTime": 1756994296584,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.FLYDsFXsFJvZsIwc",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "folder": "MSZGJJcE8MglvoaH",
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

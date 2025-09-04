@@ -1,0 +1,40 @@
+{
+  "effects": [],
+  "folder": "X5GhqM8eqmGchLoL",
+  "img": "systems/swade/assets/icons/ability.svg",
+  "name": "Інфразір",
+  "type": "ability",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Нічні істоти часто бачать в інфрачервоному спектрі, тобто можуть виявляти теплове випромінювання. Істоти з інфразором зменшують удвічі штрафи за погане освітлення, коли атакують цілі, які випромінюють тепло (навіть невидимих істот). </p><p>Розумні персонажі можуть знайти спосіб приховати своє теплове випромінювання від таких істот. Зазвичай можна знизити свою помітність для істот з інфразором, розмазавши холодний бруд по тілу або надягнувши термоізоляційний костюм. </p><p>Гуманоїди з інфразором зазвичай бачать і у видимому спектрі.</p>",
+    "grantsPowers": false,
+    "notes": "",
+    "subtype": "special",
+    "category": "Особливі вміння",
+    "swid": "infravision",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": [],
+    "build": {
+      "limit": 1,
+      "level": 1
+    }
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756994219269,
+    "modifiedTime": 1756994219269,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.MD0NjyxafjV8S85d",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {}
+}

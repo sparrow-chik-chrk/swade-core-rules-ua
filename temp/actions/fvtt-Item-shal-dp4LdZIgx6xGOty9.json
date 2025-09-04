@@ -1,0 +1,65 @@
+{
+  "effects": [],
+  "folder": "vk6Y4oqoIBQtcMK2",
+  "img": "modules/swade-core-rules/assets/actions/frenzy.webp",
+  "name": "Шал",
+  "type": "action",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "category": "Переваги",
+    "swid": "frenzy",
+    "description": "<p>Впадання в «Шал» — це обмежена дія, яка дає змогу <em>кинути</em> додаткову кістку @Compendium[swade-core-rules.swade-skills.Fighting]{бійки} під час будь-якої однієї рукопашної атаки за хід. Атаку додатковою кісткою можна спрямувати на ту ж ціль чи на якусь іншу. Її розігрують окремо.</p>",
+    "notes": "",
+    "actions": {
+      "additional": {
+        "frenzyAttack": {
+          "type": "trait",
+          "name": "Шал",
+          "dice": 2,
+          "resourcesUsed": null,
+          "modifier": "",
+          "override": "",
+          "uuid": null,
+          "macroActor": "default",
+          "isHeavyWeapon": false
+        }
+      },
+      "dmgMod": "",
+      "trait": "Бійка",
+      "traitMod": ""
+    },
+    "templates": {
+      "cone": false,
+      "stream": false,
+      "small": false,
+      "medium": false,
+      "large": false
+    },
+    "additionalStats": {},
+    "choiceSets": [],
+    "favorite": false,
+    "bonusDamageDie": 6,
+    "bonusDamageDice": 1,
+    "hidden": true
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756991442735,
+    "modifiedTime": 1756991442735,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.dp4LdZIgx6xGOty9",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

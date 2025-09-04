@@ -1,0 +1,40 @@
+{
+  "effects": [],
+  "folder": "2LW7kchDvR6MW86x",
+  "img": "systems/swade/assets/icons/skills/hidden.svg",
+  "name": "Непомітність",
+  "type": "skill",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "attribute": "agility",
+    "description": "<p>Непомітність — це навичка переховування та безшумного переміщення. У разі @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03traitrolls0000#trait-rolls]{успішного} кидка на непомітність персонажеві вдається уникнути виявлення, якщо вороги не надто пильні. Якщо ж кидок @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03traitrolls0000#trait-rolls]{провальний}, ворог усвідомлює, що щось не так, і починає активно шукати щось підозріле.</p><p>Коли вороги попереджені й насторожі, непомітності починає протистояти @Compendium[swade-core-rules.swade-skills.Уважність]{уважність} (@UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{груповий кидок} за великої кількості ворогів).</p><p>ІМ має додати до кидків на @Compendium[swade-core-rules.swade-skills.Уважність]{уважність} усі можливі штрафи, як-от за @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03illumination00]{темряву}, @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03coverandobst00]{заслону}, шум, відволікання або за різницю в @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03sizeandscale00]{розмірі} цілі (як під час атаки). Наприклад, скрадання через сухе листя віднімає 2 від результату кидка на непомітність. А щоб помітити когось у темряві, потрібно застосувати штраф за @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03illumination00]{освітлення} (−4). Однак не слід застосовувати однаковий модифікатор до обох кидків. Якщо непомітність під час скрадання сухим листям має −2, це не означає, що уважність має +2.</p><p><strong>Прихована атака: </strong>якщо потрібно підкрастися достатньо близько й виконати атаку ближнього бою, вашому кидку на непомітність завжди @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{протистоятиме} кидок на @Compendium[swade-core-rules.swade-skills.Уважність]{уважність} цілі, незалежно від того, чи вона очікує нападу, чи ні. У разі успіху жертва стає <strong>@UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03distractedan00]{вразливою}</strong> для нападника, але лише до кінця його поточного ходу. За надміру нападнику вдається <strong>@UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03thedrop0000000]{заскочити}</strong> ціль.</p><p><strong>Переміщення:</strong> під час бою персонажі щоходу виконують кидок на непомітність @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03actions0000000]{вільною дією} після переміщення або будь-якої дії, яка, на думку ІМ, може привернути увагу.</p><p>Поза боєм відстань переміщення повністю залежить від ситуації. ІМ може виконувати кидок щохвилини, якщо гурт скрадається периметром оборонної позиції, або що кілька миль, якщо гурт намагається тихо пройти стежкою через темний ліс, не привернувши уваги тамтешніх створінь.</p>",
+    "die": {
+      "modifier": 0,
+      "sides": 4
+    },
+    "isCoreSkill": true,
+    "notes": "",
+    "wild-die": {
+      "sides": 6
+    },
+    "swid": "stealth",
+    "choiceSets": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756992351708,
+    "modifiedTime": 1756992351708,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.bFaYnzftXwQ9p4Si",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {}
+}

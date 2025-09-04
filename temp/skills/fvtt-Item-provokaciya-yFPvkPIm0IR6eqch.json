@@ -1,0 +1,40 @@
+{
+  "effects": [],
+  "folder": "2LW7kchDvR6MW86x",
+  "img": "systems/swade/assets/icons/skills/confrontation.svg",
+  "name": "Провокація",
+  "type": "skill",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "attribute": "smarts",
+    "description": "<p>Навичка провокації дає зачепити гордість персонажа за допомогою насмішок, жорстоких жартів чи зверхньої поведінки.</p><p>Кидку на провокацію @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{протистоїть} кидок на кмітливість суперника. У бою це створює @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03test0000000000]{заваду}.</p><p>Поза боєм @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{успішний} кидок означає, що ціль відступає, тікає або розпочинає бійку. За @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03traitrolls0000#trait-rolls]{надміру} жертва може бути залякана до кінця зіткнення, або, розлютившись чи навіть розплакавшись, утекти геть або ж безрозсудно атакувати свого гнобителя (наприклад, @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03wildattack0000]{зухвалою атакою} в першому раунді бою).</p><p>За @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{критичного провалу} ціль стає невразливою до подальших провокацій персонажа до кінця зіткнення.</p>",
+    "die": {
+      "modifier": 0,
+      "sides": 4
+    },
+    "isCoreSkill": false,
+    "notes": "",
+    "wild-die": {
+      "sides": 6
+    },
+    "swid": "taunt",
+    "choiceSets": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756992351708,
+    "modifiedTime": 1756992351708,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.yFPvkPIm0IR6eqch",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {}
+}

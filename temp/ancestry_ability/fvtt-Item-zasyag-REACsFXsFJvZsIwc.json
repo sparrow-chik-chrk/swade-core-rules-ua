@@ -1,0 +1,88 @@
+{
+  "effects": [],
+  "img": "systems/swade/assets/icons/ability.svg",
+  "name": "Засяг",
+  "type": "ability",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "build": {
+      "cost": 1,
+      "limit": 1,
+      "level": 1
+    },
+    "description": "<p><strong>Ліміт: 3.<br />Вартість: 1.</strong></p><p>Довгі кінцівки, мацаки тощо дають істоті +1 до @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02reach000000000]{засягу} (ще +1 з кожним наступним рівнем).</p>",
+    "grantsPowers": false,
+    "notes": "",
+    "subtype": "special",
+    "category": "Позитивні",
+    "swid": "reach",
+    "choiceSets": [
+      {
+        "title": "Choose Ancestries' Reach.",
+        "choices": [
+          {
+            "name": "Reach 1",
+            "mutation": {
+              "name": "Reach (1)",
+              "system": {
+                "build": {
+                  "cost": 1
+                }
+              }
+            },
+            "addToName": false
+          },
+          {
+            "name": "Reach 2",
+            "mutation": {
+              "name": "Reach (2)",
+              "system": {
+                "build": {
+                  "cost": 2
+                }
+              }
+            },
+            "addToName": false
+          },
+          {
+            "name": "Reach 3",
+            "mutation": {
+              "name": "Reach (3)",
+              "system": {
+                "build": {
+                  "cost": 3
+                }
+              }
+            },
+            "addToName": false
+          }
+        ],
+        "choice": null
+      }
+    ],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756994285030,
+    "modifiedTime": 1756994296584,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.REACsFXsFJvZsIwc",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "folder": "MSZGJJcE8MglvoaH",
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

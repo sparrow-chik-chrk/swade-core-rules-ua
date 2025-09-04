@@ -1,0 +1,65 @@
+{
+  "effects": [],
+  "folder": "vk6Y4oqoIBQtcMK2",
+  "img": "modules/swade-core-rules/assets/actions/persuasion.webp",
+  "name": "Переконливість (Хороший Підхід)",
+  "type": "action",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "category": "Корисні знайомства",
+    "swid": "network-persuasion",
+    "description": "<p>Персонажі використовують @Compendium[swade-core-rules.swade-skills.Persuasion]{переконливість}, щоб влитися в різні соціальні кола заради інформації або певних послуг. У таких випадках перевірка переконливості не обмежиться однією розмовою, а займе години на знайомства, теревені, бенкети, випивки, подарунки, хабарі та розваги. Це може відбуватися в офісі, під час серії зустрічей із важливими персонами або (найчастіше) під час вечер чи посиденьок у барах.</p><p>У разі @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{успіху} персонаж отримає майже все, чого хоче, але на це доведеться витратити трохи часу, грошей або зробити послугу у відповідь. @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{Надмір} допоможе отримати навіть більше бажаного або те саме за меншу ціну.</p><p>@UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{Провал} означає, що зусилля героя марні. @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{Критичний провал} обриває конкретне коло спілкування для героя на певний час (на розсуд ІМ, але зазвичай на тиждень).</p><p><strong>Гроші — сила:</strong> приказка каже: «Одних підкуплять, других напоять, третім лиха накоять». Персонаж з невеликим прибутком додає +2 до своїх спроб завести корисні знайомства, адже витрачає кошти на кращі хабарі, подарунки та бенкети для своїх інформаторів.</p><p>Ціну підкупу встановлює ІМ залежно від умов та характеру зв’язків, які намагається встановити персонаж. Як орієнтир можна використати стандартний стартовий капітал сценарію, змінюючи це число за потреби.</p>",
+    "notes": "",
+    "actions": {
+      "additional": {
+        "moneyTalks": {
+          "type": "trait",
+          "name": "Гроші — сила",
+          "modifier": "+2",
+          "uuid": null,
+          "macroActor": "default",
+          "isHeavyWeapon": false,
+          "override": "",
+          "dice": null,
+          "resourcesUsed": null
+        }
+      },
+      "dmgMod": "",
+      "trait": "Переконливість",
+      "traitMod": ""
+    },
+    "templates": {
+      "cone": false,
+      "stream": false,
+      "small": false,
+      "medium": false,
+      "large": false
+    },
+    "additionalStats": {},
+    "choiceSets": [],
+    "favorite": false,
+    "bonusDamageDie": 6,
+    "bonusDamageDice": 1,
+    "hidden": false
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756991442735,
+    "modifiedTime": 1756991442735,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.TluD4qIwifJGpyZp",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

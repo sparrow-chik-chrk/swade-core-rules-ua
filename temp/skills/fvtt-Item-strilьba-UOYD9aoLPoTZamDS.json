@@ -1,0 +1,40 @@
+{
+  "effects": [],
+  "folder": "2LW7kchDvR6MW86x",
+  "img": "systems/swade/assets/icons/skills/crosshair.svg",
+  "name": "Стрільба",
+  "type": "skill",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "attribute": "agility",
+    "description": "<p>Навичка стрільби охоплює всі спроби влучити в ціль зі зброї дальнього бою, як-от з лука, пістолета чи гранатомета (для метальної зброї потрібна навичка @Compendium[swade-core-rules.swade-skills.Атлетизм]{атлетизму}). Див. @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03combat00000000]{третій розділ} для докладнішої інформації про дальній бій.</p>",
+    "die": {
+      "modifier": 0,
+      "sides": 4
+    },
+    "isCoreSkill": false,
+    "notes": "",
+    "wild-die": {
+      "sides": 6
+    },
+    "swid": "shooting",
+    "choiceSets": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756992351708,
+    "modifiedTime": 1756992351708,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.UOYD9aoLPoTZamDS",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {}
+}

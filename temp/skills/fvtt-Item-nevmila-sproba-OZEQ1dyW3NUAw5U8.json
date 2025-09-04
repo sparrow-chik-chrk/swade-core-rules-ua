@@ -1,0 +1,40 @@
+{
+  "effects": [],
+  "folder": "2LW7kchDvR6MW86x",
+  "img": "systems/swade/assets/icons/skills/uncertainty.svg",
+  "name": "Невміла Спроба",
+  "type": "skill",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "attribute": "agility",
+    "description": "<p>Якщо персонаж не має навички для дії, яку він хоче виконати, він кидає к4 замість кістки навички (разом зі звичайною козирною кісткою, якщо він @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03wildcardsand00]{козирна карта}) та віднімає 2 від результату.</p><p>ІМ може вирішити, що деякі справи, як-от комплексна хірургія чи пілотування літака, не можна навіть намагатися робити без відповідних навичок.</p>",
+    "die": {
+      "modifier": -2,
+      "sides": 4
+    },
+    "isCoreSkill": false,
+    "notes": "",
+    "wild-die": {
+      "sides": 6
+    },
+    "swid": "unskilled-attempt",
+    "choiceSets": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756992351708,
+    "modifiedTime": 1756992351708,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.OZEQ1dyW3NUAw5U8",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {}
+}

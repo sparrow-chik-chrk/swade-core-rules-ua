@@ -1,0 +1,53 @@
+{
+  "effects": [],
+  "folder": "vk6Y4oqoIBQtcMK2",
+  "img": "modules/swade-core-rules/assets/actions/jump.webp",
+  "name": "Стрибок",
+  "type": "action",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "category": "Ситуативні Правила",
+    "swid": "jump",
+    "description": "<p>Персонажі можуть стрибати на 2 метри горизонтально чи на 1 метр вертикально вільною дією. Відстань подвоюють, якщо герой перед стрибком пробіг принаймні 4 метри. Також герой може пройти перевірку @Compendium[swade-core-rules.swade-skills.Athletics]{атлетизму} як дію, аби збільшити дистанцію горизонтального стрибка на 2 метри (4 метри за надміру) чи вертикального стрибка на половину цього показника. Стрибками персонаж не може перевищити загальний показник темпу на хід.</p>",
+    "notes": "",
+    "actions": {
+      "additional": {},
+      "dmgMod": "",
+      "trait": "Атлетизм",
+      "traitMod": ""
+    },
+    "templates": {
+      "cone": false,
+      "stream": false,
+      "small": false,
+      "medium": false,
+      "large": false
+    },
+    "additionalStats": {},
+    "choiceSets": [],
+    "favorite": false,
+    "bonusDamageDie": 6,
+    "bonusDamageDice": 1,
+    "hidden": false
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756991442735,
+    "modifiedTime": 1756991442735,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.gxg58JUxI1kL79sw",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

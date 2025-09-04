@@ -1,0 +1,40 @@
+{
+  "effects": [],
+  "folder": "2LW7kchDvR6MW86x",
+  "img": "systems/swade/assets/icons/skills/computing.svg",
+  "name": "Зламування",
+  "type": "skill",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "attribute": "smarts",
+    "description": "<p>Зламування — це навичка написання програм та «зламу» захищених операційних систем. Для її використання завжди потрібен комп’ютер або якийсь інтерфейс.</p><p>Як правило, зламування вимагає простого кидка. Час, який на нього потрібен, визначає ІМ. Це може тривати впродовж дії, коротшого часу або ж займати години, дні чи навіть місяці залежно від складності. У разі @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{успіху} спроба є вдалою, а надмір скорочує витрачений час удвічі. Як правило, у разі @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{провалу} персонаж має повторити спробу, а @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03traitrolls0000#trait-rolls]{критичний провал} може означати втрату доступу до системи, увімкнення сигналізації чи якісь інші контрзаходи.</p>",
+    "die": {
+      "modifier": 0,
+      "sides": 4
+    },
+    "isCoreSkill": false,
+    "notes": "",
+    "wild-die": {
+      "sides": 6
+    },
+    "swid": "hacking",
+    "choiceSets": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756992351708,
+    "modifiedTime": 1756992351708,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.J88C2kh6GJScto0L",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {}
+}

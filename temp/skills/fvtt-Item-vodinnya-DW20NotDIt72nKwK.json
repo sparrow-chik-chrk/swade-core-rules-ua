@@ -1,0 +1,40 @@
+{
+  "effects": [],
+  "folder": "2LW7kchDvR6MW86x",
+  "img": "systems/swade/assets/icons/skills/steering-wheel.svg",
+  "name": "Водіння",
+  "type": "skill",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "attribute": "agility",
+    "description": "<p>Водіння дає змогу герою керувати будь-яким звичним для свого світу наземним транспортом. Це поняття охоплює автомобілі, мотоцикли, танки тощо.</p><p>(Для велосипедів та іншого самохідного транспорту використовують @Compendium[swade-core-rules.swade-skills.Атлетизм]{атлетизм}, а для гужового — @Compendium[swade-core-rules.swade-skills.Їздецтво]{їздецтво}.)</p><p>У сценаріях із сучасним світом, де транспорт є повсюдним, водіння необов’язкове для звичайних поїздок. Зазвичай кидки на водіння потрібні в небезпечних чи напружених ситуаціях, наприклад, під час <strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04chasesandveh00]{гонитви}</strong>.</p>",
+    "die": {
+      "modifier": 0,
+      "sides": 4
+    },
+    "isCoreSkill": false,
+    "notes": "",
+    "wild-die": {
+      "sides": 6
+    },
+    "swid": "driving",
+    "choiceSets": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756992351708,
+    "modifiedTime": 1756992351708,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.DW20NotDIt72nKwK",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {}
+}

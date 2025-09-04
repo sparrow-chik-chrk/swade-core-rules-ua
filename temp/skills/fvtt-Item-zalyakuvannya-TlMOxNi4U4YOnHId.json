@@ -1,0 +1,40 @@
+{
+  "effects": [],
+  "folder": "2LW7kchDvR6MW86x",
+  "img": "systems/swade/assets/icons/skills/arrest.svg",
+  "name": "Залякування",
+  "type": "skill",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "attribute": "spirit",
+    "description": "<p>Залякування — це мистецтво вселити страх в суперника, щоб він поступився, розкрив якусь інформацію або втік.</p><p>Залякування є @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{кидком протистояння}, якому опирається @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{воля} суперника. В бою воно є <strong>@UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03test0000000000]{завадою}</strong>. Поза боєм успішний кидок зазвичай означає, що ворог йде на поступки, розкриває якусь інформацію або ж потайки тікає за першої ж можливості.</p><p>За @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{надміру} ціль може поступатися до кінця сцени, розкрити всі секрети або ж з усіх ніг кинутися навтьоки.</p><p>Як у бою, так і поза ним @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{критичний провал} означає, що до кінця зіткнення ціль невразлива до подальших спроб залякування цим персонажем!</p><p><strong>Корисні знайомства:</strong> залякування можна використати й для того, щоб визначити результати кількагодинного випитування в народу на вулицях. Див. <strong>@UUID[Compendium.swade-core-rules.swade-rules.swadecor04theadv.JournalEntryPage.04networking0000]{«Корисні знайомства»}</strong>, щоб дізнатися, як розв’язати комусь язика чи змусити до співпраці.</p>",
+    "die": {
+      "modifier": 0,
+      "sides": 4
+    },
+    "isCoreSkill": false,
+    "notes": "",
+    "wild-die": {
+      "sides": 6
+    },
+    "swid": "intimidation",
+    "choiceSets": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756992351708,
+    "modifiedTime": 1756992351708,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.TlMOxNi4U4YOnHId",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {}
+}

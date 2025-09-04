@@ -1,0 +1,40 @@
+{
+  "name": "Вразливість до довкілля",
+  "type": "ability",
+  "img": "systems/swade/assets/icons/ability.svg",
+  "system": {
+    "description": "<p>Істота вразлива до певного виду енергії чи речовини, наприклад, холоду, тепла, заліза тощо.</p><p>Ушкодження від цього джерела збільшені на 4. Також істота має штраф −4 до опору відповідним небезпекам чи силам з такими проявами.</p>",
+    "notes": "",
+    "source": "SWADE Core Rules UA",
+    "swid": "none",
+    "additionalStats": {},
+    "choiceSets": [],
+    "favorite": false,
+    "category": "Особливі вміння",
+    "grants": [],
+    "build": {
+      "limit": 1,
+      "level": 1
+    },
+    "subtype": "special",
+    "grantsPowers": false
+  },
+  "effects": [],
+  "folder": "X5GhqM8eqmGchLoL",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756994219269,
+    "modifiedTime": 1756994219269,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.aUXyrTX6UbJmNV4B",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  }
+}

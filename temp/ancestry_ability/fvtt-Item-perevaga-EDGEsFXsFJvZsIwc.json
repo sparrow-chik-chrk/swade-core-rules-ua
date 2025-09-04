@@ -1,0 +1,96 @@
+{
+  "effects": [],
+  "img": "systems/swade/assets/icons/ability.svg",
+  "name": "Перевага",
+  "type": "ability",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "build": {
+      "cost": 2,
+      "limit": 1,
+      "level": 1
+    },
+    "description": "<p><strong>Ліміт: необмежено.<br />Вартість: 2 + X.</strong></p><p>Усі представники раси мають однакову вроджену @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01edges000000000]{перевагу}, вибрану з доступних. На відміну від вміння «Адаптивний», не обов’язково дотримуватися вимог (окрім інших @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01edges000000000]{переваг}). Кожен наступний @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01advancement000]{ранг}, вищий за «Новачок», коштує додаткове очко (максимальний ранг «Герой» (5)).</p>",
+    "grantsPowers": false,
+    "notes": "",
+    "subtype": "special",
+    "category": "Позитивні",
+    "swid": "edge",
+    "choiceSets": [
+      {
+        "title": "Choose Rank of Edge Taken.",
+        "choices": [
+          {
+            "name": "Novice",
+            "mutation": {
+              "system": {
+                "build": {
+                  "cost": 2
+                }
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Seasoned",
+            "mutation": {
+              "system": {
+                "build": {
+                  "cost": 3
+                }
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Veteran",
+            "mutation": {
+              "system": {
+                "build": {
+                  "cost": 4
+                }
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Heroic",
+            "mutation": {
+              "system": {
+                "build": {
+                  "cost": 5
+                }
+              }
+            },
+            "addToName": true
+          }
+        ],
+        "choice": null
+      }
+    ],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756994285030,
+    "modifiedTime": 1756994296584,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.EDGEsFXsFJvZsIwc",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "folder": "MSZGJJcE8MglvoaH",
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

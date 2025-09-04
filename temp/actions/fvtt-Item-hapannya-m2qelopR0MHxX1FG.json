@@ -1,0 +1,73 @@
+{
+  "effects": [],
+  "folder": "vk6Y4oqoIBQtcMK2",
+  "img": "modules/swade-core-rules/assets/actions/grapple.webp",
+  "name": "Хапання",
+  "type": "action",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "category": "Ситуативні Правила",
+    "swid": "grapple",
+    "description": "<p>Хапання — це кидок протистояння @Compendium[swade-core-rules.swade-skills.Athletics]{атлетизму} між нападником й оборонцем. Якщо нападник перемагає, то суперник буде Зв’язаний. За надміру він буде Знерухомлений. (Якщо ворог уже зв’язаний, то успіх знерухомить його.) Див. <strong>@UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03boundandenta00]{«Зв’язаність і знерухомленість»}</strong>.</p><p>Якщо суперник знерухомлений, то <em>утримувач</em> також @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03distractedan00]{вразливий}, поки триває схоплення.</p><p>Бонус @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03gangingup00000]{групування} застосовують, коли оборонця схоплено, але решта маневрів на цей час не діє. У певних випадках ігромайстер може вирішити інакше.</p><p><strong>Розмір має значення: </strong>якщо нападник й оборонець мають різну величину (див. @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03sizeandscale00]{Розмір і Величина}), утримувач віднімає різницю від свого значення кидка (оборонець цього не робить).</p><p>Зазвичай створіння не можуть схопити вдвічі більшого ворога, якщо вони не мають виняткових для свого розміру засягу чи @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{моці} (на розсуд ІМ).</p><p class=\"embedded-example\"><strong>Приклад: </strong>Дракон (величезний +4) намагається притиснути злодія-піврослика (звичайний). Різниця між величезним і звичайним — 4, тому дракон має відняти 4 від свого кидка на @Compendium[swade-core-rules.swade-skills.Athletics]{атлетизм}.<br />Якщо огр (звичайний) намагається схопити білу акулу (велика +2), то він мусить відняти 2 від свого кидка.</p><p><strong>Чавлення: </strong>утримувач може за дію виконати кидок на міць як ушкодження цілі, яку він зв’язав або знерухомив. (Це кидок на ушкодження, тому модифікатори @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03sizeandscale00]{величини} ігнорують.)</p>",
+    "notes": "",
+    "actions": {
+      "additional": {
+        "opposeGrapple": {
+          "type": "resist",
+          "name": "Протистояння Хапанню",
+          "uuid": null,
+          "macroActor": "default",
+          "isHeavyWeapon": false,
+          "override": "",
+          "modifier": ""
+        },
+        "crush": {
+          "type": "damage",
+          "name": "Чавлення",
+          "override": "@str",
+          "uuid": null,
+          "macroActor": "default",
+          "isHeavyWeapon": false,
+          "modifier": "",
+          "ap": null
+        }
+      },
+      "dmgMod": "",
+      "trait": "Атлетизм",
+      "traitMod": ""
+    },
+    "templates": {
+      "cone": false,
+      "stream": false,
+      "small": false,
+      "medium": false,
+      "large": false
+    },
+    "additionalStats": {},
+    "choiceSets": [],
+    "favorite": false,
+    "bonusDamageDie": 6,
+    "bonusDamageDice": 1,
+    "hidden": false
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756991442735,
+    "modifiedTime": 1756991442735,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.m2qelopR0MHxX1FG",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

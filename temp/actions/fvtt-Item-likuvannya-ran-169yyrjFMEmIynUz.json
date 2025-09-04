@@ -1,0 +1,61 @@
+{
+  "effects": [],
+  "folder": "vk6Y4oqoIBQtcMK2",
+  "img": "modules/swade-core-rules/assets/actions/healing.webp",
+  "name": "Лікування Ран",
+  "type": "action",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "category": "Лікування",
+    "swid": "healing",
+    "description": "<p>Навичка @Compendium[swade-core-rules.swade-skills.Healing]{лікування} дає змогу зцілювати @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03damageeffect00]{рани}. Кожна спроба триває 10 хвилин за кожну рану пацієнта. Без аптечки чи інших медичних засобів кидок має штраф −1.</p><p>Успіх нівелює одну рану, @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{надмір} — дві. У разі провалу всі рани залишаються. За @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{критичного провалу} пацієнт зазнає ще однієї рани.</p><aside class=\"the-golden-hour\"><h2><strong>ЗОЛОТА ГОДИНА</strong></h2><p>У важко пораненого персонажа є приблизно година, щоб уникнути наслідків, несумісних з життям. Якщо допомогу надати протягом цього часу, то його можна врятувати. Чим довше зволікати, тим вищі шанси, що @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03damageeffect00]{Wounds} стануть фатальними.</p><p>У «Шалених світах» ми поширили це правило на лікування загалом. Це не лише робить механіку реалістичнішою, але й гру збалансованішою, і додає драматизму: наприклад, персонажі можуть вирішити героїчно йти вперед, попри зазнані рани.</p></aside><p><strong>Золота година: </strong>персонаж може спробувати вилікувати @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03damageeffect00]{рани} пацієнта лише раз і лише впродовж години після їх зазнавання. У разі провалу вважається, що цей персонаж не здатен вилікувати конкретно ці рани. Втім, <em>інший</em> персонаж може спробувати кидком на @Compendium[swade-core-rules.swade-skills.Healing]{лікування} допомоги тому ж пацієнту.</p><p>Якщо @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03damageeffect00]{ранам} більш як година, вони можуть минути лише внаслідок природного зцілення або завдяки силі @Compendium[swade-core-rules.swade-powers.Healing]{«Зцілення»} (застосувавши «Велике зцілення»)</p><p><strong>Кровотеча: </strong>навичку @Compendium[swade-core-rules.swade-skills.Healing]{лікування} можна застосувати також для зупинки <strong>@UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03damageeffect00]{кровотечі} </strong>пацієнта. Кожна спроба витрачає @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03actions0000000]{дію}, у разі успіху якої стан пацієнта буде стабілізовано.</p><p><strong>Недієздатність: </strong>зцілення принаймні однієї @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03damageeffect00]{рани} @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03damageeffect00]{недієздатного} пацієнта знімає цей стан (та повертає до свідомості).</p>",
+    "notes": "",
+    "actions": {
+      "additional": {
+        "heal": {
+          "type": "macro",
+          "name": "Лікувати ціль",
+          "uuid": "Compendium.swade-core-rules.swade-macros.Macro.Q2jSI3bMuJZVRmnx",
+          "macroActor": "default",
+          "isHeavyWeapon": false
+        }
+      },
+      "dmgMod": "",
+      "trait": "Лікування",
+      "traitMod": ""
+    },
+    "templates": {
+      "cone": false,
+      "stream": false,
+      "small": false,
+      "medium": true,
+      "large": false
+    },
+    "additionalStats": {},
+    "choiceSets": [],
+    "favorite": false,
+    "bonusDamageDie": 6,
+    "bonusDamageDice": 1,
+    "hidden": false
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756991442735,
+    "modifiedTime": 1756991442735,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.169yyrjFMEmIynUz",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

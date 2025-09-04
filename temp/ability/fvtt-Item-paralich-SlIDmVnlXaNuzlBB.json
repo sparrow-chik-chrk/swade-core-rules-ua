@@ -1,0 +1,40 @@
+{
+  "name": "Параліч",
+  "type": "ability",
+  "img": "systems/swade/assets/icons/ability.svg",
+  "system": {
+    "description": "<p>Істоти можуть паралізувати своїх жертв магією, електрикою чи якось інакше (паралітичні отрути описані вище в «Отрута»). Жертви, які зазнали ушкоджень або стали шокованими внаслідок атаки такої істоти, повинні виконати кидок на витримку. Провал означає приголо- мшення. Вони також паралізовані й не можуть нічого робити — навіть говорити — упродовж 2к6 раундів (чи довше, якщо так вказано).</p>",
+    "notes": "",
+    "source": "SWADE Core Rules UA",
+    "swid": "none",
+    "additionalStats": {},
+    "choiceSets": [],
+    "favorite": false,
+    "category": "Особливі вміння",
+    "grants": [],
+    "build": {
+      "limit": 1,
+      "level": 1
+    },
+    "subtype": "special",
+    "grantsPowers": false
+  },
+  "effects": [],
+  "folder": "X5GhqM8eqmGchLoL",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756994219269,
+    "modifiedTime": 1756994219269,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.SlIDmVnlXaNuzlBB",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  }
+}

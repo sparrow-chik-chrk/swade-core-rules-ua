@@ -1,0 +1,40 @@
+{
+  "effects": [],
+  "folder": "2LW7kchDvR6MW86x",
+  "img": "systems/swade/assets/icons/skills/circuitry.svg",
+  "name": "Електроніка",
+  "type": "skill",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "attribute": "smarts",
+    "description": "<p>Електроніка дає змогу герою користуватися складними чи спеціалізованими пристроями, як-от панелі керування промислових машин або охоронні системи на космічних кораблях у футуристичних сценаріях.</p><p>Побутова техніка й інші електричні пристрої, звичні для світу, не вимагають застосування навички електроніки — її за необхідності замінює @Compendium[swade-core-rules.swade-skills.Ерудиція]{ерудиція}. У сучасному світі це стосується комп’ютерів, мобільних телефонів тощо.</p><p>Для лагодження будь-якого несправного електричного пристрою потрібна навичка @Compendium[swade-core-rules.swade-skills.Ремонт]{ремонту}.</p>",
+    "die": {
+      "modifier": 0,
+      "sides": 4
+    },
+    "isCoreSkill": false,
+    "notes": "",
+    "wild-die": {
+      "sides": 6
+    },
+    "swid": "electronics",
+    "choiceSets": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756992351708,
+    "modifiedTime": 1756992351708,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.91f2yizlcZskP6ie",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {}
+}

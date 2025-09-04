@@ -1,0 +1,151 @@
+{
+  "effects": [],
+  "img": "systems/swade/assets/icons/ability.svg",
+  "name": "Броньований",
+  "type": "ability",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "build": {
+      "cost": 1,
+      "limit": 1,
+      "level": 1
+    },
+    "description": "<p><strong>Ліміт: 3.<br />Вартість: 1.</strong></p><p>Такі створіння мають товсту шкіру або вкриті твердим покривом на кшталт луски чи навіть каменю. Вміння дає +2 до @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02armor000000000]{броні} за кожен раз, коли його вибираєте.</p>",
+    "grantsPowers": false,
+    "notes": "",
+    "subtype": "special",
+    "category": "Позитивні",
+    "swid": "armor",
+    "choiceSets": [
+      {
+        "title": "Armor - Choose Amount",
+        "choices": [
+          {
+            "name": "Armor 1",
+            "mutation": {
+              "system": {
+                "build": {
+                  "cost": 1
+                }
+              },
+              "effects": [
+                {
+                  "_id": "AncestryArmor001",
+                  "changes": [
+                    {
+                      "key": "system.stats.toughness.armor",
+                      "mode": 2,
+                      "value": 2
+                    }
+                  ],
+                  "disabled": false,
+                  "duration": {
+                    "startTime": null
+                  },
+                  "flags": {},
+                  "icon": "systems/swade/assets/icons/ability.svg",
+                  "name": "Armor 1 (Ancestry)",
+                  "tint": null,
+                  "transfer": true,
+                  "description": "<span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.Armor]{Armor} (3): </span> The species has a thick hide or is encrusted in solid material like scaly plating or even rock. This grants @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02armor000000000]{Armor} +2 each time it’s taken."
+                }
+              ]
+            },
+            "addToName": true
+          },
+          {
+            "name": "Armor 2",
+            "mutation": {
+              "system": {
+                "build": {
+                  "cost": 2
+                }
+              },
+              "effects": [
+                {
+                  "_id": "AncestryArmor002",
+                  "changes": [
+                    {
+                      "key": "system.stats.toughness.armor",
+                      "mode": 2,
+                      "value": 4
+                    }
+                  ],
+                  "disabled": false,
+                  "duration": {
+                    "startTime": null
+                  },
+                  "flags": {},
+                  "icon": "systems/swade/assets/icons/ability.svg",
+                  "name": "Armor 2 (Ancestry)",
+                  "tint": null,
+                  "transfer": true,
+                  "description": "<span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.Armor]{Armor} (3): </span> The species has a thick hide or is encrusted in solid material like scaly plating or even rock. This grants @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02armor000000000]{Armor} +2 each time it’s taken."
+                }
+              ]
+            },
+            "addToName": true
+          },
+          {
+            "name": "Armor 3",
+            "mutation": {
+              "system": {
+                "build": {
+                  "cost": 3
+                }
+              },
+              "effects": [
+                {
+                  "_id": "AncestryArmor003",
+                  "changes": [
+                    {
+                      "key": "system.stats.toughness.armor",
+                      "mode": 2,
+                      "value": 6
+                    }
+                  ],
+                  "disabled": false,
+                  "duration": {
+                    "startTime": null
+                  },
+                  "flags": {},
+                  "icon": "systems/swade/assets/icons/ability.svg",
+                  "name": "Armor 3 (Ancestry)",
+                  "tint": null,
+                  "transfer": true,
+                  "description": "<span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.Armor]{Armor} (3): </span> The species has a thick hide or is encrusted in solid material like scaly plating or even rock. This grants @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02armor000000000]{Armor} +2 each time it’s taken."
+                }
+              ]
+            },
+            "addToName": true
+          }
+        ],
+        "choice": null
+      }
+    ],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756994285030,
+    "modifiedTime": 1756994296584,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.ARMOsFXsFJvZsIwc",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "folder": "MSZGJJcE8MglvoaH",
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

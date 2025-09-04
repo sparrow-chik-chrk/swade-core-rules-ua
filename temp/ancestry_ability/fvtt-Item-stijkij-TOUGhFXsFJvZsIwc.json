@@ -1,0 +1,151 @@
+{
+  "effects": [],
+  "img": "systems/swade/assets/icons/ability.svg",
+  "name": "Стійкий",
+  "type": "ability",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "build": {
+      "cost": 1,
+      "limit": 1,
+      "level": 1
+    },
+    "description": "<p><strong>Ліміт: 3.<br />Вартість: 1.</strong></p><p>Персонаж має товсту шкіру, луску або надзвичайно щільну оболонку, що збільшує його базову @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01characters0000]{стійкість} на +1.</p>",
+    "grantsPowers": false,
+    "notes": "",
+    "subtype": "special",
+    "category": "Позитивні",
+    "swid": "toughness",
+    "choiceSets": [
+      {
+        "title": "Pick Toughness Value.",
+        "choices": [
+          {
+            "name": "Toughness +1",
+            "mutation": {
+              "effects": [
+                {
+                  "_id": "4zWkT76bqRiY5Ubm",
+                  "changes": [
+                    {
+                      "key": "system.stats.toughness.value",
+                      "mode": 2,
+                      "value": 1
+                    }
+                  ],
+                  "disabled": false,
+                  "duration": {
+                    "startTime": null
+                  },
+                  "flags": {},
+                  "icon": "systems/swade/assets/icons/ability.svg",
+                  "name": "Ancestry Toughness",
+                  "tint": null,
+                  "transfer": true
+                }
+              ],
+              "name": "Toughness +1",
+              "system": {
+                "build": {
+                  "cost": 1
+                }
+              }
+            },
+            "addToName": false
+          },
+          {
+            "name": "Toughness +2",
+            "mutation": {
+              "effects": [
+                {
+                  "_id": "4zWkT76bqRiY5Ubm",
+                  "changes": [
+                    {
+                      "key": "system.stats.toughness.value",
+                      "mode": 2,
+                      "value": 2
+                    }
+                  ],
+                  "disabled": false,
+                  "duration": {
+                    "startTime": null
+                  },
+                  "flags": {},
+                  "icon": "systems/swade/assets/icons/ability.svg",
+                  "name": "Ancestry Toughness",
+                  "tint": null,
+                  "transfer": true
+                }
+              ],
+              "name": "Toughness +2",
+              "system": {
+                "build": {
+                  "cost": 2
+                }
+              }
+            },
+            "addToName": false
+          },
+          {
+            "name": "Toughness +3",
+            "mutation": {
+              "effects": [
+                {
+                  "_id": "4zWkT76bqRiY5Ubm",
+                  "changes": [
+                    {
+                      "key": "system.stats.toughness.value",
+                      "mode": 2,
+                      "value": 3
+                    }
+                  ],
+                  "disabled": false,
+                  "duration": {
+                    "startTime": null
+                  },
+                  "flags": {},
+                  "icon": "systems/swade/assets/icons/ability.svg",
+                  "name": "Ancestry Toughness",
+                  "tint": null,
+                  "transfer": true
+                }
+              ],
+              "name": "Toughness +3",
+              "system": {
+                "build": {
+                  "cost": 3
+                }
+              }
+            },
+            "addToName": false
+          }
+        ],
+        "choice": null
+      }
+    ],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756994285030,
+    "modifiedTime": 1756994296584,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.TOUGhFXsFJvZsIwc",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "folder": "MSZGJJcE8MglvoaH",
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

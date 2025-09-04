@@ -1,0 +1,96 @@
+{
+  "name": "Відчайдушна Атака",
+  "type": "action",
+  "img": "modules/swade-core-rules/assets/actions/desperate_attack.webp",
+  "system": {
+    "description": "<p>Відчайдушні атаки — це гарячкові спроби влучити в ціль ціною ушкоджень. Нападник може додати +2 або +4 до будь-якого кидка на @Compendium[swade-core-rules.swade-skills.Fighting]{бійку}, але відніме стільки ж від ушкоджень, які завдасть у разі влучання. Відчайдушну атаку можна оголошувати для кожної конкретної атаки (безпосередньо перед кидком). Не можна використовувати разом із @UUID[Compendium.swade-core-rules.swade-actions.Item.EoSaEiH89P5Xi8He]{зухвалою атакою}.</p>",
+    "notes": "",
+    "source": "SWADE Core Rules UA",
+    "swid": "none",
+    "additionalStats": {},
+    "choiceSets": [],
+    "favorite": false,
+    "category": "Ситуативні Правила",
+    "templates": {
+      "cone": false,
+      "stream": false,
+      "small": false,
+      "medium": false,
+      "large": false
+    },
+    "actions": {
+      "trait": "",
+      "traitMod": "",
+      "dmgMod": "",
+      "additional": {
+        "J9TL0pe0": {
+          "name": "Відчайдушна Атака",
+          "type": "trait",
+          "override": "",
+          "modifier": "+2",
+          "dice": null,
+          "resourcesUsed": null,
+          "uuid": null,
+          "macroActor": "default",
+          "isHeavyWeapon": false
+        },
+        "ZUt3PDub": {
+          "name": "Дуже Відчайдушна Атака",
+          "type": "trait",
+          "override": "",
+          "modifier": "+4",
+          "dice": null,
+          "resourcesUsed": null,
+          "uuid": null,
+          "macroActor": "default",
+          "isHeavyWeapon": false
+        },
+        "tCVydri0": {
+          "name": "Відчайдушна Атака - Ушкодження",
+          "type": "damage",
+          "override": "@str",
+          "modifier": "-2",
+          "dice": null,
+          "resourcesUsed": null,
+          "ap": null,
+          "uuid": null,
+          "macroActor": "default",
+          "isHeavyWeapon": false
+        },
+        "pICeVWBt": {
+          "name": "Дуже Відчайдушна Атака - Ушкодження",
+          "type": "damage",
+          "override": "@str",
+          "modifier": "-4",
+          "dice": null,
+          "resourcesUsed": null,
+          "ap": null,
+          "uuid": null,
+          "macroActor": "default",
+          "isHeavyWeapon": false
+        }
+      }
+    },
+    "bonusDamageDie": 6,
+    "bonusDamageDice": 1,
+    "hidden": false
+  },
+  "effects": [],
+  "folder": "vk6Y4oqoIBQtcMK2",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756991442735,
+    "modifiedTime": 1756991442735,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.GUfYXj0x06Yl6Ozu",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  }
+}

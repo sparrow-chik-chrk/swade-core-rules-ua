@@ -1,0 +1,40 @@
+{
+  "effects": [],
+  "folder": "2LW7kchDvR6MW86x",
+  "img": "modules/swade-core-rules/assets/ability/%D1%80%D0%B5%D0%BC%D0%B5%D1%81%D0%BB%D0%BE.webp",
+  "name": "Ремесло",
+  "type": "skill",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "attribute": "smarts",
+    "description": "<p data-start=\"88\" data-end=\"343\"><strong data-start=\"88\" data-end=\"99\">Ремесло</strong> — це навичка створення та обробки матеріальних речей: від простих побутових предметів і одягу до складніших конструкцій, меблів, кераміки, зброї чи прикрас. Вона охоплює як роботу руками, так і використання відповідних інструментів і технік.</p><p data-start=\"345\" data-end=\"677\">Кількість часу та складність завдання визначає ІМ. Наприклад, пошиття простої сорочки може зайняти кілька годин, а виготовлення якісного обладунку чи складного механізму — тижні. Успішний кидок означає, що виріб придатний для використання за призначенням. Надмір може зробити річ більш якісною, довговічною або пришвидшити роботу.</p><p data-start=\"679\" data-end=\"853\"><strong data-start=\"679\" data-end=\"695\">Інструменти:</strong> персонажі зазнають штрафів без належних інструментів. Просте обладнання зменшує штраф до −1 чи −2, відсутність ключових засобів або сировини — до −3 чи −4.</p><p data-start=\"855\" data-end=\"997\"><strong data-start=\"855\" data-end=\"869\">Матеріали:</strong> якість та доступність матеріалів напряму впливають на результат. Краща сировина зменшує ризики провалу та може надати бонуси.</p>",
+    "die": {
+      "modifier": 0,
+      "sides": 4
+    },
+    "isCoreSkill": false,
+    "notes": "",
+    "wild-die": {
+      "sides": 6
+    },
+    "swid": "gambling",
+    "choiceSets": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756992351708,
+    "modifiedTime": 1756992351708,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.QlR2kCil5fTceGiq",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {}
+}

@@ -1,0 +1,97 @@
+{
+  "effects": [
+    {
+      "_id": "kLw0l3pGFffK3kGc",
+      "changes": [
+        {
+          "key": "system.attributes.spirit.unShakeBonus",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        },
+        {
+          "key": "system.wounds.ignored",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "flags.swade-core-rules.ignoreBleedOut",
+          "mode": 2,
+          "value": "true",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "flags": {},
+      "name": "Конструкт",
+      "tint": "#ffffff",
+      "transfer": true,
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": "swade",
+        "systemVersion": "5.0.5",
+        "lastModifiedBy": null
+      },
+      "img": "systems/swade/assets/icons/ability.svg",
+      "type": "base",
+      "system": {
+        "expiration": null,
+        "removeEffect": false,
+        "loseTurnOnHold": false,
+        "favorite": false,
+        "conditionalEffect": false
+      },
+      "description": "<p>Роботи, ґолеми й інші бездушні рухомі об’єкти підпадають під категорію «конструкти». Деякі з них мають свідомість, інші ж — просто машини, які виконують накази своїх власників.</p><p>Незалежно від походження чи матеріалу, з якого вони зроблені, конструкти мають декілька притаманних їм переваг над істотами з плоті та крові.</p><p>Конструкти мають +2 до кидків на оговтання від @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03damageeffect00]{шоку}, ігнорують 1 очко штрафів за @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03damageeffect00]{рани}, не мають потреби в їжі та повітрі, імунні до @UUID[Compendium.swade-core-rules.swade-rules.swadecor04theadv.JournalEntryPage.04disease0000000]{хвороб}, @UUID[Compendium.swade-core-rules.swade-rules.swadecor04theadv.JournalEntryPage.04poison00000000]{отрут} і @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03damageeffect00]{кровотеч}, а їхні рани усувають @Compendium[swade-core-rules.swade-skills.Ремонт]{ремонтом} замість @Compendium[swade-core-rules.swade-powers.Лікування]{лікування} (обмеження @Compendium[swade-core-rules.swade-powers.Лікування]{«Золотої години»} не діє).</p>",
+      "origin": null,
+      "statuses": [],
+      "sort": 0
+    }
+  ],
+  "folder": "X5GhqM8eqmGchLoL",
+  "img": "systems/swade/assets/icons/ability.svg",
+  "name": "Конструкт",
+  "type": "ability",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Роботи, ґолеми й інші бездушні рухомі об’єкти підпадають під категорію «конструкти». Деякі з них мають свідомість, інші ж — просто машини, які виконують накази своїх власників.</p><p>Незалежно від походження чи матеріалу, з якого вони зроблені, конструкти мають декілька притаманних їм переваг над істотами з плоті та крові.</p><p>Конструкти мають +2 до кидків на оговтання від @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03damageeffect00]{шоку}, ігнорують 1 очко штрафів за @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03damageeffect00]{рани}, не мають потреби в їжі та повітрі, імунні до @UUID[Compendium.swade-core-rules.swade-rules.swadecor04theadv.JournalEntryPage.04disease0000000]{хвороб}, @UUID[Compendium.swade-core-rules.swade-rules.swadecor04theadv.JournalEntryPage.04poison00000000]{отрут} і @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03damageeffect00]{кровотеч}, а їхні рани усувають @Compendium[swade-core-rules.swade-skills.Ремонт]{ремонтом} замість @Compendium[swade-core-rules.swade-powers.Зцілення]{лікування} (обмеження @Compendium[swade-core-rules.swade-powers.Зцілення]{«Золотої години»} не діє).</p>",
+    "grantsPowers": false,
+    "notes": "",
+    "subtype": "special",
+    "category": "Особливі вміння",
+    "swid": "construct",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": [],
+    "build": {
+      "limit": 1,
+      "level": 1
+    }
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756994219269,
+    "modifiedTime": 1756994219269,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.2uSwOIunhYr4RA7G",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {}
+}

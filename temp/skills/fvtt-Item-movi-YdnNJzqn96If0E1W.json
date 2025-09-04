@@ -1,0 +1,40 @@
+{
+  "effects": [],
+  "folder": "2LW7kchDvR6MW86x",
+  "img": "systems/swade/assets/icons/skills/talk.svg",
+  "name": "Мови",
+  "type": "skill",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "attribute": "smarts",
+    "description": "<p>У деяких тематичних сценаріях, як-от дешеві бойовики чи «планетарна романтика» (де персонажі часто подорожують від однієї екзотичної цивілізації до іншої) інші мови можна передати ніяковими паузами між словами, акцентами чи кострубатою вимовою, яку трохи складно відтворити й легко забути. У таких сценаріях ІМ може взагалі ігнорувати цю навичку чи користуватися @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv]{правилом} <strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04multiplelang00]{багатомовність}</strong> ­для світу.</p><p>У реалістичніших сценаріях мовний бар’єр може стати для героїв серйозною перешкодою, тож їм доведеться витрачати очки навичок на додаткові мови. Наприклад, у грі про Третю світову війну 1980-х десантники ООН не зможуть поговорити зі своїми ворогами без знання німецької, польської чи іншої мови, поширеної в країнах Варшавського договору.</p><p>У разі використання навички мови вона має бути вказана як «Мова (іспанська)», «Мова (американська жестова мова)» тощо. Рівень володіння мовою залежить від ступеня кістки персонажа. (Герої починають зі ступенем к8 для рідної мови.)</p><table class=\"table value-table\"><caption class=\"table-caption\"><h2 class=\"table-title\">ВОЛОДІННЯ МОВОЮ</h2></caption><tbody><tr class=\"table-header-row\"><th class=\"table-column-header\" scope=\"col\">СТУПІНЬ</th><th class=\"table-column-header\" scope=\"col\">ЗДІБНОСТІ</th></tr><tr><td><p>к4</p></td><td><p>Персонаж може читати, писати та промовляти прості слова і фрази.</p></td></tr><tr><td><p>к6</p></td><td><p>Мовець може вести довготривалий діалог, хоч і з регулярними паузами.</p></td></tr><tr><td><p>к8</p></td><td><p>Персонаж спілкується вільно.</p></td></tr><tr><td><p>к10</p></td><td><p>Персонаж може відтворювати різні діалекти цієї мови.</p></td></tr><tr><td><p>к12</p></td><td><p>Мовець може цитувати визначні твори літератури й усної творчості.</p></td></tr></tbody></table><p><strong>Обмеження: </strong>для виконання дії, що потребує використання іноземної мови, використовуйте навичку з найнижчим значенням. @Compendium[swade-core-rules.swade-skills.Залякування]{Залякування} (вербальне), @Compendium[swade-core-rules.swade-skills.Переконливість]{переконливість}, @Compendium[swade-core-rules.swade-skills.Дослідження]{дослідження}, @Compendium[swade-core-rules.swade-skills.Провокація]{провокація} можуть бути обмежені навичкою мови персонажа.</p><p>Це обмеження не застосовують до рідної мови персонажа.</p>",
+    "die": {
+      "modifier": 0,
+      "sides": 4
+    },
+    "isCoreSkill": false,
+    "notes": "",
+    "wild-die": {
+      "sides": 6
+    },
+    "swid": "language",
+    "choiceSets": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756992351708,
+    "modifiedTime": 1756992351708,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.YdnNJzqn96If0E1W",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {}
+}

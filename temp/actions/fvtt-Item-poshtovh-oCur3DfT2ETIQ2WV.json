@@ -1,0 +1,101 @@
+{
+  "effects": [],
+  "folder": "vk6Y4oqoIBQtcMK2",
+  "img": "modules/swade-core-rules/assets/actions/push.webp",
+  "name": "Поштовх",
+  "type": "action",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "category": "Ситуативні Правила",
+    "swid": "push",
+    "description": "<p>Інколи персонажі можуть спробувати штовхнути противника в надії @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03prone000000000]{повалити} його, вибити з певної позиції чи зіштовхнути в @UUID[Compendium.swade-core-rules.swade-rules.swadecor04theadv.JournalEntryPage.04hazards0000000]{небезпечне місце}.</p><p>Штовхання суперника — це @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{кидок протистояння} @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{моці}. Якщо нападник перемагає, то він відштовхує противника на відстань до 2 метрів. За надміру відстань збільшують до 4 метрів. Усі відстані подвоюють, якщо @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03sizeandscale00]{величина} нападника більша за противника.</p><p>Персонаж, якого успішно штовхнули, мусить виконати кидок на @Compendium[swade-core-rules.swade-skills.Athletics]{атлетизм} (зі штрафом −2, якщо у нападника надмір), інакше @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03prone000000000]{повалиться}.</p><p><strong>Біг:</strong> якщо нападник пробіг щонайменше 4 метри перед поштовхом, він додає +2 до свого результату.</p><p><strong>Розмір має значення:</strong> як правило, істоти не можуть штовхнути противника більшого за себе на понад два @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03sizeandscale00]{розміри}, хіба що вони володіють винятковою @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{міццю} для свого розміру (на розсуд ІМ).</p><p><strong>Навичка: </strong>нападник чи оборонець можуть за бажання виконати кидок на @Compendium[swade-core-rules.swade-skills.Athletics]{атлетизм} замість @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{моці}.</p><p><strong>Щити: </strong>нападники й оборонці можуть додавати @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02shields0000000]{бонус відбивання власного щита} до свого кидка на @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{міць} (чи @Compendium[swade-core-rules.swade-skills.Athletics]{атлетизм}) для поштовху.</p>",
+    "notes": "",
+    "actions": {
+      "additional": {
+        "pushAth": {
+          "type": "trait",
+          "name": "Атлетизм",
+          "override": "Атлетизм",
+          "uuid": null,
+          "macroActor": "default",
+          "isHeavyWeapon": false,
+          "modifier": "",
+          "dice": null,
+          "resourcesUsed": null
+        },
+        "opposeStr": {
+          "type": "resist",
+          "name": "Протистояння (Міць)",
+          "uuid": null,
+          "macroActor": "default",
+          "isHeavyWeapon": false,
+          "override": "",
+          "modifier": ""
+        },
+        "opposeAth": {
+          "type": "resist",
+          "name": "Протистояння (Атлетизм)",
+          "override": "Атлетизм",
+          "uuid": null,
+          "macroActor": "default",
+          "isHeavyWeapon": false,
+          "modifier": ""
+        },
+        "noProne": {
+          "type": "resist",
+          "name": "Уникнення Повалення",
+          "override": "Атлетизм",
+          "uuid": null,
+          "macroActor": "default",
+          "isHeavyWeapon": false,
+          "modifier": ""
+        },
+        "noProneRaise": {
+          "type": "resist",
+          "name": "Уникнення Повалення (надмір)",
+          "override": "Атлетизм",
+          "modifier": "-2",
+          "uuid": null,
+          "macroActor": "default",
+          "isHeavyWeapon": false
+        }
+      },
+      "dmgMod": "",
+      "trait": "Міць",
+      "traitMod": ""
+    },
+    "templates": {
+      "cone": false,
+      "stream": false,
+      "small": false,
+      "medium": false,
+      "large": false
+    },
+    "additionalStats": {},
+    "choiceSets": [],
+    "favorite": false,
+    "bonusDamageDie": 6,
+    "bonusDamageDice": 1,
+    "hidden": false
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756991442735,
+    "modifiedTime": 1756991442735,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.oCur3DfT2ETIQ2WV",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

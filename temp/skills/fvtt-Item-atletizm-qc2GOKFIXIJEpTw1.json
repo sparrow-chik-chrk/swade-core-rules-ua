@@ -1,0 +1,40 @@
+{
+  "effects": [],
+  "folder": "2LW7kchDvR6MW86x",
+  "img": "systems/swade/assets/icons/skills/jump-across.svg",
+  "name": "Атлетизм",
+  "type": "skill",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "attribute": "agility",
+    "description": "<p>Атлетизм репрезентує рівень вправності у таких навичках як лазіння, стрибки, балансування, їзда на лижах і велосипеді, боротьба, плавання, метання та ловля. Персонажі, які покладаються радше на фізичну силу, ніж на координацію, можуть взяти перевагу @Compendium[swade-core-rules.swade-edges.Здоровило]{«Здоровило»}, щоб пов’язати цю навичку з @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{міццю} замість @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{спритності}.</p>",
+    "die": {
+      "modifier": 0,
+      "sides": 4
+    },
+    "isCoreSkill": true,
+    "notes": "",
+    "wild-die": {
+      "sides": 6
+    },
+    "swid": "athletics",
+    "choiceSets": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756992351708,
+    "modifiedTime": 1756992351708,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.qc2GOKFIXIJEpTw1",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {}
+}

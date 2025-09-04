@@ -1,0 +1,100 @@
+{
+  "effects": [],
+  "img": "systems/swade/assets/icons/ability.svg",
+  "name": "Отруйний дотик",
+  "type": "ability",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "build": {
+      "cost": 1,
+      "limit": 1,
+      "level": 1
+    },
+    "description": "<p><strong>Ліміт: 1.<br />Вартість: 1 або 3.</strong></p><p>Після успішного укусу, <strong>@UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03touchattack000]{атаки-дотику}</strong>, чи атаки пазурями, жертва повинна пройти перевірку @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{витримки} або зазнати ушкоджень від @UUID[Compendium.swade-core-rules.swade-rules.swadecor04theadv.JournalEntryPage.04poison00000000]{слабкої отрути}. За 3 очки отрута зможе збити з ніг, вбити або паралізувати, але кожне використання викликає в героя @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03fatigue0000000]{втому}. Персонаж завжди може вирішувати, чи застосовувати свою отруту.</p>",
+    "grantsPowers": false,
+    "notes": "",
+    "subtype": "special",
+    "category": "Позитивні",
+    "swid": "poisonous-touch",
+    "choiceSets": [
+      {
+        "title": "Poisonous Touch - Choose one.",
+        "choices": [
+          {
+            "name": "Mild",
+            "mutation": {
+              "name": "Poisonous Touch (Mild)",
+              "system": {
+                "build": {
+                  "cost": 1
+                }
+              }
+            },
+            "addToName": false
+          },
+          {
+            "name": "Knockout",
+            "mutation": {
+              "name": "Poisonous Touch (Knockout)",
+              "system": {
+                "build": {
+                  "cost": 3
+                }
+              }
+            },
+            "addToName": false
+          },
+          {
+            "name": "Lethal",
+            "mutation": {
+              "name": "Poisonous Touch (Lethal)",
+              "system": {
+                "build": {
+                  "cost": 3
+                }
+              }
+            },
+            "addToName": false
+          },
+          {
+            "name": "Paralyzing",
+            "mutation": {
+              "name": "Poisonous Touch (Paralyzing)",
+              "system": {
+                "build": {
+                  "cost": 3
+                }
+              }
+            },
+            "addToName": false
+          }
+        ],
+        "choice": null
+      }
+    ],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756994285030,
+    "modifiedTime": 1756994296584,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.POITsFXsFJvZsIwc",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "folder": "MSZGJJcE8MglvoaH",
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

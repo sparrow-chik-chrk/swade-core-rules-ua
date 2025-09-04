@@ -1,0 +1,114 @@
+{
+  "effects": [],
+  "img": "systems/swade/assets/icons/ability.svg",
+  "name": "Пазурі",
+  "type": "ability",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "build": {
+      "cost": 2,
+      "limit": 1,
+      "level": 1
+    },
+    "description": "<p><strong>Ліміт: 1.<br />Вартість: 2 / 3 / 4.</strong></p><p>Ця раса має пазурі, які завдають міць + 1к4 ушкоджень. За одне додаткове очко можна збільшити ушкодження до міць + 1к6, та/або за ще одне додати @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02armorpiercin00]{ББ} 2. Докладніше див. <strong>@UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03naturalweapo00]{«Природна зброя»}</strong>.</p>",
+    "grantsPowers": false,
+    "notes": "",
+    "subtype": "special",
+    "category": "Позитивні",
+    "swid": "claws",
+    "choiceSets": [
+      {
+        "title": "Claws - Choose one.",
+        "choices": [
+          {
+            "name": "Claws Str+d4",
+            "mutation": {
+              "system": {
+                "build": {
+                  "cost": 2
+                },
+                "grants": [
+                  {
+                    "name": "Natural Claws",
+                    "uuid": "Compendium.swade-core-rules.swade-personal-weapons.Item.1TUtzm0rkTg1gyXo"
+                  }
+                ]
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Claws Str+d6",
+            "mutation": {
+              "system": {
+                "build": {
+                  "cost": 3
+                },
+                "grants": [
+                  {
+                    "name": "Natural Claws",
+                    "uuid": "Compendium.swade-core-rules.swade-personal-weapons.Item.1TUtzm0rkTg1gyXo",
+                    "mutation": {
+                      "system": {
+                        "damage": "@str+d6"
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Claws Str+d6 AP 2",
+            "mutation": {
+              "system": {
+                "build": {
+                  "cost": 4
+                },
+                "grants": [
+                  {
+                    "name": "Natural Claws",
+                    "uuid": "Compendium.swade-core-rules.swade-personal-weapons.Item.1TUtzm0rkTg1gyXo",
+                    "mutation": {
+                      "system": {
+                        "damage": "@str+d6",
+                        "ap": 2
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "addToName": true
+          }
+        ],
+        "choice": null
+      }
+    ],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756994285030,
+    "modifiedTime": 1756994296584,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.CLAWsFXsFJvZsIwc",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "folder": "MSZGJJcE8MglvoaH",
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

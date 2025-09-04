@@ -1,0 +1,72 @@
+{
+  "effects": [],
+  "folder": "vk6Y4oqoIBQtcMK2",
+  "img": "modules/swade-core-rules/assets/actions/disarm.webp",
+  "name": "Роззброєння",
+  "type": "action",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "category": "Ситуативні Правила",
+    "swid": "disarm",
+    "description": "<p>Завдяки @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03attacks0000000]{атаці ближнього чи дальнього бою} персонаж може змусити противника впустити зброю (чи іншу річ) або спробувати пошкодити її.</p><p>Спершу нападник мусить влучити в об’єкт чи кисть противника (див. <strong>@UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03calledshots000]{«Точні постріли»}</strong>).</p><p>Якщо атака влучає в зброю, нападник виконує кидок на ушкодження для речі як зазвичай (немає ефектів надміру чи окрилення, див. <strong>@UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03breakingthin00]{«Ламання речей»}</strong>). Оборонець має пройти перевірку @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{моці} з ЦЗ, рівним кількості ушкоджень, інакше впустить об’єкт.</p><p>Якщо атака спрямована проти носія та @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03damageeffect00]{шокує чи ранить} його, жертва мусить виконати кидок на @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{міць} зі штрафом −2, якщо влучили в руку, або −4, якщо влучили в кисть, плюс будь-які штрафи за рани з типовими наслідками. Провал означає, що річ випадає з тієї руки.</p>",
+    "notes": "",
+    "actions": {
+      "additional": {
+        "disarmLimb": {
+          "type": "resist",
+          "name": "Роззброїти Кисть (Міць)",
+          "override": "Міць",
+          "modifier": "-2",
+          "uuid": null,
+          "macroActor": "default",
+          "isHeavyWeapon": false
+        },
+        "disarmHand": {
+          "type": "resist",
+          "name": "Роззброїти Руку (Міць)",
+          "override": "Міць",
+          "modifier": "-4",
+          "uuid": null,
+          "macroActor": "default",
+          "isHeavyWeapon": false
+        }
+      },
+      "dmgMod": "",
+      "trait": "",
+      "traitMod": ""
+    },
+    "templates": {
+      "cone": false,
+      "stream": false,
+      "small": false,
+      "medium": false,
+      "large": false
+    },
+    "additionalStats": {},
+    "choiceSets": [],
+    "favorite": false,
+    "bonusDamageDie": 6,
+    "bonusDamageDice": 1,
+    "hidden": false
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756991442735,
+    "modifiedTime": 1756991442735,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.An9n5sDP9ldAWQmP",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

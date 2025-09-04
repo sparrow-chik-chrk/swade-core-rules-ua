@@ -1,0 +1,151 @@
+{
+  "effects": [],
+  "img": "systems/swade/assets/icons/ability.svg",
+  "name": "Відбивання",
+  "type": "ability",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "build": {
+      "cost": 1,
+      "limit": 1,
+      "level": 1
+    },
+    "description": "<p><strong>Ліміт: 3.<br />Вартість: 1.</strong></p><p>Природну здатність істоти @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01characters0000]{відбити} атаку збільшено на +1. Це може бути внаслідок чіпкого хвоста, додаткових кінцівок, поліпшених рефлексів або навіть прихованого псі-чуття.</p>",
+    "grantsPowers": false,
+    "notes": "",
+    "subtype": "special",
+    "category": "Позитивні",
+    "swid": "parry",
+    "choiceSets": [
+      {
+        "title": "Parry Increase - Choose one.",
+        "choices": [
+          {
+            "name": "Parry +1",
+            "mutation": {
+              "name": "Parry (+1)",
+              "effects": [
+                {
+                  "_id": "ParryIncrease000",
+                  "changes": [
+                    {
+                      "key": "system.stats.parry.value",
+                      "mode": 2,
+                      "value": 1
+                    }
+                  ],
+                  "disabled": false,
+                  "duration": {
+                    "startTime": null
+                  },
+                  "flags": {},
+                  "icon": "systems/swade/assets/icons/ability.svg",
+                  "name": "Parry Increase (Ancestry)",
+                  "tint": null,
+                  "transfer": true
+                }
+              ],
+              "system": {
+                "build": {
+                  "cost": 1
+                }
+              }
+            },
+            "addToName": false
+          },
+          {
+            "name": "Parry +2",
+            "mutation": {
+              "name": "Parry (+2)",
+              "effects": [
+                {
+                  "_id": "ParryIncrease000",
+                  "changes": [
+                    {
+                      "key": "system.stats.parry.value",
+                      "mode": 2,
+                      "value": 2
+                    }
+                  ],
+                  "disabled": false,
+                  "duration": {
+                    "startTime": null
+                  },
+                  "flags": {},
+                  "icon": "systems/swade/assets/icons/ability.svg",
+                  "name": "Parry Increase (Ancestry)",
+                  "tint": null,
+                  "transfer": true
+                }
+              ],
+              "system": {
+                "build": {
+                  "cost": 2
+                }
+              }
+            },
+            "addToName": false
+          },
+          {
+            "name": "Parry +3",
+            "mutation": {
+              "name": "Parry (+3)",
+              "effects": [
+                {
+                  "_id": "ParryIncrease000",
+                  "changes": [
+                    {
+                      "key": "system.stats.parry.value",
+                      "mode": 2,
+                      "value": 3
+                    }
+                  ],
+                  "disabled": false,
+                  "duration": {
+                    "startTime": null
+                  },
+                  "flags": {},
+                  "icon": "systems/swade/assets/icons/ability.svg",
+                  "name": "Parry Increase (Ancestry)",
+                  "tint": null,
+                  "transfer": true
+                }
+              ],
+              "system": {
+                "build": {
+                  "cost": 3
+                }
+              }
+            },
+            "addToName": false
+          }
+        ],
+        "choice": null
+      }
+    ],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756994285030,
+    "modifiedTime": 1756994296584,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.PARRsFXsFJvZsIwc",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "folder": "MSZGJJcE8MglvoaH",
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

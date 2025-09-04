@@ -1,0 +1,40 @@
+{
+  "effects": [],
+  "folder": "X5GhqM8eqmGchLoL",
+  "img": "systems/swade/assets/icons/ability.svg",
+  "name": "Потойбічний",
+  "type": "ability",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>@Compendium[swade-core-rules.swade-bestiary.Привид]{Привиди}, тіні, потерчата й інші нематеріальні істоти не мають фізичної форми (або можуть набувати її за бажання). Вони можуть проходити крізь фізичні об’єкти, їм не можуть зашкодити немагічні атаки, і їх навіть не можна помітити, якщо вони того не хочуть. Потойбічні істоти можуть постраждати від магічних предметів, зброї та надприродних сил.</p><p>Якщо в описі не вказано іншого, потойбічні істоти можуть метати предмети, носити зброю та навіть скидати наляканих героїв з темних крутих сходів.</p>",
+    "grantsPowers": false,
+    "notes": "",
+    "subtype": "special",
+    "category": "Особливі вміння",
+    "swid": "ethereal",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": [],
+    "build": {
+      "limit": 1,
+      "level": 1
+    }
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756994219269,
+    "modifiedTime": 1756994219269,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.eDVtzpCYz3RN2UZx",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {}
+}

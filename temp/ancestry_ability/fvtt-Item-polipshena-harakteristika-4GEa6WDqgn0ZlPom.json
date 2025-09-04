@@ -1,0 +1,192 @@
+{
+  "effects": [],
+  "img": "systems/swade/assets/icons/ability.svg",
+  "name": "Поліпшена характеристика",
+  "type": "ability",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "build": {
+      "cost": 2,
+      "limit": 1,
+      "level": 1
+    },
+    "description": "<p><strong>Ліміт: необмежено.<br />Вартість: 2.</strong></p><p>Персонажі, створені з цим вмінням, можуть підвищити ступінь кістки певної @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{характеристики} (витримка, воля, кмітливість, міць, спритність). Це також додає модифікатор +1 до максимального можливого ступеня кістки.</p>",
+    "grantsPowers": false,
+    "notes": "",
+    "subtype": "special",
+    "category": "Позитивні",
+    "swid": "attribute-increase",
+    "choiceSets": [
+      {
+        "title": "Attribute Increase",
+        "choices": [
+          {
+            "name": "Agility",
+            "mutation": {
+              "effects": [
+                {
+                  "_id": "AgilityIncrease0",
+                  "changes": [
+                    {
+                      "key": "system.attributes.agility.die.sides",
+                      "mode": 2,
+                      "value": 2
+                    }
+                  ],
+                  "disabled": false,
+                  "duration": {
+                    "startTime": null
+                  },
+                  "flags": {},
+                  "icon": "systems/swade/assets/icons/ability.svg",
+                  "name": "Agility Increase (Ancestry)",
+                  "tint": null,
+                  "transfer": true,
+                  "description": "<span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.Attribute Increase]{Attribute Increase} (U): </span> During character creation, the species increases a particular @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{attribute} (Agility, Smarts, Spirit, Strength, or Vigor) one die type. This increases the Trait's maximum by one as well."
+                }
+              ]
+            },
+            "addToName": true
+          },
+          {
+            "name": "Smarts",
+            "mutation": {
+              "effects": [
+                {
+                  "_id": "SmartsIncrease00",
+                  "changes": [
+                    {
+                      "key": "system.attributes.smarts.die.sides",
+                      "mode": 2,
+                      "value": 2
+                    }
+                  ],
+                  "disabled": false,
+                  "duration": {
+                    "startTime": null
+                  },
+                  "flags": {},
+                  "icon": "systems/swade/assets/icons/ability.svg",
+                  "name": "Smarts Increase (Ancestry)",
+                  "tint": null,
+                  "transfer": true,
+                  "description": "<span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.Attribute Increase]{Attribute Increase} (U): </span> During character creation, the species increases a particular @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{attribute} (Agility, Smarts, Spirit, Strength, or Vigor) one die type. This increases the Trait's maximum by one as well."
+                }
+              ]
+            },
+            "addToName": true
+          },
+          {
+            "name": "Spirit",
+            "mutation": {
+              "effects": [
+                {
+                  "_id": "SpiritIncrease00",
+                  "changes": [
+                    {
+                      "key": "system.attributes.spirit.die.sides",
+                      "mode": 2,
+                      "value": 2
+                    }
+                  ],
+                  "disabled": false,
+                  "duration": {
+                    "startTime": null
+                  },
+                  "flags": {},
+                  "icon": "systems/swade/assets/icons/ability.svg",
+                  "name": "Spirit Increase (Ancestry)",
+                  "tint": null,
+                  "transfer": true,
+                  "description": "<span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.Attribute Increase]{Attribute Increase} (U): </span> During character creation, the species increases a particular @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{attribute} (Agility, Smarts, Spirit, Strength, or Vigor) one die type. This increases the Trait's maximum by one as well."
+                }
+              ]
+            },
+            "addToName": true
+          },
+          {
+            "name": "Strength",
+            "mutation": {
+              "effects": [
+                {
+                  "_id": "StrengthIncrease",
+                  "changes": [
+                    {
+                      "key": "system.attributes.strength.die.sides",
+                      "mode": 2,
+                      "value": 2
+                    }
+                  ],
+                  "disabled": false,
+                  "duration": {
+                    "startTime": null
+                  },
+                  "flags": {},
+                  "icon": "systems/swade/assets/icons/ability.svg",
+                  "name": "Strength Increase (Ancestry)",
+                  "tint": null,
+                  "transfer": true,
+                  "description": "<span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.Attribute Increase]{Attribute Increase} (U): </span> During character creation, the species increases a particular @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{attribute} (Agility, Smarts, Spirit, Strength, or Vigor) one die type. This increases the Trait's maximum by one as well."
+                }
+              ]
+            },
+            "addToName": true
+          },
+          {
+            "name": "Vigor",
+            "mutation": {
+              "effects": [
+                {
+                  "_id": "VigorIncrease000",
+                  "changes": [
+                    {
+                      "key": "system.attributes.vigor.die.sides",
+                      "mode": 2,
+                      "value": 2
+                    }
+                  ],
+                  "disabled": false,
+                  "duration": {
+                    "startTime": null
+                  },
+                  "flags": {},
+                  "icon": "systems/swade/assets/icons/ability.svg",
+                  "name": "Vigor Increase (Ancestry)",
+                  "tint": null,
+                  "transfer": true,
+                  "description": "<span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.Attribute Increase]{Attribute Increase} (U): </span> During character creation, the species increases a particular @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{attribute} (Agility, Smarts, Spirit, Strength, or Vigor) one die type. This increases the Trait's maximum by one as well."
+                }
+              ]
+            },
+            "addToName": true
+          }
+        ],
+        "choice": null
+      }
+    ],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756994285030,
+    "modifiedTime": 1756994296584,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.4GEa6WDqgn0ZlPom",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "folder": "MSZGJJcE8MglvoaH",
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

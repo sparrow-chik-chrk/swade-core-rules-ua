@@ -1,0 +1,129 @@
+{
+  "effects": [
+    {
+      "_id": "We48tELFzE9qCZ5E",
+      "name": "Витривалий",
+      "changes": [
+        {
+          "key": "system.wounds.max",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "flags": {},
+      "tint": "#ffffff",
+      "transfer": true,
+      "description": "<p>Витривалі статисти можуть зазнати однієї рани перед тим, як стати @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03damageeffect00]{недієздатними}.</p>",
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": "swade",
+        "systemVersion": "5.0.5",
+        "lastModifiedBy": null
+      },
+      "img": "systems/swade/assets/icons/ability.svg",
+      "type": "base",
+      "system": {
+        "expiration": null,
+        "removeEffect": false,
+        "loseTurnOnHold": false,
+        "favorite": false,
+        "conditionalEffect": false
+      },
+      "origin": null,
+      "statuses": [],
+      "sort": 0
+    },
+    {
+      "_id": "LKZ0RCTOAcBQOFDL",
+      "name": "Дуже витривалий",
+      "changes": [
+        {
+          "key": "system.wounds.max",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "disabled": true,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "flags": {},
+      "tint": "#ffffff",
+      "transfer": true,
+      "description": "<p>Дуже витривалі статисти можуть зазнати двох ран перед тим, як стати @UUID[Compendium.swade-core-rules.swade-rules-ua.swadecor03rules0.JournalEntryPage.03damageeffect00]{недієздатними}.</p>",
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": "swade",
+        "systemVersion": "5.0.5",
+        "lastModifiedBy": null
+      },
+      "img": "systems/swade/assets/icons/ability.svg",
+      "type": "base",
+      "system": {
+        "expiration": null,
+        "removeEffect": false,
+        "loseTurnOnHold": false,
+        "favorite": false,
+        "conditionalEffect": false
+      },
+      "origin": null,
+      "statuses": [],
+      "sort": 0
+    }
+  ],
+  "folder": "X5GhqM8eqmGchLoL",
+  "img": "systems/swade/assets/icons/ability.svg",
+  "name": "Витривалий",
+  "type": "ability",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Елітні @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03wildcardsand00]{статисти} міцніші за звичайних. У фентезі це можуть бути @Compendium[swade-core-rules.swade-bestiary.Орк]{орки} особливої породи, у сучасному світі — треновані спецагенти, злочинці чи навіть тварини-мутанти з лабораторії божевільного вченого.</p><p>Витривалі статисти можуть зазнати однієї рани перед тим, як стати @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03damageeffect00]{недієздатними}. Дуже витривалі — двох. Козирні карти не можуть бути витривалими чи дуже витривалими. Ці вміння дають змогу хоч частково наблизити обраних статистів до героїв чи лиходіїв, які ними командують.</p>",
+    "grantsPowers": false,
+    "notes": "",
+    "subtype": "special",
+    "category": "Особливі вміння",
+    "swid": "resilient",
+    "grants": [],
+    "choiceSets": [],
+    "favorite": false,
+    "build": {
+      "limit": 1,
+      "level": 1
+    }
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756994219269,
+    "modifiedTime": 1756994219269,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.ckc8WGlXl9uWsyWH",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {}
+}

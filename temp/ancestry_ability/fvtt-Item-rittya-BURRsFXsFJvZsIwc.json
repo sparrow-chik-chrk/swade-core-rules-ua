@@ -1,0 +1,45 @@
+{
+  "effects": [],
+  "img": "systems/swade/assets/icons/ability.svg",
+  "name": "Риття",
+  "type": "ability",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "build": {
+      "cost": 1,
+      "limit": 1,
+      "level": 1
+    },
+    "description": "<p><strong>Ліміт: 1.<br />Вартість: 1.</strong></p><p>Такі істоти можуть зариватися в м’яку землю та переміщуватися в ній з половинним темпом («бігти» не можна). Зазвичай істоту неможливо атакувати, коли вона зарилася, тож вона може спробувати несподівано заскочити противника, який не помітив її наближення, виконавши кидок протистояння @Compendium[swade-core-rules.swade-skills.Непомітність]{непомітності} проти @Compendium[swade-core-rules.swade-skills.Уважність]{уважності}. У разі успіху зарита істота додає +2 до своїх кидків на атаки й ушкодження в поточному раунді, або +4 за надміру (<strong>@UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03thedrop0000000]{«Заскочення»}</strong>).</p>",
+    "grantsPowers": false,
+    "notes": "",
+    "subtype": "special",
+    "category": "Позитивні",
+    "swid": "burrowing",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756994285030,
+    "modifiedTime": 1756994296584,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.BURRsFXsFJvZsIwc",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "folder": "MSZGJJcE8MglvoaH",
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

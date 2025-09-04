@@ -1,0 +1,40 @@
+{
+  "name": "Приголомшення",
+  "type": "ability",
+  "img": "systems/swade/assets/icons/ability.svg",
+  "system": {
+    "description": "<p>Істоти із цим умінням можуть генерувати електричні розряди, виробляти токсини, впливати на розум чи якось інакше знешкоджувати своїх жертв. Якщо ціль зазнала рани чи шоку від атаки істоти, то повинна пройти перевірку витримки з певним зазначеним штрафом, щоб не стати приголомшеною. Якщо істота мала надмір під час атаки, цей кидок на витримку має ще й штраф −2.</p>",
+    "notes": "",
+    "source": "SWADE Core Rules UA",
+    "swid": "none",
+    "additionalStats": {},
+    "choiceSets": [],
+    "favorite": false,
+    "category": "Особливі вміння",
+    "grants": [],
+    "build": {
+      "limit": 1,
+      "level": 1
+    },
+    "subtype": "special",
+    "grantsPowers": false
+  },
+  "effects": [],
+  "folder": "X5GhqM8eqmGchLoL",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756994219269,
+    "modifiedTime": 1756994219269,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.HJwGq4dVO8nCNM3S",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  }
+}

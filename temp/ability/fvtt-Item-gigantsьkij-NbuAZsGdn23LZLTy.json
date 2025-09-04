@@ -1,0 +1,46 @@
+{
+  "name": "Гігантський",
+  "type": "ability",
+  "img": "systems/swade/assets/icons/ability.svg",
+  "system": {
+    "description": "<p>Гігантські істоти мають розмір 12 чи більше. Серед них такі класичні чудовиська з кіно, як Ґодзілла. Гігантські істоти мають важку броню, можуть зазнати трьох додаткових ран, а їхні атаки вважають такими, що завдані важкою зброєю. </p><p><strong>Топтання:</strong> гігантські істоти можуть затоптувати ворогів, використовуючи шаблон радіуса дії (його розмір визначає ІМ на основі розмірів «сліду» чудовиська). Атака ігнорує модифікатори величини, і це кидок протистояння атлетизму істоти проти спритності оборонців (оборонці виконують кидки кожен окремо). Ті, хто не змогли уникнути атаки, зазнають ушкоджень, рівних моці істоти.</p>",
+    "notes": "",
+    "source": "SWADE Core Rules UA",
+    "swid": "none",
+    "additionalStats": {},
+    "choiceSets": [],
+    "favorite": false,
+    "category": "Особливі вміння",
+    "grants": [
+      {
+        "name": "Топтання",
+        "img": "systems/swade/assets/icons/action.svg",
+        "uuid": "Compendium.swade-core-rules.swade-actions.Item.2IPPMts3VKLB4fFx"
+      }
+    ],
+    "build": {
+      "limit": 1,
+      "level": 1
+    },
+    "subtype": "special",
+    "grantsPowers": false
+  },
+  "effects": [],
+  "folder": "X5GhqM8eqmGchLoL",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756994219269,
+    "modifiedTime": 1756994219269,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.NbuAZsGdn23LZLTy",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  }
+}

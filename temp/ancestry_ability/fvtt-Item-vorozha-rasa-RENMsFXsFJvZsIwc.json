@@ -1,0 +1,94 @@
+{
+  "effects": [
+    {
+      "name": "Ворожа раса",
+      "img": "systems/swade/assets/icons/ability.svg",
+      "changes": [
+        {
+          "key": "@Skill{Persuasion}[system.die.modifier]",
+          "mode": 2,
+          "value": "-2",
+          "priority": null
+        }
+      ],
+      "transfer": true,
+      "_id": "fUoz3zZ3fcf4Ozjb",
+      "type": "base",
+      "system": {
+        "removeEffect": false,
+        "expiration": null,
+        "loseTurnOnHold": false,
+        "favorite": false,
+        "conditionalEffect": true
+      },
+      "disabled": false,
+      "duration": {
+        "startTime": 0,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": "Compendium.swade-core-rules.swade-racial-abilities.Item.RENMsFXsFJvZsIwc",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "sigil": {
+          "completed": true
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": "swade",
+        "systemVersion": "5.0.5",
+        "lastModifiedBy": null
+      }
+    }
+  ],
+  "img": "systems/swade/assets/icons/ability.svg",
+  "name": "Ворожа раса",
+  "type": "ability",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "build": {
+      "cost": -1,
+      "limit": 1,
+      "level": 1
+    },
+    "description": "<p><strong>Ліміт: 1.<br />Вартість: -1.</strong></p><p>Цей вид не любить інший вид, також поширений у їхньому середовищі. Вони отримують штраф –2 до перевірок @Compendium[swade-core-rules.swade-skills.Переконливість]{переконливості}, коли стикаються зі своїми ворогами, і готові напасти за найменшої провокації. Можна вибрати лише одного ворога для раси.</p>",
+    "grantsPowers": false,
+    "notes": "",
+    "subtype": "special",
+    "category": "Негативні",
+    "swid": "ancestral-enemy",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756994285030,
+    "modifiedTime": 1756994296584,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.RENMsFXsFJvZsIwc",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "folder": "MSZGJJcE8MglvoaH",
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

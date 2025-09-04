@@ -1,0 +1,40 @@
+{
+  "effects": [],
+  "folder": "2LW7kchDvR6MW86x",
+  "img": "systems/swade/assets/icons/skills/raygun.svg",
+  "name": "Дивні науки",
+  "type": "skill",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "attribute": "smarts",
+    "description": "<p>Божевільні науковці, дослідники у світах магії (чи технологій, що значно перевершують наші), алхіміки чи винахідники присутні в багатьох «Шалених світах».</p><p>Хоча їхні техніки різняться, містична навичка для всіх одна — дивні науки. Щоби дізнатися більше про їхні дивовижні особливості, див. перевагу <strong>@Compendium[swade-core-rules.swade-edges.Містичний дар (Дивні науки)]{«Містичний дар» (дивні науки)}</strong>.</p><p></p>",
+    "die": {
+      "modifier": 0,
+      "sides": 4
+    },
+    "isCoreSkill": false,
+    "notes": "",
+    "wild-die": {
+      "sides": 6
+    },
+    "swid": "weird-science",
+    "choiceSets": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756992351708,
+    "modifiedTime": 1756992351708,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.VMM9LwHq3XEQFL9w",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {}
+}

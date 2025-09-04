@@ -1,0 +1,40 @@
+{
+  "effects": [],
+  "folder": "2LW7kchDvR6MW86x",
+  "img": "systems/swade/assets/icons/skills/curled-tentacle.svg",
+  "name": "Окультизм",
+  "type": "skill",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "attribute": "smarts",
+    "description": "<p>Навичка окультизму вказує на рівень знань і досвіду з усім паранормальним, тобто таким, у що інші можуть навіть і не вірити. Ця навичка стане в пригоді для дешифрування дивних піктограм, дасть змогу згадати інформацію про надприродних істот і рецепти ліків проти жахливих захворювань на кшталт лікантропії або вампіризму та допоможе провести ритуал за всіма правилами.</p><p>Для пошуку інформації в бібліотеці, газетному архіві, старій книзі, інтернеті тощо використовують навичку @Compendium[swade-core-rules.swade-skills.Дослідження]{дослідження}. Однак, якщо навичка окультизму у вас краща, ви можете скористатися нею.</p>",
+    "die": {
+      "modifier": 0,
+      "sides": 4
+    },
+    "isCoreSkill": false,
+    "notes": "",
+    "wild-die": {
+      "sides": 6
+    },
+    "swid": "occult",
+    "choiceSets": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756992351708,
+    "modifiedTime": 1756992351708,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.XMNmVhwrZmL47Vhg",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {}
+}

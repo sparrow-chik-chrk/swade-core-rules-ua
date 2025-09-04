@@ -1,0 +1,40 @@
+{
+  "effects": [],
+  "folder": "2LW7kchDvR6MW86x",
+  "img": "systems/swade/assets/icons/skills/drama-masks.svg",
+  "name": "Артистичність",
+  "type": "skill",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "attribute": "spirit",
+    "description": "<p>Гарний артист може збадьорити дух, підштовхнути натовп до дій або просто заробити трохи грошенят. Подробиці залежать від ситуації, сценарію й того, наскільки персонаж відомий серед місцевих.</p><p>Навичка артистичності також відповідає за спів, акторство, гру на музичних інструментах й інші дії, для яких потрібна певна авдиторія.</p><p><strong>Збір коштів:</strong> сума, яку персонаж може заробити своїм виступом, може бути дуже різною залежно від обставин, але загальне правило таке: за @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03traitrolls0000#trait-rolls]{успішний} виступ персонаж отримує 20% від суми, яку @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01characters0000]{мав у кишені на початку сценарію}, і 30% за надміру. ІМ може помножити цю суму на @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01advancement000]{ранг} артиста, якщо вважатиме це доречним. Ці цифри розраховані на пересічних виконавців, відомих у невеликих закладах або місцинах. Більші виступи можуть збільшити заробіток артиста, але вимагають більше часу, енергії та підготовки.</p><p><strong>Обман: </strong>артистичність можна використати замість @Compendium[swade-core-rules.swade-skills.Переконливість]{переконливості}, якщо персонаж намагається обдурити когось, блефує або маскується й ІМ погоджується, що це має сенс у цій ситуації.</p>",
+    "die": {
+      "modifier": 0,
+      "sides": 4
+    },
+    "isCoreSkill": false,
+    "notes": "",
+    "wild-die": {
+      "sides": 6
+    },
+    "swid": "performance",
+    "choiceSets": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756992351708,
+    "modifiedTime": 1756992351708,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.UVdSzNvdAPmGk0iO",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {}
+}

@@ -1,0 +1,40 @@
+{
+  "effects": [],
+  "folder": "X5GhqM8eqmGchLoL",
+  "img": "systems/swade/assets/icons/ability.svg",
+  "name": "Мацаки",
+  "type": "ability",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Істота має певну зазначену в описі кількість дій, які виконує мацаками (зазвичай від 2 до 4). Дії усіма мацаками вважаються лише однією з трьох можливих дій істоти за хід. Це обов’яз- ково повинні бути дії, виконані з допомогою мацаків — зазвичай це @Compendium[swade-core-rules.swade-skills.Бійка]{бійка}, @Compendium[swade-core-rules.swade-skills.Стрільба]{стрільба} чи @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03grappling00000]{хапання}, але все це на розсуд ігромайстра. </p><p>Якщо істота — @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03wildcardsand00]{козирна карта}, то для кожної дії мацаками також кидають @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{козирну кістку}. </p><p>Якщо істота виконує й інші дії за хід, наприклад, @Compendium[swade-core-rules.swade-skills.Провокація]{провокацію} чи застосування сили, ці дії, як і дії мацаками, мають звичні штрафи за @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03multiactions00]{череду дій}. </p><p>Кидки на хапання мацаками мають бонус +2, а удар ними завдає ушкоджень, рівних @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{моці} істоти, якщо не вказано іншого. </p><p>Спроба відтяти мацак — це @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03calledshots000]{точний постріл}. Якщо ушкодження перевищують @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01characters0000]{стійкість} істоти, мацак відірвано, а істота стає шокованою. Якщо вона вже була @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03damageeffect00]{шокована}, то зазнає @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03damageeffect00]{рани}.</p>",
+    "grantsPowers": false,
+    "notes": "",
+    "subtype": "special",
+    "category": "Особливі вміння",
+    "swid": "tentacles",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": [],
+    "build": {
+      "limit": 1,
+      "level": 1
+    }
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756994219269,
+    "modifiedTime": 1756994219269,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.hTeNt5gaRgZzm2Xq",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {}
+}

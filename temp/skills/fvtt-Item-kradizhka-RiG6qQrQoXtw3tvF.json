@@ -1,0 +1,40 @@
+{
+  "effects": [],
+  "folder": "2LW7kchDvR6MW86x",
+  "img": "systems/swade/assets/icons/skills/lockpicks.svg",
+  "name": "Крадіжка",
+  "type": "skill",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "attribute": "agility",
+    "description": "<p>Навичка крадіжки охоплює злам замків і сейфів, кишенькові крадіжки, махлювання, встановлення та знешкодження пасток, а також інші дії з метою введення в оману, саботажу, хитрування й маніпулювання.</p><p>@UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{Успіх} під час зламування замка чи сейфа, знешкодження пастки або виконання простої дії без протистояння відкриває або знешкоджує пристрій, а @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03traitrolls0000#trait-rolls]{надмір} просто зменшує витрачений час і не провокує сигналу тривоги чи чогось іншого, доречного на думку ІМ.</p><p>Для махлювання, ховання або підкладання предметів і кишенькових крадіжок достатньо простого @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{успіху}. Якщо вороги уважно спостерігають за персонажем, «Крадіжці» протистоїть @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03traitrolls0000#trait-rolls]{протистоїть} @Compendium[swade-core-rules.swade-skills.Уважність]{«Уважність»}.</p><p>Ігромайстер має призначати @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03traitrolls0000#trait-rolls]{штрафи} за надто складні умови. Злам важкого навісного замка може мати штраф −4, тоді як ховання револьвера в просторому й мішкуватому зимовому одязі може мати бонус +1. Як правило, у разі @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{провалу} персонажа помічають або це займає в нього забагато часу (після чого персонаж може спробувати знову). @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03traitrolls0000#trait-rolls]{Критичний провал} зазвичай запускає пастку, попереджає жертву або ж блокує пристрій так, що надалі потрібно відкривати чи взаємодіяти з ним інакше.</p><p><strong>Обмеження: </strong>застосування крадіжки на електронному пристрої обмежене навичкою @Compendium[swade-core-rules.swade-skills.Електроніка]{електроніки} злодія. З двох навичок слід застосовувати нижчу.</p>",
+    "die": {
+      "modifier": 0,
+      "sides": 4
+    },
+    "isCoreSkill": false,
+    "notes": "",
+    "wild-die": {
+      "sides": 6
+    },
+    "swid": "thievery",
+    "choiceSets": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756992351708,
+    "modifiedTime": 1756992351708,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.RiG6qQrQoXtw3tvF",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {}
+}

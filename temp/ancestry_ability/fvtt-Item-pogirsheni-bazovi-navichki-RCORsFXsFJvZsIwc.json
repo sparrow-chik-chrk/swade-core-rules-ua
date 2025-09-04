@@ -1,0 +1,107 @@
+{
+  "effects": [],
+  "img": "systems/swade/assets/icons/ability.svg",
+  "name": "Погіршені базові навички",
+  "type": "ability",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "build": {
+      "cost": -1,
+      "limit": 1,
+      "level": 1
+    },
+    "description": "<p><strong>Ліміт: 5.<br />Вартість: -1.</strong></p><p>Новостворений персонаж має на одну @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{базову навичку} менше. Навичку можна отримати як зазвичай, але не з к4. Застосовують лише один раз для кожної базової навички.</p>",
+    "grantsPowers": false,
+    "notes": "",
+    "subtype": "special",
+    "category": "Негативні",
+    "swid": "reduced-core-skills",
+    "choiceSets": [
+      {
+        "title": "Choose Skill to Remove.",
+        "choices": [
+          {
+            "name": "Athletics",
+            "mutation": {
+              "system": {
+                "build": {
+                  "cost": -1
+                }
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Common Knowledge",
+            "mutation": {
+              "system": {
+                "build": {
+                  "cost": -1
+                }
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Notice",
+            "mutation": {
+              "system": {
+                "build": {
+                  "cost": -1
+                }
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Persuasion",
+            "mutation": {
+              "system": {
+                "build": {
+                  "cost": -1
+                }
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Stealth",
+            "mutation": {
+              "system": {
+                "build": {
+                  "cost": -1
+                }
+              }
+            },
+            "addToName": true
+          }
+        ],
+        "choice": null
+      }
+    ],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756994285030,
+    "modifiedTime": 1756994296584,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.RCORsFXsFJvZsIwc",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "folder": "MSZGJJcE8MglvoaH",
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

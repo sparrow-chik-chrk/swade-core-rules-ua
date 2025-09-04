@@ -1,0 +1,40 @@
+{
+  "effects": [],
+  "folder": "2LW7kchDvR6MW86x",
+  "img": "systems/swade/assets/icons/skills/psychic-waves.svg",
+  "name": "Уважність",
+  "type": "skill",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "attribute": "smarts",
+    "description": "<p>Уважність — це пильність і обізнаність героя. Цю навичку використовують, щоб дізнатися, що персонажі бачать і чують, які смаки та запахи, відчувають; чи помічають засідки або приховану зброю; чи розпізнають брехню, страх, зловтіху співрозмовника тощо.</p><p>@UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{Успіх} виявляє основну інформацію — персонаж чує рух у лісі, відчуває запах диму далекого вогнища або помічає, що хтось щось приховує.</p><p>@UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{Надмір} відкриває більше подробиць, наприклад, звідки долинає звук або запах, якої теми намагається уникнути співрозмовник, про що він бреше.</p>",
+    "die": {
+      "modifier": 0,
+      "sides": 4
+    },
+    "isCoreSkill": true,
+    "notes": "",
+    "wild-die": {
+      "sides": 6
+    },
+    "swid": "notice",
+    "choiceSets": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756992351708,
+    "modifiedTime": 1756992351708,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.Y0545TlaAqRRE2P0",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {}
+}

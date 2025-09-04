@@ -1,0 +1,40 @@
+{
+  "effects": [],
+  "folder": "2LW7kchDvR6MW86x",
+  "img": "systems/swade/assets/icons/skills/archive-research.svg",
+  "name": "Дослідження",
+  "type": "skill",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "attribute": "smarts",
+    "description": "<p>Персонаж, вправний у дослідженні, вміє ефективно користуватися бібліотеками, газетними архівами, інтернетом та іншими письмовими джерелами інформації.</p><p>Скільки часу на це знадобиться, залежить від ІМ та конкретної ситуації. Знайти щось в інтернеті чи відшукати певний уривок у книзі можна за @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03combat00000000]{раунд бою}. А от перегляд книг у бібліотеці, дослідження складної теми в інтернеті чи пошук довідкової інформації про персонажа зазвичай може зайняти близько години.</p><p>У разі @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{успіху} разі успіху персонажу вдається відшукати основну інформацію, а за надміру доступно більше подробиць. Натомість @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03traitrolls0000#trait-rolls]{провал} означає, що персонаж не знаходить того, що шукав.</p><p>У разі @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{критичного провалу} дослідник може натрапити на правдоподібну, але неправильну інформацію, привернути до себе увагу якоїсь протиборчої організації чи фракції, прочитати щось із розряду «Людство не мало цього знати» й отримати певний психічний розлад (дрібну @Compendium[swade-core-rules.swade-hindrances.Фобія]{фобію}, @Compendium[swade-core-rules.swade-hindrances.Дивацтво]{дивацтво} тощо) або навіть випадково <em>знищити</em> джерело. Коли трапляється така невдача, майстру слід виявити креативність, щоб спонукати гурт підійти до ситуації інакше.</p><p><strong>Пов’язані навички: </strong>якщо в персонажа є навичка, прямо пов’язана з предметом дослідження, він може скористатися нею замість дослідження. Наприклад, досліджуючи історії про вампірів у забутій бібліотеці, дослідник із навичками @Compendium[swade-core-rules.swade-skills.Окультизм]{окультизму} к10 і дослідження к6 виконує кидок к10. Якщо згодом він прямує за відповідними записами до будинку, де, за чутками, було лігво вампірів, то натомість виконує свій звичайний кидок на дослідження.</p><p><strong>Примітка: </strong>дослідження дає лише підказки, особливо в сповненій загадок грі. Скласти пазли в <em>загальну</em> картину мають самі <em>гравці</em>.</p>",
+    "die": {
+      "modifier": 0,
+      "sides": 4
+    },
+    "isCoreSkill": false,
+    "notes": "",
+    "wild-die": {
+      "sides": 6
+    },
+    "swid": "research",
+    "choiceSets": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756992351708,
+    "modifiedTime": 1756992351708,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.Y1HxgTeyvoqM3SGZ",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {}
+}

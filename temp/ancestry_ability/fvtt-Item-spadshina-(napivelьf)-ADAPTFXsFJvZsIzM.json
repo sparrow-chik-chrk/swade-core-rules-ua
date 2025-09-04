@@ -1,0 +1,124 @@
+{
+  "effects": [],
+  "img": "systems/swade/assets/icons/ability.svg",
+  "name": "Спадщина (Напівельф)",
+  "type": "ability",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "build": {
+      "cost": 2,
+      "limit": 1,
+      "level": 1
+    },
+    "description": "<p>Напівельфи можуть успадкувати грацію ельфів або адаптивність людей. Напівельф може почати з додатковою @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01edges000000000]{перевагою} новачка на вибір або з к6 для @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{спритності} замість к4 (що також підвищує максимальну спритність до 1к12 + 1).</p>",
+    "grantsPowers": false,
+    "notes": "",
+    "subtype": "special",
+    "category": "Особливі вміння",
+    "swid": "heritage",
+    "choiceSets": [
+      {
+        "title": "Choose Heritage.",
+        "choices": [
+          {
+            "name": "Adaptable",
+            "mutation": {
+              "system": {
+                "grants": [
+                  {
+                    "name": "Adaptable",
+                    "uuid": "Compendium.swade-core-rules.swade-racial-abilities.Item.ADAPTFXsFJvZsIwc"
+                  }
+                ]
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Agile",
+            "mutation": {
+              "effects": [
+                {
+                  "_id": "FYq7afeqAOBFXZSD",
+                  "changes": [
+                    {
+                      "key": "system.attributes.agility.die.sides",
+                      "mode": 2,
+                      "value": "2",
+                      "priority": null
+                    }
+                  ],
+                  "disabled": false,
+                  "duration": {
+                    "startTime": null,
+                    "seconds": null,
+                    "combat": null,
+                    "rounds": null,
+                    "turns": null,
+                    "startRound": null,
+                    "startTurn": null
+                  },
+                  "flags": {
+                    "sigil": {
+                      "completed": true
+                    }
+                  },
+                  "name": "Heritage",
+                  "tint": "#ffffff",
+                  "transfer": true,
+                  "description": "<p>Half-elves may retain the grace of their elven parent or the adaptability of their human ancestry. A half-elf may either start with a free Novice @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01edges000000000]{Edge} of his choice or a d6 in @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{Agility} instead of a d4 (which also increases his Agility maximum to d12+1)</p>",
+                  "_stats": {
+                    "coreVersion": "12.331",
+                    "systemId": null,
+                    "systemVersion": null,
+                    "createdTime": null,
+                    "modifiedTime": null,
+                    "lastModifiedBy": null,
+                    "compendiumSource": null,
+                    "duplicateSource": null
+                  },
+                  "img": "systems/swade/assets/icons/ability.svg",
+                  "type": "base",
+                  "system": {},
+                  "origin": null,
+                  "statuses": [],
+                  "sort": 0,
+                  "_key": "!items.effects!QBKzBGrJOc6XvAnF.FYq7afeqAOBFXZSD",
+                  "ownership": {
+                    "default": 0
+                  }
+                }
+              ]
+            },
+            "addToName": true
+          }
+        ],
+        "choice": null
+      }
+    ],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756994285030,
+    "modifiedTime": 1756994296584,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.ADAPTFXsFJvZsIzM",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "folder": "MSZGJJcE8MglvoaH",
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "name": "Могутній удар",
+  "type": "action",
+  "img": "systems/swade/assets/icons/action.svg",
+  "system": {
+    "description": "<p>Якщо ваша карта дії — «Джокер», подвійте ушкодження від першої атаки ближнього @Compendium[swade-core-rules.swade-skills.Бійка]{бою} в поточному раунді.</p>",
+    "notes": "",
+    "source": "Swade Core Rules UA",
+    "swid": "none",
+    "additionalStats": {},
+    "choiceSets": [],
+    "favorite": false,
+    "category": "Переваги",
+    "templates": {
+      "cone": false,
+      "stream": false,
+      "small": false,
+      "medium": false,
+      "large": false
+    },
+    "actions": {
+      "trait": "",
+      "traitMod": "",
+      "dmgMod": "",
+      "additional": {
+        "xTCO7Tzn": {
+          "name": "Могутній удар",
+          "type": "macro",
+          "override": "@Weapon{Пазурі}",
+          "modifier": "*2",
+          "dice": null,
+          "resourcesUsed": null,
+          "ap": null,
+          "uuid": "Compendium.swade-core-rules.swade-macros.Macro.BWZNwjonrhSaRdAM",
+          "macroActor": "default",
+          "isHeavyWeapon": false
+        }
+      }
+    },
+    "bonusDamageDie": 6,
+    "bonusDamageDice": 1,
+    "hidden": false
+  },
+  "effects": [],
+  "folder": "vk6Y4oqoIBQtcMK2",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756991442735,
+    "modifiedTime": 1756991442735,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.Xwwqvwg0sy0un8kq",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  }
+}

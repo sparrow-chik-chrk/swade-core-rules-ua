@@ -1,0 +1,61 @@
+{
+  "effects": [],
+  "folder": "vk6Y4oqoIBQtcMK2",
+  "img": "systems/swade/assets/icons/action.svg",
+  "name": "Майстер на всі руки",
+  "type": "action",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "category": "Переваги",
+    "swid": "jack-of-all-trades",
+    "description": "<p>В результаті наполегливого всестороннього навчання чи просто вродженої сприйнятливості цей персонаж має талант на льоту схоплювати практично будь-які навички. Дайте йому трохи часу та везіння — і він освоїть майже все.</p><p>Персонаж виконує перевірку @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{кмітливості} як дію після спостереження чи вивчення якогось об’єкта. У разі успіху він отримує к4 відповідної об’єкту навички, за надміру — к6. У разі провалу, або щоб отримати надмір, за годину можна спробувати повторно вивчити, поспостерігати чи застосувати об’єкт. Навичка триває до наступної подібної спроби вивчити інший об’єкт, навіть якщо вона буде провальною.</p>",
+    "notes": "",
+    "actions": {
+      "additional": {
+        "jackMacro": {
+          "type": "macro",
+          "name": "Спроба опанувати навичку",
+          "uuid": "Compendium.swade-core-rules.swade-macros.Macro.yBCShuPnbHsR637M",
+          "macroActor": "self",
+          "isHeavyWeapon": false
+        }
+      },
+      "dmgMod": "",
+      "trait": "",
+      "traitMod": ""
+    },
+    "templates": {
+      "cone": false,
+      "stream": false,
+      "small": false,
+      "medium": false,
+      "large": false
+    },
+    "additionalStats": {},
+    "choiceSets": [],
+    "favorite": false,
+    "bonusDamageDie": 6,
+    "bonusDamageDice": 1,
+    "hidden": false
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756991442735,
+    "modifiedTime": 1756991442735,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.LSPfPX1j3GMYwAaH",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

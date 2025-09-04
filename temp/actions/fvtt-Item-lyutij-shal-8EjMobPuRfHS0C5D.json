@@ -1,0 +1,65 @@
+{
+  "effects": [],
+  "folder": "vk6Y4oqoIBQtcMK2",
+  "img": "modules/swade-core-rules/assets/actions/improved_frenzy.webp",
+  "name": "Лютий Шал",
+  "type": "action",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "category": "Переваги",
+    "swid": "improved-frenzy",
+    "description": "<p>Як і @Compendium[swade-core-rules.swade-edges.Шал]{«Шал»}, тільки боєць додає ще одну кістку бійки до своєї атаки ближнього бою, виконаної в цей хід у стані @Compendium[swade-core-rules.swade-edges.Лютий шал]{«Лютого шалу»}.</p>",
+    "notes": "",
+    "actions": {
+      "additional": {
+        "frenzyAttack": {
+          "type": "trait",
+          "name": "Лютий Шал",
+          "dice": 3,
+          "resourcesUsed": null,
+          "modifier": "",
+          "override": "",
+          "uuid": null,
+          "macroActor": "default",
+          "isHeavyWeapon": false
+        }
+      },
+      "dmgMod": "",
+      "trait": "Бійка",
+      "traitMod": ""
+    },
+    "templates": {
+      "cone": false,
+      "stream": false,
+      "small": false,
+      "medium": false,
+      "large": false
+    },
+    "additionalStats": {},
+    "choiceSets": [],
+    "favorite": false,
+    "bonusDamageDie": 6,
+    "bonusDamageDice": 1,
+    "hidden": true
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756991442735,
+    "modifiedTime": 1756991442735,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.8EjMobPuRfHS0C5D",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "effects": [],
+  "folder": "vk6Y4oqoIBQtcMK2",
+  "img": "modules/swade-core-rules/assets/actions/poison.webp",
+  "name": "Отрута",
+  "type": "action",
+  "system": {
+    "swid": "poison",
+    "source": "SWADE Core Rules UA",
+    "category": "Істоти - Особливі Вміння",
+    "additionalStats": {},
+    "description": "<p>Змії, павуки та багато інших істот вводять @UUID[Compendium.swade-core-rules.swade-rules.swadecor04theadv.JournalEntryPage.04poison00000000]{отруту} через укус чи подряпини. Для цього істота повинна принаймні спричинити @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03damageeffect00]{шок} жертві, яка тоді виконує кидок на @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{витримку} з модифікатором моці отрути (вказаний в дужках після назви цього вміння). Ефекти провалуописані докладніше у секції <strong>@UUID[Compendium.swade-core-rules.swade-rules.swadecor04theadv.JournalEntryPage.04hazards0000000]{Небезпеки}</strong>.</p>",
+    "notes": "",
+    "actions": {
+      "additional": {
+        "resist": {
+          "type": "resist",
+          "name": "Спротив (Витримка)",
+          "override": "Витримка",
+          "modifier": "",
+          "uuid": null,
+          "macroActor": "default",
+          "isHeavyWeapon": false
+        }
+      },
+      "trait": "",
+      "traitMod": "",
+      "dmgMod": ""
+    },
+    "templates": {
+      "cone": false,
+      "small": false,
+      "medium": false,
+      "large": false,
+      "stream": false
+    },
+    "choiceSets": [],
+    "favorite": false,
+    "bonusDamageDie": 6,
+    "bonusDamageDice": 1,
+    "hidden": false
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756991442735,
+    "modifiedTime": 1756991442735,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.ZIIgOP8hwlQ48HI0",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

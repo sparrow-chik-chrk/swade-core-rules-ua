@@ -1,0 +1,779 @@
+{
+  "effects": [],
+  "img": "systems/swade/assets/icons/ability.svg",
+  "name": "Навичка (d6)",
+  "type": "ability",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "build": {
+      "cost": 2,
+      "limit": 1,
+      "level": 1
+    },
+    "description": "<p><strong>Ліміт: раз за навичку.<br />Вартість: 2.</strong></p><p>Персонаж починає з к6 для @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{навички}, добре розвиненої в його раси або народу. (Для базової навички варто обрати @Compendium[swade-core-rules.swade-racial-abilities.Item.Навичка (d4)]{Навичка (d4)}.)</p>",
+    "grantsPowers": false,
+    "notes": "",
+    "subtype": "special",
+    "category": "Позитивні",
+    "swid": "skill",
+    "choiceSets": [
+      {
+        "title": "Pick a Skill.",
+        "choices": [
+          {
+            "name": "Academics",
+            "mutation": {
+              "system": {
+                "grants": [
+                  {
+                    "name": "Academics",
+                    "uuid": "Compendium.swade-core-rules.swade-skills.Item.m5TZJMJA0lePG3AB",
+                    "mutation": {
+                      "system": {
+                        "die": {
+                          "sides": 6
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Athletics",
+            "mutation": {
+              "effects": [
+                {
+                  "_id": "4zWkT76bqRiY5Ubm",
+                  "changes": [
+                    {
+                      "key": "@Skill{Athletics}[system.die.sides]",
+                      "mode": 2,
+                      "value": 2
+                    }
+                  ],
+                  "disabled": false,
+                  "duration": {
+                    "startTime": null
+                  },
+                  "flags": {},
+                  "icon": "systems/swade/assets/icons/ability.svg",
+                  "name": "Ancestry Skill d6 (Athletics)",
+                  "tint": null,
+                  "transfer": true
+                }
+              ],
+              "system": {
+                "build": {
+                  "cost": 1
+                }
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Battle",
+            "mutation": {
+              "system": {
+                "grants": [
+                  {
+                    "name": "Battle",
+                    "uuid": "Compendium.swade-core-rules.swade-skills.Item.B0IirU8L6QzIN2fI",
+                    "mutation": {
+                      "system": {
+                        "die": {
+                          "sides": 6
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Boating",
+            "mutation": {
+              "system": {
+                "grants": [
+                  {
+                    "name": "Boating",
+                    "uuid": "Compendium.swade-core-rules.swade-skills.Item.EUG8yRxxMLXxYpnv",
+                    "mutation": {
+                      "system": {
+                        "die": {
+                          "sides": 6
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Common Knowledge",
+            "mutation": {
+              "effects": [
+                {
+                  "_id": "4zWkT76bqRiY5Ubm",
+                  "changes": [
+                    {
+                      "key": "@Skill{Common Knowledge}[system.die.sides]",
+                      "mode": 2,
+                      "value": 2
+                    }
+                  ],
+                  "disabled": false,
+                  "duration": {
+                    "startTime": null
+                  },
+                  "flags": {},
+                  "icon": "systems/swade/assets/icons/ability.svg",
+                  "name": "Ancestry Skill d6 (Common Knowledge)",
+                  "tint": null,
+                  "transfer": true
+                }
+              ],
+              "system": {
+                "build": {
+                  "cost": 1
+                }
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Driving",
+            "mutation": {
+              "system": {
+                "grants": [
+                  {
+                    "name": "Driving",
+                    "uuid": "Compendium.swade-core-rules.swade-skills.Item.DW20NotDIt72nKwK",
+                    "mutation": {
+                      "system": {
+                        "die": {
+                          "sides": 6
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Electronics",
+            "mutation": {
+              "system": {
+                "grants": [
+                  {
+                    "name": "Electronics",
+                    "uuid": "Compendium.swade-core-rules.swade-skills.Item.91f2yizlcZskP6ie",
+                    "mutation": {
+                      "system": {
+                        "die": {
+                          "sides": 6
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Fighting",
+            "mutation": {
+              "system": {
+                "grants": [
+                  {
+                    "name": "Fighting",
+                    "uuid": "Compendium.swade-core-rules.swade-skills.Item.jixNprOk5ao0aDyI",
+                    "mutation": {
+                      "system": {
+                        "die": {
+                          "sides": 6
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Faith",
+            "mutation": {
+              "system": {
+                "grants": [
+                  {
+                    "name": "Faith",
+                    "uuid": "Compendium.swade-core-rules.swade-skills.Item.5qXzjDHdjaeYnBod",
+                    "mutation": {
+                      "system": {
+                        "die": {
+                          "sides": 6
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Gambling",
+            "mutation": {
+              "system": {
+                "grants": [
+                  {
+                    "name": "Gambling",
+                    "uuid": "Compendium.swade-core-rules.swade-skills.Item.JhgyoJ0gUmCzrf7z",
+                    "mutation": {
+                      "system": {
+                        "die": {
+                          "sides": 6
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Healing",
+            "mutation": {
+              "system": {
+                "grants": [
+                  {
+                    "name": "Healing",
+                    "uuid": "Compendium.swade-core-rules.swade-skills.Item.Syo1BvITMeRV2Aat",
+                    "mutation": {
+                      "system": {
+                        "die": {
+                          "sides": 6
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Hacking",
+            "mutation": {
+              "system": {
+                "grants": [
+                  {
+                    "name": "Hacking",
+                    "uuid": "Compendium.swade-core-rules.swade-skills.Item.J88C2kh6GJScto0L",
+                    "mutation": {
+                      "system": {
+                        "die": {
+                          "sides": 6
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Intimidation",
+            "mutation": {
+              "system": {
+                "grants": [
+                  {
+                    "name": "Intimidation",
+                    "uuid": "Compendium.swade-core-rules.swade-skills.Item.TlMOxNi4U4YOnHId",
+                    "mutation": {
+                      "system": {
+                        "die": {
+                          "sides": 6
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Language",
+            "mutation": {
+              "system": {
+                "grants": [
+                  {
+                    "name": "Language",
+                    "uuid": "Compendium.swade-core-rules.swade-skills.Item.YdnNJzqn96If0E1W",
+                    "mutation": {
+                      "system": {
+                        "die": {
+                          "sides": 6
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Notice",
+            "mutation": {
+              "effects": [
+                {
+                  "_id": "4zWkT76bqRiY5Ubm",
+                  "changes": [
+                    {
+                      "key": "@Skill{Notice}[system.die.sides]",
+                      "mode": 2,
+                      "value": 2
+                    }
+                  ],
+                  "disabled": false,
+                  "duration": {
+                    "startTime": null
+                  },
+                  "flags": {},
+                  "icon": "systems/swade/assets/icons/ability.svg",
+                  "name": "Ancestry Skill d6 (Notice)",
+                  "tint": null,
+                  "transfer": true
+                }
+              ],
+              "system": {
+                "build": {
+                  "cost": 1
+                }
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Occult",
+            "mutation": {
+              "system": {
+                "grants": [
+                  {
+                    "name": "Occult",
+                    "uuid": "Compendium.swade-core-rules.swade-skills.Item.XMNmVhwrZmL47Vhg",
+                    "mutation": {
+                      "system": {
+                        "die": {
+                          "sides": 6
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Performance",
+            "mutation": {
+              "system": {
+                "grants": [
+                  {
+                    "name": "Performance",
+                    "uuid": "Compendium.swade-core-rules.swade-skills.Item.UVdSzNvdAPmGk0iO",
+                    "mutation": {
+                      "system": {
+                        "die": {
+                          "sides": 6
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Persuasion",
+            "mutation": {
+              "effects": [
+                {
+                  "_id": "4zWkT76bqRiY5Ubm",
+                  "changes": [
+                    {
+                      "key": "@Skill{Persuasion}[system.die.sides]",
+                      "mode": 2,
+                      "value": 2
+                    }
+                  ],
+                  "disabled": false,
+                  "duration": {
+                    "startTime": null
+                  },
+                  "flags": {},
+                  "icon": "systems/swade/assets/icons/ability.svg",
+                  "name": "Ancestry Skill d6 (Persuasion)",
+                  "tint": null,
+                  "transfer": true
+                }
+              ],
+              "system": {
+                "build": {
+                  "cost": 1
+                }
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Piloting",
+            "mutation": {
+              "system": {
+                "grants": [
+                  {
+                    "name": "Piloting",
+                    "uuid": "Compendium.swade-core-rules.swade-skills.Item.5RB13H0P7WvxVDBr",
+                    "mutation": {
+                      "system": {
+                        "die": {
+                          "sides": 6
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Focus",
+            "mutation": {
+              "system": {
+                "grants": [
+                  {
+                    "name": "Focus",
+                    "uuid": "Compendium.swade-core-rules.swade-skills.Item.3urCcNYxoelufQwp",
+                    "mutation": {
+                      "system": {
+                        "die": {
+                          "sides": 6
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Psionics",
+            "mutation": {
+              "system": {
+                "grants": [
+                  {
+                    "name": "Psionics",
+                    "uuid": "Compendium.swade-core-rules.swade-skills.Item.bkrB9AajSCSA6eIY",
+                    "mutation": {
+                      "system": {
+                        "die": {
+                          "sides": 6
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Research",
+            "mutation": {
+              "system": {
+                "grants": [
+                  {
+                    "name": "Research",
+                    "uuid": "Compendium.swade-core-rules.swade-skills.Item.Y1HxgTeyvoqM3SGZ",
+                    "mutation": {
+                      "system": {
+                        "die": {
+                          "sides": 6
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Repair",
+            "mutation": {
+              "system": {
+                "grants": [
+                  {
+                    "name": "Repair",
+                    "uuid": "Compendium.swade-core-rules.swade-skills.Item.lTxygYQbGn9OoxFz",
+                    "mutation": {
+                      "system": {
+                        "die": {
+                          "sides": 6
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Riding",
+            "mutation": {
+              "system": {
+                "grants": [
+                  {
+                    "name": "Riding",
+                    "uuid": "Compendium.swade-core-rules.swade-skills.Item.CGECIfK29PAeTupp",
+                    "mutation": {
+                      "system": {
+                        "die": {
+                          "sides": 6
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Shooting",
+            "mutation": {
+              "system": {
+                "grants": [
+                  {
+                    "name": "Shooting",
+                    "uuid": "Compendium.swade-core-rules.swade-skills.Item.UOYD9aoLPoTZamDS",
+                    "mutation": {
+                      "system": {
+                        "die": {
+                          "sides": 6
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Science",
+            "mutation": {
+              "system": {
+                "grants": [
+                  {
+                    "name": "Science",
+                    "uuid": "Compendium.swade-core-rules.swade-skills.Item.LMe7vPP4Y1n3c0Fb",
+                    "mutation": {
+                      "system": {
+                        "die": {
+                          "sides": 6
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Stealth",
+            "mutation": {
+              "effects": [
+                {
+                  "_id": "4zWkT76bqRiY5Ubm",
+                  "changes": [
+                    {
+                      "key": "@Skill{Stealth}[system.die.sides]",
+                      "mode": 2,
+                      "value": 2
+                    }
+                  ],
+                  "disabled": false,
+                  "duration": {
+                    "startTime": null
+                  },
+                  "flags": {},
+                  "icon": "systems/swade/assets/icons/ability.svg",
+                  "name": "Ancestry Skill d6 (Stealth)",
+                  "tint": null,
+                  "transfer": true
+                }
+              ],
+              "system": {
+                "build": {
+                  "cost": 1
+                }
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Spellcasting",
+            "mutation": {
+              "system": {
+                "grants": [
+                  {
+                    "name": "Spellcasting",
+                    "uuid": "Compendium.swade-core-rules.swade-skills.Item.Ii5r0pBeYHQvdYIp",
+                    "mutation": {
+                      "system": {
+                        "die": {
+                          "sides": 6
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Survival",
+            "mutation": {
+              "system": {
+                "grants": [
+                  {
+                    "name": "Survival",
+                    "uuid": "Compendium.swade-core-rules.swade-skills.Item.zf0tDkEA1afk1rcs",
+                    "mutation": {
+                      "system": {
+                        "die": {
+                          "sides": 6
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Taunt",
+            "mutation": {
+              "system": {
+                "grants": [
+                  {
+                    "name": "Taunt",
+                    "uuid": "Compendium.swade-core-rules.swade-skills.Item.yFPvkPIm0IR6eqch",
+                    "mutation": {
+                      "system": {
+                        "die": {
+                          "sides": 6
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Thievery",
+            "mutation": {
+              "system": {
+                "grants": [
+                  {
+                    "name": "Thievery",
+                    "uuid": "Compendium.swade-core-rules.swade-skills.Item.RiG6qQrQoXtw3tvF",
+                    "mutation": {
+                      "system": {
+                        "die": {
+                          "sides": 6
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Weird Science",
+            "mutation": {
+              "system": {
+                "grants": [
+                  {
+                    "name": "Weird Science",
+                    "uuid": "Compendium.swade-core-rules.swade-skills.Item.VMM9LwHq3XEQFL9w",
+                    "mutation": {
+                      "system": {
+                        "die": {
+                          "sides": 6
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "addToName": true
+          }
+        ],
+        "choice": null
+      }
+    ],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756994285030,
+    "modifiedTime": 1756994296584,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.19ZryraCmutpiIC2",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "folder": "MSZGJJcE8MglvoaH",
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

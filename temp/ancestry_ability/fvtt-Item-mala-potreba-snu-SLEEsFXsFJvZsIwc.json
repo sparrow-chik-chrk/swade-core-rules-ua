@@ -1,0 +1,74 @@
+{
+  "effects": [],
+  "img": "systems/swade/assets/icons/ability.svg",
+  "name": "Мала потреба сну",
+  "type": "ability",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "build": {
+      "cost": 1,
+      "limit": 1,
+      "level": 1
+    },
+    "description": "<p><strong>Ліміт: 2.<br />Вартість: 1.</strong></p><p>Істота потребує вдвічі менше часу для @UUID[Compendium.swade-core-rules.swade-rules.swadecor04theadv.JournalEntryPage.04sleep000000000]{сну}, ніж люди. Якщо вміння вибрано двічі, то істота взагалі не спить.</p>",
+    "grantsPowers": false,
+    "notes": "",
+    "subtype": "special",
+    "category": "Позитивні",
+    "swid": "sleep-reduction",
+    "choiceSets": [
+      {
+        "title": "Choose Sleep Reduction Type.",
+        "choices": [
+          {
+            "name": "Half Normal Amount",
+            "mutation": {
+              "system": {
+                "build": {
+                  "cost": 1
+                }
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Never Sleeps",
+            "mutation": {
+              "system": {
+                "build": {
+                  "cost": 2
+                }
+              }
+            },
+            "addToName": true
+          }
+        ],
+        "choice": null
+      }
+    ],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756994285030,
+    "modifiedTime": 1756994296584,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.SLEEsFXsFJvZsIwc",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "folder": "MSZGJJcE8MglvoaH",
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

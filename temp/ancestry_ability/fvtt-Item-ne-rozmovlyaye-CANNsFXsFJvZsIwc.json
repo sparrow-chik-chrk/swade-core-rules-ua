@@ -1,0 +1,45 @@
+{
+  "effects": [],
+  "img": "systems/swade/assets/icons/ability.svg",
+  "name": "Не розмовляє",
+  "type": "ability",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "build": {
+      "cost": -1,
+      "limit": 1,
+      "level": 1
+    },
+    "description": "<p><strong>Ліміт: 1.<br />Вартість: -1.</strong></p><p>У представників раси немає голосових зв’язок або вони не здатні видавати звуки, притаманні більшості інших рас. Персонаж може природно спілкуватись із представниками своєї раси (за допомогою співу, феромонів, мови тіла тощо). Інші раси не можуть говорити з ним його «мовою», але можуть навчитися розуміти його, якщо отримають відповідну навичку @Compendium[swade-core-rules.swade-skills.Мови]{знання мов}. Цей вид <em>може</em> чути й розуміти інші типові мови, а також спілкуватися за допомогою електронних пристроїв або чогось подібного.</p>",
+    "grantsPowers": false,
+    "notes": "",
+    "subtype": "special",
+    "category": "Негативні",
+    "swid": "cannot-speak",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756994285030,
+    "modifiedTime": 1756994296584,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.CANNsFXsFJvZsIwc",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "folder": "MSZGJJcE8MglvoaH",
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

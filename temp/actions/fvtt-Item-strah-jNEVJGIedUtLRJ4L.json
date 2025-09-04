@@ -1,0 +1,70 @@
+{
+  "effects": [],
+  "folder": "vk6Y4oqoIBQtcMK2",
+  "img": "modules/swade-core-rules/assets/actions/fear.webp",
+  "name": "Страх",
+  "type": "action",
+  "system": {
+    "swid": "fear",
+    "source": "SWADE Core Rules UA",
+    "category": "Істоти - Особливі Вміння",
+    "additionalStats": {},
+    "description": "<p>Особливо страхітливі чудовиська змушують усіх, хто їх бачить, проходити перевірки страху. А деякі особливо моторошні навіть накладають штрафи на ці перевірки. Так істота зі страхом −2, наприклад, дає штраф −2 на перевірки страху тим, хто з нею зіткнувся. Див. правила <strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04fear0000000000]{страху}</strong>.</p>",
+    "notes": "",
+    "actions": {
+      "additional": {
+        "resist": {
+          "type": "resist",
+          "name": "Перевірка Страху",
+          "override": "Djkz",
+          "modifier": "",
+          "uuid": null,
+          "macroActor": "default",
+          "isHeavyWeapon": false
+        },
+        "macro": {
+          "type": "macro",
+          "name": "Кидок Страху",
+          "uuid": "Compendium.swade-core-rules.swade-macros.Macro.qCCVKsu1QBIk8zvR",
+          "macroActor": "default",
+          "isHeavyWeapon": false
+        }
+      },
+      "trait": "",
+      "traitMod": "",
+      "dmgMod": ""
+    },
+    "templates": {
+      "cone": false,
+      "small": false,
+      "medium": false,
+      "large": false,
+      "stream": false
+    },
+    "choiceSets": [],
+    "favorite": false,
+    "bonusDamageDie": 6,
+    "bonusDamageDice": 1,
+    "hidden": false
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756991442735,
+    "modifiedTime": 1756991442735,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.jNEVJGIedUtLRJ4L",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

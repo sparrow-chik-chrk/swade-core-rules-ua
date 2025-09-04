@@ -1,0 +1,40 @@
+{
+  "effects": [],
+  "folder": "X5GhqM8eqmGchLoL",
+  "img": "systems/swade/assets/icons/ability.svg",
+  "name": "Підкоп",
+  "type": "ability",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Багато істот — від масивних черв’яків до гуманоїдів, які живуть у пісках, — можуть зариватися в землю та переміщуватися під її поверхнею.</p><p>Такі істоти можуть прорити тунелі під землею та з’явитися деінде, щоб несподівано напасти на ворога. Довжина підкопу, який істота може виконати у свій хід, вказана в дужках відразу після назви цього вміння.</p><p>Істота може прорити тунель за свою @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03actions0000000]{дію}, а потім з’явитися на поверхні в будь-якому місці в межах свого @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03movement000000]{темпу} підкопу в той же хід. Під землею істоту неможливо атакувати, якщо нападник не має способу виявити її та пробити товщу землі.</p><p>Істота може несподівано з’явитися з-під землі прямо в тому місці, де стоїть ворог. Якщо ціль не підозрювала про присутність підкопувача, кидок на @Compendium[swade-core-rules.swade-skills.Непомітність]{непомітність} останнього протистоїть кидку на @Compendium[swade-core-rules.swade-skills.Уважність]{уважність} цілі. Якщо підкопувач виграє, ціль стає @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03distractedan00]{вразливою} (<em>тільки для нього</em>). За надміру підкопувачу вдається @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03thedrop0000000]{заскочити} жертву. Цілі в стані @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03hold0000000000]{очікування} можуть спробувати перервати атаку, перш ніж вона відбудеться.</p><p>Зазвичай підкопувачі не можуть несподі- вано напасти на ворогів, коли відомо про їхню присутність, але підкоп все ще корисний для захисту та мобільності.</p>",
+    "grantsPowers": false,
+    "notes": "",
+    "subtype": "special",
+    "category": "Особливі вміння",
+    "swid": "burrow",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": [],
+    "build": {
+      "limit": 1,
+      "level": 1
+    }
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756994219269,
+    "modifiedTime": 1756994219269,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.8Rx9jpcII09FcCxk",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {}
+}

@@ -1,0 +1,62 @@
+{
+  "name": "Убивча точність",
+  "type": "action",
+  "img": "systems/swade/assets/icons/action.svg",
+  "system": {
+    "description": "<p>Коли ваша @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03actioncardsi00]{карта дії} — «Джокер», подвійте загальні ушкодження вашого першого успішного кидка на @Compendium[swade-core-rules.swade-skills.Атлетизм]{атлетизм} (метання) або @Compendium[swade-core-rules.swade-skills.Стрільба]{стрільбу} в поточному раунді.</p>",
+    "notes": "",
+    "source": "Swade Core Rules UA",
+    "swid": "none",
+    "additionalStats": {},
+    "choiceSets": [],
+    "favorite": false,
+    "category": "Переваги",
+    "templates": {
+      "cone": false,
+      "stream": false,
+      "small": false,
+      "medium": false,
+      "large": false
+    },
+    "actions": {
+      "trait": "",
+      "traitMod": "",
+      "dmgMod": "",
+      "additional": {
+        "xTCO7Tzn": {
+          "name": "Убивча точність",
+          "type": "macro",
+          "override": "@Weapon{Пазурі}",
+          "modifier": "*2",
+          "dice": null,
+          "resourcesUsed": null,
+          "ap": null,
+          "uuid": "Compendium.swade-core-rules.swade-macros.Macro.BWZNwjonrhSaRdAM",
+          "macroActor": "default",
+          "isHeavyWeapon": false
+        }
+      }
+    },
+    "bonusDamageDie": 6,
+    "bonusDamageDice": 1,
+    "hidden": false
+  },
+  "effects": [],
+  "folder": "vk6Y4oqoIBQtcMK2",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756991442735,
+    "modifiedTime": 1756991442735,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.qBxPSgpOG9XpKDYh",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  }
+}

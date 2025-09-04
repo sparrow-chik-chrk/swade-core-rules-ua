@@ -1,0 +1,40 @@
+{
+  "effects": [],
+  "folder": "2LW7kchDvR6MW86x",
+  "img": "systems/swade/assets/icons/skills/spanner.svg",
+  "name": "Ремонт",
+  "type": "skill",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "attribute": "smarts",
+    "description": "<p>Ремонт — це навичка розбирання та/або лагодження механічних приладів, транспортних засобів, зброї та простих електричних пристроїв, а також використання руйнівних і вибухових матеріалів.</p><p>Кількість часу для ремонту й складність завдання визначає ІМ. Щоб @UUID[Compendium.swade-core-rules.swade-rules.swadecor04theadv.JournalEntryPage.04chasesandveh00]{полагодити} компактний автомобіль у постапокаліптичному сценарії, може знадобитися година. Ремонт того ж автомобіля в наш час може зайняти чотири години, якщо потрібне фарбування, полірування тощо. @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{Успішний} кидок означає, що річ уже працює. @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03traitrolls0000#trait-rolls]{Надмір} в результаті кидка на ремонт скорочує витрачений час удвічі.</p><p><strong>Інструменти: </strong>на персонажів накладається малий @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03traitrolls0000#trait-rolls]{штраф} (від −1 до −2), якщо в них відсутні звичайні інструменти, або великий штраф (від −3 до −4), якщо для пристрою потрібне спеціальне обладнання.</p><p><strong>Електроніка:</strong> герой може використовувати навичку ремонту, щоб лагодити електронні пристрої, але вона обмежена навичкою @Compendium[swade-core-rules.swade-skills.Електроніка]{електроніки}. Слід застосовувати нижчу з навичок.</p>",
+    "die": {
+      "modifier": 0,
+      "sides": 4
+    },
+    "isCoreSkill": false,
+    "notes": "",
+    "wild-die": {
+      "sides": 6
+    },
+    "swid": "repair",
+    "choiceSets": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756992351708,
+    "modifiedTime": 1756992351708,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.lTxygYQbGn9OoxFz",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {}
+}

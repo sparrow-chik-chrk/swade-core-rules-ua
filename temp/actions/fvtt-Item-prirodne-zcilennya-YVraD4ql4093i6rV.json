@@ -1,0 +1,61 @@
+{
+  "effects": [],
+  "folder": "vk6Y4oqoIBQtcMK2",
+  "img": "modules/swade-core-rules/assets/actions/natural_healing.webp",
+  "name": "Природне Зцілення",
+  "type": "action",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "category": "Лікування",
+    "swid": "natural-healing",
+    "description": "<p>Персонажі з @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03damageeffect00]{ранами} проходять перевірку @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{витримки} кожні 5 днів. Успіх зцілює одну рану, @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{надмір} — дві.</p><p>У разі @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{критичного провалу} <em>буде завдано</em> ще однієї @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03damageeffect00]{рани} — від інфекції, втрати крові чи з інших причин. Якщо це призводить до @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03damageeffect00]{Недієздатність}, типові правила для ушкоджень не використовують. Натомість персонаж входить до напівпритомного стану та проходить перевірку @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{витримки} кожні 12 годин.У разі провалу він помирає. За успіху він продовжує жити, щоби повторити кидок через 12 годин. У разі @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{надміру} його стан стабілізовано і він повертається до свідомості. Як і в разі <strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03healing0000000]{кровотечі}</strong>, інші персонажі можуть спробувати стабілізувати пацієнта.</p><p><strong>Підтримка: </strong>не забувайте про @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03support0000000]{неї}, коли ваш гурт отримав прочуханки. Персонажі з навичками @Compendium[swade-core-rules.swade-skills.Healing]{лікування}, @Compendium[swade-core-rules.swade-skills.Survival]{виживання}, тощо можуть виконувати кидки підтримки, щоб допомогти пораненим проходити перевірки @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{витримки} для зцілення!</p>",
+    "notes": "",
+    "actions": {
+      "additional": {
+        "heal": {
+          "type": "macro",
+          "name": "Самолікування",
+          "uuid": "Compendium.swade-core-rules.swade-macros.Macro.Q2jSI3bMuJZVRmnx",
+          "macroActor": "self",
+          "isHeavyWeapon": false
+        }
+      },
+      "dmgMod": "",
+      "trait": "Витримка",
+      "traitMod": ""
+    },
+    "templates": {
+      "cone": false,
+      "stream": false,
+      "small": false,
+      "medium": true,
+      "large": false
+    },
+    "additionalStats": {},
+    "choiceSets": [],
+    "favorite": false,
+    "bonusDamageDie": 6,
+    "bonusDamageDice": 1,
+    "hidden": false
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756991442735,
+    "modifiedTime": 1756991442735,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.YVraD4ql4093i6rV",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

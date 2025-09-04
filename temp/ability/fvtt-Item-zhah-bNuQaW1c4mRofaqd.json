@@ -1,0 +1,46 @@
+{
+  "effects": [],
+  "folder": "X5GhqM8eqmGchLoL",
+  "img": "systems/swade/assets/icons/ability.svg",
+  "name": "Жах",
+  "type": "ability",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Особливо страхітливі чудовиська змушують усіх, хто їх бачить, проходити перевірки страху. А деякі особливо моторошні навіть накладають штрафи на ці перевірки. Так істота зі стра- хом −2, наприклад, дає штраф −2 на перевірки <strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04fear0000000000]{страху}</strong> тим, хто з нею зіткнувся.</p>",
+    "grantsPowers": false,
+    "notes": "",
+    "subtype": "special",
+    "category": "Особливі вміння",
+    "swid": "fear",
+    "grants": [
+      {
+        "uuid": "Compendium.swade-core-rules.swade-actions.Item.jNEVJGIedUtLRJ4L",
+        "name": "Fear Action",
+        "img": null
+      }
+    ],
+    "choiceSets": [],
+    "favorite": false,
+    "build": {
+      "limit": 1,
+      "level": 1
+    }
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756994219269,
+    "modifiedTime": 1756994219269,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.bNuQaW1c4mRofaqd",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {}
+}

@@ -1,0 +1,151 @@
+{
+  "effects": [],
+  "img": "systems/swade/assets/icons/ability.svg",
+  "name": "Розмір +1",
+  "type": "ability",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "build": {
+      "cost": 1,
+      "limit": 1,
+      "level": 1
+    },
+    "description": "<p><strong>Ліміт: 3.<br />Вартість: 1.</strong></p><p>Розмір істоти більший за норму. Кожне очко вміння @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03sizeandscale00]{«Розмір»} також підвищує на +1 стійкість і максимальну міць. У великих видів можуть виникнути складнощі з обладнанням, розрахованим для звичних гуманоїдів. Докладніше див. @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03sizeandscale00#size-and-scale]{«Розмір і величина»} і @UUID[Compendium.swade-core-rules.swade-rules.swadecor06bestia.JournalEntryPage.06sizetable00000]{«Таблиця Розмірів»}.</p>",
+    "grantsPowers": false,
+    "notes": "",
+    "subtype": "special",
+    "category": "Позитивні",
+    "swid": "size-plus-1",
+    "choiceSets": [
+      {
+        "title": "Choose Size.",
+        "choices": [
+          {
+            "name": "Size 1",
+            "mutation": {
+              "system": {
+                "build": {
+                  "cost": 1
+                }
+              },
+              "name": "Size 1",
+              "effects": [
+                {
+                  "_id": "15CweVC9gBilrill",
+                  "changes": [
+                    {
+                      "key": "system.stats.size",
+                      "mode": 2,
+                      "value": 1
+                    }
+                  ],
+                  "disabled": false,
+                  "duration": {
+                    "startTime": null
+                  },
+                  "flags": {},
+                  "icon": "systems/swade/assets/icons/ability.svg",
+                  "name": "Size 1",
+                  "tint": null,
+                  "transfer": true
+                }
+              ]
+            },
+            "addToName": false
+          },
+          {
+            "name": "Size 2",
+            "mutation": {
+              "system": {
+                "build": {
+                  "cost": 2
+                }
+              },
+              "name": "Size 2",
+              "effects": [
+                {
+                  "_id": "lK9EnRW4c6V4ZNzU",
+                  "changes": [
+                    {
+                      "key": "system.stats.size",
+                      "mode": 2,
+                      "value": 2
+                    }
+                  ],
+                  "disabled": false,
+                  "duration": {
+                    "startTime": null
+                  },
+                  "flags": {},
+                  "icon": "systems/swade/assets/icons/ability.svg",
+                  "name": "Size 2",
+                  "tint": null,
+                  "transfer": true
+                }
+              ]
+            },
+            "addToName": false
+          },
+          {
+            "name": "Size 3",
+            "mutation": {
+              "system": {
+                "build": {
+                  "cost": 3
+                }
+              },
+              "name": "Size 3",
+              "effects": [
+                {
+                  "_id": "o5hgcDh1pZECBwic",
+                  "changes": [
+                    {
+                      "key": "system.stats.size",
+                      "mode": 2,
+                      "value": 3
+                    }
+                  ],
+                  "disabled": false,
+                  "duration": {
+                    "startTime": null
+                  },
+                  "flags": {},
+                  "icon": "systems/swade/assets/icons/ability.svg",
+                  "name": "Size 3",
+                  "tint": null,
+                  "transfer": true
+                }
+              ]
+            },
+            "addToName": false
+          }
+        ],
+        "choice": null
+      }
+    ],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756994285030,
+    "modifiedTime": 1756994296584,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.SIZEaFXsFJvZsIwc",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "folder": "MSZGJJcE8MglvoaH",
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

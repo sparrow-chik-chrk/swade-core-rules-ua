@@ -1,0 +1,65 @@
+{
+  "effects": [],
+  "folder": "vk6Y4oqoIBQtcMK2",
+  "img": "modules/swade-core-rules/assets/actions/wild_attack.webp",
+  "name": "Зухвала Атака",
+  "type": "action",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "category": "Ситуативні Правила",
+    "swid": "wild-attack",
+    "description": "<p>Персонаж у відчаї може відкинути обережність та вкласти всі зусилля в атаку.</p><p>Зухвала атака має +2 до результатів кидків на @Compendium[swade-core-rules.swade-skills.Fighting]{бійку} й ушкодження на цілий хід, але персонаж стає @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03distractedan00]{вразливим} до кінця свого наступного ходу (не поточного).</p><p>Зухвалі атаки можна виконувати кілька разів за хід, наприклад, у @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03multiactions00]{череді дій} чи з перевагами @Compendium[swade-core-rules.swade-edges.Frenzy]{«Шал»} або @Compendium[swade-core-rules.swade-edges.Sweep]{«Розмах»}.</p>",
+    "notes": "",
+    "actions": {
+      "additional": {
+        "TJVZwF2f": {
+          "name": "Зухвала Атака",
+          "type": "macro",
+          "dice": null,
+          "resourcesUsed": null,
+          "modifier": "",
+          "override": "",
+          "uuid": "Compendium.swade-core-rules.swade-macros.Macro.v8cySGhuOqnol56P",
+          "macroActor": "default",
+          "isHeavyWeapon": false
+        }
+      },
+      "dmgMod": "",
+      "trait": "",
+      "traitMod": ""
+    },
+    "templates": {
+      "cone": false,
+      "stream": false,
+      "small": false,
+      "medium": false,
+      "large": false
+    },
+    "additionalStats": {},
+    "choiceSets": [],
+    "favorite": false,
+    "bonusDamageDie": 6,
+    "bonusDamageDice": 1,
+    "hidden": false
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756991442735,
+    "modifiedTime": 1756991442735,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.EoSaEiH89P5Xi8He",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

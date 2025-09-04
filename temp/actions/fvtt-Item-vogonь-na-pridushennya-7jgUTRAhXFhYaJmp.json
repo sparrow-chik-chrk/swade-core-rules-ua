@@ -1,0 +1,53 @@
+{
+  "effects": [],
+  "folder": "vk6Y4oqoIBQtcMK2",
+  "img": "modules/swade-core-rules/assets/actions/suppresive_fire.webp",
+  "name": "Вогонь На Придушення",
+  "type": "action",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "category": "Ситуативні Правила",
+    "swid": "suppressive-fire",
+    "description": "<p>Вогонь на придушення перетворює звичайну стрільбу з автоматичної вогнепальної зброї на @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03areaeffectat00]{атаку з площею ураження}. Шквал вогню, хоч і неприцільного, не дає ворогу висунутися.</p><p>Для цього необхідна зброя, яка не потребує перезаряджання після кожного пострілу і випускає кулі принаймні так само швидко, як револьвер.</p><p>Вогонь на придушення використовує втричі більше набоїв, ніж за звичайного <strong>@UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02rateoffire0000]{темпу стрільби},</strong> і завжди супроводжується @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03recoil00000000]{віддачею} для зброї з будь-яким @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02rateoffire0000]{ТС} (перевага @Compendium[swade-core-rules.swade-edges.Rock and Roll!]{«Рок-н-рол!»}, сошки та триноги нівелюють @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03recoil00000000]{віддачу}).</p><p>Щоб виконати таку атаку, стрілець кладе @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03areaeffectat00]{шаблон середнього радіуса дії} на ігровий стіл та виконує кидок на @Compendium[swade-core-rules.swade-skills.Shooting]{стрільбу} (одна кістка @Compendium[swade-core-rules.swade-skills.Shooting]{стрільби} незалежно від @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02rateoffire0000]{темпу стрільби} — ТС грає роль для максимуму уражених, про що далі). Фактори @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02range000000000]{відстані}, @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03illumination00]{освітлення}, @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03recoil00000000]{віддачі} тощо вираховуйте за центром шаблону.</p><p>Після цього застосуйте результати до кожної цілі в межах шаблону з урахуванням всіх можливих модифікаторів (@UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03coverandobst00]{заслони}, переваги @Compendium[swade-core-rules.swade-edges.Dodge]{«Ухиляння»}, сили @Compendium[swade-core-rules.swade-powers.Deflection]{«Відхилення»} тощо). У разі успіху ціль стає @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03distractedan00]{розгубленою}, за @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{надміру} в неї таки влучили (вогонь на придушення не має бонусних @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02damage00000000]{ушкоджень}).</p><p><strong>Максимум уражених:</strong> кожна ціль в межах шаблону може стати @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03distractedan00]{розгубленою}, але влучити можна лише в кількість цілей, рівну значенню @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02rateoffire0000]{темпу стрільби} зброї. Стрілець сам вибираєвибирає, у які цілі з можливих він влучив.</p>",
+    "notes": "",
+    "actions": {
+      "additional": {},
+      "dmgMod": "",
+      "trait": "Стрільба",
+      "traitMod": ""
+    },
+    "templates": {
+      "cone": false,
+      "stream": false,
+      "small": false,
+      "medium": true,
+      "large": false
+    },
+    "additionalStats": {},
+    "choiceSets": [],
+    "favorite": false,
+    "bonusDamageDie": 6,
+    "bonusDamageDice": 1,
+    "hidden": false
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756991442735,
+    "modifiedTime": 1756991442735,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.7jgUTRAhXFhYaJmp",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

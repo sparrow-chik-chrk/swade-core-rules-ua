@@ -1,0 +1,1076 @@
+{
+  "effects": [],
+  "img": "systems/swade/assets/icons/ability.svg",
+  "name": "Бонус навички (+1)",
+  "type": "ability",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "build": {
+      "cost": 1,
+      "limit": 1,
+      "level": 1
+    },
+    "description": "<p><strong>Ліміт: раз на навичку.<br />Вартість: 1.</strong></p><p>Біологічні чинники надають расі бонус +1 у використанні певної @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{навички}. Наприклад, раса, яка виділяє феромони, може мати бонус +1 до @Compendium[swade-core-rules.swade-skills.Переконливість]{переконливості}.</p>",
+    "grantsPowers": false,
+    "notes": "",
+    "subtype": "special",
+    "category": "Позитивні",
+    "swid": "skill-bonus",
+    "choiceSets": [
+      {
+        "title": "Choose a Skill.",
+        "choices": [
+          {
+            "name": "Academics",
+            "mutation": {
+              "effects": [
+                {
+                  "_id": "4zWkT76bqRiY5Ubm",
+                  "changes": [
+                    {
+                      "key": "@Skill{Academics}[system.die.modifier]",
+                      "mode": 2,
+                      "value": 1
+                    }
+                  ],
+                  "disabled": false,
+                  "duration": {
+                    "startTime": null
+                  },
+                  "flags": {},
+                  "icon": "systems/swade/assets/icons/ability.svg",
+                  "name": "Ancestry Skill Bonus (Academics)",
+                  "tint": null,
+                  "transfer": true
+                }
+              ],
+              "system": {
+                "build": {
+                  "cost": 1
+                }
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Athletics",
+            "mutation": {
+              "effects": [
+                {
+                  "_id": "gBR3c4jPuJmFKWsK",
+                  "changes": [
+                    {
+                      "key": "@Skill{Athletics}[system.die.modifier]",
+                      "mode": 2,
+                      "value": 1
+                    }
+                  ],
+                  "disabled": false,
+                  "duration": {
+                    "startTime": null
+                  },
+                  "flags": {},
+                  "icon": "systems/swade/assets/icons/ability.svg",
+                  "name": "Ancestry Skill Bonus (Athletics)",
+                  "tint": null,
+                  "transfer": true
+                }
+              ],
+              "system": {
+                "build": {
+                  "cost": 1
+                }
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Battle",
+            "mutation": {
+              "effects": [
+                {
+                  "_id": "jLZ80tPARXS6Pivb",
+                  "changes": [
+                    {
+                      "key": "@Skill{Battle}[system.die.modifier]",
+                      "mode": 2,
+                      "value": 1
+                    }
+                  ],
+                  "disabled": false,
+                  "duration": {
+                    "startTime": null
+                  },
+                  "flags": {},
+                  "icon": "systems/swade/assets/icons/ability.svg",
+                  "name": "Ancestry Skill Bonus (Battle)",
+                  "tint": null,
+                  "transfer": true
+                }
+              ],
+              "system": {
+                "build": {
+                  "cost": 1
+                }
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Boating",
+            "mutation": {
+              "effects": [
+                {
+                  "_id": "PGfdHjwY8RaWrWXp",
+                  "changes": [
+                    {
+                      "key": "@Skill{Boating}[system.die.modifier]",
+                      "mode": 2,
+                      "value": 1
+                    }
+                  ],
+                  "disabled": false,
+                  "duration": {
+                    "startTime": null
+                  },
+                  "flags": {},
+                  "icon": "systems/swade/assets/icons/ability.svg",
+                  "name": "Ancestry Skill Bonus (Boating)",
+                  "tint": null,
+                  "transfer": true
+                }
+              ],
+              "system": {
+                "build": {
+                  "cost": 1
+                }
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Common Knowledge",
+            "mutation": {
+              "effects": [
+                {
+                  "_id": "PGfdHjwY8RaWrWXp",
+                  "changes": [
+                    {
+                      "key": "@Skill{Common Knowledge}[system.die.modifier]",
+                      "mode": 2,
+                      "value": 1
+                    }
+                  ],
+                  "disabled": false,
+                  "duration": {
+                    "startTime": null
+                  },
+                  "flags": {},
+                  "icon": "systems/swade/assets/icons/ability.svg",
+                  "name": "Ancestry Skill Bonus (Common Knowledge)",
+                  "tint": null,
+                  "transfer": true
+                }
+              ],
+              "system": {
+                "build": {
+                  "cost": 1
+                }
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Driving",
+            "mutation": {
+              "effects": [
+                {
+                  "_id": "PGfdHjwY8RaWrWXp",
+                  "changes": [
+                    {
+                      "key": "@Skill{Driving}[system.die.modifier]",
+                      "mode": 2,
+                      "value": 1
+                    }
+                  ],
+                  "disabled": false,
+                  "duration": {
+                    "startTime": null
+                  },
+                  "flags": {},
+                  "icon": "systems/swade/assets/icons/ability.svg",
+                  "name": "Ancestry Skill Bonus (Driving)",
+                  "tint": null,
+                  "transfer": true
+                }
+              ],
+              "system": {
+                "build": {
+                  "cost": 1
+                }
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Electronics",
+            "mutation": {
+              "effects": [
+                {
+                  "_id": "PGfdHjwY8RaWrWXp",
+                  "changes": [
+                    {
+                      "key": "@Skill{Electronics}[system.die.modifier]",
+                      "mode": 2,
+                      "value": 1
+                    }
+                  ],
+                  "disabled": false,
+                  "duration": {
+                    "startTime": null
+                  },
+                  "flags": {},
+                  "icon": "systems/swade/assets/icons/ability.svg",
+                  "name": "Ancestry Skill Bonus (Electronics)",
+                  "tint": null,
+                  "transfer": true
+                }
+              ],
+              "system": {
+                "build": {
+                  "cost": 1
+                }
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Faith",
+            "mutation": {
+              "effects": [
+                {
+                  "_id": "PGfdHjwY8RaWrWXp",
+                  "changes": [
+                    {
+                      "key": "@Skill{Faith}[system.die.modifier]",
+                      "mode": 2,
+                      "value": 1
+                    }
+                  ],
+                  "disabled": false,
+                  "duration": {
+                    "startTime": null
+                  },
+                  "flags": {},
+                  "icon": "systems/swade/assets/icons/ability.svg",
+                  "name": "Ancestry Skill Bonus (Faith)",
+                  "tint": null,
+                  "transfer": true
+                }
+              ],
+              "system": {
+                "build": {
+                  "cost": 1
+                }
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Fighting",
+            "mutation": {
+              "effects": [
+                {
+                  "_id": "PGfdHjwY8RaWrWXp",
+                  "changes": [
+                    {
+                      "key": "@Skill{Fighting}[system.die.modifier]",
+                      "mode": 2,
+                      "value": 1
+                    }
+                  ],
+                  "disabled": false,
+                  "duration": {
+                    "startTime": null
+                  },
+                  "flags": {},
+                  "icon": "systems/swade/assets/icons/ability.svg",
+                  "name": "Ancestry Skill Bonus (Fighting)",
+                  "tint": null,
+                  "transfer": true
+                }
+              ],
+              "system": {
+                "build": {
+                  "cost": 1
+                }
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Focus",
+            "mutation": {
+              "effects": [
+                {
+                  "_id": "PGfdHjwY8RaWrWXp",
+                  "changes": [
+                    {
+                      "key": "@Skill{Focus}[system.die.modifier]",
+                      "mode": 2,
+                      "value": 1
+                    }
+                  ],
+                  "disabled": false,
+                  "duration": {
+                    "startTime": null
+                  },
+                  "flags": {},
+                  "icon": "systems/swade/assets/icons/ability.svg",
+                  "name": "Ancestry Skill Bonus (Focus)",
+                  "tint": null,
+                  "transfer": true
+                }
+              ],
+              "system": {
+                "build": {
+                  "cost": 1
+                }
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Gambling",
+            "mutation": {
+              "effects": [
+                {
+                  "_id": "PGfdHjwY8RaWrWXp",
+                  "changes": [
+                    {
+                      "key": "@Skill{Gambling}[system.die.modifier]",
+                      "mode": 2,
+                      "value": 1
+                    }
+                  ],
+                  "disabled": false,
+                  "duration": {
+                    "startTime": null
+                  },
+                  "flags": {},
+                  "icon": "systems/swade/assets/icons/ability.svg",
+                  "name": "Ancestry Skill Bonus (Gambling)",
+                  "tint": null,
+                  "transfer": true
+                }
+              ],
+              "system": {
+                "build": {
+                  "cost": 1
+                }
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Hacking",
+            "mutation": {
+              "effects": [
+                {
+                  "_id": "PGfdHjwY8RaWrWXp",
+                  "changes": [
+                    {
+                      "key": "@Skill{Hacking}[system.die.modifier]",
+                      "mode": 2,
+                      "value": 1
+                    }
+                  ],
+                  "disabled": false,
+                  "duration": {
+                    "startTime": null
+                  },
+                  "flags": {},
+                  "icon": "systems/swade/assets/icons/ability.svg",
+                  "name": "Ancestry Skill Bonus (Hacking)",
+                  "tint": null,
+                  "transfer": true
+                }
+              ],
+              "system": {
+                "build": {
+                  "cost": 1
+                }
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Healing",
+            "mutation": {
+              "effects": [
+                {
+                  "_id": "PGfdHjwY8RaWrWXp",
+                  "changes": [
+                    {
+                      "key": "@Skill{Healing}[system.die.modifier]",
+                      "mode": 2,
+                      "value": 1
+                    }
+                  ],
+                  "disabled": false,
+                  "duration": {
+                    "startTime": null
+                  },
+                  "flags": {},
+                  "icon": "systems/swade/assets/icons/ability.svg",
+                  "name": "Ancestry Skill Bonus (Healing)",
+                  "tint": null,
+                  "transfer": true
+                }
+              ],
+              "system": {
+                "build": {
+                  "cost": 1
+                }
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Intimidation",
+            "mutation": {
+              "effects": [
+                {
+                  "_id": "PGfdHjwY8RaWrWXp",
+                  "changes": [
+                    {
+                      "key": "@Skill{Intimidation}[system.die.modifier]",
+                      "mode": 2,
+                      "value": 1
+                    }
+                  ],
+                  "disabled": false,
+                  "duration": {
+                    "startTime": null
+                  },
+                  "flags": {},
+                  "icon": "systems/swade/assets/icons/ability.svg",
+                  "name": "Ancestry Skill Bonus (Intimidation)",
+                  "tint": null,
+                  "transfer": true
+                }
+              ],
+              "system": {
+                "build": {
+                  "cost": 1
+                }
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Language",
+            "mutation": {
+              "effects": [
+                {
+                  "_id": "PGfdHjwY8RaWrWXp",
+                  "changes": [
+                    {
+                      "key": "@Skill{Language}[system.die.modifier]",
+                      "mode": 2,
+                      "value": 1
+                    }
+                  ],
+                  "disabled": false,
+                  "duration": {
+                    "startTime": null
+                  },
+                  "flags": {},
+                  "icon": "systems/swade/assets/icons/ability.svg",
+                  "name": "Ancestry Skill Bonus (Language)",
+                  "tint": null,
+                  "transfer": true
+                }
+              ],
+              "system": {
+                "build": {
+                  "cost": 1
+                }
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Notice",
+            "mutation": {
+              "effects": [
+                {
+                  "_id": "PGfdHjwY8RaWrWXp",
+                  "changes": [
+                    {
+                      "key": "@Skill{Notice}[system.die.modifier]",
+                      "mode": 2,
+                      "value": 1
+                    }
+                  ],
+                  "disabled": false,
+                  "duration": {
+                    "startTime": null
+                  },
+                  "flags": {},
+                  "icon": "systems/swade/assets/icons/ability.svg",
+                  "name": "Ancestry Skill Bonus (Notice)",
+                  "tint": null,
+                  "transfer": true
+                }
+              ],
+              "system": {
+                "build": {
+                  "cost": 1
+                }
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Occult",
+            "mutation": {
+              "effects": [
+                {
+                  "_id": "PGfdHjwY8RaWrWXp",
+                  "changes": [
+                    {
+                      "key": "@Skill{Occult}[system.die.modifier]",
+                      "mode": 2,
+                      "value": 1
+                    }
+                  ],
+                  "disabled": false,
+                  "duration": {
+                    "startTime": null
+                  },
+                  "flags": {},
+                  "icon": "systems/swade/assets/icons/ability.svg",
+                  "name": "Ancestry Skill Bonus (Occult)",
+                  "tint": null,
+                  "transfer": true
+                }
+              ],
+              "system": {
+                "build": {
+                  "cost": 1
+                }
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Performance",
+            "mutation": {
+              "effects": [
+                {
+                  "_id": "PGfdHjwY8RaWrWXp",
+                  "changes": [
+                    {
+                      "key": "@Skill{Performance}[system.die.modifier]",
+                      "mode": 2,
+                      "value": 1
+                    }
+                  ],
+                  "disabled": false,
+                  "duration": {
+                    "startTime": null
+                  },
+                  "flags": {},
+                  "icon": "systems/swade/assets/icons/ability.svg",
+                  "name": "Ancestry Skill Bonus (Performance)",
+                  "tint": null,
+                  "transfer": true
+                }
+              ],
+              "system": {
+                "build": {
+                  "cost": 1
+                }
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Persuasion",
+            "mutation": {
+              "effects": [
+                {
+                  "_id": "PGfdHjwY8RaWrWXp",
+                  "changes": [
+                    {
+                      "key": "@Skill{Persuasion}[system.die.modifier]",
+                      "mode": 2,
+                      "value": 1
+                    }
+                  ],
+                  "disabled": false,
+                  "duration": {
+                    "startTime": null
+                  },
+                  "flags": {},
+                  "icon": "systems/swade/assets/icons/ability.svg",
+                  "name": "Ancestry Skill Bonus (Persuasion)",
+                  "tint": null,
+                  "transfer": true
+                }
+              ],
+              "system": {
+                "build": {
+                  "cost": 1
+                }
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Piloting",
+            "mutation": {
+              "effects": [
+                {
+                  "_id": "PGfdHjwY8RaWrWXp",
+                  "changes": [
+                    {
+                      "key": "@Skill{Piloting}[system.die.modifier]",
+                      "mode": 2,
+                      "value": 1
+                    }
+                  ],
+                  "disabled": false,
+                  "duration": {
+                    "startTime": null
+                  },
+                  "flags": {},
+                  "icon": "systems/swade/assets/icons/ability.svg",
+                  "name": "Ancestry Skill Bonus (Piloting)",
+                  "tint": null,
+                  "transfer": true
+                }
+              ],
+              "system": {
+                "build": {
+                  "cost": 1
+                }
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Psionics",
+            "mutation": {
+              "effects": [
+                {
+                  "_id": "PGfdHjwY8RaWrWXp",
+                  "changes": [
+                    {
+                      "key": "@Skill{Psionics}[system.die.modifier]",
+                      "mode": 2,
+                      "value": 1
+                    }
+                  ],
+                  "disabled": false,
+                  "duration": {
+                    "startTime": null
+                  },
+                  "flags": {},
+                  "icon": "systems/swade/assets/icons/ability.svg",
+                  "name": "Ancestry Skill Bonus (Psionics)",
+                  "tint": null,
+                  "transfer": true
+                }
+              ],
+              "system": {
+                "build": {
+                  "cost": 1
+                }
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Repair",
+            "mutation": {
+              "effects": [
+                {
+                  "_id": "PGfdHjwY8RaWrWXp",
+                  "changes": [
+                    {
+                      "key": "@Skill{Repair}[system.die.modifier]",
+                      "mode": 2,
+                      "value": 1
+                    }
+                  ],
+                  "disabled": false,
+                  "duration": {
+                    "startTime": null
+                  },
+                  "flags": {},
+                  "icon": "systems/swade/assets/icons/ability.svg",
+                  "name": "Ancestry Skill Bonus (Repair)",
+                  "tint": null,
+                  "transfer": true
+                }
+              ],
+              "system": {
+                "build": {
+                  "cost": 1
+                }
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Research",
+            "mutation": {
+              "effects": [
+                {
+                  "_id": "PGfdHjwY8RaWrWXp",
+                  "changes": [
+                    {
+                      "key": "@Skill{Research}[system.die.modifier]",
+                      "mode": 2,
+                      "value": 1
+                    }
+                  ],
+                  "disabled": false,
+                  "duration": {
+                    "startTime": null
+                  },
+                  "flags": {},
+                  "icon": "systems/swade/assets/icons/ability.svg",
+                  "name": "Ancestry Skill Bonus (Research)",
+                  "tint": null,
+                  "transfer": true
+                }
+              ],
+              "system": {
+                "build": {
+                  "cost": 1
+                }
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Riding",
+            "mutation": {
+              "effects": [
+                {
+                  "_id": "PGfdHjwY8RaWrWXp",
+                  "changes": [
+                    {
+                      "key": "@Skill{Riding}[system.die.modifier]",
+                      "mode": 2,
+                      "value": 1
+                    }
+                  ],
+                  "disabled": false,
+                  "duration": {
+                    "startTime": null
+                  },
+                  "flags": {},
+                  "icon": "systems/swade/assets/icons/ability.svg",
+                  "name": "Ancestry Skill Bonus (Riding)",
+                  "tint": null,
+                  "transfer": true
+                }
+              ],
+              "system": {
+                "build": {
+                  "cost": 1
+                }
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Science",
+            "mutation": {
+              "effects": [
+                {
+                  "_id": "PGfdHjwY8RaWrWXp",
+                  "changes": [
+                    {
+                      "key": "@Skill{Science}[system.die.modifier]",
+                      "mode": 2,
+                      "value": 1
+                    }
+                  ],
+                  "disabled": false,
+                  "duration": {
+                    "startTime": null
+                  },
+                  "flags": {},
+                  "icon": "systems/swade/assets/icons/ability.svg",
+                  "name": "Ancestry Skill Bonus (Science)",
+                  "tint": null,
+                  "transfer": true
+                }
+              ],
+              "system": {
+                "build": {
+                  "cost": 1
+                }
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Shooting",
+            "mutation": {
+              "effects": [
+                {
+                  "_id": "PGfdHjwY8RaWrWXp",
+                  "changes": [
+                    {
+                      "key": "@Skill{Shooting}[system.die.modifier]",
+                      "mode": 2,
+                      "value": 1
+                    }
+                  ],
+                  "disabled": false,
+                  "duration": {
+                    "startTime": null
+                  },
+                  "flags": {},
+                  "icon": "systems/swade/assets/icons/ability.svg",
+                  "name": "Ancestry Skill Bonus (Shooting)",
+                  "tint": null,
+                  "transfer": true
+                }
+              ],
+              "system": {
+                "build": {
+                  "cost": 1
+                }
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Spellcasting",
+            "mutation": {
+              "effects": [
+                {
+                  "_id": "PGfdHjwY8RaWrWXp",
+                  "changes": [
+                    {
+                      "key": "@Skill{Spellcasting}[system.die.modifier]",
+                      "mode": 2,
+                      "value": 1
+                    }
+                  ],
+                  "disabled": false,
+                  "duration": {
+                    "startTime": null
+                  },
+                  "flags": {},
+                  "icon": "systems/swade/assets/icons/ability.svg",
+                  "name": "Ancestry Skill Bonus (Spellcasting)",
+                  "tint": null,
+                  "transfer": true
+                }
+              ],
+              "system": {
+                "build": {
+                  "cost": 1
+                }
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Stealth",
+            "mutation": {
+              "effects": [
+                {
+                  "_id": "PGfdHjwY8RaWrWXp",
+                  "changes": [
+                    {
+                      "key": "@Skill{Stealth}[system.die.modifier]",
+                      "mode": 2,
+                      "value": 1
+                    }
+                  ],
+                  "disabled": false,
+                  "duration": {
+                    "startTime": null
+                  },
+                  "flags": {},
+                  "icon": "systems/swade/assets/icons/ability.svg",
+                  "name": "Ancestry Skill Bonus (Stealth)",
+                  "tint": null,
+                  "transfer": true
+                }
+              ],
+              "system": {
+                "build": {
+                  "cost": 1
+                }
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Survival",
+            "mutation": {
+              "effects": [
+                {
+                  "_id": "PGfdHjwY8RaWrWXp",
+                  "changes": [
+                    {
+                      "key": "@Skill{Survival}[system.die.modifier]",
+                      "mode": 2,
+                      "value": 1
+                    }
+                  ],
+                  "disabled": false,
+                  "duration": {
+                    "startTime": null
+                  },
+                  "flags": {},
+                  "icon": "systems/swade/assets/icons/ability.svg",
+                  "name": "Ancestry Skill Bonus (Survival)",
+                  "tint": null,
+                  "transfer": true
+                }
+              ],
+              "system": {
+                "build": {
+                  "cost": 1
+                }
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Taunt",
+            "mutation": {
+              "effects": [
+                {
+                  "_id": "PGfdHjwY8RaWrWXp",
+                  "changes": [
+                    {
+                      "key": "@Skill{Taunt}[system.die.modifier]",
+                      "mode": 2,
+                      "value": 1
+                    }
+                  ],
+                  "disabled": false,
+                  "duration": {
+                    "startTime": null
+                  },
+                  "flags": {},
+                  "icon": "systems/swade/assets/icons/ability.svg",
+                  "name": "Ancestry Skill Bonus (Taunt)",
+                  "tint": null,
+                  "transfer": true
+                }
+              ],
+              "system": {
+                "build": {
+                  "cost": 1
+                }
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Thievery",
+            "mutation": {
+              "effects": [
+                {
+                  "_id": "PGfdHjwY8RaWrWXp",
+                  "changes": [
+                    {
+                      "key": "@Skill{Thievery}[system.die.modifier]",
+                      "mode": 2,
+                      "value": 1
+                    }
+                  ],
+                  "disabled": false,
+                  "duration": {
+                    "startTime": null
+                  },
+                  "flags": {},
+                  "icon": "systems/swade/assets/icons/ability.svg",
+                  "name": "Ancestry Skill Bonus (Thievery)",
+                  "tint": null,
+                  "transfer": true
+                }
+              ],
+              "system": {
+                "build": {
+                  "cost": 1
+                }
+              }
+            },
+            "addToName": true
+          },
+          {
+            "name": "Weird Science",
+            "mutation": {
+              "effects": [
+                {
+                  "_id": "PGfdHjwY8RaWrWXp",
+                  "changes": [
+                    {
+                      "key": "@Skill{Weird Science}[system.die.modifier]",
+                      "mode": 2,
+                      "value": 1
+                    }
+                  ],
+                  "disabled": false,
+                  "duration": {
+                    "startTime": null
+                  },
+                  "flags": {},
+                  "icon": "systems/swade/assets/icons/ability.svg",
+                  "name": "Ancestry Skill Bonus (Weird Science)",
+                  "tint": null,
+                  "transfer": true
+                }
+              ],
+              "system": {
+                "build": {
+                  "cost": 1
+                }
+              }
+            },
+            "addToName": true
+          }
+        ],
+        "choice": null
+      }
+    ],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756994285030,
+    "modifiedTime": 1756994310757,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.s7aeZdHTsnKQYzGr",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "folder": "MSZGJJcE8MglvoaH",
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

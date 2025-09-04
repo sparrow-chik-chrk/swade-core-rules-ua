@@ -1,0 +1,91 @@
+{
+  "effects": [
+    {
+      "_id": "rj1JKO8r0JXyd1K6",
+      "changes": [
+        {
+          "key": "system.stats.toughness.value",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        },
+        {
+          "key": "system.wounds.ignored",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "flags": {},
+      "name": "Невмерлий",
+      "tint": "#ffffff",
+      "transfer": true,
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": "swade",
+        "systemVersion": "5.0.5",
+        "lastModifiedBy": null
+      },
+      "img": "systems/swade/assets/icons/ability.svg",
+      "type": "base",
+      "system": {
+        "expiration": null,
+        "removeEffect": false,
+        "loseTurnOnHold": false,
+        "favorite": false,
+        "conditionalEffect": false
+      },
+      "description": "<p>@Compendium[swade-core-rules.swade-bestiary.Зомбі]{Зомбі}, @Compendium[swade-core-rules.swade-bestiary.Скелет]{скелетів} і подібних потвор доволі важко знищити. Але бути подібною гидотою має і свої переваги.</p><p>Невмерлі мають +2 до @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01characters0000]{стійкості}, +2 до оговтання від @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03damageeffect00]{шоку}, ігнорують додаткові ушкодження від @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03calledshots000]{точних пострілів} й 1 очко штрафів за @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03damageeffect00]{рани}, не мають потреби в їжі та повітрі, невразливі до @UUID[Compendium.swade-core-rules.swade-rules.swadecor04theadv.JournalEntryPage.04disease0000000]{хвороб}, @UUID[Compendium.swade-core-rules.swade-rules.swadecor04theadv.JournalEntryPage.04poison00000000]{отрут} і @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03damageeffect00]{кровотеч}, @Compendium[swade-core-rules.swade-powers.Зцілення]{«Зцілення»} може бути лише магічним.</p>",
+      "origin": null,
+      "statuses": [],
+      "sort": 0
+    }
+  ],
+  "folder": "X5GhqM8eqmGchLoL",
+  "img": "systems/swade/assets/icons/ability.svg",
+  "name": "Невмерлий",
+  "type": "ability",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>@Compendium[swade-core-rules.swade-bestiary.Зомбі]{Зомбі}, @Compendium[swade-core-rules.swade-bestiary.Скелет]{скелетів} і подібних потвор доволі важко знищити. Але бути подібною гидотою має і свої переваги.</p><p>Невмерлі мають +2 до @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01characters0000]{стійкості}, +2 до оговтання від @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03damageeffect00]{шоку}, ігнорують додаткові ушкодження від @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03calledshots000]{точних пострілів} й 1 очко штрафів за @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03damageeffect00]{рани}, не мають потреби в їжі та повітрі, невразливі до @UUID[Compendium.swade-core-rules.swade-rules.swadecor04theadv.JournalEntryPage.04disease0000000]{хвороб}, @UUID[Compendium.swade-core-rules.swade-rules.swadecor04theadv.JournalEntryPage.04poison00000000]{отрут} і @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03damageeffect00]{кровотеч}, @Compendium[swade-core-rules.swade-powers.Зцілення]{«Зцілення»} може бути лише магічним.</p>",
+    "grantsPowers": false,
+    "notes": "",
+    "subtype": "special",
+    "category": "Особливі вміння",
+    "swid": "undead",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": [],
+    "build": {
+      "limit": 1,
+      "level": 1
+    }
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756994219269,
+    "modifiedTime": 1756994219269,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.PeJLgvhsNJRgeyYr",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {}
+}

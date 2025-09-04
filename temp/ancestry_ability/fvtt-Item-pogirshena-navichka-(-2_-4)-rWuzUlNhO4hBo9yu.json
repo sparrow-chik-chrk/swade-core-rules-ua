@@ -1,0 +1,66 @@
+{
+  "effects": [],
+  "img": "systems/swade/assets/icons/ability.svg",
+  "name": "Погіршена навичка (-2/-4)",
+  "type": "ability",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "build": {
+      "cost": -2,
+      "limit": 1,
+      "level": 1
+    },
+    "description": "<p><strong>Ліміт: раз на вміння.<br />Вартість: -2.</strong></p><p>Раса має штраф –2 для поширеної базової навички на кшталт @Compendium[swade-core-rules.swade-skills.Бійка]{бійки}, @Compendium[swade-core-rules.swade-skills.Переконливість]{переконливості} чи навіть @Compendium[swade-core-rules.swade-skills.Пілотування]{пілотування} грі з літаками (вирішує ІМ з огляду на кампанію). Якщо навичка менш поширена або її використовують лише в певних ситуаціях, штраф становить –4.</p>",
+    "grantsPowers": false,
+    "notes": "",
+    "subtype": "special",
+    "category": "Негативні",
+    "swid": "skill-penalty",
+    "choiceSets": [
+      {
+        "title": "Pick if Skill is Common or Uncommon In Campaign.",
+        "choices": [
+          {
+            "name": "Common Skill",
+            "mutation": {
+              "name": "Skill Penalty (-2)"
+            },
+            "addToName": false
+          },
+          {
+            "name": "Uncommon Skill",
+            "mutation": {
+              "name": "Skill Penalty (-4)"
+            },
+            "addToName": false
+          }
+        ],
+        "choice": null
+      }
+    ],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756994285030,
+    "modifiedTime": 1756994296584,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.rWuzUlNhO4hBo9yu",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "folder": "MSZGJJcE8MglvoaH",
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

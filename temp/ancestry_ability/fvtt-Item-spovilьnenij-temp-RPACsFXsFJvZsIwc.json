@@ -1,0 +1,133 @@
+{
+  "effects": [],
+  "img": "systems/swade/assets/icons/ability.svg",
+  "name": "Сповільнений темп",
+  "type": "ability",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "build": {
+      "cost": -1,
+      "limit": 1,
+      "level": 1
+    },
+    "description": "<p><strong>Ліміт: 1.<br />Вартість: -1 або -2.</strong></p><p>За –1 очко слід сповільнити @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03movement000000]{темп} на 1 та відняти 1 від кістки бігу (1к4 – 1). За –2 очки темп сповільнено на 2, @Compendium[swade-core-rules.swade-skills.Атлетизм]{атлетизм} зменшено на 2, а результат кидків опору @Compendium[swade-core-rules.swade-skills.Атлетизм]{атлетизм} зменшено на 2, якщо переміщення й рухливість є базовими для виконання дії (на розсуд ІМ).</p>",
+    "grantsPowers": false,
+    "notes": "",
+    "subtype": "special",
+    "category": "Негативні",
+    "swid": "reduced-pace",
+    "choiceSets": [
+      {
+        "title": "Reduced Pace",
+        "choices": [
+          {
+            "name": "Reduced Pace -1",
+            "mutation": {
+              "name": "Reduced Pace (-1)",
+              "effects": [
+                {
+                  "_id": "ReducedPace00000",
+                  "changes": [
+                    {
+                      "key": "system.pace.ground",
+                      "mode": 2,
+                      "value": -1
+                    },
+                    {
+                      "key": "system.stats.speed.runningDie",
+                      "mode": 2,
+                      "value": -2
+                    }
+                  ],
+                  "disabled": false,
+                  "duration": {
+                    "startTime": null
+                  },
+                  "flags": {},
+                  "icon": "systems/swade/assets/icons/ability.svg",
+                  "name": "Reduced Pace",
+                  "tint": null,
+                  "transfer": true
+                }
+              ],
+              "system": {
+                "build": {
+                  "cost": -1
+                }
+              }
+            },
+            "addToName": false
+          },
+          {
+            "name": "Reduced Pace -2",
+            "mutation": {
+              "name": "Reduced Pace (-2)",
+              "effects": [
+                {
+                  "_id": "ReducedPace00000",
+                  "changes": [
+                    {
+                      "key": "system.stats.pace.ground",
+                      "mode": 2,
+                      "value": -3
+                    },
+                    {
+                      "key": "system.stats.speed.runningDie",
+                      "mode": 2,
+                      "value": -2
+                    },
+                    {
+                      "key": "@Skill{Athletics}[system.die.modifier]",
+                      "mode": 2,
+                      "value": -2
+                    }
+                  ],
+                  "disabled": false,
+                  "duration": {
+                    "startTime": null
+                  },
+                  "flags": {},
+                  "icon": "systems/swade/assets/icons/ability.svg",
+                  "name": "Reduced Pace",
+                  "tint": null,
+                  "transfer": true
+                }
+              ],
+              "system": {
+                "build": {
+                  "cost": -2
+                }
+              }
+            },
+            "addToName": false
+          }
+        ],
+        "choice": null
+      }
+    ],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1756994285030,
+    "modifiedTime": 1756994296584,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.RPACsFXsFJvZsIwc",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "folder": "MSZGJJcE8MglvoaH",
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}
