@@ -4263,101 +4263,36 @@ Hooks.once("ready", async () => {
   ui.combat.render(true, { force: true });
 });
 
-const MY_SW_TEMPLATES = {
-  swscone: { t: "cone", distance: 9, width: 4 },
-  swcone: { t: "cone", distance: 18, width: 6 },
-  stream: { t: "ray", distance: 24, width: 2 },
-  sbt: { t: "circle", distance: 2 },
-  mbt: { t: "circle", distance: 4 },
-  lbt: { t: "circle", distance: 6 },
-};
-
 Hooks.once("ready", () => {
-  // Патчимо після кожного рендера панелі
-  Hooks.on("renderSceneControls", rewireSwadeTemplateTools);
-  // І одразу, якщо канвас вже готовий
-  if (canvas?.ready) rewireSwadeTemplateTools();
-});
-
-function rewireSwadeTemplateTools() {
-  const cc = ui.controls?.controls;
-  const ctrl = cc?.get ? cc.get("templates")
-    : (cc?.templates || (Array.isArray(cc) ? cc.find(c => c.name === "templates")
-      : ui.controls?._controls?.find(c => c.name === "templates")));
-  if (!ctrl?.tools) return;
-
-  // Прев’ю як у робочому консольному коді
-  const previewTemplate = (data) => {
-    const initialLayer = canvas.activeLayer;
-    const base = { user: game.user?.id, distance: 0, direction: 0, x: 0, y: 0, fillColor: game.user?.color };
-    const doc = new CONFIG.MeasuredTemplate.documentClass(
-      foundry.utils.mergeObject(base, data),
-      { parent: canvas.scene ?? undefined }
-    );
-    const obj = new CONFIG.MeasuredTemplate.objectClass(doc);
-
-    obj.draw();
-    obj.layer.activate();
-    obj.layer.preview?.addChild(obj);
-
-    let moveTime = 0;
-    const mm = (event) => {
-      event.stopPropagation();
-      const now = Date.now();
-      if (now - moveTime <= 20) return;
-      const center = event.data.getLocalPosition(obj.layer);
-      const snapped = canvas.grid.getSnappedPoint(center, {
-        mode: CONST.GRID_SNAPPING_MODES.CENTER, resolution: 2
-      });
-      obj.document.updateSource({ x: snapped?.x, y: snapped?.y });
-      obj.refresh();
-      moveTime = now;
-    };
-    const rc = () => {
-      canvas.stage.off("mousemove", mm);
-      canvas.stage.off("mousedown", lc);
-      canvas.app.view.oncontextmenu = null;
-      canvas.app.view.onwheel = null;
-      initialLayer.activate();
-      obj.destroy({ children: true });
-    };
-    const lc = () => {
-      rc();
-      const dest = canvas.grid.getSnappedPoint(obj.document, {
-        mode: CONST.GRID_SNAPPING_MODES.CENTER, resolution: 2
-      });
-      obj.document.updateSource(dest);
-      canvas.scene?.createEmbeddedDocuments("MeasuredTemplate", [obj.document.toObject()]);
-    };
-    const mw = (event) => {
-      if (event.ctrlKey) event.preventDefault();
-      event.stopPropagation();
-      const delta = canvas.grid.type > CONST.GRID_TYPES.SQUARE ? 30 : 15;
-      const snap = event.shiftKey ? delta : 5;
-      obj.document.updateSource({
-        direction: obj.document.direction + snap * Math.sign(event.deltaY)
-      });
-      obj.refresh();
-    };
-
-    canvas.stage.on("mousemove", mm);
-    canvas.stage.on("mousedown", lc);
-    canvas.app.view.oncontextmenu = rc;
-    canvas.app.view.onwheel = mw;
+  // Твої значення (ЗВЕРНИ УВАГУ: t як рядок: 'cone' | 'ray' | 'circle')
+  const OVERRIDE = {
+    swscone: { t: "cone", distance: 9, width: 4 },
+    swcone: { t: "cone", distance: 18, width: 6 },
+    stream: { t: "ray", distance: 24, width: 2 },
+    sbt: { t: "circle", distance: 2 },
+    mbt: { t: "circle", distance: 4 },
+    lbt: { t: "circle", distance: 6 },
   };
 
-  // Перев’язка onClick (ідемпотентно, без ререндеру)
-  let patched = 0;
-  for (const [name, cfg] of Object.entries(MY_SW_TEMPLATES)) {
-    const tool = ctrl.tools[name];
-    if (!tool) continue;
-    if (tool.__swadePatched) continue;                // щоб не дублювати
-    tool.onClick = () => previewTemplate(cfg);
-    tool.__swadePatched = true;
-    patched++;
+  const list = CONFIG.SWADE?.measuredTemplatePresets;
+  if (!Array.isArray(list)) {
+    console.error("[SWADE preset patch] CONFIG.SWADE.measuredTemplatePresets not found");
+    return;
   }
-  if (patched) console.log("[SWADE preset patch] rewired x", patched);
-}
 
+  // Міняємо "in-place" за іменем кнопки (саме його передає система при касті)
+  for (const p of list) {
+    const key = p?.button?.name;           // 'swcone', 'swscone', ...
+    const ov = key && OVERRIDE[key];
+    if (!ov) continue;
+    p.data = foundry.utils.mergeObject(p.data ?? {}, ov, { inplace: false });
+  }
+
+  // Переасайн — щоб не було посилань на старий масив
+  CONFIG.SWADE.measuredTemplatePresets = list;
+
+  console.log("[SWADE preset patch] CONFIG overridden for items/spells:",
+    list.map(p => ({ name: p.button?.name, ...p.data })));
+});
 
 console.log(`[${y}@${Mt}...] successfully loaded!`);
