@@ -4263,40 +4263,101 @@ Hooks.once("ready", async () => {
   ui.combat.render(true, { force: true });
 });
 
-Hooks.once("setup", () => {
-  const P = CONFIG.SWADE?.constants?.TEMPLATE_PRESET ?? {
-    SCONE: "swscone", CONE: "swcone", STREAM: "stream",
-    SBT: "sbt", MBT: "mbt", LBT: "lbt"
-  };
+const MY_SW_TEMPLATES = {
+  swscone: { t: "cone", distance: 9, width: 4 },
+  swcone: { t: "cone", distance: 18, width: 6 },
+  stream: { t: "ray", distance: 24, width: 2 },
+  sbt: { t: "circle", distance: 2 },
+  mbt: { t: "circle", distance: 4 },
+  lbt: { t: "circle", distance: 6 },
+};
 
-  // Твої значення для кожного пресета:
-  const MY = {
-    [P.SCONE]: { t: CONST.MEASURED_TEMPLATE_TYPES.CONE, distance: 9, width: 2 },
-    [P.CONE]: { t: CONST.MEASURED_TEMPLATE_TYPES.CONE, distance: 18, width: 3 },
-    [P.STREAM]: { t: CONST.MEASURED_TEMPLATE_TYPES.RAY, distance: 24, width: 2 },
-    [P.SBT]: { t: CONST.MEASURED_TEMPLATE_TYPES.CIRCLE, distance: 4 },
-    [P.MBT]: { t: CONST.MEASURED_TEMPLATE_TYPES.CIRCLE, distance: 8 },
-    [P.LBT]: { t: CONST.MEASURED_TEMPLATE_TYPES.CIRCLE, distance: 12 },
-  };
-
-  const _orig = SwadeMeasuredTemplate._constructPreset;
-
-  SwadeMeasuredTemplate._constructPreset = function (preset, item) {
-    const mine = MY[preset];
-    if (mine) {
-      const base = {
-        user: game.user?.id, distance: 0, direction: 0, x: 0, y: 0,
-        fillColor: game.user?.color,
-        flags: item ? { swade: { origin: item.uuid } } : {}
-      };
-      const doc = new CONFIG.MeasuredTemplate.documentClass(
-        foundry.utils.mergeObject(base, mine),
-        { parent: canvas.scene ?? undefined }
-      );
-      return new this(doc);
-    }
-    return _orig.call(this, preset, item);
-  };
+Hooks.once("ready", () => {
+  // Патчимо після кожного рендера панелі
+  Hooks.on("renderSceneControls", rewireSwadeTemplateTools);
+  // І одразу, якщо канвас вже готовий
+  if (canvas?.ready) rewireSwadeTemplateTools();
 });
+
+function rewireSwadeTemplateTools() {
+  const cc = ui.controls?.controls;
+  const ctrl = cc?.get ? cc.get("templates")
+    : (cc?.templates || (Array.isArray(cc) ? cc.find(c => c.name === "templates")
+      : ui.controls?._controls?.find(c => c.name === "templates")));
+  if (!ctrl?.tools) return;
+
+  // Прев’ю як у робочому консольному коді
+  const previewTemplate = (data) => {
+    const initialLayer = canvas.activeLayer;
+    const base = { user: game.user?.id, distance: 0, direction: 0, x: 0, y: 0, fillColor: game.user?.color };
+    const doc = new CONFIG.MeasuredTemplate.documentClass(
+      foundry.utils.mergeObject(base, data),
+      { parent: canvas.scene ?? undefined }
+    );
+    const obj = new CONFIG.MeasuredTemplate.objectClass(doc);
+
+    obj.draw();
+    obj.layer.activate();
+    obj.layer.preview?.addChild(obj);
+
+    let moveTime = 0;
+    const mm = (event) => {
+      event.stopPropagation();
+      const now = Date.now();
+      if (now - moveTime <= 20) return;
+      const center = event.data.getLocalPosition(obj.layer);
+      const snapped = canvas.grid.getSnappedPoint(center, {
+        mode: CONST.GRID_SNAPPING_MODES.CENTER, resolution: 2
+      });
+      obj.document.updateSource({ x: snapped?.x, y: snapped?.y });
+      obj.refresh();
+      moveTime = now;
+    };
+    const rc = () => {
+      canvas.stage.off("mousemove", mm);
+      canvas.stage.off("mousedown", lc);
+      canvas.app.view.oncontextmenu = null;
+      canvas.app.view.onwheel = null;
+      initialLayer.activate();
+      obj.destroy({ children: true });
+    };
+    const lc = () => {
+      rc();
+      const dest = canvas.grid.getSnappedPoint(obj.document, {
+        mode: CONST.GRID_SNAPPING_MODES.CENTER, resolution: 2
+      });
+      obj.document.updateSource(dest);
+      canvas.scene?.createEmbeddedDocuments("MeasuredTemplate", [obj.document.toObject()]);
+    };
+    const mw = (event) => {
+      if (event.ctrlKey) event.preventDefault();
+      event.stopPropagation();
+      const delta = canvas.grid.type > CONST.GRID_TYPES.SQUARE ? 30 : 15;
+      const snap = event.shiftKey ? delta : 5;
+      obj.document.updateSource({
+        direction: obj.document.direction + snap * Math.sign(event.deltaY)
+      });
+      obj.refresh();
+    };
+
+    canvas.stage.on("mousemove", mm);
+    canvas.stage.on("mousedown", lc);
+    canvas.app.view.oncontextmenu = rc;
+    canvas.app.view.onwheel = mw;
+  };
+
+  // Перев’язка onClick (ідемпотентно, без ререндеру)
+  let patched = 0;
+  for (const [name, cfg] of Object.entries(MY_SW_TEMPLATES)) {
+    const tool = ctrl.tools[name];
+    if (!tool) continue;
+    if (tool.__swadePatched) continue;                // щоб не дублювати
+    tool.onClick = () => previewTemplate(cfg);
+    tool.__swadePatched = true;
+    patched++;
+  }
+  if (patched) console.log("[SWADE preset patch] rewired x", patched);
+}
+
 
 console.log(`[${y}@${Mt}...] successfully loaded!`);
