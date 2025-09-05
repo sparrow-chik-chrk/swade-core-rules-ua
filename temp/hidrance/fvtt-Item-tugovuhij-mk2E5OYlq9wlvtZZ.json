@@ -1,0 +1,89 @@
+{
+  "effects": [
+    {
+      "_id": "tL1IWFQH6IklcvnK",
+      "changes": [
+        {
+          "key": "@Skill{Notice}[system.die.modifier]",
+          "mode": 2,
+          "value": "-4",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "name": "Туговухий",
+      "tint": "#ffffff",
+      "transfer": true,
+      "flags": {
+        "swade": {},
+        "sigil": {
+          "completed": true
+        }
+      },
+      "description": "<p>(ДРІБНИЙ АБО ВЕЛИКИЙ)</p><p>Цей @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01hindrances0000]{недолік} мають персонажі, які частково чи повністю втратили слух. Дрібний недолік накладає штраф −4 на всі перевірки @Compendium[swade-core-rules.swade-skills.Уважність]{уважності}, пов’язані зі слухом, включно з пробудженням від гучних звуків. Великий недолік означає, що персонаж глухий. Через це він автоматично провалюватиме всі перевірки уважності, пов’язані зі слухом.</p><p>Слуховий апарат знижує цей штраф на 2, але вимагає батарейок та має 50% шансу зламатися, коли герой отримує @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03damageeffect00]{рану}, @UUID[Compendium.swade-core-rules.swade-rules.swadecor04theadv.JournalEntryPage.04hazards0000000]{падає} чи зазнає інших @UUID[Compendium.swade-core-rules.swade-rules.swadecor04theadv.JournalEntryPage.04hazards0000000]{травм}.</p>",
+      "origin": null,
+      "statuses": [],
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": "swade",
+        "systemVersion": "5.0.5",
+        "lastModifiedBy": null
+      },
+      "img": "modules/swade-core-rules/assets/hindrance/%D1%82%D1%83%D0%B3%D0%BE%D0%B2%D1%83%D1%85%D0%B8%D0%B9.webp",
+      "type": "base",
+      "system": {
+        "expiration": null,
+        "conditionalEffect": true,
+        "removeEffect": false,
+        "loseTurnOnHold": false,
+        "favorite": false
+      },
+      "sort": 0
+    }
+  ],
+  "folder": "BbRhY7uUKmBd6u6P",
+  "img": "modules/swade-core-rules/assets/hindrance/%D1%82%D1%83%D0%B3%D0%BE%D0%B2%D1%83%D1%85%D0%B8%D0%B9.webp",
+  "name": "Туговухий",
+  "type": "hindrance",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>(ДРІБНИЙ АБО ВЕЛИКИЙ)</p><p>Цей @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01hindrances0000]{недолік} мають персонажі, які частково чи повністю втратили слух. Дрібний недолік накладає штраф −4 на всі перевірки @Compendium[swade-core-rules.swade-skills.Уважність]{уважності}, пов’язані зі слухом, включно з пробудженням від гучних звуків. Великий недолік означає, що персонаж глухий. Через це він автоматично провалюватиме всі перевірки уважності, пов’язані зі слухом.</p><p>Слуховий апарат знижує цей штраф на 2, але вимагає батарейок та має 50% шансу зламатися, коли герой отримує @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03damageeffect00]{рану}, @UUID[Compendium.swade-core-rules.swade-rules.swadecor04theadv.JournalEntryPage.04hazards0000000]{падає} чи зазнає інших @UUID[Compendium.swade-core-rules.swade-rules.swadecor04theadv.JournalEntryPage.04hazards0000000]{травм}.</p>",
+    "major": false,
+    "notes": "",
+    "swid": "hard-of-hearing",
+    "favorite": false,
+    "grants": [],
+    "choiceSets": [],
+    "severity": "either"
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757009264201,
+    "modifiedTime": 1757009264201,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.mk2E5OYlq9wlvtZZ",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  }
+}

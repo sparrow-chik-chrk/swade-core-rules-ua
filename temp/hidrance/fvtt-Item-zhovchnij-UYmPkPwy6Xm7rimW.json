@@ -1,0 +1,89 @@
+{
+  "effects": [
+    {
+      "name": "Жовчний",
+      "changes": [
+        {
+          "key": "@Skill{Persuasion}[system.die.modifier]",
+          "mode": 2,
+          "value": "-1",
+          "priority": null
+        }
+      ],
+      "_id": "0UALfHf6bjfMUezZ",
+      "disabled": false,
+      "flags": {
+        "swade": {},
+        "sigil": {
+          "completed": true
+        }
+      },
+      "description": "",
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "origin": null,
+      "transfer": true,
+      "statuses": [],
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": "swade",
+        "systemVersion": "5.0.5",
+        "lastModifiedBy": null
+      },
+      "img": "modules/swade-core-rules/assets/hindrance/%D0%B6%D0%BE%D0%B2%D1%87%D0%BD%D0%B8%D0%B9.webp",
+      "type": "base",
+      "system": {
+        "expiration": null,
+        "conditionalEffect": false,
+        "removeEffect": false,
+        "loseTurnOnHold": false,
+        "favorite": false
+      },
+      "tint": "#ffffff",
+      "sort": 0
+    }
+  ],
+  "folder": "BbRhY7uUKmBd6u6P",
+  "img": "modules/swade-core-rules/assets/hindrance/%D0%B6%D0%BE%D0%B2%D1%87%D0%BD%D0%B8%D0%B9.webp",
+  "name": "Жовчний",
+  "type": "hindrance",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Цей буркотун має поганий характер і з ним важко домовитися. Він неохоче допомагає іншим і лише за гроші, а винагороди чи послуги приймає без особливої вдячності. Окрім очевидних рольових труднощів такого недоліку, персонаж також отримує штраф −1 до @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{перевірок} @Compendium[swade-core-rules.swade-skills.Переконливість]{переконання}.</p>",
+    "major": false,
+    "notes": "",
+    "swid": "mean",
+    "severity": "minor",
+    "favorite": false,
+    "grants": [],
+    "choiceSets": []
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757009264201,
+    "modifiedTime": 1757009264201,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.UYmPkPwy6Xm7rimW",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  }
+}

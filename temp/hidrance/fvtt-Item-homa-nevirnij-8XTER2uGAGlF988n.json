@@ -1,0 +1,39 @@
+{
+  "effects": [],
+  "folder": "BbRhY7uUKmBd6u6P",
+  "img": "modules/swade-core-rules/assets/hindrance/%D1%85%D0%BE%D0%BC%D0%B0.webp",
+  "name": "Хома Невірний",
+  "type": "hindrance",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Дехто не вірить в існування надприродного, доки не ступить однією ногою в пащу покруча. Хома невірний — це скептик, що з усіх сил намагається знайти раціональне пояснення надприродного. Він іде назустріч небезпеці, в яку не вірить, і шукає логічне підґрунтя кожної надприродної події.</p><p>І навіть коли такі скептики стикаються з істиною, то їхній розум ставить під сумнів побачене, намагається знайти пояснення або ж визначає таку подію як унікальну, тож вони продовжують сумніватися в існуванні надприродного.</p>",
+    "major": false,
+    "notes": "",
+    "swid": "doubting-thomas",
+    "severity": "minor",
+    "favorite": false,
+    "grants": [],
+    "choiceSets": []
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757009264201,
+    "modifiedTime": 1757009264201,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.8XTER2uGAGlF988n",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  }
+}

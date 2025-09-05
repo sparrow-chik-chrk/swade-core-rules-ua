@@ -1,0 +1,39 @@
+{
+  "effects": [],
+  "folder": "BbRhY7uUKmBd6u6P",
+  "img": "modules/swade-core-rules/assets/hindrance/%D0%BD%D1%96%D0%BC%D0%B8%D0%B9.webp",
+  "name": "Німий",
+  "type": "hindrance",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Цей персонаж не може говорити через травму чи вроджену ваду. За потреби, він може писати іншим записки, користуватися мовою жестів або іншими способами візуального спілкування.</p><p>Візуальна комунікація може потребувати перевірки @Compendium[swade-core-rules.swade-skills.Уважність]{уважності} для порозуміння (враховуючи @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03illumination00]{освітлення} та подібні @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{штрафи}).</p>",
+    "major": true,
+    "notes": "",
+    "swid": "mute",
+    "severity": "major",
+    "favorite": false,
+    "grants": [],
+    "choiceSets": []
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757009264201,
+    "modifiedTime": 1757009264201,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.wNZ3T6elufAP731p",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  }
+}

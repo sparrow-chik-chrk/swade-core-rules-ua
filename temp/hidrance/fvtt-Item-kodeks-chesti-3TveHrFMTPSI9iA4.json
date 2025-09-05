@@ -1,0 +1,39 @@
+{
+  "effects": [],
+  "folder": "BbRhY7uUKmBd6u6P",
+  "img": "modules/swade-core-rules/assets/hindrance/%D0%BA%D0%BE%D0%B4%D0%B5%D0%BA%D1%81.webp",
+  "name": "Кодекс честі",
+  "type": "hindrance",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Честь дуже важлива для вашого персонажа. Він дотримується слова, не ображає й не вбиває полонених, і намагається діяти згідно з власними уявленнями про поведінку джентльменів або леді.</p>",
+    "major": true,
+    "notes": "",
+    "swid": "code-of-honor",
+    "severity": "major",
+    "favorite": false,
+    "grants": [],
+    "choiceSets": []
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757009264201,
+    "modifiedTime": 1757009264201,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.3TveHrFMTPSI9iA4",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "effects": [],
+  "folder": "BbRhY7uUKmBd6u6P",
+  "img": "modules/swade-core-rules/assets/hindrance/%D0%B0%D0%BD%D0%B5%D0%BC%D1%96%D1%87%D0%BD%D0%B8%D0%B9.webp",
+  "name": "Анемічний",
+  "type": "hindrance",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Анемічні персонажі особливо вразливі до нездужання, хвороб, болячок, впливу довкілля та втоми. Анемічні персонажі віднімають 2 від кидків на @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{витримку} для опору @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03fatigue0000000]{втомі} (див. <strong>@UUID[Compendium.swade-core-rules.swade-rules.swadecor04theadv.JournalEntryPage.04hazards0000000]{«Небезпеки»}</strong>).</p>",
+    "major": false,
+    "notes": "",
+    "swid": "anemic",
+    "severity": "minor",
+    "favorite": false,
+    "grants": [],
+    "choiceSets": []
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757009264201,
+    "modifiedTime": 1757009264201,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.PKotIVFKwYhF9zO9",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  }
+}

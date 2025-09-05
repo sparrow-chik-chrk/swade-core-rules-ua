@@ -1,0 +1,39 @@
+{
+  "effects": [],
+  "folder": "BbRhY7uUKmBd6u6P",
+  "img": "modules/swade-core-rules/assets/hindrance/%D1%81%D1%85%D0%B8%D0%B1%D0%BB%D0%B5%D0%BD%D0%B8%D0%B9.webp",
+  "name": "Схиблений",
+  "type": "hindrance",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>(ДРІБНИЙ АБО ВЕЛИКИЙ)</p><p>Ваш герой вірить у те, що всі інші вважають досить дивним. Дрібне схиблення нешкідливе, або ж персонаж тримає свої думки при собі (уряд додає седативи в газовані напої, собаки можуть говорити, усі ми — лише персонажі якоїсь дивної гри тощо).</p><p>У разі великого схиблення персонаж часто відкрито висловлює свої погляди, що інколи може бути небезпечно (урядом керують прибульці, лікарні смертельно небезпечні, в мене алергія на обладунки, зомбі — мої друзі).</p>",
+    "major": false,
+    "notes": "",
+    "swid": "delusional",
+    "favorite": false,
+    "grants": [],
+    "choiceSets": [],
+    "severity": "either"
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757009264201,
+    "modifiedTime": 1757009264201,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.IDI7UKK8AjOTbN7Q",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  }
+}

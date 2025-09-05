@@ -1,0 +1,39 @@
+{
+  "effects": [],
+  "folder": "BbRhY7uUKmBd6u6P",
+  "img": "modules/swade-core-rules/assets/hindrance/%D0%BE%D0%B4%D0%BD%D0%BE%D1%80%D1%83%D0%BA%D0%B8%D0%B9.webp",
+  "name": "Однорукий",
+  "type": "hindrance",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>З народження чи внаслідок битви герою бракує руки. На щастя, у нього є ще одна, і вона (тепер) «робоча». Штраф −4 для всього, що потребує двох рук, як-от деякі перевірки @Compendium[swade-core-rules.swade-skills.Атлетизм]{атлетизму} (на розсуд ІМ) чи використання дворучної зброї.</p>",
+    "major": true,
+    "notes": "",
+    "swid": "one-arm",
+    "severity": "major",
+    "favorite": false,
+    "grants": [],
+    "choiceSets": []
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757009264201,
+    "modifiedTime": 1757009264201,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.ZOKt3UI6Dc53XT9r",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  }
+}

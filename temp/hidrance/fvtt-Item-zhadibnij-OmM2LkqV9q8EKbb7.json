@@ -1,0 +1,39 @@
+{
+  "effects": [],
+  "folder": "BbRhY7uUKmBd6u6P",
+  "img": "modules/swade-core-rules/assets/hindrance/%D0%B6%D0%B0%D0%B4%D1%96%D0%B1%D0%BD%D0%B8%D0%B9.webp",
+  "name": "Жадібний",
+  "type": "hindrance",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>(ДРІБНИЙ АБО ВЕЛИКИЙ)</p><p>Скупий все вимірює в матеріальних благах і багатстві. Герой із @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01characters0000]{дрібним} недоліком завжди вимагатиме більше за справедливу частку будь-якої здобичі гурту. А з @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01characters0000]{великим} @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01hindrances0000]{недоліком} він не лише зчинятиме колотнечу через усе, що здається несправедливим, але й може вбити, якщо вирішить, що його обділили, чи дуже сильно захоче щось отримати.</p>",
+    "major": false,
+    "notes": "",
+    "swid": "greedy",
+    "favorite": false,
+    "grants": [],
+    "choiceSets": [],
+    "severity": "either"
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757009264201,
+    "modifiedTime": 1757009264201,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.OmM2LkqV9q8EKbb7",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  }
+}

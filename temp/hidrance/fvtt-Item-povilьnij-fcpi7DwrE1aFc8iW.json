@@ -1,0 +1,161 @@
+{
+  "effects": [
+    {
+      "_id": "koJmsYJdoxQ0F82G",
+      "name": "Повільний (дрібний)",
+      "changes": [
+        {
+          "key": "system.pace.running.die",
+          "mode": 2,
+          "value": "-2",
+          "priority": null
+        },
+        {
+          "key": "system.pace",
+          "mode": 2,
+          "value": "-1",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "flags": {
+        "sigil": {
+          "completed": true
+        }
+      },
+      "tint": "#ffffff",
+      "transfer": true,
+      "description": "",
+      "origin": null,
+      "statuses": [],
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": "swade",
+        "systemVersion": "5.0.5",
+        "lastModifiedBy": null
+      },
+      "img": "modules/swade-core-rules/assets/hindrance/%D0%BF%D0%BE%D0%B2%D1%96%D0%BB%D1%8C%D0%BD%D0%B8%D0%B9.webp",
+      "type": "base",
+      "system": {
+        "expiration": null,
+        "removeEffect": false,
+        "loseTurnOnHold": false,
+        "favorite": false,
+        "conditionalEffect": false
+      },
+      "sort": 0
+    },
+    {
+      "_id": "sx7Da1rKR9pUAfZG",
+      "name": "Повільний  (великий)",
+      "changes": [
+        {
+          "key": "system.pace.running.die",
+          "mode": 2,
+          "value": "-2",
+          "priority": null
+        },
+        {
+          "key": "system.pace",
+          "mode": 2,
+          "value": "-2",
+          "priority": null
+        },
+        {
+          "key": "@Skill{Athletics}[system.die.modifier]",
+          "mode": 2,
+          "value": "-2",
+          "priority": null
+        },
+        {
+          "key": "system.attributes.agility.die.modifier",
+          "mode": 2,
+          "value": "-2",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "swade": {},
+        "sigil": {
+          "completed": true
+        }
+      },
+      "disabled": true,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "tint": "#ffffff",
+      "transfer": true,
+      "description": "",
+      "origin": null,
+      "statuses": [],
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": "swade",
+        "systemVersion": "5.0.5",
+        "lastModifiedBy": null
+      },
+      "img": "modules/swade-core-rules/assets/hindrance/%D0%BF%D0%BE%D0%B2%D1%96%D0%BB%D1%8C%D0%BD%D0%B8%D0%B9.webp",
+      "type": "base",
+      "system": {
+        "expiration": null,
+        "conditionalEffect": false,
+        "removeEffect": false,
+        "loseTurnOnHold": false,
+        "favorite": false
+      },
+      "sort": 0
+    }
+  ],
+  "folder": "BbRhY7uUKmBd6u6P",
+  "img": "modules/swade-core-rules/assets/hindrance/%D0%BF%D0%BE%D0%B2%D1%96%D0%BB%D1%8C%D0%BD%D0%B8%D0%B9.webp",
+  "name": "Повільний",
+  "type": "hindrance",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>(ДРІБНИЙ АБО ВЕЛИКИЙ)</p><p>Вроджена вада або стара травма робить героя менш поворотким. Дрібний @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01hindrances0000]{недолік}: @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03movement000000]{темп} сповільнено на 1, а @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03movement000000]{кістку бігу} — знижено на один ступінь (якщо це вже к4, то стає к4 − 1). Великий недолік знижує на один ступінь кістку бігу, темп сповільнює на 2 і віднімає 2 від перевірок @Compendium[swade-core-rules.swade-skills.Атлетизм]{атлетизму} та кидків опору атлетизму (наприклад, @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{завади} чи @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03grappling00000]{хапання}).</p><p>Повільний персонаж не може мати перевагу @Compendium[swade-core-rules.swade-edges.Прудконогий]{«Прудконогий»}.</p><p><strong>Протез:</strong> персонаж із дрібним варіантом цього недоліку може мати протез. Втрата протеза накладає на персонажа ефекти великого недоліку.</p><p><strong>Крісло колісне:</strong> починаючи з вікторіанської доби й далі, повільний герой може почати гру з безплатним механічним кріслом колісним. У сучасній епосі (1980-ті роки й далі) крісло колісне може бути механічним або мати електропривід.</p><p>Для крісла колісного будь-якого типу потрібна відносно рівна поверхня (на розсуд ІМ).</p><ul><li><p><strong>РУЧНЕ:</strong> темп дорівнює половині кістки атлетизму (макс. 3), не можна бігти*.</p></li><li><p><strong>НАДЛЕГКЕ:</strong> темп дорівнює половині кістки атлетизму, можна бігти з к4 (дрібний), або з к4 − 1 (великий).</p></li><li><p><strong>З ЕЛЕКТРОПРИВОДОМ:</strong> темп дорівнює 6 на рівній поверхні, 3 — на нерівній, не можна бігти. Таке крісло колісне може проїхати близько 16 км без підзарядки.</p></li></ul><p>* Рекомендуємо для персонажів в кріслах колісних замінити термін «біг» на «ривок».</p>",
+    "major": false,
+    "notes": "",
+    "swid": "slow",
+    "favorite": false,
+    "grants": [],
+    "choiceSets": [],
+    "severity": "either"
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757009264201,
+    "modifiedTime": 1757009264201,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.fcpi7DwrE1aFc8iW",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  }
+}

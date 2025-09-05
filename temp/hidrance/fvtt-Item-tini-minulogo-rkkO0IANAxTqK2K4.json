@@ -1,0 +1,39 @@
+{
+  "effects": [],
+  "folder": "BbRhY7uUKmBd6u6P",
+  "img": "modules/swade-core-rules/assets/hindrance/%D1%82%D1%96%D0%BD%D1%96.webp",
+  "name": "Тіні минулого",
+  "type": "hindrance",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>(ДРІБНИЙ АБО ВЕЛИКИЙ)</p><p>Минуле переслідує вашого героя. Можливо, він порушив якусь присягу. Може, зазнав поразки в чесній битві, але вбив свого противника іншим способом задля якоїсь вищої мети. Або, не бувши насправді легкодухим, він все ж утік з битви й залишив інших помирати.</p><p>У разі дрібного @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01hindrances0000]{недоліку} прикре минуле не відоме загалу, але мучить персонажа. Він з усіх сил старатиметься не повторити помилку. Або може вчинити так само за схожих обставин і ненавидіти себе за це.</p><p>У разі великого недоліку його вчинок загальновідомий або принаймні про це знають близькі. Про це треба якомога раніше розповісти іншим гравцям (найкраще — ще на етапі створення персонажа). Якщо цього не зробити, таємницю відкриють @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03wildcardsand00]{неігрові персонажі}, які можуть використати це проти нього.</p>",
+    "major": false,
+    "notes": "",
+    "swid": "shamed",
+    "favorite": false,
+    "grants": [],
+    "choiceSets": [],
+    "severity": "either"
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757009264201,
+    "modifiedTime": 1757009264201,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.rkkO0IANAxTqK2K4",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  }
+}

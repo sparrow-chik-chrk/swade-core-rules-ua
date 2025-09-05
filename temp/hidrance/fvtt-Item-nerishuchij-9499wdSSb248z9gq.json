@@ -1,0 +1,88 @@
+{
+  "effects": [
+    {
+      "_id": "YODh1z4EGLXlywaF",
+      "changes": [
+        {
+          "key": "system.initiative.hasHesitant",
+          "mode": 5,
+          "value": "true",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "flags": {
+        "sigil": {
+          "completed": true
+        }
+      },
+      "name": "Нерішучий",
+      "tint": "#ffffff",
+      "transfer": true,
+      "description": "",
+      "origin": null,
+      "statuses": [],
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": "swade",
+        "systemVersion": "5.0.5",
+        "lastModifiedBy": null
+      },
+      "img": "modules/swade-core-rules/assets/hindrance/%D0%BD%D0%B5%D1%80%D1%96%D1%88%D1%83%D1%87%D0%B8%D0%B9.webp",
+      "type": "base",
+      "system": {
+        "expiration": null,
+        "removeEffect": false,
+        "loseTurnOnHold": false,
+        "favorite": false,
+        "conditionalEffect": false
+      },
+      "sort": 0
+    }
+  ],
+  "folder": "BbRhY7uUKmBd6u6P",
+  "img": "modules/swade-core-rules/assets/hindrance/%D0%BD%D0%B5%D1%80%D1%96%D1%88%D1%83%D1%87%D0%B8%D0%B9.webp",
+  "name": "Нерішучий",
+  "type": "hindrance",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Вашого героя в стресових ситуаціях охоплюють сумніви. Під час @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03combat00000000]{бою} беріть дві @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03actioncardsi00]{карти дій} і розігруйте молодшу. Якщо ви взяли «Джокера», розігруйте його як зазвичай, ігноруючи @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01hindrances0000]{недолік} у цьому раунді (позаяк цей недолік дрібний, він збільшує ваші шанси взяти «Джокера»!).</p><p>Нерішучі персонажі не можуть вибирати @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01edges000000000]{переваги} @Compendium[swade-core-rules.swade-edges.Прудкий]{«Прудкий»} і @Compendium[swade-core-rules.swade-edges.Розважливий]{«Розважливий»}.</p>",
+    "major": false,
+    "notes": "",
+    "swid": "hesitant",
+    "severity": "minor",
+    "favorite": false,
+    "grants": [],
+    "choiceSets": []
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757009264201,
+    "modifiedTime": 1757009264201,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.9499wdSSb248z9gq",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  }
+}

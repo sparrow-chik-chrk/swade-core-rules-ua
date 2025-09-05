@@ -1,0 +1,95 @@
+{
+  "effects": [
+    {
+      "name": "Вузьколобий",
+      "changes": [
+        {
+          "key": "@Skill{Notice}[system.die.modifier]",
+          "mode": 2,
+          "value": "-1",
+          "priority": null
+        },
+        {
+          "key": "@Skill{Common Knowledge}[system.die.modifier]",
+          "mode": 2,
+          "value": "-1",
+          "priority": null
+        }
+      ],
+      "_id": "6xJV6ijIg6fFuoyS",
+      "disabled": false,
+      "flags": {
+        "swade": {},
+        "sigil": {
+          "completed": true
+        }
+      },
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "transfer": true,
+      "statuses": [],
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": "swade",
+        "systemVersion": "5.0.5",
+        "lastModifiedBy": null
+      },
+      "img": "systems/swade/assets/icons/hindrance.svg",
+      "type": "base",
+      "system": {
+        "expiration": null,
+        "conditionalEffect": false,
+        "removeEffect": false,
+        "loseTurnOnHold": false,
+        "favorite": false
+      },
+      "tint": "#ffffff",
+      "sort": 0
+    }
+  ],
+  "folder": "BbRhY7uUKmBd6u6P",
+  "img": "modules/swade-core-rules/assets/hindrance/%D0%B2%D1%83%D0%B7%D1%8C%D0%BA%D0%BE%D0%BB%D0%BE%D0%B1%D0%B8%D0%B9.webp",
+  "name": "Вузьколобий",
+  "type": "hindrance",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Ваш герой звертає мало уваги на світ навколо себе і, схоже, не знайшов би й копиці сіна у маленькій купі голок.</p><p>Він отримує @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{штраф} −1 до кидків на @Compendium[swade-core-rules.swade-skills.Ерудиція]{ерудицію} й @Compendium[swade-core-rules.swade-skills.Уважність]{уважність}.</p>",
+    "major": true,
+    "notes": "",
+    "swid": "clueless",
+    "severity": "major",
+    "favorite": false,
+    "grants": [],
+    "choiceSets": []
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757009264201,
+    "modifiedTime": 1757009264201,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.hFbO0LpbVmABCb3t",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  }
+}

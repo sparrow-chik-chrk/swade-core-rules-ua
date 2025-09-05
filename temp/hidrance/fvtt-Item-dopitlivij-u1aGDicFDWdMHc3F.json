@@ -1,0 +1,39 @@
+{
+  "effects": [],
+  "folder": "BbRhY7uUKmBd6u6P",
+  "img": "modules/swade-core-rules/assets/hindrance/%D0%B4%D0%BE%D0%BF%D0%B8%D1%82%D0%BB%D0%B8%D0%B2%D0%B8%D0%B9.webp",
+  "name": "Допитливий",
+  "type": "hindrance",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Допитливій Варварі відірвало носа на базарі, а вашому герою, може, й голову могло б. Допитливі персонажі мусять все оглянути й завжди хочуть знати, що ж ховається за потенційною таємницею чи загадкою.</p>",
+    "major": true,
+    "notes": "",
+    "swid": "curious",
+    "severity": "major",
+    "favorite": false,
+    "grants": [],
+    "choiceSets": []
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757009264201,
+    "modifiedTime": 1757009264201,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.u1aGDicFDWdMHc3F",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  }
+}

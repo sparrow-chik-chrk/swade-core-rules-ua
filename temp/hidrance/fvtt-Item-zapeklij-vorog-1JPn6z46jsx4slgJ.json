@@ -1,0 +1,39 @@
+{
+  "effects": [],
+  "folder": "BbRhY7uUKmBd6u6P",
+  "img": "modules/swade-core-rules/assets/hindrance/%D0%B2%D0%BE%D1%80%D0%BE%D0%B3.webp",
+  "name": "Запеклий ворог",
+  "type": "hindrance",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Хтось добряче ненавидить вашого персонажа і хоче його невдачі, ув’язнення чи смерті. Тип @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01hindrances0000]{недоліку} залежить від могутності ворога і того, як часто цей недолік може з’являтися. Дрібним запеклим ворогом може бути самотній стрілець-месник або зраджений побратим — небезпечний, але траплятиметься рідко. Великим запеклим ворогом можуть бути могутні можновладці, банда злочинців або один, проте дуже небезпечний та безжальний ворог.</p><p>Якщо ворога вдається здолати, ІМ має поступово знайти йому заміну або ж герой може відкупитися від цього недоліку, пожертвувавши @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01advancement000]{поступом}.</p>",
+    "major": false,
+    "notes": "",
+    "swid": "enemy",
+    "severity": "either",
+    "favorite": false,
+    "grants": [],
+    "choiceSets": []
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757009264201,
+    "modifiedTime": 1757009264201,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.1JPn6z46jsx4slgJ",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  }
+}

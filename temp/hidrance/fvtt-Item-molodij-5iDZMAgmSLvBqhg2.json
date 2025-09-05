@@ -1,0 +1,136 @@
+{
+  "effects": [
+    {
+      "_id": "ZF4c6b8VNGtvCtCp",
+      "changes": [
+        {
+          "key": "system.bennies.max",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "disabled": true,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "flags": {
+        "sigil": {
+          "completed": true
+        }
+      },
+      "name": "Молодий",
+      "tint": "#ffffff",
+      "transfer": true,
+      "description": "",
+      "origin": null,
+      "statuses": [],
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": "swade",
+        "systemVersion": "5.0.5",
+        "lastModifiedBy": null
+      },
+      "img": "systems/swade/assets/icons/hindrance.svg",
+      "type": "base",
+      "system": {
+        "expiration": null,
+        "removeEffect": false,
+        "loseTurnOnHold": false,
+        "favorite": false,
+        "conditionalEffect": false
+      },
+      "sort": 0
+    },
+    {
+      "_id": "H0BtmXBb2bNNa6Rf",
+      "changes": [
+        {
+          "key": "system.bennies.max",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "disabled": true,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "flags": {
+        "sigil": {
+          "completed": true
+        }
+      },
+      "name": "Дуже молодий",
+      "tint": "#ffffff",
+      "transfer": true,
+      "description": "",
+      "origin": null,
+      "statuses": [],
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": "swade",
+        "systemVersion": "5.0.5",
+        "lastModifiedBy": null
+      },
+      "img": "systems/swade/assets/icons/hindrance.svg",
+      "type": "base",
+      "system": {
+        "expiration": null,
+        "removeEffect": false,
+        "loseTurnOnHold": false,
+        "favorite": false,
+        "conditionalEffect": false
+      },
+      "sort": 0
+    }
+  ],
+  "folder": "BbRhY7uUKmBd6u6P",
+  "img": "modules/swade-core-rules/assets/hindrance/%D0%BC%D0%BE%D0%BB%D0%BE%D0%B4%D0%B8%D0%B9.webp",
+  "name": "Молодий",
+  "type": "hindrance",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>(ДРІБНИЙ АБО ВЕЛИКИЙ)</p><p>Цьому персонажу 12–15 років (людські роки, які потрібно адаптувати до раси). У нього є лише 4 очки замість 5 для розподілу між @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{характеристиками} і 10 очок навичок замість 12. Він також може мати обмежені права залежно від сценарію (не може кермувати, володіти зброєю тощо). Натомість юним персонажам щастить більше. Вони отримують додатковий @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03bennies0000000]{талан} на початку кожної сесії (накопичується з іншими @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01edges000000000]{перевагами}, як-от @Compendium[swade-core-rules.swade-edges.Щасливець]{«Щасливець»} чи @Compendium[swade-core-rules.swade-edges.Рідкісний щасливець]{«Рідкісний щасливець»}). Як правило, молоді персонажі також беруть @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01hindrances0000]{недолік} @Compendium[swade-core-rules.swade-hindrances.Малий]{«Малий»}, проте це не обов’язково.</p><p>У разі великого недоліку персонаж дуже юний (8–11 років). Він має 3 очки для розподілу між характеристиками, 10 очок навичок і недолік «Малий». Дуже молоді персонажі беруть два додаткові талани на початку кожної сесії.</p>",
+    "major": false,
+    "notes": "",
+    "swid": "young",
+    "favorite": false,
+    "grants": [],
+    "choiceSets": [],
+    "severity": "either"
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757009264201,
+    "modifiedTime": 1757009264201,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.5iDZMAgmSLvBqhg2",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "effects": [],
+  "folder": "BbRhY7uUKmBd6u6P",
+  "img": "modules/swade-core-rules/assets/hindrance/%D0%B1%D1%96%D0%B4%D0%BD%D0%B8%D0%B9.webp",
+  "name": "Бідний",
+  "type": "hindrance",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Кажуть, що дурень бідний, бо дурний. Ваш герой саме такий. Він починає гру з удвічі меншою @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01characters0000]{сумою}, ніж @UUID[Compendium.swade-core-rules.swade-rules.swadecor04theadv.JournalEntryPage.04settingrules00]{визначено} сценарієм, й увесь час губить гроші, які здобуває в процесі гри. Як правило, гравець щотижня зменшує всі свої кошти вдвічі.</p>",
+    "major": false,
+    "notes": "",
+    "swid": "poverty",
+    "severity": "minor",
+    "favorite": false,
+    "grants": [],
+    "choiceSets": []
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757009264201,
+    "modifiedTime": 1757009264201,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.gthdOC9jBDihNfd1",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  }
+}

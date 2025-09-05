@@ -1,0 +1,100 @@
+{
+  "effects": [
+    {
+      "_id": "zpvG6oYNcgpaM4my",
+      "changes": [
+        {
+          "key": "system.stats.size",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "system.pace",
+          "mode": 2,
+          "value": "-1",
+          "priority": null
+        },
+        {
+          "key": "system.pace.running.die",
+          "mode": 2,
+          "value": "-2",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "flags": {
+        "sigil": {
+          "completed": true
+        }
+      },
+      "name": "Огрядний",
+      "tint": "#ffffff",
+      "transfer": true,
+      "description": "<p>Ті, у кого велика м’язова маса, мають перевагу @Compendium[swade-core-rules.swade-edges.Дужий]{«Дужий»}. Інші ж просто огрядні. Персонаж не може бути огрядним і дужим одночасно, а сам недолік не може збільшити ваш @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03sizeandscale00]{розмір} понад +3.</p><p>Розмір (а тому й @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01characters0000]{стійкість}) огрядного героя збільшено на +1. Натомість @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03movement000000]{темп} сповільнено на 1, а @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03movement000000]{кістку бігу} — знижено на один ступінь (мінімум к4). Ступінь кістки @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{моці} також на один нижчий (мінімум к4) для броні та спорядження (але не для зброї). Огрядним героям непросто знайти броню й @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02commongearta00]{одяг} потрібного розміру, а також пробиратися у тісні місця.</p>",
+      "origin": null,
+      "statuses": [],
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": "swade",
+        "systemVersion": "5.0.5",
+        "lastModifiedBy": null
+      },
+      "img": "modules/swade-core-rules/assets/hindrance/%D0%BE%D0%B3%D1%80%D1%8F%D0%B4%D0%BD%D0%B8%D0%B9.webp",
+      "type": "base",
+      "system": {
+        "expiration": null,
+        "removeEffect": false,
+        "loseTurnOnHold": false,
+        "favorite": false,
+        "conditionalEffect": false
+      },
+      "sort": 0
+    }
+  ],
+  "folder": "BbRhY7uUKmBd6u6P",
+  "img": "modules/swade-core-rules/assets/hindrance/%D0%BE%D0%B3%D1%80%D1%8F%D0%B4%D0%BD%D0%B8%D0%B9.webp",
+  "name": "Огрядний",
+  "type": "hindrance",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Ті, у кого велика м’язова маса, мають перевагу @Compendium[swade-core-rules.swade-edges.Дужий]{«Дужий»}. Інші ж просто огрядні. Персонаж не може бути огрядним і дужим одночасно, а сам недолік не може збільшити ваш @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03sizeandscale00]{розмір} понад +3.</p><p>Розмір (а тому й @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01characters0000]{стійкість}) огрядного героя збільшено на +1. Натомість @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03movement000000]{темп} сповільнено на 1, а @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03movement000000]{кістку бігу} — знижено на один ступінь (мінімум к4). Ступінь кістки @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{моці} також на один нижчий (мінімум к4) для броні та спорядження (але не для зброї). Огрядним героям непросто знайти броню й @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02commongearta00]{одяг} потрібного розміру, а також пробиратися у тісні місця.</p>",
+    "major": false,
+    "notes": "",
+    "swid": "obese",
+    "severity": "minor",
+    "favorite": false,
+    "grants": [],
+    "choiceSets": []
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757009264201,
+    "modifiedTime": 1757009264201,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.MmUW6E56ZQck2KSu",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  }
+}

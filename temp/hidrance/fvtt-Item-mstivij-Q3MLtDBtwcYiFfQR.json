@@ -1,0 +1,39 @@
+{
+  "effects": [],
+  "folder": "BbRhY7uUKmBd6u6P",
+  "img": "modules/swade-core-rules/assets/hindrance/vendeta.webp",
+  "name": "Мстивий",
+  "type": "hindrance",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>(ДРІБНИЙ АБО ВЕЛИКИЙ)</p><p>Відплата є поганою новиною для когось, і цей персонаж неодмінно її донесе.</p><p>У разі дрібного @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01hindrances0000]{недоліку} він намагатиметься не порушувати закон. Спосіб залежатиме від обставин. Хтось планує помсту місяцями, а хтось прагне відплати негайно.</p><p>У разі великого недоліку персонаж не зупиниться ні перед чим на шляху до помсти. Це не означає, що він обов’язково вдасться до насильства, проте зробить усе можливе, щоби сповна відплатити за кривду.</p>",
+    "major": false,
+    "notes": "",
+    "swid": "vengeful",
+    "favorite": false,
+    "grants": [],
+    "choiceSets": [],
+    "severity": "either"
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757009264201,
+    "modifiedTime": 1757009264201,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.Q3MLtDBtwcYiFfQR",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  }
+}

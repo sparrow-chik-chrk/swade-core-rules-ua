@@ -1,0 +1,39 @@
+{
+  "effects": [],
+  "folder": "BbRhY7uUKmBd6u6P",
+  "img": "modules/swade-core-rules/assets/hindrance/%D0%BD%D0%B5%D0%B4%D0%BE%D0%B2%D1%96%D1%80%D0%BB%D0%B8%D0%B2%D0%B8%D0%B9.webp",
+  "name": "Недовірливий",
+  "type": "hindrance",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>(ДРІБНИЙ АБО ВЕЛИКИЙ)</p><p>Цей персонаж дуже недовірливий. Дрібний @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01hindrances0000]{недолік}: через параною йому часто важко довіряти іншим. Він може вимагати повну передоплату, перш ніж взятися за справу, фіксувати всі домовленості письмово чи з підозрою ставитися навіть до своїх друзів.</p><p>Великий недолік: штраф −2 на кидки @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03support0000000]{підтримки} для допомоги особі, якій він не довіряє.</p><p></p>",
+    "major": false,
+    "notes": "",
+    "swid": "suspicious",
+    "favorite": false,
+    "grants": [],
+    "choiceSets": [],
+    "severity": "either"
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757009264201,
+    "modifiedTime": 1757009264201,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.IxJZwBvTgn81YW9q",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  }
+}

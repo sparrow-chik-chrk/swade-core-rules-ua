@@ -1,0 +1,138 @@
+{
+  "effects": [
+    {
+      "_id": "tuFvcLdagY2QYrDZ",
+      "changes": [
+        {
+          "key": "system.stats.globalMods.trait",
+          "mode": 2,
+          "value": "-1",
+          "priority": null
+        }
+      ],
+      "disabled": true,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "name": "Фобія (дрібна)",
+      "tint": "#ffffff",
+      "transfer": true,
+      "flags": {
+        "swade": {},
+        "sigil": {
+          "completed": true
+        }
+      },
+      "description": "<p>Фобії — це непереборні й ірраціональні страхи, які переслідують героя.</p><p>У присутності своєї фобії (на розсуд ІМ, але зазвичай в полі зору) персонаж віднімає 1 від результатів усіх @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03traitrolls0000#trait-rolls]{перевірок рис}.</p><p>Фобії не мають бути надто примітивними; наприклад, усі бояться вампірів, але це не фобія, а здоровий глузд. Фобія ж зазвичай обертається довкола випадкової деталі, що асоціюється з подією. Пам’ятайте: фобії — це <em>ірраціональні</em> страхи.</p>",
+      "origin": null,
+      "statuses": [],
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": "swade",
+        "systemVersion": "5.0.5",
+        "lastModifiedBy": null
+      },
+      "img": "modules/swade-core-rules/assets/hindrance/%D1%84%D0%BE%D0%B1%D1%96%D1%8F.webp",
+      "type": "base",
+      "system": {
+        "expiration": null,
+        "conditionalEffect": false,
+        "removeEffect": false,
+        "loseTurnOnHold": false,
+        "favorite": false
+      },
+      "sort": 0
+    },
+    {
+      "_id": "UnNtoqgwBNQWSnzM",
+      "changes": [
+        {
+          "key": "system.stats.globalMods.trait",
+          "mode": 2,
+          "value": "-1",
+          "priority": null
+        }
+      ],
+      "disabled": true,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "name": "Фобія (велика)",
+      "tint": "#ffffff",
+      "transfer": true,
+      "flags": {
+        "swade": {},
+        "sigil": {
+          "completed": true
+        }
+      },
+      "description": "<p>Фобії — це непереборні й ірраціональні страхи, які переслідують героя.</p><p>У присутності своєї фобії (на розсуд ІМ, але зазвичай в полі зору) персонаж віднімає 2 від результатів усіх @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03traitrolls0000#trait-rolls]{перевірок рис}.</p><p>Фобії не мають бути надто примітивними; наприклад, усі бояться вампірів, але це не фобія, а здоровий глузд. Фобія ж зазвичай обертається довкола випадкової деталі, що асоціюється з подією. Пам’ятайте: фобії — це <em>ірраціональні</em> страхи.</p>",
+      "origin": null,
+      "statuses": [],
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": "swade",
+        "systemVersion": "5.0.5",
+        "lastModifiedBy": null
+      },
+      "img": "modules/swade-core-rules/assets/hindrance/%D1%84%D0%BE%D0%B1%D1%96%D1%8F.webp",
+      "type": "base",
+      "system": {
+        "expiration": null,
+        "conditionalEffect": false,
+        "removeEffect": false,
+        "loseTurnOnHold": false,
+        "favorite": false
+      },
+      "sort": 0
+    }
+  ],
+  "folder": "BbRhY7uUKmBd6u6P",
+  "img": "modules/swade-core-rules/assets/hindrance/%D1%84%D0%BE%D0%B1%D1%96%D1%8F.webp",
+  "name": "Фобія",
+  "type": "hindrance",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>(ДРІБНИЙ АБО ВЕЛИКИЙ)</p><p>Фобії — це непереборні й ірраціональні страхи, які переслідують героя.</p><p>У присутності своєї фобії (на розсуд ІМ, але зазвичай в полі зору) персонаж віднімає 1 від результатів усіх @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03traitrolls0000#trait-rolls]{перевірок рис}, якщо це дрібний @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01hindrances0000]{недолік}, і 2 — якщо великий.</p><p>Фобії не мають бути надто примітивними; наприклад, усі бояться вампірів, але це не фобія, а здоровий глузд. Фобія ж зазвичай обертається довкола випадкової деталі, що асоціюється з подією. Пам’ятайте: фобії — це <em>ірраціональні</em> страхи.</p>",
+    "major": false,
+    "notes": "",
+    "swid": "phobia",
+    "severity": "either",
+    "favorite": false,
+    "grants": [],
+    "choiceSets": []
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757009264201,
+    "modifiedTime": 1757009264201,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.qg2JfyMripHqS1O0",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  }
+}

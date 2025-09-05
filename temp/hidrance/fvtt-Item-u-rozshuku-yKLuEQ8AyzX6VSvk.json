@@ -1,0 +1,39 @@
+{
+  "effects": [],
+  "folder": "BbRhY7uUKmBd6u6P",
+  "img": "modules/swade-core-rules/assets/hindrance/wanted.webp",
+  "name": "У розшуку",
+  "type": "hindrance",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>(ДРІБНИЙ АБО ВЕЛИКИЙ)</p><p>Цей персонаж учинив якийсь злочин, і його арештують, якщо знайдуть. Це означає, що в сценарії повинні бути правоохоронці чи представники влади, які шукатимуть персонажа.</p><p>Рівень @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01hindrances0000]{недоліку} визначатиме серйозність злочину й наполегливість мисливців за головою персонажа. Дрібним недоліком може бути кілька невиплачених паркувальних штрафів (у грі, де йому доведеться сідати за кермо) чи перебування героя в розшуку за серйозніший злочин поза місцем основних подій кампанії. Звинувачення в убивстві майже завжди буде великим недоліком, якщо поблизу є хтось, хто прагне справедливості (чи помсти).</p>",
+    "major": false,
+    "notes": "",
+    "swid": "wanted",
+    "favorite": false,
+    "grants": [],
+    "choiceSets": [],
+    "severity": "either"
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757009264201,
+    "modifiedTime": 1757009264201,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.yKLuEQ8AyzX6VSvk",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  }
+}

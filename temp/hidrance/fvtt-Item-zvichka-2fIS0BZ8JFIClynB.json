@@ -1,0 +1,39 @@
+{
+  "effects": [],
+  "folder": "BbRhY7uUKmBd6u6P",
+  "img": "modules/swade-core-rules/assets/hindrance/%D0%B7%D0%B2%D0%B8%D1%87%D0%BA%D0%B0.webp",
+  "name": "Звичка",
+  "type": "hindrance",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>(ДРІБНИЙ АБО ВЕЛИКИЙ)</p><p>У вашого воїна є набридлива чи небезпечна звичка. Дрібна звичка бісить усіх довкола, її не назвеш небезпечною. Такий персонаж може длубатися в носі, не вилазити з телефона, казати «цейво» через слово або ж гучно жувати, надувати й голосно (двічі гучно в реченні) лускати кульки з жувальної гумки. Союзники стараються уникати його.</p><p>Велика звичка — це певна фізична чи психологічна залежність, що загрожує виснаженням чи навіть смертю. Сюди належать наркоманія, алкоголізм або ж навіть залежність від віртуальної реальності (у відповідних сценаріях).</p><p>Якщо залежний не отримує жаданого, він повинен кожні 24 години успішно проходити перевірку @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{витримки}, інакше отримає рівень @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03fatigue0000000]{втоми}.</p><p>Раз на 24 години персонаж може зняти один рівень втоми на 4 години завдяки підхожим лікам, якщо успішно пройде перевірку @Compendium[swade-core-rules.swade-skills.Лікування]{лікування}. Після цього втома повертається, і її можна зняти лише тим, від чого в персонажа залежність.</p>",
+    "major": false,
+    "notes": "",
+    "swid": "habit",
+    "favorite": false,
+    "grants": [],
+    "choiceSets": [],
+    "severity": "either"
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757009264201,
+    "modifiedTime": 1757009264201,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.2fIS0BZ8JFIClynB",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  }
+}

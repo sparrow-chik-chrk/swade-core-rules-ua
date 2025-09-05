@@ -1,0 +1,138 @@
+{
+  "effects": [
+    {
+      "_id": "t6gh72alaLJLQ7a4",
+      "name": "Чутливий (дрібний)",
+      "changes": [
+        {
+          "key": "system.attributes.smarts.die.modifier",
+          "mode": 2,
+          "value": "-2",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "swade": {},
+        "sigil": {
+          "completed": true
+        }
+      },
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "tint": "#ffffff",
+      "transfer": true,
+      "description": "<p>Насмішки, дорікання й інші закиди дуже зачіпають цього героя. У разі дрібного @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01hindrances0000]{недоліку} він віднімає 2, опираючись @Compendium[swade-core-rules.swade-skills.Провокація]{провокативним} атакам.</p>",
+      "origin": null,
+      "statuses": [],
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": "swade",
+        "systemVersion": "5.0.5",
+        "lastModifiedBy": null
+      },
+      "img": "modules/swade-core-rules/assets/hindrance/%D1%87%D1%83%D1%82%D0%BB%D0%B8%D0%B2%D0%B8%D0%B9.webp",
+      "type": "base",
+      "system": {
+        "expiration": null,
+        "conditionalEffect": true,
+        "removeEffect": false,
+        "loseTurnOnHold": false,
+        "favorite": false
+      },
+      "sort": 0
+    },
+    {
+      "_id": "e3mu9DzoGHM6DOCf",
+      "name": "Чутливий (великий)",
+      "changes": [
+        {
+          "key": "system.attributes.smarts.die.modifier",
+          "mode": 2,
+          "value": "-4",
+          "priority": null
+        }
+      ],
+      "flags": {
+        "swade": {},
+        "sigil": {
+          "completed": true
+        }
+      },
+      "disabled": true,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "tint": "#ffffff",
+      "transfer": true,
+      "description": "<p>Насмішки, дорікання й інші закиди дуже зачіпають цього героя. У разі вуликого @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01hindrances0000]{недоліку} він віднімає 4, опираючись @Compendium[swade-core-rules.swade-skills.Провокація]{провокативним} атакам.</p>",
+      "origin": null,
+      "statuses": [],
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": "swade",
+        "systemVersion": "5.0.5",
+        "lastModifiedBy": null
+      },
+      "img": "modules/swade-core-rules/assets/hindrance/%D1%87%D1%83%D1%82%D0%BB%D0%B8%D0%B2%D0%B8%D0%B9.webp",
+      "type": "base",
+      "system": {
+        "expiration": null,
+        "conditionalEffect": true,
+        "removeEffect": false,
+        "loseTurnOnHold": false,
+        "favorite": false
+      },
+      "sort": 0
+    }
+  ],
+  "folder": "BbRhY7uUKmBd6u6P",
+  "img": "modules/swade-core-rules/assets/hindrance/%D1%87%D1%83%D1%82%D0%BB%D0%B8%D0%B2%D0%B8%D0%B9.webp",
+  "name": "Чутливий",
+  "type": "hindrance",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>(ДРІБНИЙ АБО ВЕЛИКИЙ)</p><p>Насмішки, дорікання й інші закиди дуже зачіпають цього героя. У разі дрібного @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01hindrances0000]{недоліку} він віднімає 2, опираючись @Compendium[swade-core-rules.swade-skills.Провокація]{провокативним} атакам. У разі великого — віднімає 4.</p>",
+    "major": false,
+    "notes": "",
+    "swid": "thin-skinned",
+    "severity": "either",
+    "favorite": false,
+    "grants": [],
+    "choiceSets": []
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757009264201,
+    "modifiedTime": 1757009264201,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.o4oifIiqk0rBJBFj",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  }
+}
