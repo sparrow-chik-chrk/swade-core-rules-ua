@@ -1,0 +1,53 @@
+{
+  "effects": [],
+  "folder": "5Edj401f5rN7XMuT",
+  "img": "systems/swade/assets/icons/edge.svg",
+  "name": "Кулачник",
+  "type": "edge",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Якщо персонаж завдає атаки в ближньому @Compendium[swade-core-rules.swade-skills.Бійка]{бою} (використовуючи навичку бійки) однією дією, а другою дією атакує <em>іншою рукою</em>, друга атака не має штрафу за @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03multiactions00]{череду дій}. Штраф за <strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03offhandattac00]{неосновну руку}</strong> все ще присутній, якщо, звісно, персонаж не @Compendium[swade-core-rules.swade-edges.Амбідекстр]{амбідекстр}.</p><p>Якщо персонаж має ще й перевагу @Compendium[swade-core-rules.swade-edges.Два стволи]{«Два стволи»}, друга атака може бути атакою дальнього бою.</p>",
+    "isArcaneBackground": false,
+    "notes": "",
+    "requirements": [
+      {
+        "type": "rank",
+        "selector": "",
+        "value": 0,
+        "combinator": "and"
+      },
+      {
+        "type": "attribute",
+        "selector": "agility",
+        "value": 8,
+        "combinator": "and"
+      }
+    ],
+    "category": "Бойові",
+    "swid": "two-fisted",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757072059514,
+    "modifiedTime": 1757072059514,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.RN6j11dayuBJyLoI",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

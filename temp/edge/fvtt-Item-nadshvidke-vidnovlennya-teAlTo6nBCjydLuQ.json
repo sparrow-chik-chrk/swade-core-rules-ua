@@ -1,0 +1,54 @@
+{
+  "effects": [],
+  "folder": "5Edj401f5rN7XMuT",
+  "img": "systems/swade/assets/icons/edge.svg",
+  "name": "Надшвидке відновлення",
+  "type": "edge",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Покращення для: @Compendium[swade-core-rules.swade-edges.Швидке відновлення]{Швидке відновлення}</p><p>Тепер за годину відпочинку персонаж @UUID[Compendium.swade-core-rules.swade-rules.swadecor05powers.JournalEntryPage.05activation0000]{відновлює} 20 @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor05powers.JournalEntryPage.05arcanebackgr00]{очок сили}.</p>",
+    "isArcaneBackground": false,
+    "notes": "",
+    "requirements": [
+      {
+        "type": "rank",
+        "value": 2,
+        "combinator": "and",
+        "selector": ""
+      },
+      {
+        "type": "edge",
+        "label": "Швидке відновлення",
+        "selector": "rapid-recharge",
+        "value": "",
+        "combinator": "and"
+      }
+    ],
+    "category": "Силові",
+    "swid": "improved-rapid-recharge",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757072059676,
+    "modifiedTime": 1757072059676,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.teAlTo6nBCjydLuQ",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

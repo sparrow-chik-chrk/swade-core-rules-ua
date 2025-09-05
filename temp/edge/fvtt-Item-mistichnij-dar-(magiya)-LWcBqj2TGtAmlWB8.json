@@ -1,0 +1,47 @@
+{
+  "effects": [],
+  "folder": "5Edj401f5rN7XMuT",
+  "img": "systems/swade/assets/icons/edge.svg",
+  "name": "Містичний дар (Магія)",
+  "type": "edge",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<ul><li><strong>МІСТИЧНА НАВИЧКА:</strong> @Compendium[swade-core-rules.swade-skills.Чарування]{Чарування} (кмітливість)</li><li><strong>ПОЧАТКОВІ @UUID[Compendium.swade-core-rules.swade-rules.swadecor05powers.JournalEntryPage.05powers00000000]{СИЛИ}:</strong> 3</li><li><strong>@UUID[Compendium.swade-core-rules.swade-rules.swadecor05powers.JournalEntryPage.05arcanebackgr00]{ОЧКИ СИЛИ}:</strong> 10</li></ul><p>Контакт із дивними енергіями, навчання в школі магії або дар божественної чи духовної сутності іноді дає обранцям власні сили та здібності. Такі події дають персонажу перевагу «Містичний дар», а також розвивають у ньому надзвичайні здібності.</p><p><strong>Містичний дар (Магія):</strong> Серед магів бувають як могутні чарівники, так і лихі культисти. Вони черпають чисту надприродну енергію для своїх містичних вогнів. Цією енергією наповнені світи, у яких живуть маги, і вони скеровують її за допомогою жестів, слів сили чи древніх рун.</p><p><br style=\"font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;orphans:2;text-align:-webkit-auto;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px\" /><br /></p>",
+    "isArcaneBackground": true,
+    "notes": "",
+    "requirements": [
+      {
+        "type": "rank",
+        "selector": "",
+        "value": 0,
+        "combinator": "and"
+      }
+    ],
+    "category": "Загальні",
+    "swid": "arcane-background-magic",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757072059514,
+    "modifiedTime": 1757072059514,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.LWcBqj2TGtAmlWB8",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

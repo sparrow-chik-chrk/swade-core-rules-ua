@@ -1,0 +1,54 @@
+{
+  "effects": [],
+  "folder": "5Edj401f5rN7XMuT",
+  "img": "systems/swade/assets/icons/edge.svg",
+  "name": "Дотепник",
+  "type": "edge",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Цей дебатер може обернути стріли словесних конфліктів назад на бовдурів, які їх випустили.</p><p>Якщо персонаж з перевагою «Дотепник» викидає надмір, опираючись @Compendium[swade-core-rules.swade-skills.Залякування]{залякуванню} або @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03test0000000000]{заваді} @Compendium[swade-core-rules.swade-skills.Провокація]{провокації}, <em>ворог</em> стає @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03distractedan00]{розгубленим}.</p>",
+    "isArcaneBackground": false,
+    "notes": "",
+    "requirements": [
+      {
+        "type": "rank",
+        "value": 0,
+        "combinator": "and",
+        "selector": ""
+      },
+      {
+        "type": "skill",
+        "label": "Провокація",
+        "selector": "taunt",
+        "value": 6,
+        "combinator": "and"
+      }
+    ],
+    "category": "Соціальні",
+    "swid": "retort",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757072059514,
+    "modifiedTime": 1757072059514,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.Po7QiS7lMFtWFGQ8",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

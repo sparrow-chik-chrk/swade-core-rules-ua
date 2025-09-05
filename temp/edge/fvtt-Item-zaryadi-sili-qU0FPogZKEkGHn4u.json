@@ -1,0 +1,116 @@
+{
+  "effects": [
+    {
+      "_id": "CGGH14dBuyUTM43K",
+      "name": "Заряди сили",
+      "changes": [
+        {
+          "key": "flags.swade-core-rules.powerSurge",
+          "mode": 2,
+          "value": "true",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "flags": {
+        "sigil": {
+          "completed": true
+        }
+      },
+      "tint": "#ffffff",
+      "transfer": true,
+      "description": "<p>Пов'язані переваги: @Compendium[swade-core-rules.swade-edges.Містичний дар (Вроджений)]{Містичний дар (Вроджений)}, @Compendium[swade-core-rules.swade-edges.Містичний дар (Дива)]{Містичний дар (Дива)}, @Compendium[swade-core-rules.swade-edges.Містичний дар (Дивні науки)]{Містичний дар (Дивні науки)}, @Compendium[swade-core-rules.swade-edges.Містичний дар (Магія)]{Містичний дар (Магія)}, @Compendium[swade-core-rules.swade-edges.Містичний дар (Псіоніка)]{Містичний дар (Псіоніка)}</p><p>Персонаж відновлює 10 @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor05powers.JournalEntryPage.05arcanebackgr00]{очок сили}, коли його @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03actioncardsi00]{карта дії} — «Джокер». Кількість очок сили не може перевищити його звичний ліміт.</p>",
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": "swade",
+        "systemVersion": "5.0.5",
+        "lastModifiedBy": null
+      },
+      "img": "systems/swade/assets/icons/edge.svg",
+      "type": "base",
+      "system": {
+        "removeEffect": false,
+        "expiration": null,
+        "loseTurnOnHold": false,
+        "favorite": false,
+        "conditionalEffect": false
+      },
+      "origin": null,
+      "statuses": [],
+      "sort": 0
+    }
+  ],
+  "folder": "5Edj401f5rN7XMuT",
+  "img": "systems/swade/assets/icons/edge.svg",
+  "name": "Заряди сили",
+  "type": "edge",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Пов'язані переваги: @Compendium[swade-core-rules.swade-edges.Містичний дар (Вроджений)]{Містичний дар (Вроджений)}, @Compendium[swade-core-rules.swade-edges.Містичний дар (Дива)]{Містичний дар (Дива)}, @Compendium[swade-core-rules.swade-edges.Містичний дар (Дивні науки)]{Містичний дар (Дивні науки)}, @Compendium[swade-core-rules.swade-edges.Містичний дар (Магія)]{Містичний дар (Магія)}, @Compendium[swade-core-rules.swade-edges.Містичний дар (Псіоніка)]{Містичний дар (Псіоніка)}</p><p>Персонаж відновлює 10 @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor05powers.JournalEntryPage.05arcanebackgr00]{очок сили}, коли його @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03actioncardsi00]{карта дії} — «Джокер». Кількість очок сили не може перевищити його звичний ліміт.</p>",
+    "isArcaneBackground": false,
+    "notes": "",
+    "requirements": [
+      {
+        "type": "wildCard",
+        "value": true,
+        "combinator": "and",
+        "selector": ""
+      },
+      {
+        "type": "rank",
+        "value": 0,
+        "combinator": "and",
+        "selector": ""
+      },
+      {
+        "type": "other",
+        "label": "Містичний дар (будь-який)",
+        "combinator": "and",
+        "selector": "",
+        "value": ""
+      },
+      {
+        "type": "other",
+        "label": "Містична навичка d8+",
+        "selector": "",
+        "value": "",
+        "combinator": "and"
+      }
+    ],
+    "category": "Силові",
+    "swid": "power-surge",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757072059676,
+    "modifiedTime": 1757072059676,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.qU0FPogZKEkGHn4u",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

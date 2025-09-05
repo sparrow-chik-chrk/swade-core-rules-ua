@@ -1,0 +1,109 @@
+{
+  "effects": [
+    {
+      "_id": "CJgSKeLop8G2Awfa",
+      "changes": [
+        {
+          "key": "@Action{Work the Room}[system.actions.additional.supPers.dice]",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "@Action{Work the Room}[system.actions.additional.supPerf.dice]",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "flags": {
+        "sigil": {
+          "completed": true
+        }
+      },
+      "name": "Оратор",
+      "tint": "#ffffff",
+      "transfer": true,
+      "description": "<p>Діє, як і @Compendium[swade-core-rules.swade-edges.Душа компанії]{«Душа компанії»}, але персонаж тепер може кинути ще одну додаткову кістку навички для @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03support0000000]{підтримки} додаткового союзника.</p>",
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": "swade",
+        "systemVersion": "5.0.5",
+        "lastModifiedBy": null
+      },
+      "img": "systems/swade/assets/icons/action.svg",
+      "type": "base",
+      "system": {
+        "removeEffect": false,
+        "expiration": null,
+        "loseTurnOnHold": false,
+        "favorite": false,
+        "conditionalEffect": false
+      },
+      "origin": null,
+      "statuses": [],
+      "sort": 0
+    }
+  ],
+  "folder": "5Edj401f5rN7XMuT",
+  "img": "systems/swade/assets/icons/edge.svg",
+  "name": "Оратор",
+  "type": "edge",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Діє, як і @Compendium[swade-core-rules.swade-edges.Душа компанії]{«Душа компанії»}, але персонаж тепер може кинути ще одну додаткову кістку навички для @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03support0000000]{підтримки} додаткового союзника.</p>",
+    "isArcaneBackground": false,
+    "notes": "",
+    "requirements": [
+      {
+        "type": "rank",
+        "value": 1,
+        "combinator": "and",
+        "selector": ""
+      },
+      {
+        "type": "edge",
+        "label": "Душа компанії",
+        "selector": "work-the-room",
+        "value": "",
+        "combinator": "and"
+      }
+    ],
+    "category": "Соціальні",
+    "swid": "work-the-crowd",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757072059514,
+    "modifiedTime": 1757072059514,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.UmsiVBo1nCzBz9Tr",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

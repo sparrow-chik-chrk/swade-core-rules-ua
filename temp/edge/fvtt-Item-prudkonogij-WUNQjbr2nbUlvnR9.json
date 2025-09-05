@@ -1,0 +1,108 @@
+{
+  "effects": [
+    {
+      "_id": "DiO4M0we7bx3OJs6",
+      "changes": [
+        {
+          "key": "system.pace.ground",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        },
+        {
+          "key": "system.pace.running.die",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "flags": {
+        "sigil": {
+          "completed": true
+        }
+      },
+      "name": "Прудконогий",
+      "tint": "#ffffff",
+      "transfer": true,
+      "description": "<p>Персонаж отримує +2 до @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03movement000000]{темпу}, а його @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03movement000000]{кістку бігу} підвищено на один ступінь.</p>",
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": "swade",
+        "systemVersion": "5.0.5",
+        "lastModifiedBy": null
+      },
+      "img": "systems/swade/assets/icons/edge.svg",
+      "type": "base",
+      "system": {
+        "removeEffect": false,
+        "expiration": null,
+        "loseTurnOnHold": false,
+        "favorite": false,
+        "conditionalEffect": false
+      },
+      "origin": null,
+      "statuses": [],
+      "sort": 0
+    }
+  ],
+  "folder": "5Edj401f5rN7XMuT",
+  "img": "systems/swade/assets/icons/edge.svg",
+  "name": "Прудконогий",
+  "type": "edge",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Персонаж отримує +2 до @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03movement000000]{темпу}, а його @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03movement000000]{кістку бігу} підвищено на один ступінь.</p>",
+    "isArcaneBackground": false,
+    "notes": "",
+    "requirements": [
+      {
+        "type": "rank",
+        "selector": "",
+        "value": 0,
+        "combinator": "and"
+      },
+      {
+        "type": "attribute",
+        "selector": "agility",
+        "value": 6,
+        "combinator": "and"
+      }
+    ],
+    "category": "Загальні",
+    "swid": "fleet-footed",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757072059514,
+    "modifiedTime": 1757072059514,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.WUNQjbr2nbUlvnR9",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

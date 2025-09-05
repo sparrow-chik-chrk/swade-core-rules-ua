@@ -1,0 +1,54 @@
+{
+  "effects": [],
+  "folder": "5Edj401f5rN7XMuT",
+  "img": "systems/swade/assets/icons/edge.svg",
+  "name": "Глузування",
+  "type": "edge",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Хитрі персонажі можуть маніпулювати ворогами, відволікаючи атаки на себе. Один раз за хід, коли цей персонаж використовує @Compendium[swade-core-rules.swade-skills.Провокація]{провокацію} для завади та викидає надмір (див. @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03test0000000000]{«Завада»}), він може поглузувати з ворога.</p><p>На додачу до всіх звичайних ефектів успіху та надміру на ворога накладають штраф −2 на вплив на всі цілі, окрім провокатора. Цей штраф накопичується зі станом @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03distractedan00]{«Розгубленість»}, але не з подальшими глузуваннями.</p><p>Глузування припиняє діяти, якщо взяти з колоди «Джокера», з цілі почне глузувати хтось інший або після завершення зіткнення. Перевага «Глузування» може діяти на кілька цілей, і її можна використовувати разом з <strong>@Compendium[swade-core-rules.swade-edges.Гострий язик]{«Гострим язиком»}</strong>.</p>",
+    "isArcaneBackground": false,
+    "notes": "",
+    "requirements": [
+      {
+        "type": "rank",
+        "value": 0,
+        "combinator": "and",
+        "selector": ""
+      },
+      {
+        "type": "skill",
+        "label": "Провокація",
+        "selector": "taunt",
+        "value": 6,
+        "combinator": "and"
+      }
+    ],
+    "category": "Соціальні",
+    "swid": "provoke",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757072059676,
+    "modifiedTime": 1757072059676,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.nzOFc4yyiVlEaLn5",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

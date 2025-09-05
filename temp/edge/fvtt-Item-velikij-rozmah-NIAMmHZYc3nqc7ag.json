@@ -1,0 +1,54 @@
+{
+  "effects": [],
+  "folder": "5Edj401f5rN7XMuT",
+  "img": "modules/swade-core-rules/assets/edges/%D0%B2%D0%B5%D0%BB%D0%B8%D0%BA%D0%B8%D0%B9-%D1%80%D0%BE%D0%B7%D0%BC%D0%B0%D1%85.webp",
+  "name": "Великий розмах",
+  "type": "edge",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Як і @Compendium[swade-core-rules.swade-edges.Розмах]{«Розмах»}, тільки не завдає ушкоджень союзникам.</p>",
+    "isArcaneBackground": false,
+    "notes": "",
+    "requirements": [
+      {
+        "type": "rank",
+        "value": 2,
+        "combinator": "and",
+        "selector": ""
+      },
+      {
+        "type": "edge",
+        "label": "Розмах",
+        "selector": "sweep",
+        "value": "",
+        "combinator": "and"
+      }
+    ],
+    "category": "Бойові",
+    "swid": "improved-sweep",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757072059514,
+    "modifiedTime": 1757072059514,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.NIAMmHZYc3nqc7ag",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

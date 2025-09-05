@@ -1,0 +1,54 @@
+{
+  "effects": [],
+  "folder": "5Edj401f5rN7XMuT",
+  "img": "systems/swade/assets/icons/edge.svg",
+  "name": "Контрудар",
+  "type": "edge",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Бійці із цією перевагою миттєво змушують ворогів шкодувати про свої помилки. Один раз за раунд (якщо не @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{шокований} чи @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03stunned0000000]{приголомшений}) персонаж отримує <strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03freeattacks000]{вільну атаку}</strong>, коли ворог провально виконує атаку в @Compendium[swade-core-rules.swade-skills.Бійка]{бійці} проти нього. Контрудару завдають негайно (раніше за інші атаки по персонажу для тієї ж @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03actioncardsi00]{карти дії}, якщо такі є).</p>",
+    "isArcaneBackground": false,
+    "notes": "",
+    "requirements": [
+      {
+        "type": "rank",
+        "value": 1,
+        "combinator": "and",
+        "selector": ""
+      },
+      {
+        "type": "skill",
+        "label": "Бійка",
+        "selector": "fighting",
+        "value": 8,
+        "combinator": "and"
+      }
+    ],
+    "category": "Бойові",
+    "swid": "counterattack",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757072059676,
+    "modifiedTime": 1757072059676,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.wlVsolk3JywJvt7V",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "effects": [],
+  "folder": "5Edj401f5rN7XMuT",
+  "img": "systems/swade/assets/icons/edge.svg",
+  "name": "Містичний дар (Вроджений)",
+  "type": "edge",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<ul><li><strong>МІСТИЧНА НАВИЧКА:</strong> @Compendium[swade-core-rules.swade-skills.Зосередження]{Зосередження} (воля)</li><li><strong>ПОЧАТКОВІ @UUID[Compendium.swade-core-rules.swade-rules.swadecor05powers.JournalEntryPage.05powers00000000]{СИЛИ}:</strong> 1</li><li><strong>@UUID[Compendium.swade-core-rules.swade-rules.swadecor05powers.JournalEntryPage.05arcanebackgr00]{ОЧКИ СИЛИ}:</strong> 15</li></ul><p>Контакт із дивними енергіями, навчання в школі магії або дар божественної чи духовної сутності іноді дає обранцям власні сили та здібності. Такі події дають персонажу перевагу «Містичний дар», а також розвивають у ньому надзвичайні здібності.</p><p><strong>Містичний дар (Вроджений):</strong> Персонаж має вроджені здібності, які не вписуються у звичні стандарти @Compendium[swade-core-rules.swade-edges.Містичний дар (Магія)]{магії}, @Compendium[swade-core-rules.swade-edges.Містичний дар (Дива)]{див} чи @Compendium[swade-core-rules.swade-edges.Містичний дар (Псіоніка)]{псіоніки}. Це можуть бути низькорівневі суперсили, божественні дари чи навіть позаземні вміння. Часто такі сили дуже незвичні й унікальні для сценарію гри.</p>",
+    "isArcaneBackground": true,
+    "notes": "",
+    "requirements": [
+      {
+        "type": "rank",
+        "selector": "",
+        "value": 0,
+        "combinator": "and"
+      }
+    ],
+    "category": "Загальні",
+    "swid": "arcane-background-gifted",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757072059514,
+    "modifiedTime": 1757072059514,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.c5BxAg54bjbf2AUU",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

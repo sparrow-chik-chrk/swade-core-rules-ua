@@ -1,0 +1,102 @@
+{
+  "effects": [
+    {
+      "_id": "9kFbhzHWhmnywHRy",
+      "changes": [
+        {
+          "key": "system.stats.globalMods.bennyTrait",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "flags": {
+        "sigil": {
+          "completed": true
+        }
+      },
+      "name": "Завзятий",
+      "tint": "#ffffff",
+      "transfer": true,
+      "description": "<p>Персонажі з цією перевагою мають неабияку силу волі. Найтяжчі випробування підіймають їхній дух. Коли ви витрачаєте @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03bennies0000000]{талан}, щоби перекинути @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{рису}, додайте +2 до результату. Бонус зараховують тільки під час перекиду. Його не застосовують ні до кидків на @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03dealingdamag00]{ушкодження} (адже це не перевірки рис), ні до кидків на @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03soakrolls00000]{поглинання}, якщо ви не витратите ще <em>один</em> талан, щоб перекинути перевірку @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{витримки}.</p>",
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": "swade",
+        "systemVersion": "5.0.5",
+        "lastModifiedBy": null
+      },
+      "img": "systems/swade/assets/icons/edge.svg",
+      "type": "base",
+      "system": {
+        "removeEffect": false,
+        "expiration": null,
+        "loseTurnOnHold": false,
+        "favorite": false,
+        "conditionalEffect": false
+      },
+      "origin": null,
+      "statuses": [],
+      "sort": 0
+    }
+  ],
+  "folder": "5Edj401f5rN7XMuT",
+  "img": "systems/swade/assets/icons/edge.svg",
+  "name": "Завзятий",
+  "type": "edge",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Персонажі з цією перевагою мають неабияку силу волі. Найтяжчі випробування підіймають їхній дух. Коли ви витрачаєте @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03bennies0000000]{талан}, щоби перекинути @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{рису}, додайте +2 до результату. Бонус зараховують тільки під час перекиду. Його не застосовують ні до кидків на @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03dealingdamag00]{ушкодження} (адже це не перевірки рис), ні до кидків на @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03soakrolls00000]{поглинання}, якщо ви не витратите ще <em>один</em> талан, щоб перекинути перевірку @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{витримки}.</p>",
+    "isArcaneBackground": false,
+    "notes": "",
+    "requirements": [
+      {
+        "type": "rank",
+        "selector": "",
+        "value": 0,
+        "combinator": "and"
+      },
+      {
+        "type": "attribute",
+        "selector": "spirit",
+        "value": 8,
+        "combinator": "and"
+      }
+    ],
+    "category": "Загальні",
+    "swid": "elan",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757072059514,
+    "modifiedTime": 1757072059514,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.IuXkq8cDeell8UmE",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

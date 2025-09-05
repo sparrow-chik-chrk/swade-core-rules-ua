@@ -1,0 +1,109 @@
+{
+  "effects": [
+    {
+      "_id": "a52TIiBjb8VeKDv5",
+      "changes": [
+        {
+          "key": "system.wounds.max",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "flags": {
+        "sigil": {
+          "completed": true
+        }
+      },
+      "name": "Міцніший за кремінь",
+      "tint": "#ffffff",
+      "transfer": true,
+      "description": "<p>Покращення для: @Compendium[swade-core-rules.swade-edges.Міцний як кремінь]{Міцний як кремінь}</p><p>Персонаж може зазнати п’ятьох @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{ран}, перш ніж стане @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{недієздатним}! Максимальний штраф за рани все ще −3.</p>",
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": "swade",
+        "systemVersion": "5.0.5",
+        "lastModifiedBy": null
+      },
+      "img": "systems/swade/assets/icons/edge.svg",
+      "type": "base",
+      "system": {
+        "removeEffect": false,
+        "expiration": null,
+        "loseTurnOnHold": false,
+        "favorite": false,
+        "conditionalEffect": false
+      },
+      "origin": null,
+      "statuses": [],
+      "sort": 0
+    }
+  ],
+  "folder": "5Edj401f5rN7XMuT",
+  "img": "systems/swade/assets/icons/edge.svg",
+  "name": "Міцніший за кремінь",
+  "type": "edge",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Покращення для: @Compendium[swade-core-rules.swade-edges.Міцний як кремінь]{Міцний як кремінь}</p><p>Персонаж може зазнати п’ятьох @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{ран}, перш ніж стане @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{недієздатним}! Максимальний штраф за рани все ще −3.</p>",
+    "isArcaneBackground": false,
+    "notes": "",
+    "requirements": [
+      {
+        "type": "rank",
+        "value": 4,
+        "combinator": "and",
+        "selector": ""
+      },
+      {
+        "type": "edge",
+        "label": "Міцний як кремінь",
+        "selector": "tough-as-nails",
+        "combinator": "and",
+        "value": ""
+      },
+      {
+        "type": "attribute",
+        "selector": "vigor",
+        "value": 12,
+        "combinator": "and"
+      }
+    ],
+    "category": "Легендарні",
+    "swid": "tougher-than-nails",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757072059676,
+    "modifiedTime": 1757072059676,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.pNKxmNWVDX7LfU8j",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

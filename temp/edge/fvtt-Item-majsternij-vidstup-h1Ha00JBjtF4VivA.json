@@ -1,0 +1,54 @@
+{
+  "effects": [],
+  "folder": "5Edj401f5rN7XMuT",
+  "img": "modules/swade-core-rules/assets/edges/%D0%BC%D0%B0%D0%B9%D1%81%D1%82%D0%B5%D1%80%D0%BD%D0%B8%D0%B9-%D0%B2%D1%96%D0%B4%D1%81%D1%82%D1%83%D0%BF.webp",
+  "name": "Майстерний відступ",
+  "type": "edge",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Покращення для: @Compendium[swade-core-rules.swade-edges.Відступ]{Відступ}</p><p>До трьох ворогів на вибір гравця не отримують вільної атаки проти персонажа, коли той @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03withdrawingf00]{відступає з ближнього бою}.</p>",
+    "isArcaneBackground": false,
+    "notes": "",
+    "requirements": [
+      {
+        "type": "rank",
+        "value": 1,
+        "combinator": "and",
+        "selector": ""
+      },
+      {
+        "type": "edge",
+        "label": "Відступ",
+        "selector": "extraction",
+        "value": "",
+        "combinator": "and"
+      }
+    ],
+    "category": "Бойові",
+    "swid": "improved-extraction",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757072059514,
+    "modifiedTime": 1757072059514,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.h1Ha00JBjtF4VivA",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

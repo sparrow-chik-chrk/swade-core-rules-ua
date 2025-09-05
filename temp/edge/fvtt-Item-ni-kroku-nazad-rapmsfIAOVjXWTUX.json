@@ -1,0 +1,60 @@
+{
+  "effects": [],
+  "folder": "5Edj401f5rN7XMuT",
+  "img": "systems/swade/assets/icons/edge.svg",
+  "name": "Ні кроку назад",
+  "type": "edge",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Пов'язані переваги: @Compendium[swade-core-rules.swade-edges.Командування]{Командування}</p><p>Ця перевага зміцнює бажання оборонятися всіх @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03wildcardsand00]{статистів} під командуванням персонажа, даючи їм +1 до @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01characters0000]{стійкості}.</p>",
+    "isArcaneBackground": false,
+    "notes": "",
+    "requirements": [
+      {
+        "type": "rank",
+        "value": 1,
+        "combinator": "and",
+        "selector": ""
+      },
+      {
+        "type": "attribute",
+        "selector": "smarts",
+        "value": 8,
+        "combinator": "and"
+      },
+      {
+        "type": "edge",
+        "label": "Командування",
+        "selector": "command",
+        "value": "",
+        "combinator": "and"
+      }
+    ],
+    "category": "Лідерські",
+    "swid": "hold-the-line",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757072059676,
+    "modifiedTime": 1757072059676,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.rapmsfIAOVjXWTUX",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

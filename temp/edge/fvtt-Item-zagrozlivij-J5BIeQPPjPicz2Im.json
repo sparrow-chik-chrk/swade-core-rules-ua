@@ -1,0 +1,125 @@
+{
+  "effects": [
+    {
+      "_id": "fOCC3PU2YmRCtLXh",
+      "name": "Загрозливий",
+      "changes": [
+        {
+          "key": "@Skill{Intimidation}[system.die.modifier]",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "tint": "#ffffff",
+      "transfer": true,
+      "description": "<p>Пов'язані недоліки: @Compendium[swade-core-rules.swade-hindrances.Безжальний]{Безжальний}, @Compendium[swade-core-rules.swade-hindrances.Жовчний]{Жовчний}, @Compendium[swade-core-rules.swade-hindrances.Кровожерний]{Кровожерний}, @Compendium[swade-core-rules.swade-hindrances.Потворний]{Потворний}</p><p>Бути брутальним грубіяном не завжди погано, якщо знати, як цим користуватися. Перевага «Загрозливий» дає персонажу використовувати неоковирну зовнішність або поганий характер собі на користь. Такий боєць додає +2 до кидків на @Compendium[swade-core-rules.swade-skills.Залякування]{залякування}.</p>",
+      "flags": {
+        "swade": {},
+        "sigil": {
+          "completed": true
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": "swade",
+        "systemVersion": "5.0.5",
+        "lastModifiedBy": null
+      },
+      "img": "systems/swade/assets/icons/edge.svg",
+      "type": "base",
+      "system": {
+        "conditionalEffect": false,
+        "removeEffect": false,
+        "expiration": null,
+        "loseTurnOnHold": false,
+        "favorite": false
+      },
+      "origin": null,
+      "statuses": [],
+      "sort": 0
+    }
+  ],
+  "folder": "5Edj401f5rN7XMuT",
+  "img": "systems/swade/assets/icons/edge.svg",
+  "name": "Загрозливий",
+  "type": "edge",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Пов'язані недоліки: @Compendium[swade-core-rules.swade-hindrances.Безжальний]{Безжальний}, @Compendium[swade-core-rules.swade-hindrances.Жовчний]{Жовчний}, @Compendium[swade-core-rules.swade-hindrances.Кровожерний]{Кровожерний}, @Compendium[swade-core-rules.swade-hindrances.Потворний]{Потворний}</p><p>Бути брутальним грубіяном не завжди погано, якщо знати, як цим користуватися. Перевага «Загрозливий» дає персонажу використовувати неоковирну зовнішність або поганий характер собі на користь. Такий боєць додає +2 до кидків на @Compendium[swade-core-rules.swade-skills.Залякування]{залякування}.</p>",
+    "isArcaneBackground": false,
+    "notes": "",
+    "requirements": [
+      {
+        "type": "rank",
+        "value": 0,
+        "combinator": "and",
+        "selector": ""
+      },
+      {
+        "type": "hindrance",
+        "label": "Кровожерний",
+        "selector": "bloodthirsty",
+        "combinator": "or",
+        "value": ""
+      },
+      {
+        "type": "hindrance",
+        "label": "Жовчний",
+        "selector": "mean",
+        "combinator": "or",
+        "value": ""
+      },
+      {
+        "type": "hindrance",
+        "label": "Безжальний",
+        "selector": "ruthless",
+        "combinator": "or",
+        "value": ""
+      },
+      {
+        "type": "hindrance",
+        "label": "Потворний",
+        "selector": "ugly",
+        "value": "",
+        "combinator": "and"
+      }
+    ],
+    "category": "Соціальні",
+    "swid": "menacing",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757072059514,
+    "modifiedTime": 1757072059514,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.J5BIeQPPjPicz2Im",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

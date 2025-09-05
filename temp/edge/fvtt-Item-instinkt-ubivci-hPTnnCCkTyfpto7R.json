@@ -1,0 +1,47 @@
+{
+  "effects": [],
+  "folder": "5Edj401f5rN7XMuT",
+  "img": "modules/swade-core-rules/assets/edges/%D1%96%D0%BD%D1%81%D1%82%D0%B8%D0%BD%D0%BA%D1%82-%D1%83%D0%B1%D0%B8%D0%B2%D1%86%D1%96.webp",
+  "name": "Інстинкт убивці",
+  "type": "edge",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Персонаж ненавидить програвати. Він може перекинути кістку для будь-якої ініційованої ним @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03test0000000000]{завади} з протистоянням.</p>",
+    "isArcaneBackground": false,
+    "notes": "",
+    "requirements": [
+      {
+        "type": "rank",
+        "selector": "",
+        "value": 1,
+        "combinator": "and"
+      }
+    ],
+    "category": "Бойові",
+    "swid": "killer-instinct",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757072059514,
+    "modifiedTime": 1757072059514,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.hPTnnCCkTyfpto7R",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "effects": [],
+  "folder": "5Edj401f5rN7XMuT",
+  "img": "systems/swade/assets/icons/edge.svg",
+  "name": "Снайпер",
+  "type": "edge",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Персонаж має талант до зброї дальнього бою. Якщо він не переміщується під час свого ходу і першою дією стріляє з @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02rateoffire0000]{темпом стрільби}, не більшим ніж 1, то може додати +1 до кидка на @Compendium[swade-core-rules.swade-skills.Атлетизм]{атлетизм} (метання) чи @Compendium[swade-core-rules.swade-skills.Стрільба]{стрільбу}, або ж проігнорувати до 2 очок штрафу від @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0]{точного пострілу}, @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03coverandobst00]{заслони}, @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02range000000000]{відстані}, @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03sizeandscale00]{величини} чи @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03speed000000000]{швидкості}. Це слабша версія маневру @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03aim00000000000]{прицілювання}, яку не накопичують із цією перевагою. Перевага не діє на додаткові атаки після першої.</p>",
+    "isArcaneBackground": false,
+    "notes": "",
+    "requirements": [
+      {
+        "type": "rank",
+        "value": 1,
+        "combinator": "and",
+        "selector": ""
+      },
+      {
+        "type": "skill",
+        "label": "Атлетизм",
+        "selector": "athletics",
+        "value": 8,
+        "combinator": "or"
+      },
+      {
+        "type": "skill",
+        "label": "Стрільба",
+        "selector": "shooting",
+        "value": 8,
+        "combinator": "and"
+      }
+    ],
+    "category": "Бойові",
+    "swid": "marksman",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757072059676,
+    "modifiedTime": 1757072059676,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.iQ9C8bCJY1AUOkDw",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

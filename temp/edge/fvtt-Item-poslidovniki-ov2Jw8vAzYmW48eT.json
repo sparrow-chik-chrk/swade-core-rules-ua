@@ -1,0 +1,53 @@
+{
+  "effects": [],
+  "folder": "5Edj401f5rN7XMuT",
+  "img": "systems/swade/assets/icons/edge.svg",
+  "name": "Послідовники",
+  "type": "edge",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Щоразу коли персонаж вибирає цю перевагу, він отримує п’ятьох послідовників, що б’ються на його боці. Якщо хтось гине, його згодом замінює інший (скільки часу на це знадобиться, залежить від ІМ та обставин).</p><p>Про послідовників треба піклуватися, і зазвичай вони хочуть частку здобичі, скарбу чи іншої винагороди, яку отримує персонаж. Поза тим вони цілковито віддані своєму завданню. Послідовники не жертвують життям просто так, але часто готові ним ризикувати на службі персонажу.</p><p>Для послідовників використовуйте характеристики <strong>@Compendium[swade-core-rules.swade-bestiary.Солдат]{солдата}</strong>. Персонаж може споряджати своїх союзників, як забажає. Послідовники  <strong>@UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01advancement000]{роблять поступ}</strong> так само, як персонажі гравців.</p><p>Якщо ви хочете надати послідовникам індивідуальності, використовуйте правила для <strong>@UUID[Compendium.swade-core-rules.swade-rules.swadecor04theadv.JournalEntryPage.04allies00000000]{союзників}</strong>.</p>",
+    "isArcaneBackground": false,
+    "notes": "",
+    "requirements": [
+      {
+        "type": "wildCard",
+        "selector": "",
+        "value": true,
+        "combinator": "and"
+      },
+      {
+        "type": "rank",
+        "selector": "",
+        "value": 4,
+        "combinator": "and"
+      }
+    ],
+    "category": "Легендарні",
+    "swid": "followers",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757072059676,
+    "modifiedTime": 1757072059676,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.ov2Jw8vAzYmW48eT",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

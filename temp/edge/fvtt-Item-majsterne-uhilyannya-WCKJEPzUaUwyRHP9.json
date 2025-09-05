@@ -1,0 +1,104 @@
+{
+  "effects": [
+    {
+      "_id": "6NHmKBHPjz7nRVa8",
+      "changes": [
+        {
+          "key": "system.attributes.agility.die.modifier",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "name": "Майстерне ухиляння",
+      "tint": "#ffffff",
+      "transfer": true,
+      "description": "<p>Персонаж має бонус +2 проти атак з площею ураження (див. <strong>@UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03evasion0000000]{«Уникання»}</strong>).</p>",
+      "flags": {
+        "swade": {},
+        "sigil": {
+          "completed": true
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": "swade",
+        "systemVersion": "5.0.5",
+        "lastModifiedBy": null
+      },
+      "img": "systems/swade/assets/icons/edge.svg",
+      "type": "base",
+      "system": {
+        "conditionalEffect": true,
+        "removeEffect": false,
+        "expiration": null,
+        "loseTurnOnHold": false,
+        "favorite": false
+      },
+      "origin": null,
+      "statuses": [],
+      "sort": 0
+    }
+  ],
+  "folder": "5Edj401f5rN7XMuT",
+  "img": "systems/swade/assets/icons/edge.svg",
+  "name": "Майстерне ухиляння",
+  "type": "edge",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Покращення для: @Compendium[swade-core-rules.swade-edges.Ухиляння]{Ухиляння}</p><p>Персонаж має бонус +2 проти атак з площею ураження (див. <strong>@UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03evasion0000000]{«Уникання»}</strong>).</p>",
+    "isArcaneBackground": false,
+    "notes": "",
+    "requirements": [
+      {
+        "type": "rank",
+        "value": 1,
+        "combinator": "and",
+        "selector": ""
+      },
+      {
+        "type": "edge",
+        "label": "Ухиляння",
+        "selector": "dodge",
+        "value": "",
+        "combinator": "and"
+      }
+    ],
+    "category": "Бойові",
+    "swid": "improved-dodge",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757072059514,
+    "modifiedTime": 1757072059514,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.WCKJEPzUaUwyRHP9",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

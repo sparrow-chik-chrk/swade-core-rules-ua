@@ -1,0 +1,54 @@
+{
+  "effects": [],
+  "folder": "5Edj401f5rN7XMuT",
+  "img": "systems/swade/assets/icons/edge.svg",
+  "name": "Майстерна швидка стрільба",
+  "type": "edge",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Покращення для: @Compendium[swade-core-rules.swade-edges.Швидка стрільба]{Швидка стрільба}</p><p>Тепер персонаж може пришвидшити @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02rateoffire0000]{темп стрільби} зброї на 1 для будь-яких двох стрілецьких атак в поточному ході (@UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03multiactions00]{чередою дій}).</p><h2>Приклад</h2><p>Ґейб стріляє з кулемета і має «Майстерну швидку стрільбу». Темп стрільби кулемета становить 4, тож Ґейб вирішує стріляти з нього під час усіх трьох своїх дій (див. <strong>@UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03multiactions00]{«Череда дій»}</strong>). Він кидає додаткову кістку @Compendium[swade-core-rules.swade-skills.Стрільба]{стрільби} на першій і другій атаці, щоразу пришвидшуючи темп стрільби зброї до 5. Цей бонус відсутній на третій атаці — тож темп стрільби кулемета залишається 4.</p>",
+    "isArcaneBackground": false,
+    "notes": "",
+    "requirements": [
+      {
+        "type": "rank",
+        "value": 2,
+        "combinator": "and",
+        "selector": ""
+      },
+      {
+        "type": "edge",
+        "label": "Швидка стрільба",
+        "selector": "rapid-fire",
+        "value": "",
+        "combinator": "and"
+      }
+    ],
+    "category": "Бойові",
+    "swid": "improved-rapid-fire",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757072059514,
+    "modifiedTime": 1757072059514,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.4qxdGupOFAu3VWpL",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

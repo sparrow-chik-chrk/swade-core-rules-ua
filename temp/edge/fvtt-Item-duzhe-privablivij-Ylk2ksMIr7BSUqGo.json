@@ -1,0 +1,110 @@
+{
+  "effects": [
+    {
+      "_id": "7e49iewdr0t67N0R",
+      "name": "Дуже привабливий",
+      "changes": [
+        {
+          "key": "@Skill{Performance}[system.die.modifier]",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "@Skill{Persuasion}[system.die.modifier]",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "tint": "#ffffff",
+      "transfer": true,
+      "description": "<p>Покращення для: @UUID[Compendium.swade-core-rules.swade-edges.Item.y94Z6SO3wlQlXqqB]{Привабливий}</p><p>Персонаж неймовірно красивий. Його бонуси до @Compendium[swade-core-rules.swade-skills.Артистичність]{артистичності} й @Compendium[swade-core-rules.swade-skills.Переконливість]{переконливості} зростають до +2.</p>",
+      "flags": {
+        "swade": {},
+        "sigil": {
+          "completed": true
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": "swade",
+        "systemVersion": "5.0.5",
+        "lastModifiedBy": null
+      },
+      "img": "systems/swade/assets/icons/edge.svg",
+      "type": "base",
+      "system": {
+        "conditionalEffect": true,
+        "removeEffect": false,
+        "expiration": null,
+        "loseTurnOnHold": false,
+        "favorite": false
+      },
+      "origin": null,
+      "statuses": [],
+      "sort": 0
+    }
+  ],
+  "folder": "5Edj401f5rN7XMuT",
+  "img": "systems/swade/assets/icons/edge.svg",
+  "name": "Дуже привабливий",
+  "type": "edge",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Покращення для: @UUID[Compendium.swade-core-rules.swade-edges.Item.y94Z6SO3wlQlXqqB]{Привабливий}</p><p>Персонаж неймовірно красивий. Його бонуси до @Compendium[swade-core-rules.swade-skills.Артистичність]{артистичності} й @Compendium[swade-core-rules.swade-skills.Переконливість]{переконливості} зростають до +2.</p>",
+    "isArcaneBackground": false,
+    "notes": "",
+    "requirements": [
+      {
+        "type": "rank",
+        "value": 0,
+        "combinator": "and",
+        "selector": ""
+      },
+      {
+        "type": "edge",
+        "label": "Привабливий",
+        "selector": "attractive",
+        "value": "",
+        "combinator": "and"
+      }
+    ],
+    "category": "Загальні",
+    "swid": "very-attractive",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757072059514,
+    "modifiedTime": 1757072059514,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.Ylk2ksMIr7BSUqGo",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

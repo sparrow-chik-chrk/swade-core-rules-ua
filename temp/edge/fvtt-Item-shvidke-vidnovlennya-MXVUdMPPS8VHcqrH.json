@@ -1,0 +1,109 @@
+{
+  "effects": [
+    {
+      "_id": "jOTKhkcUVQCnkagM",
+      "name": "Швидке відновлення",
+      "changes": [
+        {
+          "key": "flags.swade-core-rules.rapidRecharge",
+          "mode": 2,
+          "value": "true",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "flags": {
+        "sigil": {
+          "completed": true
+        }
+      },
+      "tint": "#ffffff",
+      "transfer": true,
+      "description": "<p>Пов'язані переваги: @Compendium[swade-core-rules.swade-edges.Містичний дар (Вроджений)]{Містичний дар (Вроджений)}, @Compendium[swade-core-rules.swade-edges.Містичний дар (Дива)]{Містичний дар (Дива)}, @Compendium[swade-core-rules.swade-edges.Містичний дар (Дивні науки)]{Містичний дар (Дивні науки)}, @Compendium[swade-core-rules.swade-edges.Містичний дар (Магія)]{Містичний дар (Магія)}, @Compendium[swade-core-rules.swade-edges.Містичний дар (Псіоніка)]{Містичний дар (Псіоніка)}</p><p>Зазвичай за одну годину відпочинку відновлюють 5 @UUID[Compendium.swade-core-rules.swade-rules.swadecor05powers.JournalEntryPage.05arcanebackgr00]{очок сили} (див. <strong>@UUID[Compendium.swade-core-rules.swade-rules.swadecor05powers.JournalEntryPage.05activation0000]{«Відновлення»}</strong>). З цією перевагою — 10.</p>",
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": "swade",
+        "systemVersion": "5.0.5",
+        "lastModifiedBy": null
+      },
+      "img": "systems/swade/assets/icons/edge.svg",
+      "type": "base",
+      "system": {
+        "removeEffect": false,
+        "expiration": null,
+        "loseTurnOnHold": false,
+        "favorite": false,
+        "conditionalEffect": false
+      },
+      "origin": null,
+      "statuses": [],
+      "sort": 0
+    }
+  ],
+  "folder": "5Edj401f5rN7XMuT",
+  "img": "systems/swade/assets/icons/edge.svg",
+  "name": "Швидке відновлення",
+  "type": "edge",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Пов'язані переваги: @Compendium[swade-core-rules.swade-edges.Містичний дар (Вроджений)]{Містичний дар (Вроджений)}, @Compendium[swade-core-rules.swade-edges.Містичний дар (Дива)]{Містичний дар (Дива)}, @Compendium[swade-core-rules.swade-edges.Містичний дар (Дивні науки)]{Містичний дар (Дивні науки)}, @Compendium[swade-core-rules.swade-edges.Містичний дар (Магія)]{Містичний дар (Магія)}, @Compendium[swade-core-rules.swade-edges.Містичний дар (Псіоніка)]{Містичний дар (Псіоніка)}</p><p>Зазвичай за одну годину відпочинку відновлюють 5 @UUID[Compendium.swade-core-rules.swade-rules.swadecor05powers.JournalEntryPage.05arcanebackgr00]{очок сили} (див. <strong>@UUID[Compendium.swade-core-rules.swade-rules.swadecor05powers.JournalEntryPage.05activation0000]{«Відновлення»}</strong>). З цією перевагою — 10.</p>",
+    "isArcaneBackground": false,
+    "notes": "",
+    "requirements": [
+      {
+        "type": "rank",
+        "value": 1,
+        "combinator": "and",
+        "selector": ""
+      },
+      {
+        "type": "attribute",
+        "selector": "spirit",
+        "value": 6,
+        "combinator": "and"
+      },
+      {
+        "type": "other",
+        "label": "Містичний дар (будь-який)",
+        "selector": "",
+        "value": "",
+        "combinator": "and"
+      }
+    ],
+    "category": "Силові",
+    "swid": "rapid-recharge",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757072059514,
+    "modifiedTime": 1757072059514,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.MXVUdMPPS8VHcqrH",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

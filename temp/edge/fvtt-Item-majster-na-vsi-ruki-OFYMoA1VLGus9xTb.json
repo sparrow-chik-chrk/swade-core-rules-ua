@@ -1,0 +1,59 @@
+{
+  "effects": [],
+  "folder": "5Edj401f5rN7XMuT",
+  "img": "systems/swade/assets/icons/edge.svg",
+  "name": "Майстер на всі руки",
+  "type": "edge",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>В результаті наполегливого всестороннього навчання чи просто вродженої сприйнятливості цей персонаж має талант на льоту схоплювати практично будь-які навички. Дайте йому трохи часу та везіння — і він освоїть майже все.</p><p>Персонаж виконує перевірку @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{кмітливості} як дію після спостереження чи вивчення якогось об’єкта. У разі успіху він отримує к4 відповідної об’єкту навички, за надміру — к6. У разі провалу, або щоб отримати надмір, за годину можна спробувати повторно вивчити, поспостерігати чи застосувати об’єкт. Навичка триває до наступної подібної спроби вивчити інший об’єкт, навіть якщо вона буде провальною.</p>",
+    "isArcaneBackground": false,
+    "notes": "",
+    "requirements": [
+      {
+        "type": "rank",
+        "selector": "",
+        "value": 0,
+        "combinator": "and"
+      },
+      {
+        "type": "attribute",
+        "selector": "smarts",
+        "value": 10,
+        "combinator": "and"
+      }
+    ],
+    "category": "Професійні",
+    "swid": "jack-of-all-trades",
+    "grants": [
+      {
+        "uuid": "Compendium.swade-core-rules.swade-actions.Item.LSPfPX1j3GMYwAaH",
+        "img": "systems/swade/assets/icons/action.svg",
+        "name": "Майстер на всі руки"
+      }
+    ],
+    "choiceSets": [],
+    "favorite": false
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757072059514,
+    "modifiedTime": 1757072059514,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.OFYMoA1VLGus9xTb",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

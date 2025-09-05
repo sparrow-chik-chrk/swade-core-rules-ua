@@ -1,0 +1,54 @@
+{
+  "effects": [],
+  "folder": "5Edj401f5rN7XMuT",
+  "img": "systems/swade/assets/icons/edge.svg",
+  "name": "Надміцний горішок",
+  "type": "edge",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Покращення для: @Compendium[swade-core-rules.swade-edges.Міцний горішок]{Міцний горішок}</p><p>Вашого персонажа вбити важче, ніж Колобка. Якщо персонажа «вб’ють», киньте кістку. Якщо випаде непарне число, персонаж справді помре. Якщо парне, він стане @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{недієздатним}, але якось уникне смерті. Його можуть взяти в полон, стягнути з нього всі речі або ж залишити, прийнявши за мертвого, але він все одно якось виживе.</p>",
+    "isArcaneBackground": false,
+    "notes": "",
+    "requirements": [
+      {
+        "type": "rank",
+        "value": 2,
+        "combinator": "and",
+        "selector": ""
+      },
+      {
+        "type": "edge",
+        "label": "Міцний горішок",
+        "selector": "hard-to-kill",
+        "value": "",
+        "combinator": "and"
+      }
+    ],
+    "category": "Бойові",
+    "swid": "harder-to-kill",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757072059514,
+    "modifiedTime": 1757072059514,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.5BwGakfjxHYDhVOD",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

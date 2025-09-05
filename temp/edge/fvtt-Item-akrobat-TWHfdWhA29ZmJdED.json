@@ -1,0 +1,60 @@
+{
+  "effects": [],
+  "folder": "5Edj401f5rN7XMuT",
+  "img": "systems/swade/assets/icons/edge.svg",
+  "name": "Акробат",
+  "type": "edge",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Акробат має має один вільний перекид @Compendium[swade-core-rules.swade-skills.Атлетизм]{атлетизму}, коли йдеться про балансування, падіння чи хапання. Не діє на кидки, пов’язані з перериванням дій, лазінням, плаванням чи метанням.</p>",
+    "isArcaneBackground": false,
+    "notes": "",
+    "requirements": [
+      {
+        "type": "rank",
+        "value": 0,
+        "combinator": "and",
+        "selector": ""
+      },
+      {
+        "type": "attribute",
+        "selector": "agility",
+        "value": 8,
+        "combinator": "and"
+      },
+      {
+        "type": "skill",
+        "label": "Атлетизм",
+        "selector": "athletics",
+        "value": 8,
+        "combinator": "and"
+      }
+    ],
+    "category": "Професійні",
+    "swid": "acrobat",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757072059514,
+    "modifiedTime": 1757072059514,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.TWHfdWhA29ZmJdED",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

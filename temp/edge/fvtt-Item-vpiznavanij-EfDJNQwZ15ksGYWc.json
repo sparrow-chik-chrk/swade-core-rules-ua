@@ -1,0 +1,47 @@
+{
+  "effects": [],
+  "folder": "5Edj401f5rN7XMuT",
+  "img": "systems/swade/assets/icons/edge.svg",
+  "name": "Впізнаваний",
+  "type": "edge",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Цей персонаж широко відомий у вузьких колах. Він може бути популярним у своєму феоді бардом, дрібною рок-зіркою чи актором малобюджетних фільмів.</p><p>Він заробляє вдвічі більше грошей за платні виступи (див. <strong>@Compendium[swade-core-rules.swade-skills.Артистичність]{«Артистичність»}</strong>). Також він отримує +1 до кидків на @Compendium[swade-core-rules.swade-skills.Переконливість]{переконливість}, якщо ціль дружня і знає персонажа (щоб з’ясувати, виконайте кидок на @Compendium[swade-core-rules.swade-skills.Ерудиція]{ерудицію}, модифікований відповідно до ймовірності особи знати персонажа).</p><p>Зворотна сторона медалі — персонажа часто впізнають, щось від нього хочуть, його можуть переслідувати фанати, а уникання виступів, публічної присутності й подібних речей може обернутися проблемами.</p>",
+    "isArcaneBackground": false,
+    "notes": "",
+    "requirements": [
+      {
+        "type": "rank",
+        "selector": "",
+        "value": 0,
+        "combinator": "and"
+      }
+    ],
+    "category": "Загальні",
+    "swid": "fame",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757072059514,
+    "modifiedTime": 1757072059514,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.EfDJNQwZ15ksGYWc",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

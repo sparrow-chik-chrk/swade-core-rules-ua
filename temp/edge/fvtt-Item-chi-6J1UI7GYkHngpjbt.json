@@ -1,0 +1,103 @@
+{
+  "effects": [
+    {
+      "name": "Чі",
+      "img": "systems/swade/assets/icons/edge.svg",
+      "duration": {
+        "rounds": null,
+        "startTime": 0,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "system": {
+        "expiration": null,
+        "conditionalEffect": true,
+        "removeEffect": false,
+        "loseTurnOnHold": false,
+        "favorite": false
+      },
+      "changes": [
+        {
+          "key": "system.stats.globalMods.damage",
+          "mode": 2,
+          "value": "1d6x",
+          "priority": null
+        }
+      ],
+      "transfer": true,
+      "_id": "9NydTG76la7m1eTA",
+      "type": "base",
+      "disabled": false,
+      "description": "<p>Пов'язані переваги: @Compendium[swade-core-rules.swade-edges.Майстерний боєць]{Майстерний боєць}</p><p>Майстерність вашого персонажа в бойових мистецтвах настільки висока, що набуває містичної природи. На початку кожного бойового зіткнення персонаж отримує «очко чі», яке можна використати, щоб:</p><p>• перекинути одну провалену атаку (навіть за критичного провалу);</p><p>• змусити ворога перекинути кидок на атаку по персонажу;</p><p>• додати +1к6 до ушкоджень від успішної атаки за допомогою навички @Compendium[swade-core-rules.swade-skills.Бійка]{бійки}, якщо така атака виконана руками, ногами, пазурями або іншою @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03naturalweapo00]{природною зброєю} (може @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03traitrolls0000#trait-rolls]{окрилюватися}).</p><p>Невитрачені очки чі зникають після кінця бою.</p>",
+      "origin": "Compendium.swade-core-rules.swade-edges.Item.6J1UI7GYkHngpjbt",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "sigil": {
+          "completed": true
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": "swade",
+        "systemVersion": "5.0.5",
+        "lastModifiedBy": null
+      }
+    }
+  ],
+  "folder": "5Edj401f5rN7XMuT",
+  "img": "systems/swade/assets/icons/edge.svg",
+  "name": "Чі",
+  "type": "edge",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Пов'язані переваги: @Compendium[swade-core-rules.swade-edges.Майстерний боєць]{Майстерний боєць}</p><p>Майстерність вашого персонажа в бойових мистецтвах настільки висока, що набуває містичної природи. На початку кожного бойового зіткнення персонаж отримує «очко чі», яке можна використати, щоб:</p><p>• перекинути одну провалену атаку (навіть за критичного провалу);</p><p>• змусити ворога перекинути кидок на атаку по персонажу;</p><p>• додати +1к6 до ушкоджень від успішної атаки за допомогою навички @Compendium[swade-core-rules.swade-skills.Бійка]{бійки}, якщо така атака виконана руками, ногами, пазурями або іншою @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03naturalweapo00]{природною зброєю} (може @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03traitrolls0000#trait-rolls]{окрилюватися}).</p><p>Невитрачені очки чі зникають після кінця бою.</p>",
+    "isArcaneBackground": false,
+    "notes": "",
+    "requirements": [
+      {
+        "type": "rank",
+        "value": 2,
+        "combinator": "and",
+        "selector": ""
+      },
+      {
+        "type": "edge",
+        "label": "Майстерний боєць",
+        "selector": "martial-warrior",
+        "value": "",
+        "combinator": "and"
+      }
+    ],
+    "category": "Дивні",
+    "swid": "chi",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757072059514,
+    "modifiedTime": 1757072059514,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.6J1UI7GYkHngpjbt",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

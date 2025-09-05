@@ -1,0 +1,97 @@
+{
+  "effects": [
+    {
+      "_id": "ABtO3YvOlRpVCogF",
+      "name": "Спостережливий",
+      "changes": [
+        {
+          "key": "@Skill{Notice}[system.die.modifier]",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "tint": "#ffffff",
+      "transfer": true,
+      "description": "<p>Цей персонаж майже нічого не пропускає повз увагу. Він дуже спостережливий та уважний, тому додає +2 до всіх кидків на @Compendium[swade-core-rules.swade-skills.Уважність]{уважність}, коли треба чути, бачити або відчувати в інший спосіб світ навколо.</p>",
+      "flags": {
+        "swade": {},
+        "sigil": {
+          "completed": true
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": "swade",
+        "systemVersion": "5.0.5",
+        "lastModifiedBy": null
+      },
+      "img": "systems/swade/assets/icons/edge.svg",
+      "type": "base",
+      "system": {
+        "conditionalEffect": false,
+        "removeEffect": false,
+        "expiration": null,
+        "loseTurnOnHold": false,
+        "favorite": false
+      },
+      "origin": null,
+      "statuses": [],
+      "sort": 0
+    }
+  ],
+  "folder": "5Edj401f5rN7XMuT",
+  "img": "systems/swade/assets/icons/edge.svg",
+  "name": "Спостережливий",
+  "type": "edge",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Цей персонаж майже нічого не пропускає повз увагу. Він дуже спостережливий та уважний, тому додає +2 до всіх кидків на @Compendium[swade-core-rules.swade-skills.Уважність]{уважність}, коли треба чути, бачити або відчувати в інший спосіб світ навколо.</p>",
+    "isArcaneBackground": false,
+    "notes": "",
+    "requirements": [
+      {
+        "type": "rank",
+        "selector": "",
+        "value": 0,
+        "combinator": "and"
+      }
+    ],
+    "category": "Загальні",
+    "swid": "alertness",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757072059514,
+    "modifiedTime": 1757072059514,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.M2diZ7X4997YL2pa",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

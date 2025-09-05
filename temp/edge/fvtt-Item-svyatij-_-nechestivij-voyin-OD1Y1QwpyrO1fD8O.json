@@ -1,0 +1,110 @@
+{
+  "effects": [
+    {
+      "_id": "hWEu2pgoT4yCDxiO",
+      "name": "Святий / Нечестивий воїн",
+      "changes": [
+        {
+          "key": "flags.swade-core-rules.holyWarrior",
+          "mode": 2,
+          "value": "true",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "flags": {
+        "sigil": {
+          "completed": true
+        }
+      },
+      "tint": "#ffffff",
+      "transfer": true,
+      "description": "<p>Пов'язані переваги: @Compendium[swade-core-rules.swade-edges.Містичний дар (Дива)]{Містичний дар (Дива)}</p><p>Вірні на службі своїм божественним покровителям борються зі смертельними ворогами. Щоб вижити, вони мають особливу милість від добрих (чи злих) сил, які надприродним способом рятують персонажів у скрутний час.</p><p>Обрані можуть додати +1 до результату @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03soakrolls00000]{кидка на поглинання} за кожне витрачене @UUID[Compendium.swade-core-rules.swade-rules.swadecor05powers.JournalEntryPage.05arcanebackgr00]{очко сили} (до +4).</p>",
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": "swade",
+        "systemVersion": "5.0.5",
+        "lastModifiedBy": null
+      },
+      "img": "systems/swade/assets/icons/edge.svg",
+      "type": "base",
+      "system": {
+        "removeEffect": false,
+        "expiration": null,
+        "loseTurnOnHold": false,
+        "favorite": false,
+        "conditionalEffect": false
+      },
+      "origin": null,
+      "statuses": [],
+      "sort": 0
+    }
+  ],
+  "folder": "5Edj401f5rN7XMuT",
+  "img": "systems/swade/assets/icons/edge.svg",
+  "name": "Святий / Нечестивий воїн",
+  "type": "edge",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Пов'язані переваги: @Compendium[swade-core-rules.swade-edges.Містичний дар (Дива)]{Містичний дар (Дива)}</p><p>Вірні на службі своїм божественним покровителям борються зі смертельними ворогами. Щоб вижити, вони мають особливу милість від добрих (чи злих) сил, які надприродним способом рятують персонажів у скрутний час.</p><p>Обрані можуть додати +1 до результату @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03soakrolls00000]{кидка на поглинання} за кожне витрачене @UUID[Compendium.swade-core-rules.swade-rules.swadecor05powers.JournalEntryPage.05arcanebackgr00]{очко сили} (до +4).</p>",
+    "isArcaneBackground": false,
+    "notes": "",
+    "requirements": [
+      {
+        "type": "rank",
+        "value": 1,
+        "combinator": "and",
+        "selector": ""
+      },
+      {
+        "type": "edge",
+        "label": "Містичний дар (Чудеса)",
+        "selector": "arcane-background-miracles",
+        "combinator": "and",
+        "value": ""
+      },
+      {
+        "type": "skill",
+        "label": "Віра",
+        "selector": "faith",
+        "value": 6,
+        "combinator": "and"
+      }
+    ],
+    "category": "Силові",
+    "swid": "holyunholy-warrior",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757072059514,
+    "modifiedTime": 1757072059514,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.OD1Y1QwpyrO1fD8O",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

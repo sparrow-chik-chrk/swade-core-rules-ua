@@ -1,0 +1,59 @@
+{
+  "effects": [],
+  "folder": "5Edj401f5rN7XMuT",
+  "img": "systems/swade/assets/icons/edge.svg",
+  "name": "Справжній друг",
+  "type": "edge",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Самовіддані герої та рішучі керівники знають, що їх найбільша сила — в їхніх супутниках, а тому готові поділитися частиною статку, долі чи удачі, щоби підтримати їх. Персонажі із цією перевагою можуть вільно передавати власні @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03bennies0000000]{талани} будь-якому іншому персонажу, з яким можуть спілкуватися. Гравець має пояснити, як це відбувається: через швидкий підбадьорливий крик, дружнє поплескування по спині абощо.</p>",
+    "isArcaneBackground": false,
+    "notes": "",
+    "requirements": [
+      {
+        "type": "wildCard",
+        "selector": "",
+        "value": true,
+        "combinator": "and"
+      },
+      {
+        "type": "rank",
+        "selector": "",
+        "value": 0,
+        "combinator": "and"
+      },
+      {
+        "type": "attribute",
+        "selector": "spirit",
+        "value": 8,
+        "combinator": "and"
+      }
+    ],
+    "category": "Соціальні",
+    "swid": "common-bond",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757072059514,
+    "modifiedTime": 1757072059514,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.5ztdUMAvhYTALSQQ",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

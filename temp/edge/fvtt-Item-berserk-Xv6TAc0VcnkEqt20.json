@@ -1,0 +1,108 @@
+{
+  "effects": [
+    {
+      "_id": "1UkpIwduU7EtkEGz",
+      "changes": [
+        {
+          "key": "system.wounds.ignored",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "system.stats.toughness.value",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        },
+        {
+          "key": "system.attributes.strength.die.sides",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "disabled": true,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "flags": {
+        "sigil": {
+          "completed": true
+        }
+      },
+      "name": "Берсерк",
+      "tint": "#ffffff",
+      "transfer": true,
+      "description": "<p>Берсерки дичавіють і майже неконтрольовані, коли їх охоплює «червона лють», але разом з тим вони перетворюються на машини для вбивства! Відразу після зазнання @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{рани або шоку} (лише від фізичних ушкоджень) персонаж має успішно пройти перевірку @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{кмітливості} або ж стане берсерком. Персонаж <em>може</em> добровільно провалити цю перевірку.</p><p>Стан берсерка має такі ефекти:</p><ul><li><p><strong>ЛЮТЬ:</strong> зростає ступінь кістки моці персонажа, а кожна атака ближнього бою стає <strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03wildattack0000]{зухвалою}</strong>. Персонаж не може використовувати всі навички, які потребують ясного розуму чи концентрації (вирішує ІМ). Однак персонаж може виконувати дії на кшталт викрикування погроз і @Compendium[swade-core-rules.swade-skills.Залякування]{залякування}.</p></li><li><p><strong>НАВІЖЕНІСТЬ:</strong> адреналін і злість розпалюють м’язи берсерка, додаючи +2 до @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01characters0000]{стійкості}. Він ігнорує один рівень штрафів від ран (може накопичуватися з іншими вміннями, які знижують штраф від ран).</p></li><li><p><strong>БЕЗРОЗСУДНІСТЬ:</strong> щоразу коли берсерк викидає @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{критичний провал} під час перевірки @Compendium[swade-core-rules.swade-skills.Бійка]{бійки}, він б’є випадкову ціль у радіусі атаки (<em>не</em> початкову ціль), союзник це чи ворог. Якщо доступних цілей немає, персонаж просто промахується, розбиває об’єкти поблизу тощо.</p></li></ul><p>Після п’яти послідовних раундів у режимі берсерка рівень @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03fatigue0000000]{втоми} персонажа підвищується на 1. Після десяти раундів втома берсерка підвищується ще на рівень, а лють спадає. Берсерк також може спинити лють за бажанням, пройшовши перевірку @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{кмітливості} з −2 (як вільну дію; можна запобігти втомі, якщо вчасно зупинити лють!). Якщо персонаж знову стає берсерком, відлік починається з нуля (навіть у тій самій битві).</p>",
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": "swade",
+        "systemVersion": "5.0.5",
+        "lastModifiedBy": null
+      },
+      "img": "systems/swade/assets/icons/edge.svg",
+      "type": "base",
+      "system": {
+        "removeEffect": false,
+        "expiration": null,
+        "loseTurnOnHold": false,
+        "favorite": false,
+        "conditionalEffect": false
+      },
+      "origin": null,
+      "statuses": [],
+      "sort": 0
+    }
+  ],
+  "folder": "5Edj401f5rN7XMuT",
+  "img": "systems/swade/assets/icons/edge.svg",
+  "name": "Берсерк",
+  "type": "edge",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Берсерки дичавіють і майже неконтрольовані, коли їх охоплює «червона лють», але разом з тим вони перетворюються на машини для вбивства! Відразу після зазнання @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{рани або шоку} (лише від фізичних ушкоджень) персонаж має успішно пройти перевірку @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{кмітливості} або ж стане берсерком. Персонаж <em>може</em> добровільно провалити цю перевірку.</p><p>Стан берсерка має такі ефекти:</p><ul><li><p><strong>ЛЮТЬ:</strong> зростає ступінь кістки моці персонажа, а кожна атака ближнього бою стає <strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03wildattack0000]{зухвалою}</strong>. Персонаж не може використовувати всі навички, які потребують ясного розуму чи концентрації (вирішує ІМ). Однак персонаж може виконувати дії на кшталт викрикування погроз і @Compendium[swade-core-rules.swade-skills.Залякування]{залякування}.</p></li><li><p><strong>НАВІЖЕНІСТЬ:</strong> адреналін і злість розпалюють м’язи берсерка, додаючи +2 до @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01characters0000]{стійкості}. Він ігнорує один рівень штрафів від ран (може накопичуватися з іншими вміннями, які знижують штраф від ран).</p></li><li><p><strong>БЕЗРОЗСУДНІСТЬ:</strong> щоразу коли берсерк викидає @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{критичний провал} під час перевірки @Compendium[swade-core-rules.swade-skills.Бійка]{бійки}, він б’є випадкову ціль у радіусі атаки (<em>не</em> початкову ціль), союзник це чи ворог. Якщо доступних цілей немає, персонаж просто промахується, розбиває об’єкти поблизу тощо.</p></li></ul><p>Після п’яти послідовних раундів у режимі берсерка рівень @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03fatigue0000000]{втоми} персонажа підвищується на 1. Після десяти раундів втома берсерка підвищується ще на рівень, а лють спадає. Берсерк також може спинити лють за бажанням, пройшовши перевірку @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{кмітливості} з −2 (як вільну дію; можна запобігти втомі, якщо вчасно зупинити лють!). Якщо персонаж знову стає берсерком, відлік починається з нуля (навіть у тій самій битві).</p>",
+    "isArcaneBackground": false,
+    "notes": "",
+    "requirements": [
+      {
+        "type": "rank",
+        "selector": "",
+        "value": 0,
+        "combinator": "and"
+      }
+    ],
+    "category": "Загальні",
+    "swid": "berserk",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757072059514,
+    "modifiedTime": 1757072059514,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.Xv6TAc0VcnkEqt20",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

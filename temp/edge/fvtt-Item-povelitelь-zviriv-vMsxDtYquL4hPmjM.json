@@ -1,0 +1,53 @@
+{
+  "effects": [],
+  "folder": "5Edj401f5rN7XMuT",
+  "img": "systems/swade/assets/icons/edge.svg",
+  "name": "Повелитель звірів",
+  "type": "edge",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Тварини швидко звикають до вашого персонажа. Вони нападуть на персонажа, тільки якщо він нападе першим або якщо тварини чимось розлючені.</p><p>Магнетизм повелителя звірів настільки сильний, що він приваблює вірну тварину. Зазвичай це тварина @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03sizeandscale00]{розміру} 0 або менша (на розсуд ІМ). Її вважають @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03wildcardsand00]{статистом}, а тому вона не отримує нових рангів і здібностей. Якщо персонаж проганяє звірятко або воно помирає, то протягом 1к4 днів до персонажа прийде нове.</p><p><strong>Потужніші супутники:</strong> перевагу «Повелитель звірів» можна вибрати кілька разів. Беручи перевагу ще раз, виберіть один з ефектів, наведених нижче:</p><p>• Отримати додаткове звірятко.</p><p>• Підвищити кістку @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{риси} звірятка на один ступінь (одна риса для одного звірятка).</p><p>• Збільшити максимально дозволений розмір звірятка на 1 (макс. 3).</p><p>• Зробити звірятко @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03wildcardsand00]{козирною картою} (потрібен @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01advancement000]{ранг «Герой»}).</p>",
+    "isArcaneBackground": false,
+    "notes": "",
+    "requirements": [
+      {
+        "type": "rank",
+        "selector": "",
+        "value": 0,
+        "combinator": "and"
+      },
+      {
+        "type": "attribute",
+        "selector": "spirit",
+        "value": 8,
+        "combinator": "and"
+      }
+    ],
+    "category": "Дивні",
+    "swid": "beast-master",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757072059676,
+    "modifiedTime": 1757072059676,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.vMsxDtYquL4hPmjM",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

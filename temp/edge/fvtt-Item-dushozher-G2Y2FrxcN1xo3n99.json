@@ -1,0 +1,61 @@
+{
+  "effects": [],
+  "folder": "5Edj401f5rN7XMuT",
+  "img": "systems/swade/assets/icons/edge.svg",
+  "name": "Душожер",
+  "type": "edge",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Пов'язані переваги: @Compendium[swade-core-rules.swade-edges.Містичний дар (Вроджений)]{Містичний дар (Вроджений)}, @Compendium[swade-core-rules.swade-edges.Містичний дар (Дива)]{Містичний дар (Дива)}, @Compendium[swade-core-rules.swade-edges.Містичний дар (Дивні науки)]{Містичний дар (Дивні науки)}, @Compendium[swade-core-rules.swade-edges.Містичний дар (Магія)]{Містичний дар (Магія)}, @Compendium[swade-core-rules.swade-edges.Містичний дар (Псіоніка)]{Містичний дар (Псіоніка)}</p><p>Відчайдушні часи вимагають відчайдушних заходів. «Душожер» дає змогу персонажу спрямувати свою життєву силу в містичну, отримавши рівень @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03fatigue0000000]{утоми} й відновивши 5 @UUID[Compendium.swade-core-rules.swade-rules.swadecor05powers.JournalEntryPage.05arcanebackgr00]{очок сили}. За додатковий рівень утоми (до стану @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03fatigue0000000]{виснаження}) можна отримати додаткові 5 очок сили. Проте цим способом не можна довести себе до @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03fatigue0000000]{недієздатності}.</p><p>Втома, спричинена «Душожером», може минути лише природним шляхом, адже її джерело глибоко внутрішнє. Сила @Compendium[swade-core-rules.swade-powers.Полегшення]{«Полегшення»} та подібні їй не матимуть ефекту.</p>",
+    "isArcaneBackground": false,
+    "notes": "",
+    "requirements": [
+      {
+        "type": "rank",
+        "value": 1,
+        "combinator": "and",
+        "selector": ""
+      },
+      {
+        "type": "other",
+        "label": "Містичний дар (будь-який)",
+        "combinator": "and",
+        "selector": "",
+        "value": ""
+      },
+      {
+        "type": "other",
+        "label": "Містична навичка d10+",
+        "selector": "",
+        "value": "",
+        "combinator": "and"
+      }
+    ],
+    "category": "Силові",
+    "swid": "soul-drain",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757072059514,
+    "modifiedTime": 1757072059514,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.G2Y2FrxcN1xo3n99",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

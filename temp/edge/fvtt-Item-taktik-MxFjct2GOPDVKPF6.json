@@ -1,0 +1,67 @@
+{
+  "effects": [],
+  "folder": "5Edj401f5rN7XMuT",
+  "img": "systems/swade/assets/icons/edge.svg",
+  "name": "Тактик",
+  "type": "edge",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Пов'язані переваги: @Compendium[swade-core-rules.swade-edges.Командування]{Командування}</p><p>Цей командир знається на тактиці малих груп і може користуватися швидкоплинними моментами бою.</p><p>Кожного раунду бою або гонитви тактик добирає додаткову @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03actioncardsi00]{карту дії}, яку тримає окремо від інших карт. На початку раунду він може її скинути або дати будь-якому @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03wildcardsand00]{статисту} в @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01edges000000000]{радіусі командування} (чи групі статистів зі спільною картою дії). ІМ або гравець, який керує персонажем чи групою, що отримали цю карту, може вирішити — замінити нею свою карту дії чи скинути.</p>",
+    "isArcaneBackground": false,
+    "notes": "",
+    "requirements": [
+      {
+        "type": "rank",
+        "value": 1,
+        "combinator": "and",
+        "selector": ""
+      },
+      {
+        "type": "attribute",
+        "selector": "smarts",
+        "value": 8,
+        "combinator": "and"
+      },
+      {
+        "type": "edge",
+        "label": "Командування",
+        "selector": "command",
+        "combinator": "and",
+        "value": ""
+      },
+      {
+        "type": "skill",
+        "label": "Стратегія",
+        "selector": "battle",
+        "value": 6,
+        "combinator": "and"
+      }
+    ],
+    "category": "Лідерські",
+    "swid": "tactician",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757072059514,
+    "modifiedTime": 1757072059514,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.MxFjct2GOPDVKPF6",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

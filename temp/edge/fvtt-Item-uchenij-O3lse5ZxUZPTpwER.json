@@ -1,0 +1,54 @@
+{
+  "effects": [],
+  "folder": "5Edj401f5rN7XMuT",
+  "img": "systems/swade/assets/icons/edge.svg",
+  "name": "Учений",
+  "type": "edge",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Вчені професори, наполегливі студенти та натхненні ентузіасти витрачають купу часу та зусиль, вивчаючи предмети свого зацікавлення. Вони стають експертами у своїй сфері та рідко коли не мають відповідей на питання зі своєї царини.</p><p>Виберіть одну з таких навичок: @Compendium[swade-core-rules.swade-skills.Гуманітарні науки]{гуманітарні науки}, @Compendium[swade-core-rules.swade-skills.Стратегія]{стратегія}, @Compendium[swade-core-rules.swade-skills.Окультизм]{окультизм}, @Compendium[swade-core-rules.swade-skills.Точні науки]{точні науки} або іншу «розумну» навичку на основі @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{кмітливості}, дозволену у вашому світі. Ви додаєте +2 до результату кидка, коли використовуєте її.</p><p>Перевагу можна вибрати кілька разів для різних навичок.</p>",
+    "isArcaneBackground": false,
+    "notes": "",
+    "requirements": [
+      {
+        "type": "rank",
+        "value": 0,
+        "combinator": "and",
+        "selector": ""
+      },
+      {
+        "type": "skill",
+        "label": "Дослідження",
+        "selector": "research",
+        "value": 8,
+        "combinator": "and"
+      }
+    ],
+    "category": "Професійні",
+    "swid": "scholar",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757072059514,
+    "modifiedTime": 1757072059514,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.O3lse5ZxUZPTpwER",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

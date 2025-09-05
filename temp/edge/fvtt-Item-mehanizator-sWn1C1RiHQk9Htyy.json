@@ -1,0 +1,61 @@
+{
+  "effects": [],
+  "folder": "5Edj401f5rN7XMuT",
+  "img": "systems/swade/assets/icons/edge.svg",
+  "name": "Механізатор",
+  "type": "edge",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Пов'язані переваги: @Compendium[swade-core-rules.swade-edges.Містичний дар (Дивні науки)]{Містичний дар (Дивні науки)}</p><p>Деякі гуру механіки здатні збудувати неймовірні пристрої практично з нічого.</p><p>Механізатори можуть витратити до трьох @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor05powers.JournalEntryPage.05arcanebackgr00]{очок сили}, щоб скласти пристрій з будь-якого адекватного набору запчастин. Це дає їм змогу активувати будь-яку @UUID[Compendium.swade-core-rules.swade-rules.swadecor05powers.JournalEntryPage.05powers00000000]{силу}, доступну дивним ученим їхнього @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01advancement000]{рангу} чи нижче у своєму світі, вартістю 3 очки сили чи менше.</p><p>Остаточна вартість конкретної сили з усіма модифікаторами не може перевищувати кількість очок сили, витрачених на її створення, також механізатор не може застосовувати @UUID[Compendium.swade-core-rules.swade-rules.swadecor05powers.JournalEntryPage.05trappings00000]{обмеження} для цих пристроїв. Він може спробувати створити кілька пристроїв, доки має на це очки сили.</p><p>Кожен пристрій створюють та активують перевіркою @Compendium[swade-core-rules.swade-skills.Дивні науки]{дивних наук} зі штрафом –2. Це займає цілий хід, під час якого не можна робити нічого іншого (навіть @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03multiactions00]{череду дій}). В інших аспектах це працює як звичайна активація сили.</p><p>The inventor uses Power Points directly from her pool for the device, but once its initial is finished (it cannot be maintained) it falls apart into its component pieces.</p><p>Механізатор використовує очки сили напряму зі свого запасу для створення пристрою, але як тільки його @UUID[Compendium.swade-core-rules.swade-rules.swadecor05powers.JournalEntryPage.05powers00000000]{тривалість} сплине (неможливо буде підтримувати), він розпадеться на деталі.</p><h2>ПРИКЛАД</h2><p>Ґейб — винахідник на Дивному Заході. Він хоче @Compendium[swade-core-rules.swade-powers.Посилити / Послабити рису]{посилити певну рису}, щоб допомогти Рудій битися з величезною гримучою змією, але має лише сили @Compendium[swade-core-rules.swade-powers.Виверження]{«Виверження»} й @Compendium[swade-core-rules.swade-powers.Вибух]{«Вибуху»}. На щастя, він «Механізатор», тож Ґейб може зробити т. зв. «електричний біопідсилювач» для посилення певної риси. Цей пристрій може вмістити до трьох очок сили, тож він застосовує модифікатор @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor05powers.JournalEntryPage.05hinderorhurr00]{«Поспіх»} і надає Рудій +2 до @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03movement000000]{темпу}.</p>",
+    "isArcaneBackground": false,
+    "notes": "",
+    "requirements": [
+      {
+        "type": "rank",
+        "value": 1,
+        "combinator": "and",
+        "selector": ""
+      },
+      {
+        "type": "edge",
+        "label": "Містичний дар (Дивні науки)",
+        "selector": "arcane-background-weird-science",
+        "combinator": "and",
+        "value": ""
+      },
+      {
+        "type": "skill",
+        "label": "Дивні науки",
+        "selector": "weird-science",
+        "value": 6,
+        "combinator": "and"
+      }
+    ],
+    "category": "Силові",
+    "swid": "gadgeteer",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757072059676,
+    "modifiedTime": 1757072059676,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.sWn1C1RiHQk9Htyy",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

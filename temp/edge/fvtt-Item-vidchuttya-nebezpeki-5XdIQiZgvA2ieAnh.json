@@ -1,0 +1,47 @@
+{
+  "effects": [],
+  "folder": "5Edj401f5rN7XMuT",
+  "img": "systems/swade/assets/icons/edge.svg",
+  "name": "Відчуття небезпеки",
+  "type": "edge",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Персонаж може відчувати, що от-от станеться щось погане. Виконуючи кидок на <strong>@UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03surprise000000]{несподіванку}</strong>, персонаж додає +2 до кидка на @Compendium[swade-core-rules.swade-skills.Уважність]{уважність} для дії в першому раунді. Викинувши надмір, він починає зіткнення з @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03hold0000000000]{очікування}.</p><p>В інших ситуаціях, які не зазначені в правилах несподіванки (постріл снайпера, вовча яма, отруєний напій тощо), «Відчуття небезпеки» дає персонажу змогу виконати кидок на @Compendium[swade-core-rules.swade-skills.Уважність]{уважність} з −2 (або +2, якщо кидок на уважність дозволений), щоб виявити небезпеку і відреагувати правильно. Якщо це була атака і персонаж успішно виконав кидок, ворог не отримав @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03thedrop0000000]{«заскочення»} проти нього.</p>",
+    "isArcaneBackground": false,
+    "notes": "",
+    "requirements": [
+      {
+        "type": "rank",
+        "selector": "",
+        "value": 0,
+        "combinator": "and"
+      }
+    ],
+    "category": "Дивні",
+    "swid": "danger-sense",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757072059514,
+    "modifiedTime": 1757072059514,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.5XdIQiZgvA2ieAnh",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

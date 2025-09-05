@@ -1,0 +1,54 @@
+{
+  "effects": [],
+  "folder": "5Edj401f5rN7XMuT",
+  "img": "systems/swade/assets/icons/edge.svg",
+  "name": "Знаменитий",
+  "type": "edge",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Цей персонаж справді відомий. Його впізнають у межах цілої країни чи професійних кіл, або ж він популярна медійна особа. Платню за виступи збільшено вп’ятеро, кидки на @Compendium[swade-core-rules.swade-skills.Переконливість]{переконливість} щодо дружніх осіб, що знають персонажа, мають бонус +2.</p><p>Ціна великої популярності — брак вільного часу через купу обов’язків, конкурентів і скандали. Також ви не зможете щось робити в натовпі, не привертаючи до себе уваги.</p>",
+    "isArcaneBackground": false,
+    "notes": "",
+    "requirements": [
+      {
+        "type": "rank",
+        "value": 1,
+        "combinator": "and",
+        "selector": ""
+      },
+      {
+        "type": "edge",
+        "label": "Впізнаваний",
+        "selector": "fame",
+        "value": "",
+        "combinator": "and"
+      }
+    ],
+    "category": "Загальні",
+    "swid": "famous",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757072059514,
+    "modifiedTime": 1757072059514,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.XZbHY5YT0vFyL0D9",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

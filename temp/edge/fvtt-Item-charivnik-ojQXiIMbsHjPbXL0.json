@@ -1,0 +1,61 @@
+{
+  "effects": [],
+  "folder": "5Edj401f5rN7XMuT",
+  "img": "systems/swade/assets/icons/edge.svg",
+  "name": "Чарівник",
+  "type": "edge",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Пов'язані переваги: @Compendium[swade-core-rules.swade-edges.Містичний дар (Магія)]{Містичний дар (Магія)}</p><p>Магія зачаровує своїм розмаїттям, і чарівники, вдосконалюючи свої здібності, завжди мають справу з незліченними книгами, сувоями та замовляннями. Інколи вони використовують ці знання, щоб пригадати різні варіації вивчених чарів.</p><p>Чарівник може витратити одне додаткове @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor05powers.JournalEntryPage.05arcanebackgr00]{очко сили}, коли застосовує силу, щоб змінити її @UUID[Compendium.swade-core-rules.swade-rules.swadecor05powers.JournalEntryPage.05trappings00000]{прояв}. Вогняна куля (@Compendium[swade-core-rules.swade-powers.Вибух]{«Вибух»}), для прикладу, може втілитися як електричний розряд. Це може мати вагомі наслідки, якщо ворог вразливий або, навпаки, має опір від звичного прояву закляття.</p>",
+    "isArcaneBackground": false,
+    "notes": "",
+    "requirements": [
+      {
+        "type": "rank",
+        "value": 1,
+        "combinator": "and",
+        "selector": ""
+      },
+      {
+        "type": "edge",
+        "label": "Містичний дар (Магія)",
+        "selector": "arcane-background-magic",
+        "combinator": "and",
+        "value": ""
+      },
+      {
+        "type": "skill",
+        "label": "Чарування",
+        "selector": "spellcasting",
+        "value": 6,
+        "combinator": "and"
+      }
+    ],
+    "category": "Силові",
+    "swid": "wizard",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757072059676,
+    "modifiedTime": 1757072059676,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.ojQXiIMbsHjPbXL0",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

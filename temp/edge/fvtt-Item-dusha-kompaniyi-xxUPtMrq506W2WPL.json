@@ -1,0 +1,59 @@
+{
+  "effects": [],
+  "folder": "5Edj401f5rN7XMuT",
+  "img": "systems/swade/assets/icons/edge.svg",
+  "name": "Душа компанії",
+  "type": "edge",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Слова вашого персонажа часто надихають не лише ціль, але й інших слухачів. Застосування переваги «Душа компанії» — це обмежена дія, що дає вам змогу кинути додаткову кістку навички для @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03support0000000]{підтримки} союзників за допомогою @Compendium[swade-core-rules.swade-skills.Переконливість]{переконливості} або @Compendium[swade-core-rules.swade-skills.Артистичність]{артистичності}. Додаткова кістка підтримує іншого союзника за тими ж правилами, та її можна застосовувати до будь-якої риси. Це не обов’язково має бути одна й та ж риса для обох союзників.</p>",
+    "isArcaneBackground": false,
+    "notes": "",
+    "requirements": [
+      {
+        "type": "rank",
+        "selector": "",
+        "value": 0,
+        "combinator": "and"
+      },
+      {
+        "type": "attribute",
+        "selector": "spirit",
+        "value": 8,
+        "combinator": "and"
+      }
+    ],
+    "category": "Соціальні",
+    "swid": "work-the-room",
+    "grants": [
+      {
+        "uuid": "Compendium.swade-core-rules.swade-actions.Item.CUPDShaoReWFMXV6",
+        "img": "systems/swade/assets/icons/action.svg",
+        "name": "Душа компанії"
+      }
+    ],
+    "choiceSets": [],
+    "favorite": false
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757072059676,
+    "modifiedTime": 1757072059676,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.xxUPtMrq506W2WPL",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

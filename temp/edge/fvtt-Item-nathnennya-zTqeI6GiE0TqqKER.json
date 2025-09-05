@@ -1,0 +1,54 @@
+{
+  "effects": [],
+  "folder": "5Edj401f5rN7XMuT",
+  "img": "systems/swade/assets/icons/edge.svg",
+  "name": "Натхнення",
+  "type": "edge",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Пов'язані переваги: @Compendium[swade-core-rules.swade-edges.Командування]{Командування}</p><p>Талановиті командири знають, як запалити серця підлеглих хоробрістю й рішучістю. Застосування «Натхнення» — це обмежена дія, яка вимагає певного спілкування з тими, на кого здійсюється вплив. Персонаж може виконати кидок на @Compendium[swade-core-rules.swade-skills.Стратегія]{стратегію} для @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03support0000000]{підтримки} перевірок якоїсь однієї @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{риси} та застосувати цю підтримку на всіх @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03wildcardsand00]{статистів} у @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01edges000000000]{радіусі командування}. Лідер може надати підтримку всім кидкам на @Compendium[swade-core-rules.swade-skills.Стрільба]{стрільбу} чи, наприклад, всім перевіркам @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{волі} для відновлення після @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03damageeffect00]{шоку}.</p>",
+    "isArcaneBackground": false,
+    "notes": "",
+    "requirements": [
+      {
+        "type": "rank",
+        "value": 1,
+        "combinator": "and",
+        "selector": ""
+      },
+      {
+        "type": "edge",
+        "label": "Командування",
+        "selector": "command",
+        "value": "",
+        "combinator": "and"
+      }
+    ],
+    "category": "Лідерські",
+    "swid": "inspire",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757072059676,
+    "modifiedTime": 1757072059676,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.zTqeI6GiE0TqqKER",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

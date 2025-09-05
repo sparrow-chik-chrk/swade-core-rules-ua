@@ -1,0 +1,109 @@
+{
+  "effects": [
+    {
+      "_id": "0OuAJRtfLz4tPcml",
+      "name": "Привабливий",
+      "changes": [
+        {
+          "key": "@Skill{Performance}[system.die.modifier]",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "@Skill{Persuasion}[system.die.modifier]",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "tint": "#ffffff",
+      "transfer": true,
+      "description": "<p>Не секрет, що інші охочіше допомагають тим, кого вважають привабливими. Цей персонаж додає +1 до перевірок @Compendium[swade-core-rules.swade-skills.Артистичність]{артистичності} й @Compendium[swade-core-rules.swade-skills.Переконливість]{переконливості}, якщо має ознаку, яка подобається цілі (стать, біологічний вид тощо).</p>",
+      "flags": {
+        "swade": {},
+        "sigil": {
+          "completed": true
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": "swade",
+        "systemVersion": "5.0.5",
+        "lastModifiedBy": null
+      },
+      "img": "systems/swade/assets/icons/edge.svg",
+      "type": "base",
+      "system": {
+        "conditionalEffect": true,
+        "removeEffect": false,
+        "expiration": null,
+        "loseTurnOnHold": false,
+        "favorite": false
+      },
+      "origin": null,
+      "statuses": [],
+      "sort": 0
+    }
+  ],
+  "folder": "5Edj401f5rN7XMuT",
+  "img": "systems/swade/assets/icons/edge.svg",
+  "name": "Привабливий",
+  "type": "edge",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Не секрет, що інші охочіше допомагають тим, кого вважають привабливими. Цей персонаж додає +1 до перевірок @Compendium[swade-core-rules.swade-skills.Артистичність]{артистичності} й @Compendium[swade-core-rules.swade-skills.Переконливість]{переконливості}, якщо має ознаку, яка подобається цілі (стать, біологічний вид тощо).</p>",
+    "isArcaneBackground": false,
+    "notes": "",
+    "requirements": [
+      {
+        "type": "rank",
+        "selector": "",
+        "value": 0,
+        "combinator": "and"
+      },
+      {
+        "type": "attribute",
+        "selector": "vigor",
+        "value": 6,
+        "combinator": "and"
+      }
+    ],
+    "category": "Загальні",
+    "swid": "attractive",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757072059676,
+    "modifiedTime": 1757072059676,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.y94Z6SO3wlQlXqqB",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

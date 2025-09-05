@@ -1,0 +1,47 @@
+{
+  "effects": [],
+  "folder": "5Edj401f5rN7XMuT",
+  "img": "systems/swade/assets/icons/edge.svg",
+  "name": "Містичний дар (Дива)",
+  "type": "edge",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<ul><li><strong>МІСТИЧНА НАВИЧКА:</strong> @Compendium[swade-core-rules.swade-skills.Віра]{Віра} (воля)</li><li><strong>ПОЧАТКОВІ @UUID[Compendium.swade-core-rules.swade-rules.swadecor05powers.JournalEntryPage.05powers00000000]{СИЛИ}:</strong> 3</li><li><strong>@UUID[Compendium.swade-core-rules.swade-rules.swadecor05powers.JournalEntryPage.05arcanebackgr00]{ОЧКИ СИЛИ}:</strong> 10</li></ul><p>Контакт із дивними енергіями, навчання в школі магії або дар божественної чи духовної сутності іноді дає обранцям власні сили та здібності. Такі події дають персонажу перевагу «Містичний дар», а також розвивають у ньому надзвичайні здібності.</p><p><strong>Містичний дар (Дива):</strong> Ті, хто втілюють дива, черпають силу з певної божественної сутності, як-от боги, природа чи духи. Для застосування своїх сил вони зазвичай проказують кілька слів молитви або виконують певні ритуали.</p><p>Творці чудес є ревними носіями своєї конкретної релігії. Зазвичай вони мають @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01hindrances0000]{недоліки}, пов’язані зі своєю службою, як-от @Compendium[swade-core-rules.swade-hindrances.Клятва]{«Клятва»} чи @Compendium[swade-core-rules.swade-hindrances.Обов’язок]{«Обов’язок»}. Вони також можуть мати @Compendium[swade-core-rules.swade-edges.Зв'язки]{зв’язки} з іншими представниками своєї релігії, які здатні їм допомогти, коли божественна енергія слабне.<br /></p>",
+    "isArcaneBackground": true,
+    "notes": "",
+    "requirements": [
+      {
+        "type": "rank",
+        "selector": "",
+        "value": 0,
+        "combinator": "and"
+      }
+    ],
+    "category": "Загальні",
+    "swid": "arcane-background-miracles",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757072059514,
+    "modifiedTime": 1757072059514,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.7d5eiEX0NEiaCuCJ",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

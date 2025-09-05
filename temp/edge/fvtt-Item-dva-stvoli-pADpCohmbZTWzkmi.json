@@ -1,0 +1,53 @@
+{
+  "effects": [],
+  "folder": "5Edj401f5rN7XMuT",
+  "img": "modules/swade-core-rules/assets/edges/%D0%B4%D0%B2%D0%B0-%D1%81%D1%82%D0%B2%D0%BE%D0%BB%D0%B8.webp",
+  "name": "Два стволи",
+  "type": "edge",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Діє так само, як і «@Compendium[swade-core-rules.swade-edges.Кулачник]{Кулачник}», але зі зброєю дальнього бою. Дає змогу вистрелити чи метнути зброю кожною рукою двома окремими діями без штрафу за @Compendium[swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03multiactions00]{череду дій}.</p><p>Якщо також є перевага «@Compendium[swade-core-rules.swade-edges.Кулачник]{Кулачник}», друга атака може бути в ближньому бою.</p><h2>ПРИКЛАД</h2><p>У Рудої в одній руці меч, в іншій — пістолет. Вона має і «@Compendium[swade-core-rules.swade-edges.Два стволи]{Два стволи}», і «@Compendium[swade-core-rules.swade-edges.Кулачник]{Кулачник}», тому може однією дією виконати атаку ближнього @Compendium[swade-core-rules.swade-skills.Бійка]{бою}, а потім — @Compendium[swade-core-rules.swade-skills.Стрільба]{вистрелити} або знову вдарити мечем без штрафу за @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03multiactions00]{череду дій} для другої атаки.</p>",
+    "isArcaneBackground": false,
+    "notes": "",
+    "requirements": [
+      {
+        "type": "rank",
+        "selector": "",
+        "value": 0,
+        "combinator": "and"
+      },
+      {
+        "type": "attribute",
+        "selector": "agility",
+        "value": 8,
+        "combinator": "and"
+      }
+    ],
+    "category": "Бойові",
+    "swid": "two-gun-kid",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757072059676,
+    "modifiedTime": 1757072059676,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.pADpCohmbZTWzkmi",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "effects": [],
+  "folder": "5Edj401f5rN7XMuT",
+  "img": "systems/swade/assets/icons/edge.svg",
+  "name": "Нові сили",
+  "type": "edge",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Пов'язані переваги: @Compendium[swade-core-rules.swade-edges.Містичний дар (Вроджений)]{Містичний дар (Вроджений)}, @Compendium[swade-core-rules.swade-edges.Містичний дар (Дива)]{Містичний дар (Дива)}, @Compendium[swade-core-rules.swade-edges.Містичний дар (Дивні науки)]{Містичний дар (Дивні науки)}, @Compendium[swade-core-rules.swade-edges.Містичний дар (Магія)]{Містичний дар (Магія)}, @Compendium[swade-core-rules.swade-edges.Містичний дар (Псіоніка)]{Містичний дар (Псіоніка)}</p><p>Персонаж-містик може вивчити дві нові @UUID[Compendium.swade-core-rules.swade-rules.swadecor05powers.JournalEntryPage.05powers00000000]{сили}, отримавши цю перевагу (можна вибрати кілька разів). Їх можна вибирати з-поміж будь-яких сил його @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01advancement000]{рангу} чи нижче, що доступні для його @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor05powers.JournalEntryPage.05arcanebackgr00]{містичного дару}.</p><p>Персонаж може додати новий @UUID[Compendium.swade-core-rules.swade-rules.swadecor05powers.JournalEntryPage.05trappings00000]{прояв} силі, якою вже володіє, замість вибору нової. Він може, наприклад, додати льодяний прояв наявному вогняному @Compendium[swade-core-rules.swade-powers.Розряд]{«Розряду»}, щоб вільно перемикатися між вогняним і льодяним проявом.</p>",
+    "isArcaneBackground": false,
+    "notes": "",
+    "requirements": [
+      {
+        "type": "rank",
+        "value": 0,
+        "combinator": "and",
+        "selector": ""
+      },
+      {
+        "type": "other",
+        "label": "Містичний дар (будь-який)",
+        "selector": "",
+        "value": "",
+        "combinator": "and"
+      }
+    ],
+    "category": "Силові",
+    "swid": "new-powers",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757072059514,
+    "modifiedTime": 1757072059514,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.IoAJtiObDgf46BQE",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

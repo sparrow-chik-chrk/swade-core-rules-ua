@@ -1,0 +1,96 @@
+{
+  "effects": [
+    {
+      "_id": "RHUEBuZR1iLofMhq",
+      "changes": [
+        {
+          "key": "system.bennies.max",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "flags": {
+        "sigil": {
+          "completed": true
+        }
+      },
+      "name": "Щасливець",
+      "tint": "#ffffff",
+      "transfer": true,
+      "description": "<p>Схоже, що цього шукача пригод благословила доля, карма, боги чи інші вищі сили, у які він вірить (або вони вірять у нього!).</p><p>На початку кожної ігрової сесії гравець отримує один додатковий @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03bennies0000000]{талан}, що допомагає частіше досягати успіху під час виконання важливих завдань і переживати неймовірні небезпеки.</p>",
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": "swade",
+        "systemVersion": "5.0.5",
+        "lastModifiedBy": null
+      },
+      "img": "systems/swade/assets/icons/edge.svg",
+      "type": "base",
+      "system": {
+        "removeEffect": false,
+        "expiration": null,
+        "loseTurnOnHold": false,
+        "favorite": false,
+        "conditionalEffect": false
+      },
+      "origin": null,
+      "statuses": [],
+      "sort": 0
+    }
+  ],
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  },
+  "folder": "5Edj401f5rN7XMuT",
+  "img": "systems/swade/assets/icons/edge.svg",
+  "name": "Щасливець",
+  "type": "edge",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Схоже, що цього шукача пригод благословила доля, карма, боги чи інші вищі сили, у які він вірить (або вони вірять у нього!).</p><p>На початку кожної ігрової сесії гравець отримує один додатковий @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03bennies0000000]{талан}, що допомагає частіше досягати успіху під час виконання важливих завдань і переживати неймовірні небезпеки.</p>",
+    "isArcaneBackground": false,
+    "notes": "",
+    "requirements": [
+      {
+        "type": "rank",
+        "selector": "",
+        "value": 0,
+        "combinator": "and"
+      }
+    ],
+    "category": "Загальні",
+    "swid": "luck",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757072059514,
+    "modifiedTime": 1757072059514,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.7huwXlataZ2OaQXL",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  }
+}

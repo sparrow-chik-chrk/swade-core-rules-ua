@@ -1,0 +1,61 @@
+{
+  "effects": [],
+  "folder": "5Edj401f5rN7XMuT",
+  "img": "systems/swade/assets/icons/edge.svg",
+  "name": "Залізна воля",
+  "type": "edge",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Покращення для: @Compendium[swade-core-rules.swade-edges.Міцна воля]{Міцна воля}<br />Пов'язані переваги: @Compendium[swade-core-rules.swade-edges.Сміливий]{Сміливий}</p><p>Тепер персонаж додає бонус від переваги @Compendium[swade-core-rules.swade-edges.Міцна воля]{«Міцна воля»}, коли опирається впливу сил, щоб нівелювати їхній ефект. Бонус від «Залізної волі» не накопичується з бонусом від переваги @Compendium[swade-core-rules.swade-edges.Сміливий]{«Сміливий»}, також його не застосовують до кидків, які відбуваються внаслідок дії сил — наприклад, у стані @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{шоку} від ушкоджень @UUID[Compendium.swade-core-rules.swade-rules.swadecor05powers.JournalEntryPage.05powers00000000]{силами}, будучи @Compendium[swade-core-rules.swade-powers.Страх]{наляканим} тощо.</p>",
+    "isArcaneBackground": false,
+    "notes": "",
+    "requirements": [
+      {
+        "type": "rank",
+        "value": 1,
+        "combinator": "and",
+        "selector": ""
+      },
+      {
+        "type": "edge",
+        "label": "Сміливий",
+        "selector": "brave",
+        "combinator": "and",
+        "value": ""
+      },
+      {
+        "type": "edge",
+        "label": "Міцна воля",
+        "selector": "strong-willed",
+        "value": "",
+        "combinator": "and"
+      }
+    ],
+    "category": "Соціальні",
+    "swid": "iron-will",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757072059514,
+    "modifiedTime": 1757072059514,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.2JJBnVuxeDGrWmLB",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "effects": [
+    {
+      "_id": "GMhfERXYVbrjQhhk",
+      "name": "Аристократ",
+      "changes": [
+        {
+          "key": "@Skill{Common Knowledge}[system.die.modifier]",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        },
+        {
+          "key": "@Skill{Persuasion}[system.die.modifier]",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "tint": "#ffffff",
+      "transfer": true,
+      "description": "<p>Ця особа народилася серед вищих класів або увійшла до них згодом. Такий персонаж не обов’язково повинен мати гроші (переваги @Compendium[swade-core-rules.swade-edges.Заможний]{«Заможний»} або @Compendium[swade-core-rules.swade-edges.Дуже заможний]{«Дуже заможний»}), але він все одно крутиться серед вершків суспільства.</p><p>Аристократи додають +2 до @Compendium[swade-core-rules.swade-skills.Переконливість]{переконливості}, коли заводять <strong>@UUID[Compendium.swade-core-rules.swade-rules.swadecor04theadv.JournalEntryPage.04networking0000]{корисні знайомства} </strong>серед місцевої еліти, лідерів індустрій, вельмож чи інших аристократів. Також вони додають +2 до кидків на @Compendium[swade-core-rules.swade-skills.Ерудиція]{ерудицію}, щоб бути обізнаними з етикетом еліт, розпізнати родинне дерево й геральдику або згадати чутки про інших осіб високого становища.</p>",
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": "swade",
+        "systemVersion": "5.0.5",
+        "lastModifiedBy": null
+      },
+      "img": "systems/swade/assets/icons/edge.svg",
+      "type": "base",
+      "system": {
+        "removeEffect": false,
+        "expiration": null,
+        "loseTurnOnHold": false,
+        "favorite": false,
+        "conditionalEffect": false
+      },
+      "origin": null,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "sigil": {
+          "completed": true
+        }
+      }
+    }
+  ],
+  "folder": "5Edj401f5rN7XMuT",
+  "img": "systems/swade/assets/icons/edge.svg",
+  "name": "Аристократ",
+  "type": "edge",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Ця особа народилася серед вищих класів або увійшла до них згодом. Такий персонаж не обов’язково повинен мати гроші (переваги @Compendium[swade-core-rules.swade-edges.Заможний]{«Заможний»} або @Compendium[swade-core-rules.swade-edges.Дуже заможний]{«Дуже заможний»}), але він все одно крутиться серед вершків суспільства.</p><p>Аристократи додають +2 до @Compendium[swade-core-rules.swade-skills.Переконливість]{переконливості}, коли заводять <strong>@UUID[Compendium.swade-core-rules.swade-rules.swadecor04theadv.JournalEntryPage.04networking0000]{корисні знайомства} </strong>серед місцевої еліти, лідерів індустрій, вельмож чи інших аристократів. Також вони додають +2 до кидків на @Compendium[swade-core-rules.swade-skills.Ерудиція]{ерудицію}, щоб бути обізнаними з етикетом еліт, розпізнати родинне дерево й геральдику або згадати чутки про інших осіб високого становища.</p>",
+    "isArcaneBackground": false,
+    "notes": "",
+    "requirements": [
+      {
+        "type": "rank",
+        "selector": "",
+        "value": 0,
+        "combinator": "and"
+      }
+    ],
+    "category": "Загальні",
+    "swid": "aristocrat",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757072059514,
+    "modifiedTime": 1757072059514,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.5sfBwuq0xgsQEppt",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

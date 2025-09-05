@@ -1,0 +1,111 @@
+{
+  "effects": [
+    {
+      "_id": "fOCC3PU2YmRCtLXh",
+      "name": "Менталіст",
+      "changes": [
+        {
+          "key": "@Skill{Psionics}[system.die.modifier]",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "tint": "#ffffff",
+      "transfer": true,
+      "description": "<p>Пов'язані переваги: @Compendium[swade-core-rules.swade-edges.Містичний дар (Псіоніка)]{Містичний дар (Псіоніка)}</p><p>Постійний контакт з численними психічними сутностями дає псіонікам перевагу, коли доводиться захищатися від ментальних атак чи виконувати їх самим.</p><p>Менталісти мають +2 до кидків протистояння @Compendium[swade-core-rules.swade-skills.Псіоніка]{псіоніки}, незалежно від того, чи вони психічно нападають на ворога, чи захищаються.</p>",
+      "flags": {
+        "swade": {},
+        "sigil": {
+          "completed": true
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": "swade",
+        "systemVersion": "5.0.5",
+        "lastModifiedBy": null
+      },
+      "img": "systems/swade/assets/icons/edge.svg",
+      "type": "base",
+      "system": {
+        "conditionalEffect": true,
+        "removeEffect": false,
+        "expiration": null,
+        "loseTurnOnHold": false,
+        "favorite": false
+      },
+      "origin": null,
+      "statuses": [],
+      "sort": 0
+    }
+  ],
+  "folder": "5Edj401f5rN7XMuT",
+  "img": "systems/swade/assets/icons/edge.svg",
+  "name": "Менталіст",
+  "type": "edge",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Пов'язані переваги: @Compendium[swade-core-rules.swade-edges.Містичний дар (Псіоніка)]{Містичний дар (Псіоніка)}</p><p>Постійний контакт з численними психічними сутностями дає псіонікам перевагу, коли доводиться захищатися від ментальних атак чи виконувати їх самим.</p><p>Менталісти мають +2 до кидків протистояння @Compendium[swade-core-rules.swade-skills.Псіоніка]{псіоніки}, незалежно від того, чи вони психічно нападають на ворога, чи захищаються.</p>",
+    "isArcaneBackground": false,
+    "notes": "",
+    "requirements": [
+      {
+        "type": "rank",
+        "value": 1,
+        "combinator": "and",
+        "selector": ""
+      },
+      {
+        "type": "edge",
+        "label": "Містичний дар (Псіоніка)",
+        "selector": "arcane-background-psionics",
+        "combinator": "and",
+        "value": ""
+      },
+      {
+        "type": "skill",
+        "label": "Псіоніка",
+        "selector": "psionics",
+        "value": 6,
+        "combinator": "and"
+      }
+    ],
+    "category": "Силові",
+    "swid": "mentalist",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757072059514,
+    "modifiedTime": 1757072059514,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.Vw3TEy71082Aok9n",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

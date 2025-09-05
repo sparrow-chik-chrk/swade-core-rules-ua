@@ -1,0 +1,60 @@
+{
+  "effects": [],
+  "folder": "5Edj401f5rN7XMuT",
+  "img": "systems/swade/assets/icons/edge.svg",
+  "name": "Запал",
+  "type": "edge",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Пов'язані переваги: @Compendium[swade-core-rules.swade-edges.Командування]{Командування}</p><p>Проста фраза, вимовлена великим полководцем, може негайно відгукнутися в серцях воїнів. Командир із цією здатністю може вселяти жагучий запал битви в підлеглих, викрикуючи гасла, накази чи інші натхненні слова.</p><p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03wildcardsand00]{Статисти} в радіусі дії мають +1 до кидків на ушкодження в @Compendium[swade-core-rules.swade-skills.Бійка]{бійці}.</p>",
+    "isArcaneBackground": false,
+    "notes": "",
+    "requirements": [
+      {
+        "type": "rank",
+        "value": 2,
+        "combinator": "and",
+        "selector": ""
+      },
+      {
+        "type": "attribute",
+        "selector": "spirit",
+        "value": 8,
+        "combinator": "and"
+      },
+      {
+        "type": "edge",
+        "label": "Командування",
+        "selector": "command",
+        "value": "",
+        "combinator": "and"
+      }
+    ],
+    "category": "Лідерські",
+    "swid": "fervor",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757072059514,
+    "modifiedTime": 1757072059514,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.2JVcFYPjKf87nEJo",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

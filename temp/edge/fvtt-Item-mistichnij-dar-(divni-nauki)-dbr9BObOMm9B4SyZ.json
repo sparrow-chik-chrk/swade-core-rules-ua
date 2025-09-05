@@ -1,0 +1,96 @@
+{
+  "effects": [
+    {
+      "name": "Містичний дар (Дивні науки)",
+      "type": "base",
+      "_id": "3lY9J0hMucDUE8Ip",
+      "img": "systems/swade/assets/icons/edge.svg",
+      "system": {
+        "removeEffect": false,
+        "loseTurnOnHold": false,
+        "favorite": false,
+        "conditionalEffect": false,
+        "expiration": null
+      },
+      "changes": [
+        {
+          "key": "system.powerPoints.Дивні науки.max",
+          "mode": 2,
+          "value": "15",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": 0,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>15 Очок Сили додано до Дивні науки</p>",
+      "origin": "Compendium.swade-core-rules.swade-edges.Item.dbr9BObOMm9B4SyZ",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "succ": {
+          "createProcessed": true
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": "swade",
+        "systemVersion": "5.0.5",
+        "lastModifiedBy": null
+      }
+    }
+  ],
+  "folder": "5Edj401f5rN7XMuT",
+  "img": "systems/swade/assets/icons/edge.svg",
+  "name": "Містичний дар (Дивні науки)",
+  "type": "edge",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<ul><li><strong>МІСТИЧНА НАВИЧКА:</strong> @Compendium[swade-core-rules.swade-skills.Дивні науки]{Дивні науки} (кмітливість)</li><li><strong>ПОЧАТКОВІ @UUID[Compendium.swade-core-rules.swade-rules.swadecor05powers.JournalEntryPage.05powers00000000]{СИЛИ}:</strong> 2</li><li><strong>@UUID[Compendium.swade-core-rules.swade-rules.swadecor05powers.JournalEntryPage.05arcanebackgr00]{ОЧКИ СИЛИ}:</strong> 15</li></ul><p>Контакт із дивними енергіями, навчання в школі магії або дар божественної чи духовної сутності іноді дає обранцям власні сили та здібності. Такі події дають персонажу перевагу «Містичний дар», а також розвивають у ньому надзвичайні здібності.</p><p><strong>Містичний дар (Дивні науки):</strong> Дивакуваті вчені використовують химерні та потужні винаходи поза звичним рівнем технологій свого світу. Такі творіння можливі завдяки надпотужним видам пального, позаземним відкриттям або інтелекту рідкісних супергеніїв, які розсувають межі науки.</p><p><strong>@UUID[Compendium.swade-core-rules.swade-rules.swadecor05powers.JournalEntryPage.05trappings00000]{Прояви}</strong> дивного вченого (див. с. 150) обов’язково відтворювати через якісь пов’язані з ними предмети. Наприклад, сила @Compendium[swade-core-rules.swade-powers.Виверження]{«Виверження»} може проявлятися через магічний вогнемет у «Мертвих землях: Дивний Захід», а «Чудодійний відновлювальний еліксир доктора Ґабріеля!» — це зілля @Compendium[swade-core-rules.swade-powers.Зцілення]{«Зцілення»}.</p><p>Для застосування своїх сил дивні вчені повинні мати під рукою пристрої (див. <strong>«Із підручних засобів»</strong> нижче).</p><p>Інші персонажі не можуть скористатися творінням винахідника. Можливо, вони не розуміють, як працюють дивні механізми, пристрої не «калібровані» чи не налаштовані для інших користувачів або ж просто функціонують лише в руках свого творця. Хоч в оповіді це може видаватися дивним, «магія» (й очки сили) належить винахіднику, тож лише він може її застосувати.</p><p>Створювати пристрої для інших можливо — для цього потрібна перевага <strong>@Compendium[swade-core-rules.swade-edges.Винахідник]{«Винахідник»}</strong>. Докладніше див. <strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor05powers.JournalEntryPage.05arcanedevice00#arcane-devices]{«Містичні предмети»}</strong>.</p><p>Звісно, винахідник може використовувати свої пристрої на інших, як-от давати комусь випити свої магічні еліксири чи вводити персонажам створену ним чудодійну суперсироватку. Наприклад, якщо доктор Ґабрієль дає комусь свій еліксир, він виконує кидок на застосування сили, як зазвичай. Якщо персонаж захоче використати еліксир пізніше, то виявить, що той втратив свою дієвість.</p><p><strong>Із підручних засобів:</strong> зазвичай дивні вчені застосовують свої сили за допомогою відповідних пристроїв, але за потреби можуть імпровізувати зі штрафом −2. Для цього потрібне розумне обґрунтування та дозвіл ігромайстра.</p><h2>ПРИКЛАД</h2><p>Ґейба схопили лихі прибульці, які забрали все його обладнання. Його посадили в камеру, де він вирішує використати світильник і те, що прибульці мають за електрику, для створення саморобної @Compendium[swade-core-rules.swade-powers.Вибух]{вибухівки}. ІМ погоджується, що це спрацює, але лише раз, адже процес призведе до короткого замикання й знищить світильники в камері.</p>",
+    "isArcaneBackground": true,
+    "notes": "",
+    "requirements": [
+      {
+        "type": "rank",
+        "selector": "",
+        "value": 0,
+        "combinator": "and"
+      }
+    ],
+    "category": "Загальні",
+    "swid": "arcane-background-weird-science",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757072059514,
+    "modifiedTime": 1757072059514,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.dbr9BObOMm9B4SyZ",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

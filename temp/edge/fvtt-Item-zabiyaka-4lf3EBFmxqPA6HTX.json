@@ -1,0 +1,120 @@
+{
+  "effects": [
+    {
+      "_id": "PXxjFEmzs6bD1Tai",
+      "changes": [
+        {
+          "key": "system.stats.toughness.value",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "@Weapon{Без зброї}[system.actions.dmgMod]",
+          "mode": 5,
+          "value": "+d4x",
+          "priority": null
+        },
+        {
+          "key": "@Weapon{Пазурі}[system.damage]",
+          "mode": 5,
+          "value": "@str+d6",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "flags": {
+        "sigil": {
+          "completed": true
+        }
+      },
+      "name": "Забіяка",
+      "tint": "#ffffff",
+      "transfer": true,
+      "description": "<p>Його кулак — наче молот, а пазурі гострі, як лезо. Його тіло тверде, як камінь. Забіяки мають +1 до @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01characters0000]{стійкості} та кидають @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{міць} + 1к4, коли б’ють ціль руками або ногами (чи пазурями, якщо вони є). Якщо персонаж вже має кістку ушкоджень від <strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili04]{пазурів}</strong> чи від переваги «@Compendium[swade-core-rules.swade-edges.Вправний боєць]{Вправний боєць}» тощо, підвищте кістку ушкоджень на один ступінь.</p><p>Перевага @Compendium[swade-core-rules.swade-edges.Забіяка]{«Забіяка»} не робить кулаки персонажа <strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03naturalweapo00]{природною зброєю}</strong>.</p>",
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": "swade",
+        "systemVersion": "5.0.5",
+        "lastModifiedBy": null
+      },
+      "img": "systems/swade/assets/icons/edge.svg",
+      "type": "base",
+      "system": {
+        "removeEffect": false,
+        "expiration": null,
+        "loseTurnOnHold": false,
+        "favorite": false,
+        "conditionalEffect": false
+      },
+      "origin": null,
+      "statuses": [],
+      "sort": 0
+    }
+  ],
+  "folder": "5Edj401f5rN7XMuT",
+  "img": "modules/swade-core-rules/assets/edges/%D0%B7%D0%B0%D0%B1%D1%96%D1%8F%D0%BA%D0%B0.webp",
+  "name": "Забіяка",
+  "type": "edge",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Його кулак — наче молот, а пазурі гострі, як лезо. Його тіло тверде, як камінь. Забіяки мають +1 до @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01characters0000]{стійкості} та кидають @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{міць} + 1к4, коли б’ють ціль руками або ногами (чи пазурями, якщо вони є). Якщо персонаж вже має кістку ушкоджень від <strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili04]{пазурів}</strong> чи від переваги «@Compendium[swade-core-rules.swade-edges.Вправний боєць]{Вправний боєць}» тощо, підвищте кістку ушкоджень на один ступінь.</p><p>Перевага @Compendium[swade-core-rules.swade-edges.Забіяка]{«Забіяка»} не робить кулаки персонажа <strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03naturalweapo00]{природною зброєю}</strong>.</p>",
+    "isArcaneBackground": false,
+    "notes": "",
+    "requirements": [
+      {
+        "type": "rank",
+        "selector": "",
+        "value": 0,
+        "combinator": "and"
+      },
+      {
+        "type": "attribute",
+        "selector": "strength",
+        "value": 8,
+        "combinator": "and"
+      },
+      {
+        "type": "attribute",
+        "selector": "vigor",
+        "value": 8,
+        "combinator": "and"
+      }
+    ],
+    "category": "Бойові",
+    "swid": "brawler",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757072059514,
+    "modifiedTime": 1757072059514,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.4lf3EBFmxqPA6HTX",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "effects": [],
+  "folder": "5Edj401f5rN7XMuT",
+  "img": "systems/swade/assets/icons/edge.svg",
+  "name": "Дуже заможний",
+  "type": "edge",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Покращення для: @Compendium[swade-core-rules.swade-edges.Заможний]{Заможний}</p><p>Цей щасливець — справжній багатій. Він має вп’ятеро більшу @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01characters0000]{початкову суму коштів} на етапі створення персонажа, і, якщо це дозволено сценарієм, щорічний дохід, з відповідними обов’язками, в розмірі ~500 000 $.</p><p>Допускається існування ще багатших персонажів, але це не надто важливо, якщо розмір статку не впливає на гру. З ігромайстром можна обумовити такий вплив і впровадити як більші можливості, так і тягар відповідальності за більші статки.</p>",
+    "isArcaneBackground": false,
+    "notes": "",
+    "requirements": [
+      {
+        "type": "rank",
+        "value": 0,
+        "combinator": "and",
+        "selector": ""
+      },
+      {
+        "type": "edge",
+        "label": "Заможний",
+        "selector": "rich",
+        "value": "",
+        "combinator": "and"
+      }
+    ],
+    "category": "Загальні",
+    "swid": "filthy-rich",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757072059514,
+    "modifiedTime": 1757072059514,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.KIXfH0MyiHVIDHrq",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

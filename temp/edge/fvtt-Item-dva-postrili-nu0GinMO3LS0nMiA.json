@@ -1,0 +1,54 @@
+{
+  "effects": [],
+  "folder": "5Edj401f5rN7XMuT",
+  "img": "modules/swade-core-rules/assets/edges/%D0%B4%D0%B2%D0%B0%20%D0%BF%D0%BE%D1%81%D1%82%D1%80%D1%96%D0%BB%D0%B8.webp",
+  "name": "Два постріли",
+  "type": "edge",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Досвідчені стрільці можуть вистрелити двічі поспіль, не втрачаючи цілі з прицілу.</p><p>«Два постріли» можна використовувати лише зі зброєю, @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02rateoffire0000]{темп стрільби} якої становить 1 і яку не треба вручну @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02reload00000000]{перезаряджати} після кожного пострілу. Перевага дає +1 до влучання й ушкоджень коштом додаткового набою. Це вважають дією, тож стрілець може використати перевагу кілька разів, якщо виконує @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03multiactions00]{череду дій}.</p><p>«Два постріли» <em>не можна</em> використовувати разом зі «@Compendium[swade-core-rules.swade-edges.Швидка стрільба]{Швидкою стрільбою}».</p><p>Якщо використовують зі зброєю, що здатна вести вогонь <strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02threeroundbu00]{чергами по три набої}</strong>, додавайте +2 до @Compendium[swade-core-rules.swade-skills.Стрільба]{стрільби} й ушкоджень замість +1 і витрачайте <em>шість</em> набоїв.</p>",
+    "isArcaneBackground": false,
+    "notes": "",
+    "requirements": [
+      {
+        "type": "rank",
+        "value": 1,
+        "combinator": "and",
+        "selector": ""
+      },
+      {
+        "type": "skill",
+        "label": "Стрільба",
+        "selector": "shooting",
+        "value": 6,
+        "combinator": "and"
+      }
+    ],
+    "category": "Бойові",
+    "swid": "double-tap",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757072059676,
+    "modifiedTime": 1757072059676,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.nu0GinMO3LS0nMiA",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

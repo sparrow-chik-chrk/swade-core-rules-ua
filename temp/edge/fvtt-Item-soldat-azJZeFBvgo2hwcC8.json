@@ -1,0 +1,108 @@
+{
+  "effects": [
+    {
+      "_id": "ioAMYg89nbX4dAnv",
+      "changes": [
+        {
+          "key": "system.attributes.strength.encumbranceSteps",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "flags": {
+        "sigil": {
+          "completed": true
+        }
+      },
+      "name": "Солдат",
+      "tint": "#ffffff",
+      "transfer": true,
+      "description": "<p>Професійні солдати звикають до важких вантажів та суворих умов. Після кількох днів призвичаєння до свого спорядження (на розсуд ігромайстра) персонаж отримує додатковий ступінь кістки @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{моці} для визначення <strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02gearnotes00000#gear-notes]{навантаженості}</strong> та <strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02minimumstren00]{мінімальної моці}</strong> для користування бронею, зброєю та спорядженням без штрафів. Накопичується з перевагою @Compendium[swade-core-rules.swade-edges.Дужий]{«Дужий»}.</p><p>Також у персонажа є можливість вільно перекинути кидок на @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{витримку} для опору природним небезпекам (див. <strong>@UUID[Compendium.swade-core-rules.swade-rules.swadecor04theadv.JournalEntryPage.04hazards0000000]{«Небезпеки»}</strong>).</p>",
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": "swade",
+        "systemVersion": "5.0.5",
+        "lastModifiedBy": null
+      },
+      "img": "systems/swade/assets/icons/edge.svg",
+      "type": "base",
+      "system": {
+        "removeEffect": false,
+        "expiration": null,
+        "loseTurnOnHold": false,
+        "favorite": false,
+        "conditionalEffect": false
+      },
+      "origin": null,
+      "statuses": [],
+      "sort": 0
+    }
+  ],
+  "folder": "5Edj401f5rN7XMuT",
+  "img": "systems/swade/assets/icons/edge.svg",
+  "name": "Солдат",
+  "type": "edge",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Професійні солдати звикають до важких вантажів та суворих умов. Після кількох днів призвичаєння до свого спорядження (на розсуд ігромайстра) персонаж отримує додатковий ступінь кістки @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{моці} для визначення <strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02gearnotes00000#gear-notes]{навантаженості}</strong> та <strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02minimumstren00]{мінімальної моці}</strong> для користування бронею, зброєю та спорядженням без штрафів. Накопичується з перевагою @Compendium[swade-core-rules.swade-edges.Дужий]{«Дужий»}.</p><p>Також у персонажа є можливість вільно перекинути кидок на @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{витримку} для опору природним небезпекам (див. <strong>@UUID[Compendium.swade-core-rules.swade-rules.swadecor04theadv.JournalEntryPage.04hazards0000000]{«Небезпеки»}</strong>).<br style=\"font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;orphans:2;text-align:-webkit-auto;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px\" /><br /></p>",
+    "isArcaneBackground": false,
+    "notes": "",
+    "requirements": [
+      {
+        "type": "rank",
+        "selector": "",
+        "value": 0,
+        "combinator": "and"
+      },
+      {
+        "type": "attribute",
+        "selector": "strength",
+        "value": 6,
+        "combinator": "and"
+      },
+      {
+        "type": "attribute",
+        "selector": "vigor",
+        "value": 6,
+        "combinator": "and"
+      }
+    ],
+    "category": "Професійні",
+    "swid": "soldier",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757072059514,
+    "modifiedTime": 1757072059514,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.azJZeFBvgo2hwcC8",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

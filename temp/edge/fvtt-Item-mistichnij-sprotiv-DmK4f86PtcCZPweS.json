@@ -1,0 +1,53 @@
+{
+  "effects": [],
+  "folder": "5Edj401f5rN7XMuT",
+  "img": "systems/swade/assets/icons/edge.svg",
+  "name": "Містичний спротив",
+  "type": "edge",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Магія та надприродне менше впливають на цього персонажа. Через свою природу, родовід або ж навчання він особливо стійкий до магії, псіоніки, дивних наук й інших надприродних енергій.</p><p>Містичні навички ворогів, націлені на такого персонажа, отримують штраф −2, а магічні ушкодження зменшені на 2. Якщо ворог не може вплинути на персонажа через цей штраф, він все одно застосовує силу і витрачає очки сили (і все ще може впливати на інші цілі). «Містичний спротив» також поширюється на магічні ефекти, накладені на зброю, як-от ефекти «Розправи», чи ефекти магічної зброї.</p>",
+    "isArcaneBackground": false,
+    "notes": "",
+    "requirements": [
+      {
+        "type": "rank",
+        "selector": "",
+        "value": 0,
+        "combinator": "and"
+      },
+      {
+        "type": "attribute",
+        "selector": "spirit",
+        "value": 8,
+        "combinator": "and"
+      }
+    ],
+    "category": "Загальні",
+    "swid": "arcane-resistance",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757072059514,
+    "modifiedTime": 1757072059514,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.DmK4f86PtcCZPweS",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "effects": [
+    {
+      "_id": "RUVuIEg91MNMB53C",
+      "changes": [
+        {
+          "key": "system.stats.parry.value",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "flags": {
+        "sigil": {
+          "completed": true
+        }
+      },
+      "name": "Майстер зброї",
+      "tint": "#ffffff",
+      "transfer": true,
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": "swade",
+        "systemVersion": "5.0.5",
+        "lastModifiedBy": null
+      },
+      "img": "systems/swade/assets/icons/edge.svg",
+      "type": "base",
+      "system": {
+        "removeEffect": false,
+        "expiration": null,
+        "loseTurnOnHold": false,
+        "favorite": false,
+        "conditionalEffect": false
+      },
+      "description": "<p>Воїн збільшує своє @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01characters0000]{відбивання} на +1, а додаткові ушкодження для кидків на @Compendium[swade-core-rules.swade-skills.Бійка]{бійку} зростають з к6 до к8 (див. <strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03dealingdamag00]{«Бонусні ушкодження»}</strong>). Щоб отримати ці бонуси, персонаж мусить бути озброєним. До цього враховують перевагу @Compendium[swade-core-rules.swade-edges.Вправний боєць]{«Вправний боєць»}, @UUID[Compendium.swade-core-rules.swade-rules.swadecor06bestia.JournalEntryPage.06specialabili04]{пазурі} й інші здібності персонажа, що вважають зброєю.</p>",
+      "origin": null,
+      "statuses": [],
+      "sort": 0
+    }
+  ],
+  "folder": "5Edj401f5rN7XMuT",
+  "img": "systems/swade/assets/icons/edge.svg",
+  "name": "Майстер зброї",
+  "type": "edge",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Воїн збільшує своє @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01characters0000]{відбивання} на +1, а додаткові ушкодження для кидків на @Compendium[swade-core-rules.swade-skills.Бійка]{бійку} зростають з к6 до к8 (див. <strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03dealingdamag00]{«Бонусні ушкодження»}</strong>). Щоб отримати ці бонуси, персонаж мусить бути озброєним. До цього враховують перевагу @Compendium[swade-core-rules.swade-edges.Вправний боєць]{«Вправний боєць»}, @UUID[Compendium.swade-core-rules.swade-rules.swadecor06bestia.JournalEntryPage.06specialabili04]{пазурі} й інші здібності персонажа, що вважають зброєю.</p>",
+    "isArcaneBackground": false,
+    "notes": "",
+    "requirements": [
+      {
+        "type": "rank",
+        "value": 4,
+        "combinator": "and",
+        "selector": ""
+      },
+      {
+        "type": "skill",
+        "label": "Бійка",
+        "selector": "fighting",
+        "value": 12,
+        "combinator": "and"
+      }
+    ],
+    "category": "Легендарні",
+    "swid": "weapon-master",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757072059514,
+    "modifiedTime": 1757072059514,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.Z58LoURiMKVwdPsj",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

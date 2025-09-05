@@ -1,0 +1,114 @@
+{
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "category": "Загальні",
+    "additionalStats": {},
+    "description": "<p>Ваш боєць або дуже великий, або дуже м’язистий. Його @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03sizeandscale00]{розмір} збільшено на +1 (відповідно, @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01characters0000]{стійкість} теж на +1). Кістки @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{моці} цього бійця трактують так, ніби вони на один ступінь вище під час визначення <strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02gearnotes00000#gear-notes]{навантаженості}</strong> і <strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02minimumstren00]{мінімальної моці}</strong> для використання броні, зброї та спорядження без штрафу.</p><p>Перевага «Дужий» не може збільшити розмір персонажа понад +3.</p>",
+    "isArcaneBackground": false,
+    "notes": "",
+    "requirements": [
+      {
+        "type": "rank",
+        "selector": "",
+        "value": 0,
+        "combinator": "and"
+      },
+      {
+        "type": "attribute",
+        "selector": "strength",
+        "value": 6,
+        "combinator": "and"
+      },
+      {
+        "type": "attribute",
+        "selector": "vigor",
+        "value": 6,
+        "combinator": "and"
+      }
+    ],
+    "swid": "brawny",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": []
+  },
+  "effects": [
+    {
+      "_id": "elSPHAiFU2C34XoO",
+      "changes": [
+        {
+          "key": "system.stats.size",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "system.attributes.strength.encumbranceSteps",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "flags": {
+        "sigil": {
+          "completed": true
+        }
+      },
+      "name": "Дужий",
+      "tint": "#ffffff",
+      "transfer": true,
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": "swade",
+        "systemVersion": "5.0.5",
+        "lastModifiedBy": null
+      },
+      "img": "systems/swade/assets/icons/edge.svg",
+      "type": "base",
+      "system": {
+        "removeEffect": false,
+        "expiration": null,
+        "loseTurnOnHold": false,
+        "favorite": false,
+        "conditionalEffect": false
+      },
+      "description": "<p>Ваш боєць або дуже великий, або дуже м’язистий. Його @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03sizeandscale00]{розмір} збільшено на +1 (відповідно, @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01characters0000]{стійкість} теж на +1). Кістки @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{моці} цього бійця трактують так, ніби вони на один ступінь вище під час визначення <strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02gearnotes00000#gear-notes]{навантаженості}</strong> і <strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02minimumstren00]{мінімальної моці}</strong> для використання броні, зброї та спорядження без штрафу.</p><p>Перевага «Дужий» не може збільшити розмір персонажа понад +3.</p>",
+      "origin": null,
+      "statuses": [],
+      "sort": 0
+    }
+  ],
+  "folder": "5Edj401f5rN7XMuT",
+  "img": "systems/swade/assets/icons/edge.svg",
+  "name": "Дужий",
+  "type": "edge",
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757072059676,
+    "modifiedTime": 1757072059676,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.wKCK3CuIuwEMzRKz",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

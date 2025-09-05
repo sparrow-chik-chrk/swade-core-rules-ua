@@ -1,0 +1,60 @@
+{
+  "effects": [],
+  "folder": "5Edj401f5rN7XMuT",
+  "img": "systems/swade/assets/icons/edge.svg",
+  "name": "Лютий шал",
+  "type": "edge",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Як і @Compendium[swade-core-rules.swade-edges.Шал]{«Шал»}, тільки боєць додає ще одну кістку бійки до своєї атаки ближнього бою, виконаної в цей хід у стані «Лютого шалу».</p><p></p><p><strong>Приклад.</strong> Руда відчайдушно атакує гігантську крабоподібну істоту на далекій планеті. У неї є «Лютий шал», тож вона вирішує атакувати тричі (череда дій зі звичайним штрафом). Вона проходить перевірку навички бійки з двома додатковими кістками для першої атаки. Вона не отримує додаткової кістки для другої та третьої атак.</p>",
+    "isArcaneBackground": false,
+    "notes": "",
+    "requirements": [
+      {
+        "type": "rank",
+        "value": 2,
+        "combinator": "and",
+        "selector": ""
+      },
+      {
+        "type": "edge",
+        "label": "Шал",
+        "selector": "frenzy",
+        "value": "",
+        "combinator": "and"
+      }
+    ],
+    "category": "Бойові",
+    "grants": [
+      {
+        "uuid": "Compendium.swade-core-rules.swade-actions.Item.8EjMobPuRfHS0C5D",
+        "img": "modules/swade-core-rules/assets/actions/improved_frenzy.webp",
+        "name": "Лютий Шал"
+      }
+    ],
+    "swid": "improved-frenzy",
+    "choiceSets": [],
+    "favorite": false
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757072059676,
+    "modifiedTime": 1757072059676,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.tS7aJtG9ZlTQokYS",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

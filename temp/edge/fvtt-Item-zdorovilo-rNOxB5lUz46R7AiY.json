@@ -1,0 +1,59 @@
+{
+  "effects": [],
+  "folder": "5Edj401f5rN7XMuT",
+  "img": "systems/swade/assets/icons/edge.svg",
+  "name": "Здоровило",
+  "type": "edge",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Здоровили покладаються на міць і фізичну форму, нехтуючи координацією та гнучкістю. У @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01advancement000]{поступі} вони використовують для @Compendium[swade-core-rules.swade-skills.Атлетизм]{атлетизму} @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{міць}, а не @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{спритність}. Персонаж також може за бажанням використовувати міць, щоб опиратися @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03test0000000000]{завадам} на основі атлетизму.</p><p>Крім того, @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02range000000000]{коротку відстань} метання всіх предметів для здоровил збільшено на +1. Для скоригованої середньої відстані — +2, для далекої — +4. Наприклад, якщо відстань метання предмета складає 3 / 6 / 12, для здоровила вона становить 4 / 8 / 16.</p>",
+    "isArcaneBackground": false,
+    "notes": "",
+    "requirements": [
+      {
+        "type": "rank",
+        "selector": "",
+        "value": 0,
+        "combinator": "and"
+      },
+      {
+        "type": "attribute",
+        "selector": "strength",
+        "value": 6,
+        "combinator": "and"
+      },
+      {
+        "type": "attribute",
+        "selector": "vigor",
+        "value": 6,
+        "combinator": "and"
+      }
+    ],
+    "category": "Загальні",
+    "swid": "brute",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757072059676,
+    "modifiedTime": 1757072059676,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.rNOxB5lUz46R7AiY",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

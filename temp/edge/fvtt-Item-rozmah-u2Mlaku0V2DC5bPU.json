@@ -1,0 +1,60 @@
+{
+  "effects": [],
+  "folder": "5Edj401f5rN7XMuT",
+  "img": "modules/swade-core-rules/assets/edges/%D1%80%D0%BE%D0%B7%D0%BC%D0%B0%D1%85.webp",
+  "name": "Розмах",
+  "type": "edge",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Це обмежена дія, що дає змогу персонажу виконати одну атаку ближнього @Compendium[swade-core-rules.swade-skills.Бійка]{бою} дворучною зброєю та застосовувати її до всіх цілей в межах @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02reach000000000]{засягу} (діє як на ворогів, так і на союзників). Ушкодження обчислюють окремо для кожної цілі, у яку влучили.</p><p>Якщо для «Розмаху» використовують не дворучну зброю, буде штраф −2.</p>",
+    "isArcaneBackground": false,
+    "notes": "",
+    "requirements": [
+      {
+        "type": "rank",
+        "value": 0,
+        "combinator": "and",
+        "selector": ""
+      },
+      {
+        "type": "attribute",
+        "selector": "strength",
+        "value": 8,
+        "combinator": "and"
+      },
+      {
+        "type": "skill",
+        "label": "Бійка",
+        "selector": "fighting",
+        "value": 8,
+        "combinator": "and"
+      }
+    ],
+    "category": "Бойові",
+    "swid": "sweep",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757072059676,
+    "modifiedTime": 1757072059676,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.u2Mlaku0V2DC5bPU",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

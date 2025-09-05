@@ -1,0 +1,59 @@
+{
+  "effects": [],
+  "folder": "5Edj401f5rN7XMuT",
+  "img": "systems/swade/assets/icons/edge.svg",
+  "name": "Гострий язик",
+  "type": "edge",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Персонаж — ще той підбурювач, і знає, як розлютити кількох ворогів одночасно.</p><p>Застосування переваги «Гострий язик» — це обмежена дія; персонаж із цією перевагою може створити соціальну @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03test0000000000]{заваду}, використавши @Compendium[swade-core-rules.swade-skills.Залякування]{залякування} або @Compendium[swade-core-rules.swade-skills.Провокація]{провокацію} проти всіх ворогів у @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03areaeffectat00]{середньому радіусі дії}. Цілі мають ясно чути та бачити персонажа. Кожна ціль мусить чинити опір заваді окремо.</p>",
+    "isArcaneBackground": false,
+    "notes": "",
+    "requirements": [
+      {
+        "type": "rank",
+        "selector": "",
+        "value": 1,
+        "combinator": "and"
+      },
+      {
+        "type": "attribute",
+        "selector": "spirit",
+        "value": 8,
+        "combinator": "and"
+      }
+    ],
+    "category": "Соціальні",
+    "swid": "rabble-rouser",
+    "grants": [
+      {
+        "uuid": "Compendium.swade-core-rules.swade-actions.Item.dUVDSJZqnAvb8EcO",
+        "img": "systems/swade/assets/icons/action.svg",
+        "name": "Гострий язик"
+      }
+    ],
+    "choiceSets": [],
+    "favorite": false
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757072059514,
+    "modifiedTime": 1757072059514,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.Z1baC21BzKawj6Ex",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "effects": [
+    {
+      "_id": "V1WW7gVzZ4ttLOBh",
+      "name": "Сміливий",
+      "changes": [
+        {
+          "key": "system.attributes.spirit.die.modifier",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "tint": "#ffffff",
+      "transfer": true,
+      "description": "<p>Персонажі з цією перевагою навчилися опановувати свій страх або ж уже бачили стільки жахів, що стали нечутливими. Ці хоробрі дослідники додають +2 до перевірок @UUID[Compendium.swade-core-rules.swade-rules.swadecor04theadv.JournalEntryPage.04fear0000000000]{страху} та віднімають 2 від результатів за <strong>@Compendium[swade-core-rules.swade-tables.Таблиця страху]{«Таблицею страху»}</strong>.</p>",
+      "flags": {
+        "swade": {},
+        "sigil": {
+          "completed": true
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": "swade",
+        "systemVersion": "5.0.5",
+        "lastModifiedBy": null
+      },
+      "img": "systems/swade/assets/icons/edge.svg",
+      "type": "base",
+      "system": {
+        "conditionalEffect": true,
+        "removeEffect": false,
+        "expiration": null,
+        "loseTurnOnHold": false,
+        "favorite": false
+      },
+      "origin": null,
+      "statuses": [],
+      "sort": 0
+    }
+  ],
+  "folder": "5Edj401f5rN7XMuT",
+  "img": "systems/swade/assets/icons/edge.svg",
+  "name": "Сміливий",
+  "type": "edge",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Персонажі з цією перевагою навчилися опановувати свій страх або ж уже бачили стільки жахів, що стали нечутливими. Ці хоробрі дослідники додають +2 до перевірок @UUID[Compendium.swade-core-rules.swade-rules.swadecor04theadv.JournalEntryPage.04fear0000000000]{страху} та віднімають 2 від результатів за <strong>@Compendium[swade-core-rules.swade-tables.Таблиця страху]{«Таблицею страху»}</strong>.</p>",
+    "isArcaneBackground": false,
+    "notes": "",
+    "requirements": [
+      {
+        "type": "rank",
+        "selector": "",
+        "value": 0,
+        "combinator": "and"
+      },
+      {
+        "type": "attribute",
+        "selector": "spirit",
+        "value": 6,
+        "combinator": "and"
+      }
+    ],
+    "category": "Загальні",
+    "swid": "brave",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757072059514,
+    "modifiedTime": 1757072059514,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.hMTj68saxoF5i5Ul",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

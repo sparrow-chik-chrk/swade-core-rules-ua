@@ -1,0 +1,60 @@
+{
+  "effects": [],
+  "folder": "5Edj401f5rN7XMuT",
+  "img": "systems/swade/assets/icons/edge.svg",
+  "name": "Умілий атлет",
+  "type": "edge",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Цей персонаж займається паркуром або ж просто дуже вправний в бігу, стрибках, трюках і доланні різних перешкод.</p><p>Якщо поруч є перешкода, за яку можна зачепитися, перестрибнути чи розгойдатися на ній, він переміщується без зниження @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03movement000000]{темпу} на @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03movement000000]{складній місцевості}, пересуваючись пішки. Також він має +2 до кидків на @Compendium[swade-core-rules.swade-skills.Атлетизм]{атлетизм}, коли залазить нагору чи бере участь у пішій гонитві (див. <strong>@UUID[Compendium.swade-core-rules.swade-rules.swadecor04theadv.JournalEntryPage.04chasesandveh00]{«Гонитви та транспорт»}</strong>).</p>",
+    "isArcaneBackground": false,
+    "notes": "",
+    "requirements": [
+      {
+        "type": "rank",
+        "value": 0,
+        "combinator": "and",
+        "selector": ""
+      },
+      {
+        "type": "attribute",
+        "selector": "agility",
+        "value": 8,
+        "combinator": "and"
+      },
+      {
+        "type": "skill",
+        "label": "Атлетизм",
+        "selector": "athletics",
+        "value": 6,
+        "combinator": "and"
+      }
+    ],
+    "category": "Бойові",
+    "swid": "free-runner",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757072059676,
+    "modifiedTime": 1757072059676,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.mbuDd4nvPlG7vWrh",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

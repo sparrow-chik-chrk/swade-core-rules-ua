@@ -1,0 +1,151 @@
+{
+  "effects": [
+    {
+      "_id": "3ApraUkQKIqc2F4k",
+      "name": "Сталева щелепа (поглинання)",
+      "changes": [
+        {
+          "key": "system.attributes.vigor.soakBonus",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "tint": "#ffffff",
+      "transfer": true,
+      "description": "<p>Персонажу по зубах витримати навіть найпотужніший удар. Він має +2 до @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03soakrolls00000]{кидків на поглинання} та @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{витримку} для уникнення <strong>@UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03thedrop0000000]{нокауту}</strong>.</p>",
+      "flags": {
+        "swade": {},
+        "sigil": {
+          "completed": true
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": "swade",
+        "systemVersion": "5.0.5",
+        "lastModifiedBy": null
+      },
+      "img": "systems/swade/assets/icons/edge.svg",
+      "type": "base",
+      "system": {
+        "conditionalEffect": true,
+        "removeEffect": false,
+        "expiration": null,
+        "loseTurnOnHold": false,
+        "favorite": false
+      },
+      "origin": null,
+      "statuses": [],
+      "sort": 0
+    },
+    {
+      "name": "Сталева щелепа (нокаут)",
+      "img": "systems/swade/assets/icons/edge.svg",
+      "duration": {
+        "rounds": null,
+        "startTime": 54,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "system": {
+        "expiration": null,
+        "conditionalEffect": true,
+        "removeEffect": false,
+        "loseTurnOnHold": false,
+        "favorite": false
+      },
+      "changes": [
+        {
+          "key": "system.attributes.vigor.die.modifier",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "transfer": true,
+      "_id": "u7paWxVTE24pTFzq",
+      "type": "base",
+      "disabled": false,
+      "description": "<p>Персонажу по зубах витримати навіть найпотужніший удар. Він має +2 до @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03soakrolls00000]{кидків на поглинання} та @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{витримку} для уникнення <strong>@UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03thedrop0000000]{нокауту}</strong>.</p>",
+      "origin": "Compendium.swade-core-rules.swade-edges.Item.xKABBE9bj7eYSXiJ",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "sigil": {
+          "completed": true
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": "swade",
+        "systemVersion": "5.0.5",
+        "lastModifiedBy": null
+      }
+    }
+  ],
+  "folder": "5Edj401f5rN7XMuT",
+  "img": "systems/swade/assets/icons/edge.svg",
+  "name": "Сталева щелепа",
+  "type": "edge",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Персонажу по зубах витримати навіть найпотужніший удар. Він має +2 до @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03soakrolls00000]{кидків на поглинання} та @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{витримку} для уникнення <strong>@UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03thedrop0000000]{нокауту}</strong>.</p>",
+    "isArcaneBackground": false,
+    "notes": "",
+    "requirements": [
+      {
+        "type": "rank",
+        "selector": "",
+        "value": 0,
+        "combinator": "and"
+      },
+      {
+        "type": "attribute",
+        "selector": "vigor",
+        "value": 8,
+        "combinator": "and"
+      }
+    ],
+    "category": "Бойові",
+    "swid": "iron-jaw",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757072059676,
+    "modifiedTime": 1757072059676,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.xKABBE9bj7eYSXiJ",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

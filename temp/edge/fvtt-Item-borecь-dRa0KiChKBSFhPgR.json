@@ -1,0 +1,115 @@
+{
+  "effects": [
+    {
+      "_id": "9NtKFiDH3miX0WZw",
+      "changes": [
+        {
+          "key": "system.stats.toughness.value",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "@Weapon{Без зброї}[system.actions.dmgMod]",
+          "mode": 5,
+          "value": "+d6x",
+          "priority": null
+        },
+        {
+          "key": "@Weapon{Пазурі}[system.damage]",
+          "mode": 5,
+          "value": "@str+d8",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "flags": {
+        "sigil": {
+          "completed": true
+        }
+      },
+      "name": "Борець",
+      "tint": "#ffffff",
+      "transfer": true,
+      "description": "<p>Покращення для: @Compendium[swade-core-rules.swade-edges.Забіяка]{Забіяка}</p><p>Борець має додатковий бонус +1 до @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01characters0000]{стійкості} й підвищує ще на один ступінь кістку ушкоджень, отриману від переваги «@Compendium[swade-core-rules.swade-edges.Забіяка]{Забіяка}».</p>",
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": "swade",
+        "systemVersion": "5.0.5",
+        "lastModifiedBy": null
+      },
+      "img": "systems/swade/assets/icons/edge.svg",
+      "type": "base",
+      "system": {
+        "removeEffect": false,
+        "expiration": null,
+        "loseTurnOnHold": false,
+        "favorite": false,
+        "conditionalEffect": false
+      },
+      "origin": null,
+      "statuses": [],
+      "sort": 0
+    }
+  ],
+  "folder": "5Edj401f5rN7XMuT",
+  "img": "modules/swade-core-rules/assets/edges/%D0%B1%D0%BE%D1%80%D0%B5%D1%86%D1%8C.webp",
+  "name": "Борець",
+  "type": "edge",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Покращення для: @Compendium[swade-core-rules.swade-edges.Забіяка]{Забіяка}</p><p>Борець має додатковий бонус +1 до @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01characters0000]{стійкості} й підвищує ще на один ступінь кістку ушкоджень, отриману від переваги «@Compendium[swade-core-rules.swade-edges.Забіяка]{Забіяка}».</p>",
+    "isArcaneBackground": false,
+    "notes": "",
+    "requirements": [
+      {
+        "type": "rank",
+        "value": 1,
+        "combinator": "and",
+        "selector": ""
+      },
+      {
+        "type": "edge",
+        "label": "Забіяка",
+        "selector": "brawler",
+        "value": "",
+        "combinator": "and"
+      }
+    ],
+    "category": "Бойові",
+    "swid": "bruiser",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757072059514,
+    "modifiedTime": 1757072059514,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.dRa0KiChKBSFhPgR",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

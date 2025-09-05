@@ -1,0 +1,103 @@
+{
+  "effects": [
+    {
+      "_id": "lceYdwypZjwSSuOU",
+      "name": "Рок-н-рол!",
+      "changes": [
+        {
+          "key": "flags.swade-core-rules.rockAndRoll",
+          "mode": 2,
+          "value": "true",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "flags": {
+        "sigil": {
+          "completed": true
+        }
+      },
+      "tint": "#ffffff",
+      "transfer": true,
+      "description": "<p>Досвідчені стрільці вміють компенсовувати віддачу автоматичної зброї. Якщо персонаж з цією перевагою не переміщується під час свого ходу, то ігнорує штраф віддачі, коли застосовує зброю з @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02rateoffire0000]{темпом стрільби} 2 чи вище (див. <strong>@UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03recoil00000000]{«Віддача»}</strong>).</p>",
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": "swade",
+        "systemVersion": "5.0.5",
+        "lastModifiedBy": null
+      },
+      "img": "systems/swade/assets/icons/edge.svg",
+      "type": "base",
+      "system": {
+        "removeEffect": false,
+        "expiration": null,
+        "loseTurnOnHold": false,
+        "favorite": false,
+        "conditionalEffect": false
+      },
+      "origin": null,
+      "statuses": [],
+      "sort": 0
+    }
+  ],
+  "folder": "5Edj401f5rN7XMuT",
+  "img": "systems/swade/assets/icons/edge.svg",
+  "name": "Рок-н-рол!",
+  "type": "edge",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Досвідчені стрільці вміють компенсовувати віддачу автоматичної зброї. Якщо персонаж з цією перевагою не переміщується під час свого ходу, то ігнорує штраф віддачі, коли застосовує зброю з @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02rateoffire0000]{темпом стрільби} 2 чи вище (див. <strong>@UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03recoil00000000]{«Віддача»}</strong>).</p>",
+    "isArcaneBackground": false,
+    "notes": "",
+    "requirements": [
+      {
+        "type": "rank",
+        "value": 1,
+        "combinator": "and",
+        "selector": ""
+      },
+      {
+        "type": "skill",
+        "label": "Стрільба",
+        "selector": "shooting",
+        "value": 8,
+        "combinator": "and"
+      }
+    ],
+    "category": "Бойові",
+    "swid": "rock-and-roll",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757072059514,
+    "modifiedTime": 1757072059514,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.Xy1aMhEZlfA9j2CW",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

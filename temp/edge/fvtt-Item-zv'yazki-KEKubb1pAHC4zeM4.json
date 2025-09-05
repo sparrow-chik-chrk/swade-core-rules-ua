@@ -1,0 +1,47 @@
+{
+  "effects": [],
+  "folder": "5Edj401f5rN7XMuT",
+  "img": "systems/swade/assets/icons/edge.svg",
+  "name": "Зв'язки",
+  "type": "edge",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Цей персонаж пов’язаний з особами або організаціями, які можуть допомогти в критичній ситуації. Це може бути мафія, поліція, профспілка або навіть інші шукачі пригод.</p><p>Перевагу «Зв’язки» можна вибрати кілька разів, щоразу вибираючи нову фракцію або персонажа. Один раз за сесію персонаж може попрохати друзів про послугу (якщо їм можливо про це повідомити).</p><p>Запит залежить від природи контакту (на розсуд ІМ). Це може бути позика, спорядження, кілька союзних бійців, транспорт, інформація або навіть допомога від професіонала з навичками, яких ніхто з гурту немає — наприклад, гакера або вченого.</p>",
+    "isArcaneBackground": false,
+    "notes": "",
+    "requirements": [
+      {
+        "type": "rank",
+        "selector": "",
+        "value": 0,
+        "combinator": "and"
+      }
+    ],
+    "category": "Соціальні",
+    "swid": "connections",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757072059514,
+    "modifiedTime": 1757072059514,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.KEKubb1pAHC4zeM4",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

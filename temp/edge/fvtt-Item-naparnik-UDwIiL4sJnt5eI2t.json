@@ -1,0 +1,53 @@
+{
+  "effects": [],
+  "folder": "5Edj401f5rN7XMuT",
+  "img": "systems/swade/assets/icons/edge.svg",
+  "name": "Напарник",
+  "type": "edge",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Персонаж, який раз за разом перемагає зло, стає натхненням для інших. Зрештою, один із молодих вояків може спробувати долучитися до персонажа та його видатних діянь.</p><p>Персонаж отримує напарника @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01advancement000]{рангу «Новачок»}. Напарник — це @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03wildcardsand00]{козирна карта}. Він починає кожну ігрову сесію з двома @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03bennies0000000]{таланами}, може робити @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01advancement000]{поступ} і має навички й уміння, що доповнюють його наставника. Гравець контролює свого напарника як будь-якого іншого союзника, хоча часом той може створювати проблеми, потрапляючи в полон, кидаючись у небезпеку, коли не слід, абощо.</p><p>Гравець повинен бути готовим до того, що інколи ця перевага стає недоліком!</p><p>Якщо напарник помре, йому не буде заміни, поки персонаж знову не вибере цю перевагу. На щастя, персонажі можуть витрачати талани на своїх напарників так, ніби мають перевагу @Compendium[swade-core-rules.swade-edges.Справжній друг]{«Cправжній друг»}. Однак напарники мусять справді мати цю перевагу, щоб віддавати талани своїм наставникам.</p>",
+    "isArcaneBackground": false,
+    "notes": "",
+    "requirements": [
+      {
+        "type": "wildCard",
+        "selector": "",
+        "value": true,
+        "combinator": "and"
+      },
+      {
+        "type": "rank",
+        "selector": "",
+        "value": 4,
+        "combinator": "and"
+      }
+    ],
+    "category": "Легендарні",
+    "swid": "sidekick",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757072059514,
+    "modifiedTime": 1757072059514,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.UDwIiL4sJnt5eI2t",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

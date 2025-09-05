@@ -1,0 +1,116 @@
+{
+  "effects": [
+    {
+      "_id": "Ruqr6NxiggWbdyQq",
+      "name": "Розслідувач",
+      "changes": [
+        {
+          "key": "@Skill{Research}[system.die.modifier]",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        },
+        {
+          "key": "@Skill{Notice}[system.die.modifier]",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "tint": "#ffffff",
+      "transfer": true,
+      "description": "<p>Розслідувачі приділяють багато часу вивченню древніх легенд, вуличного життя чи розгадуванню моторошних таємниць. Такі персонажі можуть працювати, власне, приватними детективами, бути допитливими магами у фентезійних світах чи науковцями, що досліджують речі, які <em>смертним краще не знати</em>.</p><p>Розслідувачі мають +2 до кидків на @Compendium[swade-core-rules.swade-skills.Дослідження]{дослідження} й на @Compendium[swade-core-rules.swade-skills.Уважність]{уважність}, коли виконують їх, наприклад, для огляду стола чи полиці в пошуку цінних документів, копирсання в пошті, щоб знайти щось цікаве, чи просто для відшукування чогось важливого в купі мотлоху.</p>",
+      "flags": {
+        "swade": {},
+        "sigil": {
+          "completed": true
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": "swade",
+        "systemVersion": "5.0.5",
+        "lastModifiedBy": null
+      },
+      "img": "systems/swade/assets/icons/edge.svg",
+      "type": "base",
+      "system": {
+        "conditionalEffect": true,
+        "removeEffect": false,
+        "expiration": null,
+        "loseTurnOnHold": false,
+        "favorite": false
+      },
+      "origin": null,
+      "statuses": [],
+      "sort": 0
+    }
+  ],
+  "folder": "5Edj401f5rN7XMuT",
+  "img": "systems/swade/assets/icons/edge.svg",
+  "name": "Розслідувач",
+  "type": "edge",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Розслідувачі приділяють багато часу вивченню древніх легенд, вуличного життя чи розгадуванню моторошних таємниць. Такі персонажі можуть працювати, власне, приватними детективами, бути допитливими магами у фентезійних світах чи науковцями, що досліджують речі, які <em>смертним краще не знати</em>.</p><p>Розслідувачі мають +2 до кидків на @Compendium[swade-core-rules.swade-skills.Дослідження]{дослідження} й на @Compendium[swade-core-rules.swade-skills.Уважність]{уважність}, коли виконують їх, наприклад, для огляду стола чи полиці в пошуку цінних документів, копирсання в пошті, щоб знайти щось цікаве, чи просто для відшукування чогось важливого в купі мотлоху.</p>",
+    "isArcaneBackground": false,
+    "notes": "",
+    "requirements": [
+      {
+        "type": "rank",
+        "value": 0,
+        "combinator": "and",
+        "selector": ""
+      },
+      {
+        "type": "attribute",
+        "selector": "smarts",
+        "value": 8,
+        "combinator": "and"
+      },
+      {
+        "type": "skill",
+        "label": "Дослідження",
+        "selector": "research",
+        "value": 8,
+        "combinator": "and"
+      }
+    ],
+    "category": "Професійні",
+    "swid": "investigator",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757072059514,
+    "modifiedTime": 1757072059514,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.J6zd9x09Smi51RSr",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

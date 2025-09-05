@@ -1,0 +1,53 @@
+{
+  "effects": [],
+  "folder": "5Edj401f5rN7XMuT",
+  "img": "systems/swade/assets/icons/edge.svg",
+  "name": "Ас",
+  "type": "edge",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Аси — це пілоти або водії, які особливо майстерно керують наземним, повітряним, водним чи іншим транспортом. Вони ігнорують 2 очки штрафу під час будь-яких перевірок @Compendium[swade-core-rules.swade-skills.Судноплавство]{судноплавства}, @Compendium[swade-core-rules.swade-skills.Водіння]{водіння} чи @Compendium[swade-core-rules.swade-skills.Пілотування]{пілотування} та можуть витратити @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03bennies0000000]{талан}, щоб @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03soakrolls00000]{поглинути} ушкодження будь-якого @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02vehiclenotes00#vehicle-notes]{транспорту}, яким керують чи командують, виконавши замість кидка на @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{витримку} кидок на судноплавство, водіння чи пілотування. Кожен успіх і надмір нівелюють @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{рану}.</p>",
+    "isArcaneBackground": false,
+    "notes": "",
+    "requirements": [
+      {
+        "type": "rank",
+        "selector": "",
+        "value": 0,
+        "combinator": "and"
+      },
+      {
+        "type": "attribute",
+        "selector": "agility",
+        "value": 8,
+        "combinator": "and"
+      }
+    ],
+    "category": "Професійні",
+    "swid": "ace",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757072059514,
+    "modifiedTime": 1757072059514,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.h5g76AOJrmHlv7yn",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

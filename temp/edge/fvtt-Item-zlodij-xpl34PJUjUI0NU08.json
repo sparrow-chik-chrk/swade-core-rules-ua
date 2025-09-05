@@ -1,0 +1,131 @@
+{
+  "effects": [
+    {
+      "_id": "NSXoFUpev9UOXq5b",
+      "name": "Злодій",
+      "changes": [
+        {
+          "key": "@Skill{Athletics}[system.die.modifier]",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "@Skill{Stealth}[system.die.modifier]",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "@Skill{Thievery}[system.die.modifier]",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "flags": {
+        "sigil": {
+          "completed": true
+        }
+      },
+      "tint": "#ffffff",
+      "transfer": true,
+      "description": "<p>Злодії — майстри обману, підступності й акробатики. Вони безцінні, коли треба виявити пастку, залізти на стіну чи зламати замок.</p><p>Злодії вміло користуються щілинами в стінах, підвіконнями тощо, щоб видиратися на найвищі будівлі та, мов коти, рухатися вулицями й задвірками. Вони мають +1 до кидків на @Compendium[swade-core-rules.swade-skills.Атлетизм]{атлетизм}, коли залазять кудись у міській забудові.</p><p>Також злодії знають, як використовувати неосвітлені ділянки вулиць, щоби приховувати своє переміщення, тому в містах мають +1 і до кидків на @Compendium[swade-core-rules.swade-skills.Непомітність]{непомітність}.</p><p>І, нарешті, ці умільці, звісно ж, знаються на крадіжках, тому додають +1 до кидків на @Compendium[swade-core-rules.swade-skills.Крадіжка]{крадіжку} за будь-яких умов.</p>",
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": "swade",
+        "systemVersion": "5.0.5",
+        "lastModifiedBy": null
+      },
+      "img": "systems/swade/assets/icons/edge.svg",
+      "type": "base",
+      "system": {
+        "removeEffect": false,
+        "expiration": null,
+        "loseTurnOnHold": false,
+        "favorite": false,
+        "conditionalEffect": false
+      },
+      "origin": null,
+      "statuses": [],
+      "sort": 0
+    }
+  ],
+  "flags": {
+    "swade": {
+      "conditionalEffect": false
+    },
+    "sigil": {
+      "completed": true
+    }
+  },
+  "folder": "5Edj401f5rN7XMuT",
+  "img": "systems/swade/assets/icons/edge.svg",
+  "name": "Злодій",
+  "type": "edge",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Злодії — майстри обману, підступності й акробатики. Вони безцінні, коли треба виявити пастку, залізти на стіну чи зламати замок.</p><p>Злодії вміло користуються щілинами в стінах, підвіконнями тощо, щоб видиратися на найвищі будівлі та, мов коти, рухатися вулицями й задвірками. Вони мають +1 до кидків на @Compendium[swade-core-rules.swade-skills.Атлетизм]{атлетизм}, коли залазять кудись у міській забудові.</p><p>Також злодії знають, як використовувати неосвітлені ділянки вулиць, щоби приховувати своє переміщення, тому в містах мають +1 і до кидків на @Compendium[swade-core-rules.swade-skills.Непомітність]{непомітність}.</p><p>І, нарешті, ці умільці, звісно ж, знаються на крадіжках, тому додають +1 до кидків на @Compendium[swade-core-rules.swade-skills.Крадіжка]{крадіжку} за будь-яких умов.</p>",
+    "isArcaneBackground": false,
+    "notes": "",
+    "requirements": [
+      {
+        "type": "rank",
+        "value": 0,
+        "combinator": "and",
+        "selector": ""
+      },
+      {
+        "type": "attribute",
+        "selector": "agility",
+        "value": 8,
+        "combinator": "and"
+      },
+      {
+        "type": "skill",
+        "label": "Непомітність",
+        "selector": "stealth",
+        "value": 6,
+        "combinator": "and"
+      },
+      {
+        "type": "skill",
+        "label": "Крадіжка",
+        "selector": "thievery",
+        "value": 6,
+        "combinator": "and"
+      }
+    ],
+    "category": "Професійні",
+    "swid": "thief",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757072059676,
+    "modifiedTime": 1757072059676,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.xpl34PJUjUI0NU08",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  }
+}

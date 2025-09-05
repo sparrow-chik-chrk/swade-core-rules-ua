@@ -4262,55 +4262,41 @@ Hooks.once("ready", async () => {
   await registerTurnPartial(); // на випадок, якщо система перезібрала partial-и пізніше
   ui.combat.render(true, { force: true });
 });
-Hooks.once("ready", () => {
-  const P = CONFIG.SWADE?.constants?.TEMPLATE_PRESET ?? SWADE?.constants?.TEMPLATE_PRESET;
-  if (!P) return console.error("[SWADE] TEMPLATE_PRESET not found");
 
-  const make = (name, data, title, icon) => ({
-    data,
-    button: {
-      name, title, icon,
-      visible: true, button: true,
-      onClick: () => SwadeMeasuredTemplate.fromPreset(name),
-    },
-  });
+Hooks.once("setup", () => {
+  const P = CONFIG.SWADE?.constants?.TEMPLATE_PRESET ?? {
+    SCONE: "swscone", CONE: "swcone", STREAM: "stream",
+    SBT: "sbt", MBT: "mbt", LBT: "lbt"
+  };
 
-  const presets = [
-    make(P.SCONE, {
-      t: CONST.MEASURED_TEMPLATE_TYPES.CONE,
-      distance: 9,
-      width: 2
-    }, "SWADE.Templates.SmallCone.Long", "fa-solid fa-location-minus fa-rotate-90"),
-    make(P.CONE, {
-      t: CONST.MEASURED_TEMPLATE_TYPES.CONE,
-      distance: 18,
-      width: 3
-    }, "SWADE.Templates.Cone.Long", "fa-solid fa-location-plus fa-rotate-90"),
-    make(P.STREAM, {
-      t: CONST.MEASURED_TEMPLATE_TYPES.RAY,
-      distance: 24,
-      width: 2
-    }, "SWADE.Templates.Stream.Long", "fa-solid fa-rectangle-wide"),
-    make(P.SBT, {
-      t: CONST.MEASURED_TEMPLATE_TYPES.CIRCLE,
-      distance: 4
-    }, "SWADE.Templates.Small.Long", "fa-solid fa-circle-1 fa-2xs"),
-    make(P.MBT, {
-      t: CONST.MEASURED_TEMPLATE_TYPES.CIRCLE,
-      distance: 8
-    }, "SWADE.Templates.Medium.Long", "fa-solid fa-circle-2 fa-sm"),
-    make(P.LBT, {
-      t: CONST.MEASURED_TEMPLATE_TYPES.CIRCLE,
-      distance: 12
-    }, "SWADE.Templates.Large.Long", "fa-solid fa-circle-3 fa-lg"),
-  ];
-  
-  SWADE.measuredTemplatePresets = presets;
-  CONFIG.SWADE.measuredTemplatePresets = presets;
+  // Твої значення для кожного пресета:
+  const MY = {
+    [P.SCONE]: { t: CONST.MEASURED_TEMPLATE_TYPES.CONE, distance: 9, width: 2 },
+    [P.CONE]: { t: CONST.MEASURED_TEMPLATE_TYPES.CONE, distance: 18, width: 3 },
+    [P.STREAM]: { t: CONST.MEASURED_TEMPLATE_TYPES.RAY, distance: 24, width: 2 },
+    [P.SBT]: { t: CONST.MEASURED_TEMPLATE_TYPES.CIRCLE, distance: 4 },
+    [P.MBT]: { t: CONST.MEASURED_TEMPLATE_TYPES.CIRCLE, distance: 8 },
+    [P.LBT]: { t: CONST.MEASURED_TEMPLATE_TYPES.CIRCLE, distance: 12 },
+  };
 
-  ui.controls?.initialize();
+  const _orig = SwadeMeasuredTemplate._constructPreset;
+
+  SwadeMeasuredTemplate._constructPreset = function (preset, item) {
+    const mine = MY[preset];
+    if (mine) {
+      const base = {
+        user: game.user?.id, distance: 0, direction: 0, x: 0, y: 0,
+        fillColor: game.user?.color,
+        flags: item ? { swade: { origin: item.uuid } } : {}
+      };
+      const doc = new CONFIG.MeasuredTemplate.documentClass(
+        foundry.utils.mergeObject(base, mine),
+        { parent: canvas.scene ?? undefined }
+      );
+      return new this(doc);
+    }
+    return _orig.call(this, preset, item);
+  };
 });
-Hooks.on("getSceneControlButtons", () => {
-  SWADE.measuredTemplatePresets = CONFIG.SWADE.measuredTemplatePresets;
-});
+
 console.log(`[${y}@${Mt}...] successfully loaded!`);

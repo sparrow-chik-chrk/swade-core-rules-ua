@@ -1,0 +1,67 @@
+{
+  "effects": [],
+  "folder": "5Edj401f5rN7XMuT",
+  "img": "systems/swade/assets/icons/edge.svg",
+  "name": "Мастак",
+  "type": "edge",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Мастак за потреби може скласти необхідний пристрій з усього, що є під руками. Маючи кілька простих предметів, можна виконати кидок на @Compendium[swade-core-rules.swade-skills.Ремонт]{ремонт}, щоб виготовити імпровізовану зброю, вибухівку чи інструмент, який працюватиме до безпосереднього використання або ж до кінця певної події (на розсуд ігромайстра). Ця дія займає весь хід, і під час виготовлення пристрою не можна переміщуватися чи виконувати будь-які інші дії.</p><p>У разі провалу пристрій вважають неготовим. @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03traitrolls0000#trait-rolls]{Критичний провал} означатиме, що в персонажа немає відповідних матеріалів, і за наявних умов пристрій створити не вдасться.</p><p>У разі успіху персонаж створює малий вибуховий пристрій (2к4 ушкоджень підривом з @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03areaeffectat00]{малим радіусом дії}), однозарядну зброю дальнього бою типу самопала (@UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02range000000000]{відстань} 5 / 10 / 20, 2к6 ушкоджень), хиткий пліт, слабке джерело електроенергії тощо.</p><p>За надміру вдається створити потужніший вибуховий пристрій (2к6 ушкоджень із середнім або великим радіусом дії), досконалішу зброю дальнього бою (5 зарядів, 2к8 ушкоджень, відстань 10 / 20 / 40), стійкіший пліт, потужнішу батарею тощо.</p><p>Якість і потужність створеного пристрою залишається на розсуд ігромайстра, але креативність слід винагороджувати, особливо в найбільш драматичних і складних ситуаціях.</p><p></p>",
+    "isArcaneBackground": false,
+    "notes": "",
+    "requirements": [
+      {
+        "type": "rank",
+        "value": 0,
+        "combinator": "and",
+        "selector": ""
+      },
+      {
+        "type": "attribute",
+        "selector": "smarts",
+        "value": 6,
+        "combinator": "and"
+      },
+      {
+        "type": "skill",
+        "label": "Уважність",
+        "selector": "notice",
+        "value": 6,
+        "combinator": "and"
+      },
+      {
+        "type": "skill",
+        "label": "Ремонт",
+        "selector": "repair",
+        "value": 6,
+        "combinator": "and"
+      }
+    ],
+    "category": "Професійні",
+    "swid": "mcgyver",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757072059676,
+    "modifiedTime": 1757072059676,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.pPIYAa7ntPtAwSsI",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "effects": [
+    {
+      "_id": "0GFf6otn7L5IcEnG",
+      "name": "Лісник",
+      "changes": [
+        {
+          "key": "@Skill{Survival}[system.die.modifier]",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        },
+        {
+          "key": "@Skill{Stealth}[system.die.modifier]",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "flags": {
+        "sigil": {
+          "completed": true
+        }
+      },
+      "tint": "#ffffff",
+      "transfer": true,
+      "description": "<p>Лісники — це рейнджери, розвідники й мисливці. Серед дикої природи їм затишніше, ніж серед густонаселених міст. Вони добре вистежують здобич, розвідують і місяцями виживають серед дикої природи.</p><p>Лісники додають +2 до кидків на @Compendium[swade-core-rules.swade-skills.Виживання]{виживання} та @Compendium[swade-core-rules.swade-skills.Непомітність]{непомітність}, виконаних під час мандрів дикою природою (не містами, руїнами або підземеллями).</p>",
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": "swade",
+        "systemVersion": "5.0.5",
+        "lastModifiedBy": null
+      },
+      "img": "systems/swade/assets/icons/edge.svg",
+      "type": "base",
+      "system": {
+        "removeEffect": false,
+        "expiration": null,
+        "loseTurnOnHold": false,
+        "favorite": false,
+        "conditionalEffect": false
+      },
+      "origin": null,
+      "statuses": [],
+      "sort": 0
+    }
+  ],
+  "flags": {
+    "swade": {
+      "conditionalEffect": false
+    },
+    "sigil": {
+      "completed": true
+    }
+  },
+  "folder": "5Edj401f5rN7XMuT",
+  "img": "systems/swade/assets/icons/edge.svg",
+  "name": "Лісник",
+  "type": "edge",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Лісники — це рейнджери, розвідники й мисливці. Серед дикої природи їм затишніше, ніж серед густонаселених міст. Вони добре вистежують здобич, розвідують і місяцями виживають серед дикої природи.</p><p>Лісники додають +2 до кидків на @Compendium[swade-core-rules.swade-skills.Виживання]{виживання} та @Compendium[swade-core-rules.swade-skills.Непомітність]{непомітність}, виконаних під час мандрів дикою природою (не містами, руїнами або підземеллями).</p>",
+    "isArcaneBackground": false,
+    "notes": "",
+    "requirements": [
+      {
+        "type": "rank",
+        "value": 0,
+        "combinator": "and",
+        "selector": ""
+      },
+      {
+        "type": "attribute",
+        "selector": "spirit",
+        "value": 6,
+        "combinator": "and"
+      },
+      {
+        "type": "skill",
+        "label": "Виживання",
+        "selector": "survival",
+        "value": 8,
+        "combinator": "and"
+      }
+    ],
+    "category": "Професійні",
+    "swid": "woodsman",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757072059514,
+    "modifiedTime": 1757072059514,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.Z2gdqy77ueRxL9yv",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  }
+}

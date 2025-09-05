@@ -1,0 +1,114 @@
+{
+  "effects": [
+    {
+      "_id": "IZ2DQGALF6msWsTr",
+      "changes": [
+        {
+          "key": "system.attributes.vigor.die.sides",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        },
+        {
+          "key": "system.stats.globalMods.agility",
+          "mode": 2,
+          "value": "-1",
+          "priority": null
+        },
+        {
+          "key": "system.stats.globalMods.smarts",
+          "mode": 2,
+          "value": "-1",
+          "priority": null
+        }
+      ],
+      "disabled": true,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "flags": {
+        "sigil": {
+          "completed": true
+        }
+      },
+      "name": "Алкогольна відвага",
+      "tint": "#ffffff",
+      "transfer": true,
+      "description": "<p>Порівняно з більшістю, алкоголь має зовсім інший вплив на цю особу. Протягом раунду після споживання міцного напою (приблизно 30 мл міцного алкоголю або чогось подібного) кістку @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{витримки} персонажа підвищено на один ступінь (також збільшуючи @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01characters0000]{стійкість}). Персонаж також може ігнорувати один рівень штрафів від @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{ран} (накопичується з подібними ефектами інших навичок). Однак на @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{кмітливість}, @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{спритність} і всі пов’язані навички накладено штраф −1 на час дії ефекту.</p><p>Ефекти діють 1 годину після початку, а потім на персонажа, який хильнув міцненького, накладається 1 рівень @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03fatigue0000000]{втоми} на 4 години.</p>",
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": "swade",
+        "systemVersion": "5.0.5",
+        "lastModifiedBy": null
+      },
+      "img": "systems/swade/assets/icons/edge.svg",
+      "type": "base",
+      "system": {
+        "removeEffect": false,
+        "expiration": null,
+        "loseTurnOnHold": false,
+        "favorite": false,
+        "conditionalEffect": false
+      },
+      "origin": null,
+      "statuses": [],
+      "sort": 0
+    }
+  ],
+  "folder": "5Edj401f5rN7XMuT",
+  "img": "systems/swade/assets/icons/edge.svg",
+  "name": "Алкогольна відвага",
+  "type": "edge",
+  "system": {
+    "source": "SWADE Core Rules UA",
+    "additionalStats": {},
+    "description": "<p>Порівняно з більшістю, алкоголь має зовсім інший вплив на цю особу. Протягом раунду після споживання міцного напою (приблизно 30 мл міцного алкоголю або чогось подібного) кістку @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{витримки} персонажа підвищено на один ступінь (також збільшуючи @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01characters0000]{стійкість}). Персонаж також може ігнорувати один рівень штрафів від @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{ран} (накопичується з подібними ефектами інших навичок). Однак на @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{кмітливість}, @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{спритність} і всі пов’язані навички накладено штраф −1 на час дії ефекту.</p><p>Ефекти діють 1 годину після початку, а потім на персонажа, який хильнув міцненького, накладається 1 рівень @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03fatigue0000000]{втоми} на 4 години.</p>",
+    "isArcaneBackground": false,
+    "notes": "",
+    "requirements": [
+      {
+        "type": "rank",
+        "selector": "",
+        "value": 0,
+        "combinator": "and"
+      },
+      {
+        "type": "attribute",
+        "selector": "vigor",
+        "value": 8,
+        "combinator": "and"
+      }
+    ],
+    "category": "Дивні",
+    "swid": "liquid-courage",
+    "choiceSets": [],
+    "favorite": false,
+    "grants": []
+  },
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "swade",
+    "systemVersion": "5.0.5",
+    "createdTime": 1757072059514,
+    "modifiedTime": 1757072059514,
+    "lastModifiedBy": "TW8E9Ylq0NMu40vd",
+    "exportSource": {
+      "worldId": "testsavage",
+      "uuid": "Item.F8du1WZuamD0K8VK",
+      "coreVersion": "13.347",
+      "systemId": "swade",
+      "systemVersion": "5.0.5"
+    }
+  },
+  "flags": {
+    "sigil": {
+      "completed": true
+    }
+  }
+}
