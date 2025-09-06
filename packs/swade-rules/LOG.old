@@ -1,3 +1,7 @@
-2025/09/05-16:45:09.152 2050 Recovering log #335
-2025/09/05-16:45:09.157 2050 Delete type=0 #335
-2025/09/05-16:45:09.157 2050 Delete type=3 #334
+2025/09/05-19:25:44.875 5720 Recovering log #349
+2025/09/05-19:25:44.881 5720 Delete type=0 #349
+2025/09/05-19:25:44.881 5720 Delete type=3 #348
+2025/09/05-23:57:31.481 13fc Level-0 table #353: started
+2025/09/05-23:57:31.481 13fc Level-0 table #353: 0 bytes OK
+2025/09/05-23:57:31.485 13fc Delete type=0 #351
+2025/09/05-23:57:31.490 13fc Manual compaction at level-0 from '!journal!swadecor00extraa' @ 72057594037927935 : 1 .. '!journal.pages!swadecor07gamema.07gamemasterin00' @ 0 : 0; will stop at (end)

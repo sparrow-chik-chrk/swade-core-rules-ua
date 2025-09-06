@@ -250,6 +250,28 @@
       "visible": true,
       "editable": true,
       "banner": "modules/swade-core-rules/assets/art/banners/banner_19.webp"
+    },
+    {
+      "label": "Переваги",
+      "name": "swade-fantasy-companion-edges",
+      "type": "Item",
+      "path": "packs/swade-fantasy-companion-edges.db",
+      "system": "swade",
+      "package": "swade-fantasy-companion",
+      "visible": true,
+      "editable": true,
+      "banner": "modules/swade-core-rules/assets/art/banners/banner_05.webp"
+    },
+    {
+      "label": "Особливі Вміння",
+      "name": "swade-fantasy-companion-specialabilities",
+      "type": "Item",
+      "path": "packs/swade-fantasy-companion-specialabilities.db",
+      "system": "swade",
+      "package": "swade-fantasy-companion",
+      "visible": true,
+      "editable": true,
+      "banner": "modules/swade-core-rules/assets/art/banners/banner_17.webp"
     }
   ],
   "relationships": {
@@ -297,6 +319,15 @@
         "swade-macros",
         "swade-action-deck",
         "swade-tables"
+      ]
+    },
+    {
+      "name": "SWADE Fantasy Companion UA",
+      "sorting": "m",
+      "color": "#7C6840",
+      "packs": [
+        "swade-fantasy-companion-edges",
+        "swade-fantasy-companion-specialabilities"
       ]
     }
   ],
